@@ -1,0 +1,448 @@
+{
+    "httpStatus": "OK",
+    "status": 0,
+    "message": "成功",
+    "data": [
+        {
+            "id": "66730",
+            "type": "001002",
+            "level": "003001",
+            "content": "中国梦的本质是（    ）。",
+            "answer": "A,B,C",
+            "analysis": "中国梦视野宽广、内涵丰富、意蕴深远。习近平总书记多次强调，中国梦的本质是国家富强、民族振兴、人民幸福。（《习近平新时代中国特色社会主义思想三十讲》）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "1a56f5a3871d4fc6939869bc6eed536a",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "国家富强"
+                },
+                {
+                    "id": "46dbedd28d084f8cb23717d837cd66b4",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "民族振兴"
+                },
+                {
+                    "id": "4e971f61acb7485cb263c4d7cf1cf168",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "人民幸福"
+                },
+                {
+                    "id": "3a007fe165f34dc19c5bbe259739b7ef",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "世界团结"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66731",
+            "type": "001002",
+            "level": "003001",
+            "content": "中国共产党是代表最广大人民利益的政党，一切工作成败得失必然要由人民群众来检验，以人民（   ）作为根本标准。",
+            "answer": "A,B,C,D",
+            "analysis": "我们党是代表最广大人民利益的政党，一切工作成败得失必然要由人民群众来检验，以人民拥护不拥护、赞成不赞成、高兴不高兴、答应不答应作为根本标准。（《习近平新时代中国特色社会主义思想三十讲》）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "9c9edcdf87e14828948cae45cae9760c",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "拥护不拥护"
+                },
+                {
+                    "id": "983a1f3538c2443c9c4a211fd3861e65",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "赞成不赞成"
+                },
+                {
+                    "id": "39fd4fc1613843acb7a55ec8f149ffff",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "高兴不高兴"
+                },
+                {
+                    "id": "fae0135596094431932ebf818041119b",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "答应不答应"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66732",
+            "type": "001002",
+            "level": "003001",
+            "content": "供给侧结构改革的重点是（ ）",
+            "answer": "A,B,C,D",
+            "analysis": "供给侧结构改革的重点是，解放和发展社会生产力，用改革的办法推进结构调整，减少无效和低端供给，扩大有效和中高端供给，增强供给结构对需求变化的适应性和灵活性，提高全要素生产率。（《习近平新时代中国特色社会主义思想三十讲》）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "428cfb2dee80425c9f91a2975e7cd375",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "解放和发展社会生产力，用改革的办法推进结构调整"
+                },
+                {
+                    "id": "cf2596da5d7047e5835cb08246f3405b",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "减少无效和低端供给，扩大有效和中高端供给"
+                },
+                {
+                    "id": "887554b15e8c4b2584cf65d44f1054d2",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "增强供给结构对需求变化的适应性和灵活性"
+                },
+                {
+                    "id": "e1727392820946a580174336878c2651",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "提高全要素生产率"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66733",
+            "type": "001002",
+            "level": "003001",
+            "content": "党的十九大报告提出，全面推进依法治国总目标是（   ）",
+            "answer": "A,B",
+            "analysis": "明确全面推进依法治国总目标是建设中国特色社会主义法制体系、建设社会主义法治国家。（习近平：决胜全面建成小康社会 夺取新时代中国特色社会主义伟大胜利——在中国共产党第十九次全国代表大会上的报告）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c4d942a6d10f4e52ad2bce3ed0269bd7",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "建设中国特色社会主义法制体系"
+                },
+                {
+                    "id": "e11332e2683f44afba0d19b32e436a39",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "建设社会主义法治国家"
+                },
+                {
+                    "id": "08e972361c0e488889ffeeb745afd215",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "有法可依 有法必依 执法必须 违法必究"
+                },
+                {
+                    "id": "d492c890191848b98d2317fde352345c",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "科学立法  严格执法 公正司法 全民守法"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66734",
+            "type": "001002",
+            "level": "003001",
+            "content": "党的十九大的主题是：不忘初心，牢记使命，（   ）。",
+            "answer": "A,B,C,D",
+            "analysis": "大会的主题是：不忘初心，牢记使命，高举中国特色社会主义伟大旗帜，决胜全面建成小康社会，夺取新时代中国特色社会主义伟大胜利，为实现中华民族伟大复兴的中国梦不懈奋斗。（习近平：决胜全面建成小康社会 夺取新时代中国特色社会主义伟大胜利——在中国共产党第十九次全国代表大会上的报告）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "6730ce1bcdf1468ebc6e55d491cfa73a",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "高举中国特色社会主义伟大旗帜"
+                },
+                {
+                    "id": "232fcbb676394df1840d7a306ad51264",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "决胜全面建成小康社会"
+                },
+                {
+                    "id": "4874c470448349d287c91a9f922fffd5",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "夺取新时代中国特色社会主义伟大胜利"
+                },
+                {
+                    "id": "554a5979b13c4d55bf2e11cc6b538fb5",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "为实现中华民族伟大复兴的中国梦不懈奋斗"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66735",
+            "type": "001002",
+            "level": "003001",
+            "content": "统筹推进“五位一体”总体布局，协调推进“四个全面”战略布局，提高党（   ）的能力和定力，确保党始终总揽全局、协调各方。",
+            "answer": "A,B,C,D",
+            "analysis": "坚持稳中求进工作总基调，统筹推进“五位一体”总体布局，协调推进“四个全面”战略布局，提高党把方向、谋大局、定政策、促改革的能力和定力，确保党始终总揽全局、协调各方。（习近平：决胜全面建成小康社会 夺取新时代中国特色社会主义伟大胜利——在中国共产党第十九次全国代表大会上的报告）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "bb954a1c6f754bb2a5a5376defcce6f4",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "把方向"
+                },
+                {
+                    "id": "6dcd845328064bbab5e171d441745e41",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "谋大局"
+                },
+                {
+                    "id": "5c1d0e9aa4c84a728611a4ec92829d8c",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "定政策"
+                },
+                {
+                    "id": "8e8d0b889de74aa78b0fb89a902a3ff8",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "促改革"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66736",
+            "type": "001002",
+            "level": "003001",
+            "content": "出台中央八项规定，严厉整治（       ）和奢靡之风，坚决反对特权。",
+            "answer": "A,B,C",
+            "analysis": "出台中央八项规定，严厉整治形式主义、官僚主义、享乐主义和奢靡之风，坚决反对特权。巡视利剑作用彰显，实现中央和省级党委巡视全覆盖。（习近平：决胜全面建成小康社会 夺取新时代中国特色社会主义伟大胜利——在中国共产党第十九次全国代表大会上的报告）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "023a9f8cbe2f41e2a9d45c0ffd19cba5",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "形式主义"
+                },
+                {
+                    "id": "617ed59cd2ee462885b30f4cb74529ad",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "官僚主义"
+                },
+                {
+                    "id": "6d1c4e2cb563459bae659eaadf3f2539",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "享乐主义"
+                },
+                {
+                    "id": "a4e6816e97cb4cd399d525a3067085ec",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "自由主义"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66737",
+            "type": "001002",
+            "level": "003001",
+            "content": "党政军民学，东西南北中，党是领导一切的。必须增强（  ），自觉维护党中央权威和集中统一领导，自觉在思想上政治上行动上同党中央保持高度一致。",
+            "answer": "A,B,C,D",
+            "analysis": "坚持党对一切工作的领导。党政军民学，东西南北中，党是领导一切的。必须增强政治意识、大局意识、核心意识、看齐意识，自觉维护党中央权威和集中统一领导，自觉在思想上政治上行动上同党中央保持高度一致。（习近平：决胜全面建成小康社会 夺取新时代中国特色社会主义伟大胜利——在中国共产党第十九次全国代表大会上的报告）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "4909ca9f13504439ae6d8866fab803a3",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "政治意识"
+                },
+                {
+                    "id": "626650ce93574ddc9d5f31b3ef1ae721",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "大局意识"
+                },
+                {
+                    "id": "1de42e5faca8464686f51fb5fda3d810",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "核心意识"
+                },
+                {
+                    "id": "1b5b54116b0c4f2c9438d985a3a50d17",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "看齐意识"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66738",
+            "type": "001002",
+            "level": "003001",
+            "content": "（   ），紧密联系、相互贯通、相互作用，其中起决定性作用的是党的建设新的伟大工程。",
+            "answer": "A,B,C,D",
+            "analysis": "伟大斗争，伟大工程，伟大事业，伟大梦想，紧密联系、相互贯通、相互作用，其中起决定性作用的是党的建设新的伟大工程。推进伟大工程，要结合伟大斗争、伟大事业、伟大梦想的实践来进行，确保党在世界形势深刻变化的历史进程中始终走在时代前列。（习近平：决胜全面建成小康社会 夺取新时代中国特色社会主义伟大胜利——在中国共产党第十九次全国代表大会上的报告）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "907cd0cb9a504c339ded08cb2d06ef19",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "伟大斗争"
+                },
+                {
+                    "id": "1a0c26481c704759873e58ade3b62270",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "伟大工程"
+                },
+                {
+                    "id": "bb1f1634985747dab05a342a9ba4eb42",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "伟大事业"
+                },
+                {
+                    "id": "24bfc26356a94524acfa6cee630efc68",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "伟大梦想"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66739",
+            "type": "001002",
+            "level": "003001",
+            "content": "要加快建设创新型国家，就必须培养造就一大批具有国际水平的（   ）和高水平创新团队。",
+            "answer": "A,B,C",
+            "analysis": "加快建设创新型国家。倡导创新文化，强化知识产权创造、保护、运用。培养造就一大批具有国际水平的战略科技人才、科技领军人才、青年科技人才和高水平创新团队。 （习近平：决胜全面建成小康社会 夺取新时代中国特色社会主义伟大胜利——在中国共产党第十九次全国代表大会上的报告）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "6bbf46af8e944aeca8a123535d3be113",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "战略科技人才"
+                },
+                {
+                    "id": "a374ed7f1a654d459fd1b2017703c687",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "科技领军人才"
+                },
+                {
+                    "id": "f6ca801e6e6e4bba911b2c0f93fcf50a",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "青年科技人才"
+                },
+                {
+                    "id": "33523022ca1b4e08bea282cb2d3cda2a",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "国际视野人才"
+                }
+            ],
+            "keywords": null
+        }
+    ],
+    "code": "SUCCESS"
+}

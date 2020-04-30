@@ -1,0 +1,1176 @@
+{
+    "httpStatus": "OK",
+    "status": 0,
+    "message": "成功",
+    "data": {
+        "recordId": "68211d2ec2704217ae435499e008aafc",
+        "conclusions": "谢谢",
+        "description": null,
+        "name": "周周练考试",
+        "totalScore": 30.0,
+        "passScore": 18.0,
+        "duration": 45,
+        "remainingTime": 2699761,
+        "questionTypeSummaries": [
+            {
+                "type": "001001",
+                "score": 1.0,
+                "totalScores": 12.0,
+                "totalNumbers": 12,
+                "description": "单选题",
+                "questions": [
+                    {
+                        "id": "65443",
+                        "type": "001001",
+                        "level": "003001",
+                        "content": "\n失业保险基金预算由收入预算和支出预算组成。失业保险基金预算应当做到(    )。\n",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": null,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": [
+                            {
+                                "id": "7af94f49440549f9adabfa7fc2a37845",
+                                "sort": 1,
+                                "code": "A",
+                                "content": "收支平衡"
+                            },
+                            {
+                                "id": "25d7b7a1cf024850ab43039fdbdc3d5a",
+                                "sort": 2,
+                                "code": "B",
+                                "content": "收大于支"
+                            },
+                            {
+                                "id": "d202026c2696494c9ee4c18b03e994ca",
+                                "sort": 3,
+                                "code": "C",
+                                "content": "支大于收"
+                            },
+                            {
+                                "id": "155d14cdc45341bd8d03b51f53a7134e",
+                                "sort": 4,
+                                "code": "D",
+                                "content": "各地自定"
+                            }
+                        ],
+                        "keywords": null
+                    },
+                    {
+                        "id": "65566",
+                        "type": "001001",
+                        "level": "003001",
+                        "content": "\n下列关于一次性伤残补助金的说法错误的是(    )。\n",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": null,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": [
+                            {
+                                "id": "67632e89bdef40a79ad774ab773afde2",
+                                "sort": 1,
+                                "code": "A",
+                                "content": "一级伤残的标准27个月的本人工资"
+                            },
+                            {
+                                "id": "5fbc483d7d914be2abeccf1d06ecd088",
+                                "sort": 2,
+                                "code": "B",
+                                "content": "三级伤残的标准为24个月的本人工资"
+                            },
+                            {
+                                "id": "e8223ce909a841f19fcfdd9bbcdf5a65",
+                                "sort": 3,
+                                "code": "C",
+                                "content": "五级伤残的标准为18个月的本人工资"
+                            },
+                            {
+                                "id": "7d758c17007a4dfba07fb089983a54d8",
+                                "sort": 4,
+                                "code": "D",
+                                "content": "八级伤残的标准为11个月的本人工资"
+                            }
+                        ],
+                        "keywords": null
+                    },
+                    {
+                        "id": "65204",
+                        "type": "001001",
+                        "level": "003001",
+                        "content": "\n《关于提高技术工人待遇的意见》明确，试行高技能领军人才年薪制和股权期权激励，鼓励各类企业设立特聘岗位津贴、(    )等，参照高级管理人员标准落实经济待遇。",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": null,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": [
+                            {
+                                "id": "aead1b5ece0e4c2d8d4d199b04c23058",
+                                "sort": 1,
+                                "code": "A",
+                                "content": "交通津贴"
+                            },
+                            {
+                                "id": "4593c07273df4081aea72c65d8f925ff",
+                                "sort": 2,
+                                "code": "B",
+                                "content": "带徒津贴"
+                            },
+                            {
+                                "id": "9ad7d2deaf734a9eaf5bba9646a503c3",
+                                "sort": 3,
+                                "code": "C",
+                                "content": "传技津贴"
+                            },
+                            {
+                                "id": "6a111521a04843f8b45fc428a6d3cf6d",
+                                "sort": 4,
+                                "code": "D",
+                                "content": "生活津贴"
+                            }
+                        ],
+                        "keywords": null
+                    },
+                    {
+                        "id": "65142",
+                        "type": "001001",
+                        "level": "003001",
+                        "content": "\n灵活就业的就业困难人员和灵活就业的符合条件高校毕业生，向当地人力资源社会保障部门申请社会保险补贴，（    ）材料不再提供。",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": null,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": [
+                            {
+                                "id": "0e306d21991b459eb63959071dcc3fc7",
+                                "sort": 1,
+                                "code": "A",
+                                "content": "基本身份类证明（或毕业证书）原件或复印件"
+                            },
+                            {
+                                "id": "ebcb68162b9f44e9b4a603d69efea9c4",
+                                "sort": 2,
+                                "code": "B",
+                                "content": "灵活就业证明材料"
+                            },
+                            {
+                                "id": "3db866ea80ac4f9099bd43b2c2917a0f",
+                                "sort": 3,
+                                "code": "C",
+                                "content": "职业资格证书"
+                            },
+                            {
+                                "id": "984c37b000b545ee90eecd146ee88eec",
+                                "sort": 4,
+                                "code": "D",
+                                "content": "社会保险缴费明细账"
+                            }
+                        ],
+                        "keywords": null
+                    },
+                    {
+                        "id": "65075",
+                        "type": "001001",
+                        "level": "003001",
+                        "content": "\n《就业补助资金管理办法》规定，享受职业培训补贴的人员范围不包括(    )。",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": null,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": [
+                            {
+                                "id": "4308cd82b6fd427d93d40b39237895b5",
+                                "sort": 1,
+                                "code": "A",
+                                "content": "应届小学毕业生"
+                            },
+                            {
+                                "id": "0f872aaf15ee44c682f65047d48020b8",
+                                "sort": 2,
+                                "code": "B",
+                                "content": "应届初高中毕业生"
+                            },
+                            {
+                                "id": "770a0b86e3c347789909c157ebbe2a27",
+                                "sort": 3,
+                                "code": "C",
+                                "content": "毕业年度高校毕业生"
+                            },
+                            {
+                                "id": "cfe04b45e6b84e529e387dfc8570a958",
+                                "sort": 4,
+                                "code": "D",
+                                "content": "城镇登记失业人员"
+                            }
+                        ],
+                        "keywords": null
+                    },
+                    {
+                        "id": "66284",
+                        "type": "001001",
+                        "level": "003001",
+                        "content": "\n《国务院办公厅关于院士等杰出高级专家退休年龄问题的通知》规定，院士年满(    )周岁退休。特殊情况，最多延长至75周岁。\n",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": null,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": [
+                            {
+                                "id": "e41e490e14dd45f1b64490139b361def",
+                                "sort": 1,
+                                "code": "A",
+                                "content": "60"
+                            },
+                            {
+                                "id": "849ec7a309db4ceab8a8838056770381",
+                                "sort": 2,
+                                "code": "B",
+                                "content": "65"
+                            },
+                            {
+                                "id": "67751800f9034b20866624d48cbba981",
+                                "sort": 3,
+                                "code": "C",
+                                "content": "70"
+                            },
+                            {
+                                "id": "cbcd22c042684d68ac02b5a09754c5b6",
+                                "sort": 4,
+                                "code": "D",
+                                "content": "75"
+                            }
+                        ],
+                        "keywords": null
+                    },
+                    {
+                        "id": "65925",
+                        "type": "001001",
+                        "level": "003001",
+                        "content": "根据《工资集体协商试行办法》，工资集体协商一般情况下(    )年进行一次。职工和企业双方均可在原工资协议期满前(    )日内，向对方书面提出协商意向书，进行下一轮的工资集体协商。",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": null,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": [
+                            {
+                                "id": "7e71db2f5ab04f3594e75503ef408e8d",
+                                "sort": 1,
+                                "code": "A",
+                                "content": "一；30"
+                            },
+                            {
+                                "id": "daab7733fe41456caba20a7209c5ba4f",
+                                "sort": 2,
+                                "code": "B",
+                                "content": "一；60"
+                            },
+                            {
+                                "id": "a58aa034759f49d78078001865a79848",
+                                "sort": 3,
+                                "code": "C",
+                                "content": "两；30"
+                            },
+                            {
+                                "id": "a90496d5a4ef41efb13938a5490e3cdd",
+                                "sort": 4,
+                                "code": "D",
+                                "content": "两；60"
+                            }
+                        ],
+                        "keywords": null
+                    },
+                    {
+                        "id": "65335",
+                        "type": "001001",
+                        "level": "003001",
+                        "content": "&nbsp;《社会保险法》规定：个人账户不得(    )，记账利率不得低于银行定期存款利率，免征利息税。",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": null,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": [
+                            {
+                                "id": "d2ef2d0129d245869bc5a1e0af5cd88a",
+                                "sort": 1,
+                                "code": "A",
+                                "content": "全额支取"
+                            },
+                            {
+                                "id": "e188c6b6bf1f40b1b03929c04ab1eea2",
+                                "sort": 2,
+                                "code": "B",
+                                "content": "转移"
+                            },
+                            {
+                                "id": "75484408215544cfaccc535380bbee09",
+                                "sort": 3,
+                                "code": "C",
+                                "content": "挪作非养老用途"
+                            },
+                            {
+                                "id": "d9e099516bba4ae7a026bc0c73a1e6f7",
+                                "sort": 4,
+                                "code": "D",
+                                "content": "提前支取"
+                            }
+                        ],
+                        "keywords": null
+                    },
+                    {
+                        "id": "65918",
+                        "type": "001001",
+                        "level": "003001",
+                        "content": "劳动关系双方依法解除或终止劳动合同时，用人单位应在(    )一次付清劳动者工资。",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": null,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": [
+                            {
+                                "id": "58d69ac0e5c2419fbeeb05cc359859d4",
+                                "sort": 1,
+                                "code": "A",
+                                "content": "解除或终止劳动合同时"
+                            },
+                            {
+                                "id": "48254789c43246cebc23b3a8cce891e5",
+                                "sort": 2,
+                                "code": "B",
+                                "content": "劳动合同约定的日期"
+                            },
+                            {
+                                "id": "48a693bc0dd94b1f8950bb3aa20ed9c1",
+                                "sort": 3,
+                                "code": "C",
+                                "content": "工资支付周期结束前"
+                            },
+                            {
+                                "id": "8d27d45557b4404297d36f829b6f134b",
+                                "sort": 4,
+                                "code": "D",
+                                "content": "解除或终止劳动合同十五日内"
+                            }
+                        ],
+                        "keywords": null
+                    },
+                    {
+                        "id": "66187",
+                        "type": "001001",
+                        "level": "003001",
+                        "content": " 根据需要和条件在留学人员相对集中的国家和地区设立(    )，加强与留学人员的联系。",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": null,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": [
+                            {
+                                "id": "cf975ea6d12944cdb895dd0a221750a1",
+                                "sort": 1,
+                                "code": "A",
+                                "content": "留学人员回国服务指挥站"
+                            },
+                            {
+                                "id": "dcc2eed1b4e247f7b1afd63d0bdeb929",
+                                "sort": 2,
+                                "code": "B",
+                                "content": "留学人员联络站"
+                            },
+                            {
+                                "id": "d86a6ad187644c0cb8ae1c39e000fa21",
+                                "sort": 3,
+                                "code": "C",
+                                "content": "留学人员交流站"
+                            },
+                            {
+                                "id": "a8ce44cd85b248ea86b3845c7bb975f7",
+                                "sort": 4,
+                                "code": "D",
+                                "content": "留学人员回国服务工作站"
+                            }
+                        ],
+                        "keywords": null
+                    },
+                    {
+                        "id": "65776",
+                        "type": "001001",
+                        "level": "003001",
+                        "content": " 依据《中华人民共和国社会保险法》，个人跨统筹地区就业的，其基本养老保险关系(    )，缴费年限(    )计算。",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": null,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": [
+                            {
+                                "id": "2ec37fe42e9347ee80dc09e26b370f6b",
+                                "sort": 1,
+                                "code": "A",
+                                "content": "立即终止；重新"
+                            },
+                            {
+                                "id": "ece978d6b9494cb5beecab7f1ba5898b",
+                                "sort": 2,
+                                "code": "B",
+                                "content": "随本人转移；重新"
+                            },
+                            {
+                                "id": "9a48abdfffb64601a65f28600d2988fe",
+                                "sort": 3,
+                                "code": "C",
+                                "content": "随本人转移；累计"
+                            },
+                            {
+                                "id": "059c452cab4947a78e5bb260d9499148",
+                                "sort": 4,
+                                "code": "D",
+                                "content": "立即终止；累计"
+                            }
+                        ],
+                        "keywords": null
+                    },
+                    {
+                        "id": "66098",
+                        "type": "001001",
+                        "level": "003001",
+                        "content": " 以下属于用人单位“未及时足额支付劳动报酬”违法行为的情形是(    )。",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": null,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": [
+                            {
+                                "id": "79a7d53e436a4c29a9749daf80d0a5f3",
+                                "sort": 1,
+                                "code": "A",
+                                "content": "从工资中扣减社会保险费个人应缴纳部分并代缴至社会保险费征收机构"
+                            },
+                            {
+                                "id": "ae3fe03d60f342318c138d5af648df22",
+                                "sort": 2,
+                                "code": "B",
+                                "content": "劳动合同约定的工资支付日期遇上全体公民放假的节假日，推迟至节假日后最近的工作日支付工资"
+                            },
+                            {
+                                "id": "0d9585a711974159a7aeaecb35e2464a",
+                                "sort": 3,
+                                "code": "C",
+                                "content": "解除劳动合同应当依法支付经济补偿，在劳动者办结工作交接后仍不支付"
+                            },
+                            {
+                                "id": "ba824ba671774060bc80eadf1fe00ce7",
+                                "sort": 4,
+                                "code": "D",
+                                "content": "安排标准工时制劳动者在休息日工作，当月即安排相同时长的补休，因此不支付加班费"
+                            }
+                        ],
+                        "keywords": null
+                    }
+                ]
+            },
+            {
+                "type": "001002",
+                "score": 1.0,
+                "totalScores": 8.0,
+                "totalNumbers": 8,
+                "description": "多选题",
+                "questions": [
+                    {
+                        "id": "66906",
+                        "type": "001002",
+                        "level": "003001",
+                        "content": "&nbsp;\n企业年金方案可以终止的情形有（    ）。",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": null,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": [
+                            {
+                                "id": "7e75309cde214ac9897ee5270b335b48",
+                                "sort": 1,
+                                "code": "A",
+                                "content": "企业因依法解散、被依法撤销或者被依法宣告破产等原因，致使企业年金方案无法履行的"
+                            },
+                            {
+                                "id": "1a5d9e6f7ca740d0b930d699061a94b5",
+                                "sort": 2,
+                                "code": "B",
+                                "content": "因不可抗力等原因致使企业年金方案无法履行的"
+                            },
+                            {
+                                "id": "bdf8442a4f4b4aada9072d5120b67bec",
+                                "sort": 3,
+                                "code": "C",
+                                "content": "企业年金方案约定的其他终止条件出现的"
+                            },
+                            {
+                                "id": "ecfef505109b408aa3251b1f5030c329",
+                                "sort": 4,
+                                "code": "D",
+                                "content": "合同未到期的"
+                            }
+                        ],
+                        "keywords": null
+                    },
+                    {
+                        "id": "66685",
+                        "type": "001002",
+                        "level": "003001",
+                        "content": "\n根据《关于深入推进审批服务便民化的指导意见》，整合省级各部门信息建设资金资源和管理职能，探索建立统一的政务数据管理机构，加快实现全省域“（    ）”。\n",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": null,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": [
+                            {
+                                "id": "1701d6841ac6459a9333e47e760c2588",
+                                "sort": 1,
+                                "code": "A",
+                                "content": "一平台"
+                            },
+                            {
+                                "id": "56a4e8823e844084bc8a15a02e141316",
+                                "sort": 2,
+                                "code": "B",
+                                "content": "一后台"
+                            },
+                            {
+                                "id": "e7c6b6884d2e4a689de971d3e7ffab81",
+                                "sort": 3,
+                                "code": "C",
+                                "content": "一张网"
+                            },
+                            {
+                                "id": "843d9193365c4665b092e68317180e91",
+                                "sort": 4,
+                                "code": "D",
+                                "content": "一个库"
+                            }
+                        ],
+                        "keywords": null
+                    },
+                    {
+                        "id": "66687",
+                        "type": "001002",
+                        "level": "003001",
+                        "content": "\n根据《关于推进基层整合审批服务执法力量的实施意见》规定，充分发挥市场机制作用，推动公共服务提供主体和提供方式多元化，加快建立（    ）的公共服务供给模式。\n",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": null,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": [
+                            {
+                                "id": "7b295400d5bf4af1a2b89ce5a9521df5",
+                                "sort": 1,
+                                "code": "A",
+                                "content": "政府主导"
+                            },
+                            {
+                                "id": "86cda2fb192148f5b9dc2b10e02d22af",
+                                "sort": 2,
+                                "code": "B",
+                                "content": "市场引导"
+                            },
+                            {
+                                "id": "46f1a2ed619d417fbfbe204895b3e79a",
+                                "sort": 3,
+                                "code": "C",
+                                "content": "社会参与"
+                            },
+                            {
+                                "id": "5995cc37c1af4eab97e6670f32ad9021",
+                                "sort": 4,
+                                "code": "D",
+                                "content": "公办民办并举"
+                            }
+                        ],
+                        "keywords": null
+                    },
+                    {
+                        "id": "66472",
+                        "type": "001002",
+                        "level": "003001",
+                        "content": "\n不属于克扣劳动者工资的情形是（    ）。\n",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": null,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": [
+                            {
+                                "id": "632626af75f348f5a6ace0183148df2f",
+                                "sort": 1,
+                                "code": "A",
+                                "content": "因劳动者请事假等相应减发工资"
+                            },
+                            {
+                                "id": "68ba9a953f664414b48283850dcc3614",
+                                "sort": 2,
+                                "code": "B",
+                                "content": "用人单位依法制定并经职代会批准的厂规、厂纪中有明确规定的"
+                            },
+                            {
+                                "id": "ed54b728d92a4bad9f37b0d9fb87ad4f",
+                                "sort": 3,
+                                "code": "C",
+                                "content": "国家的法律、法规中有明确规定或依法签订的劳动合同中有明确规定的"
+                            },
+                            {
+                                "id": "2cfadef4289f4d1cb4432203de158837",
+                                "sort": 4,
+                                "code": "D",
+                                "content": "依法签订的劳动合同中有明确规定的"
+                            }
+                        ],
+                        "keywords": null
+                    },
+                    {
+                        "id": "66541",
+                        "type": "001002",
+                        "level": "003001",
+                        "content": "\n根据《关于确立劳动关系有关事项的通知》，用人单位未与劳动者签订劳动合同，可参照（    ）认定双方存在的劳动关系。\n",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": null,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": [
+                            {
+                                "id": "b11bd093346c4d51844c8ad10c336a95",
+                                "sort": 1,
+                                "code": "A",
+                                "content": "工资支付凭证或记录"
+                            },
+                            {
+                                "id": "8fbceb18fdce44429dfa71816feed77b",
+                                "sort": 2,
+                                "code": "B",
+                                "content": "用人单位向劳动者发放的“工作证”"
+                            },
+                            {
+                                "id": "e2a4e827d8c047a8a16ab9c4d23a60ef",
+                                "sort": 3,
+                                "code": "C",
+                                "content": "用人单位招工招聘“登记表”"
+                            },
+                            {
+                                "id": "4611cc34e02c4b369c666678761b30b9",
+                                "sort": 4,
+                                "code": "D",
+                                "content": "考勤记录"
+                            }
+                        ],
+                        "keywords": null
+                    },
+                    {
+                        "id": "66698",
+                        "type": "001002",
+                        "level": "003001",
+                        "content": "\n按照《人力资源社会保障部关于规范人力资源社会保障系统行政审批和公共服务事项清单的指导意见》，必须编制本级事项清单的有：（    ）。\n",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": null,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": [
+                            {
+                                "id": "bc747a51fca64775835c735266aae5df",
+                                "sort": 1,
+                                "code": "A",
+                                "content": "人力资源社会保障部"
+                            },
+                            {
+                                "id": "68f881d41ac44d178bbe589985242f92",
+                                "sort": 2,
+                                "code": "B",
+                                "content": "各省、自治区、直辖市人力资源社会保障厅（局）"
+                            },
+                            {
+                                "id": "6a71d299ca0c4093bdfb0177c957e97e",
+                                "sort": 3,
+                                "code": "C",
+                                "content": "各地市人力资源社会保障局"
+                            },
+                            {
+                                "id": "0fe8696cf2a6417cb27ea0f67ceabb3d",
+                                "sort": 4,
+                                "code": "D",
+                                "content": "各县（区、市）人力资源社会保障局"
+                            }
+                        ],
+                        "keywords": null
+                    },
+                    {
+                        "id": "67092",
+                        "type": "001002",
+                        "level": "003001",
+                        "content": "\n根据《女职工劳动保护特别规定》，用人单位违反本规定，侵害女职工合法权益的，女职工可以依法（    ），依法向劳动人事争议调解仲裁机构申请调解仲裁，对仲裁裁决不服的，依法向人民法院提起诉讼。",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": null,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": [
+                            {
+                                "id": "59c870e84513480aa478065db543c243",
+                                "sort": 1,
+                                "code": "A",
+                                "content": "投诉"
+                            },
+                            {
+                                "id": "1af65ba6765243768d58b02e6a237cbc",
+                                "sort": 2,
+                                "code": "B",
+                                "content": "举报"
+                            },
+                            {
+                                "id": "bda5335bb3ab45d6bf66fef0cf534d69",
+                                "sort": 3,
+                                "code": "C",
+                                "content": "申诉"
+                            },
+                            {
+                                "id": "6c4f6def571242c7a06499959db4534b",
+                                "sort": 4,
+                                "code": "D",
+                                "content": "行政复议"
+                            }
+                        ],
+                        "keywords": null
+                    },
+                    {
+                        "id": "66658",
+                        "type": "001002",
+                        "level": "003001",
+                        "content": "\n行政机关公开政府信息，应当坚持以公开为常态、不公开为例外，遵循（    ）的原则。\n",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": null,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": [
+                            {
+                                "id": "4feb50e11db8422697f6abf87aadcd8b",
+                                "sort": 1,
+                                "code": "A",
+                                "content": "公正"
+                            },
+                            {
+                                "id": "061ddae5927f43c48ec2689a37757b4f",
+                                "sort": 2,
+                                "code": "B",
+                                "content": "公平"
+                            },
+                            {
+                                "id": "473f68d055af4026b9273cecc5f7d47a",
+                                "sort": 3,
+                                "code": "C",
+                                "content": "合法"
+                            },
+                            {
+                                "id": "6e36b52f010149be91bbe805e8f43c19",
+                                "sort": 4,
+                                "code": "D",
+                                "content": "便民"
+                            }
+                        ],
+                        "keywords": null
+                    }
+                ]
+            },
+            {
+                "type": "001003",
+                "score": 1.0,
+                "totalScores": 4.0,
+                "totalNumbers": 4,
+                "description": "判断题",
+                "questions": [
+                    {
+                        "id": "67745",
+                        "type": "001003",
+                        "level": "003001",
+                        "content": "\n根据《关于鼓励海外留学人员以多种形式为国服务的若干意见》，对在华任职的留学归来人员中的外籍高科技、高层次管理人才可以提供入出境便利。（    ）",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": null,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": [
+                            {
+                                "id": "328bf54ec552475a8f90f302c55927b3",
+                                "sort": 1,
+                                "code": "A",
+                                "content": "正确"
+                            },
+                            {
+                                "id": "6b14a6a81fbc4d39bc69d32d0dac5cca",
+                                "sort": 2,
+                                "code": "B",
+                                "content": "错误"
+                            }
+                        ],
+                        "keywords": null
+                    },
+                    {
+                        "id": "67645",
+                        "type": "001003",
+                        "level": "003001",
+                        "content": "\n根据《劳动合同法》规定，无论何种情形下，用人单位都不能解除在孕期、产期、哺乳期的女职工。（    ）",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": null,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": [
+                            {
+                                "id": "6f85c02a1297412bb5cdff263b0d833d",
+                                "sort": 1,
+                                "code": "A",
+                                "content": "正确"
+                            },
+                            {
+                                "id": "05de28c5df0f44169821079610907ac9",
+                                "sort": 2,
+                                "code": "B",
+                                "content": "错误"
+                            }
+                        ],
+                        "keywords": null
+                    },
+                    {
+                        "id": "67749",
+                        "type": "001003",
+                        "level": "003001",
+                        "content": "\n对在华任职的留学归来人员中的外籍高科技、高层次管理人才可以提供入出境便利。（    ）",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": null,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": [
+                            {
+                                "id": "b346f8a5cd7e4e87910fad204ce686c1",
+                                "sort": 1,
+                                "code": "A",
+                                "content": "正确"
+                            },
+                            {
+                                "id": "26172feaf8cb4109b58689d6b6c84b2f",
+                                "sort": 2,
+                                "code": "B",
+                                "content": "错误"
+                            }
+                        ],
+                        "keywords": null
+                    },
+                    {
+                        "id": "68377",
+                        "type": "001003",
+                        "level": "003001",
+                        "content": "&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;不得将从事疫情防控工作的一线医务人员的轮休，计入本人带薪年休假假期。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": null,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": [
+                            {
+                                "id": "cf593188cc1e4b188de3e3acc3375bab",
+                                "sort": 1,
+                                "code": "A",
+                                "content": "对"
+                            },
+                            {
+                                "id": "f6983509e99745d89bf35998d0b7e2a5",
+                                "sort": 2,
+                                "code": "B",
+                                "content": "错"
+                            }
+                        ],
+                        "keywords": null
+                    }
+                ]
+            },
+            {
+                "type": "001004",
+                "score": 1.0,
+                "totalScores": 6.0,
+                "totalNumbers": 6,
+                "description": null,
+                "questions": [
+                    {
+                        "id": "67978",
+                        "type": "001004",
+                        "level": "003001",
+                        "content": "&nbsp;\n《城镇企业职工基本养老保险关系转移接续暂行办法》实施之后，重复领取基本养老金的参保人员，由本人与社会保险经办机构协商确定保留其中一个养老保险关系并继续领取待遇，其他的养老保险关系应予以清理，个人账户（    ）一次性退还本人。",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": 1,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": null,
+                        "keywords": null
+                    },
+                    {
+                        "id": "68145",
+                        "type": "001004",
+                        "level": "003001",
+                        "content": "\n《最低工资规定》规定，最低工资标准是指劳动者在法定工作时间或依法签订的劳动合同约定的工作时间内提供了（    ）劳动的前提下，用人单位依法应支付的最低劳动报酬。",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": 1,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": null,
+                        "keywords": null
+                    },
+                    {
+                        "id": "68175",
+                        "type": "001004",
+                        "level": "003001",
+                        "content": "\n根据《劳动人事争议仲裁办案规则》，仲裁委员会审查调解协议，应当自受理仲裁审查申请之日起（    ）日内结束。因特殊情况需要延期的，经仲裁委员会主任或者其委托的仲裁院负责人批准，可以延长五日。",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": 1,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": null,
+                        "keywords": null
+                    },
+                    {
+                        "id": "68140",
+                        "type": "001004",
+                        "level": "003001",
+                        "content": "\n企业职工一方与用人单位可以订立劳动安全卫生、（    ）、工资调整机制等专项集体合同。",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": 1,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": null,
+                        "keywords": null
+                    },
+                    {
+                        "id": "68063",
+                        "type": "001004",
+                        "level": "003001",
+                        "content": "\n参加城乡居民基本养老保险的港澳台居民，符合领取待遇条件的，在（    ）按照有关规定领取城乡居民基本养老保险待遇。",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": 1,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": null,
+                        "keywords": null
+                    },
+                    {
+                        "id": "68215",
+                        "type": "001004",
+                        "level": "003001",
+                        "content": "\n用人单位应当按照与农民工（    ）或者（    ）规定的工资支付周期和具体支付日期足额支付工资。",
+                        "answer": null,
+                        "analysis": null,
+                        "score": 1.0,
+                        "userAnswer": null,
+                        "blanksNumber": 1,
+                        "signed": 0,
+                        "checkResult": null,
+                        "userScore": null,
+                        "tag": "008001",
+                        "chapterName": null,
+                        "inCollection": 0,
+                        "choices": null,
+                        "keywords": null
+                    }
+                ]
+            }
+        ]
+    },
+    "code": "SUCCESS"
+}

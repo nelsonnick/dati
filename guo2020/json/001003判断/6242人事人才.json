@@ -1,0 +1,2056 @@
+{
+    "httpStatus": "OK",
+    "status": 0,
+    "message": "成功",
+    "data": [
+        {
+            "id": "67737",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《专家服务基地建设管理办法》，人力资源社会保障部是专家服务基地的综合管理部门。（    ）",
+            "answer": "A",
+            "analysis": "《专家服务基地建设管理办法》规定，人力资源社会保障部是专家服务基地的综合管理部门。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "5b198648ecee4af1a99a11f47d4ba5ae",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "79951984a0d648e98fc6fb47dc77a667",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67738",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《专家服务基地建设管理办法》，符合条件的专家服务基地，按照行政隶属关系向各地人力资源社会保障部门逐级申报，并由地级市以上人力资源社会保障部门审核推荐。（    ）",
+            "answer": "B",
+            "analysis": "《专家服务基地建设管理办法》规定，符合条件的专家服务基地，按照行政隶属关系向各地人力资源社会保障部门逐级申报，并由副省级城市以上人力资源社会保障部门审核推荐。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "95d992e442654afab232358b2728f71e",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "08b81f525ea94d558b424f1be364fe63",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67739",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n职称系列不能设置专业类别。（    ）",
+            "answer": "B",
+            "analysis": "《关于深化职称制度改革的意见》二、健全职称制度体系（四）完善职称系列：职称系列可根据专业领域设置相应专业类别。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "a1329f1520d64e3d9e30b3a22a1e75b6",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "fe13e8194c354b39809d31d97f59ed0d",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67740",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n初级职称可以根据需要仅设置助理级。（    ）",
+            "answer": "A",
+            "analysis": "《关于深化职称制度改革的意见》二、健全职称制度体系（五）健全层级设置：初级职称分为助理级和员级，可根据需要仅设置助理级。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "f23f85d3c16f4fbfa797c23ecfd8143b",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "986a35046fb8429cb17d3f0e5c313386",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67741",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n对艰苦边远地区和基层一线工作的专业技术人才，淡化或不作论文要求。（    ）",
+            "answer": "A",
+            "analysis": "《关于深化职称制度改革的意见》三、完善职称评价标准（八）科学分类评价专业技术人才能力素质：对艰苦边远地区和基层一线工作的专业技术人才，淡化或不作论文要求。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "604b7b376fcb4519b8fffdbee0107c34",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "07938eb323b74866b3742830a9b04a58",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67742",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n专业技术人员资格考试造成重大社会影响的严重违纪违规行为，由省级考试主管部门会同省级考试机构或者由省级考试机构进行认定与处理，处理情况报告人力资源社会保障部即可。（    ）",
+            "answer": "B",
+            "analysis": "《专业技术人员资格考试违纪违规行为处理规定》第五条：造成重大社会影响的严重违纪违规行为，由省级考试主管部门会同省级考试机构或者由省级考试机构进行认定与处理，并将处理情况报告人力资源社会保障部和相应行业的考试主管部门。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "7533295e56d74a5ba9d87fafccd09dc8",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "2fe35852132a4f6287974bada966ab58",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67743",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n专业技术人员持伪造证件参加专业技术人员资格考试的，给予其当次该科目考试成绩无效的处理。（    ）",
+            "answer": "B",
+            "analysis": "《专业技术人员资格考试违纪违规行为处理规定》第七条：应试人员在考试过程中有下列严重违纪违规行为之一的，给予其当次全部科目考试成绩无效的处理，并将其违纪违规行为记入专业技术人员资格考试诚信档案库，记录期限为五年：……（三）持伪造证件参加考试的；……",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "17e16d39a51f4112bab8753338aedfbe",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "9f1ee1dd39694db29df8f89dc97576da",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67744",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n专业技术人员抄袭、协助他人抄袭试题答案或者与考试内容相关资料的，给予其当次全部科目考试成绩无效的处理，并将其违纪违规行为记入专业技术人员资格考试诚信档案库，长期记录。（    ）",
+            "answer": "B",
+            "analysis": "《专业技术人员资格考试违纪违规行为处理规定》第七条：应试人员在考试过程中有下列严重违纪违规行为之一的，给予其当次全部科目考试成绩无效的处理，并将其违纪违规行为记入专业技术人员资格考试诚信档案库，记录期限为五年：（一）抄袭、协助他人抄袭试题答案或者与考试内容相关资料的；……",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "fe79f77e44274a8a90508b94a38b3a6d",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "6f0b17b1fa8f457e8b68d2a02ed31656",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67745",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《关于鼓励海外留学人员以多种形式为国服务的若干意见》，对在华任职的留学归来人员中的外籍高科技、高层次管理人才可以提供入出境便利。（    ）",
+            "answer": "A",
+            "analysis": "《人事部教育部科技部公安部财政部关于印发〈关于鼓励海外留学人员以多种形式为国服务的若干意见〉的通知》（人发〔2001〕49号）规定，对在华任职的留学归来人员中的外籍高科技、高层次管理人才可以提供入出境便利。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "328bf54ec552475a8f90f302c55927b3",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "6b14a6a81fbc4d39bc69d32d0dac5cca",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67746",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n我国不鼓励海外留学人员接受国内委托的科研项目，在国外开展研究、开发活动。（    ）",
+            "answer": "B",
+            "analysis": "《人事部教育部科技部公安部财政部关于印发〈关于鼓励海外留学人员以多种形式为国服务的若干意见〉的通知》（人发〔2001〕49号）规定，鼓励海外留学人员接受国内委托的科研项目，在国外开展研究、开发活动。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "4035af12f578466c9c50fdf1d28e84d5",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "47fe840beedb41f596e3321f01e42acf",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67747",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《关于鼓励海外留学人员以多种形式为国服务的若干意见》，鼓励海外留学人员在国内注册中介机构，为国内引进外资、技术、项目等提供中介服务。（    ）",
+            "answer": "A",
+            "analysis": "《人事部教育部科技部公安部财政部关于印发〈关于鼓励海外留学人员以多种形式为国服务的若干意见〉的通知》（人发〔2001〕49号）规定，鼓励海外留学人员在国内注册中介机构，为国内引进外资、技术、项目等提供中介服务。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "07fa329d218e4462a6e3bff653178a81",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "e8b447801bbd4a6887a1499adb1c1011",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67748",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n研究工作可以在国外，也可长期或短期回国内进行，国家鼓励留学人员与国内企事业单位合作，在国内或国外建立合作研究开发基地。（    ）",
+            "answer": "A",
+            "analysis": "《人事部教育部科技部公安部财政部关于印发〈关于鼓励海外留学人员以多种形式为国服务的若干意见〉的通知》（人发〔2001〕49号）规定，研究工作可以在国外，也可长期或短期回国内进行，国家鼓励留学人员与国内企事业单位合作，在国内或国外建立合作研究开发基地。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "fca444e54c1c4fd09954bc73ad264fa7",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "7ec377001e084d87b557ffc615c35be4",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67749",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n对在华任职的留学归来人员中的外籍高科技、高层次管理人才可以提供入出境便利。（    ）",
+            "answer": "A",
+            "analysis": "《人事部教育部科技部公安部财政部关于印发〈关于鼓励海外留学人员以多种形式为国服务的若干意见〉的通知》（人发〔2001〕49号）规定，对在华任职的留学归来人员中的外籍高科技、高层次管理人才可以提供入出境便利。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "b346f8a5cd7e4e87910fad204ce686c1",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "26172feaf8cb4109b58689d6b6c84b2f",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67750",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n我国不鼓励海外留学人员接受国内委托的科研项目，在国外开展研究、开发活动。（ ）",
+            "answer": "B",
+            "analysis": "《人事部教育部科技部公安部财政部关于印发〈关于鼓励海外留学人员以多种形式为国服务的若干意见〉的通知》（人发〔2001〕49号）规定，鼓励海外留学人员接受国内委托的科研项目，在国外开展研究、开发活动。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "26c59f08069841c983777d5333405587",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "5fb5d0313cef49ad98373ed9661abbb5",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67751",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n鼓励海外留学人员在国内注册中介机构，为国内引进外资、技术、项目等提供中介服务。（    ）",
+            "answer": "A",
+            "analysis": "《人事部教育部科技部公安部财政部关于印发〈关于鼓励海外留学人员以多种形式为国服务的若干意见〉的通知》（人发〔2001〕49号）规定，鼓励海外留学人员在国内注册中介机构，为国内引进外资、技术、项目等提供中介服务。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "e4c1f652864542d383d8002b930291aa",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "64a45b0534014117a2e34a551a259b43",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67752",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n研究工作可以在国外，也可长期或短期回国内进行，国家鼓励留学人员与国内企事业单位合作，在国内或国外建立合作研究开发基地。（ ）",
+            "answer": "A",
+            "analysis": "《人事部教育部科技部公安部财政部关于印发〈关于鼓励海外留学人员以多种形式为国服务的若干意见〉的通知》（人发〔2001〕49号）规定，研究工作可以在国外，也可长期或短期回国内进行，国家鼓励留学人员与国内企事业单位合作，在国内或国外建立合作研究开发基地。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "0af818533b7c4261a91872087ff3b5cf",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "c2976ea91af04cea88eb0842ae94fe5c",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67753",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n未将人事档案转至设站单位的博士后研究人员，不予办理其进出站户口迁落手续。（    ）",
+            "answer": "A",
+            "analysis": "选自《人力资源和社会保障部全国博士后管理委员会关于贯彻落实〈国务院办公厅关于改革完善博士后制度的意见〉有关问题的通知》（人社部发〔2017〕20号）三、提升博士后工作服务水平指出：规范博士后人员及其家属户口档案办理。未将人事档案转至设站单位的博士后研究人员，不予办理其进出站户口迁落手续。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "3d66a2164f5746e2adc943e7a4251471",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "062cc6558d8d40279d79d7309cc23616",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67754",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n鼓励海外留学人员接受国内委托的科研项目，在国外开展研究、开发活动；也可以委托国内有关研究单位、团体，开展接受国外科研项目的研究开发工作。（    ）",
+            "answer": "A",
+            "analysis": "《人事部 教育部 科技部 公安部 财政部关于印发〈关于鼓励海外留学人员以多种形式为国服务的若干意见〉的通知》（人发〔2001〕49号）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "60bb226164404f17a6a044ebd1fb9c77",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "8f18f83b37544854a71e85cf201cf566",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67755",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n各地区、各部门以及用人单位等按照规定开展职称评审，经核准备案，可组建综合性职称评审委员会。（    ）",
+            "answer": "B",
+            "analysis": "按照《职称评审管理暂行规定》第六条规定，职称评审委员会按照职称系列或者专业组建，不得跨系列组建综合性职称评审委员会。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "1b6b1ebf1df0481a84070c3475b227aa",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "37172f5a125a40c9af7795e1ab5702a8",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67756",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n职称评审委员会组建单位组织召开评审会议，未出席评审会议的评审专家不得委托他人投票或者补充投票。（    ）",
+            "answer": "A",
+            "analysis": "根据《职称评审管理暂行规定》第二十条规定，未出席评审会议的评审专家不得委托他人投票或者补充投票。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "4665511b90fd469281ebd68c512bae75",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "5a85ac41ff204c03b26fc5493d3da64e",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67757",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n各地区可根据实际情况，自行调整组建的高级职称评审委员会的人数。（    ）",
+            "answer": "B",
+            "analysis": "按照《职称评审管理暂行规定》第九条规定，各地区组建的高级职称评审委员会的人数，经省级人力资源社会保障行政部门同意，可以适当调整。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "05456db4361343f58df33bccc2673102",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "e8efc63698884956ad59c3c052214089",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67758",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n企业博士后获得中国博士后科学基金资助或主持省部级以上科研项目，出站后继续留在企业的可直接认定正高级职称。（    ）",
+            "answer": "B",
+            "analysis": "《人力资源社会保障部办公厅关于进一步做好民营企业职称工作的通知》规定，企业博士后获得中国博士后科学基金资助或主持省部级以上科研项目，出站后继续留在企业的可直接认定副高级职称。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "0d2c9e4d30404c5b86a6cc09a62d5709",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "31d707765c1d400e932b83af9e4b3123",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67759",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n专业技术人才密集、技术实力较强、内部管理规范的规模以上民营企业可联合组建职称评审委员会，自行开展职称评审。（    ）",
+            "answer": "B",
+            "analysis": "根据《人力资源社会保障部办公厅关于进一步做好民营企业职称工作的通知》，支持专业技术人才密集、技术实力较强、内部管理规范的规模以上民营企业组建职称评审委员会，或由民营企业联合组建职称评审委员会，按程序报相应人力资源社会保障部门核准备案后开展自主评审。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c8453373f0794ee1ac98cd36d11a2d1e",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "f78dda4c77ec48ad86f09cebb4a9ab78",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67760",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n社会组织可经有关部门批准后开展盈利性职称评审。（    ）",
+            "answer": "B",
+            "analysis": "《人力资源社会保障部办公厅关于进一步做好民营企业职称工作的通知》规定，要突出职称评审公益性，严禁社会组织以营利为目的开展职称评审。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "12a03a4271984a9896a2b4161aa34967",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "6dba6100503d4101806d1db9cd3b4091",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67761",
+            "type": "001003",
+            "level": "003001",
+            "content": " \n非面向单位、系统内部组建的职称评审委员会，要向民营企业平等开放。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部办公厅关于进一步做好民营企业职称工作的通知》规定，非面向单位、系统内部组建的职称评审委员会，要向民营企业平等开放。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "4a26bc07c8ed432f90a06f6b955d305f",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "d1821ddbb4ca42f29ab7e504c07ad3ea",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67762",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n参与考试命题的工作人员签订保密协议后，可参与或举办与考试内容相关的培训。（    ）",
+            "answer": "B",
+            "analysis": "《人力资源社会保障部关于印发经济专业技术资格规定和经济专业技术资格考试实施办法的通知》规定，凡参与考试命题、审题、阅卷等工作的专家及工作人员，不得报名参加当次相关科目的考试，不得参与或举办与考试内容相关的培训。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "9e9a6e7b20a64cc5a92f54dbbcaa22d4",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "04308fff776340bf94b4d1a0ffa1d5a1",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67763",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n职称评审中，要对应用研究人员、技术开发与推广人员、科技咨询人员等突出市场评价和社会评价。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部 科技部关于深化自然科学研究人员职称制度改革的指导意见》规定，应用研究人员、技术开发与推广人员、科技咨询人员等突出市场评价和社会评价。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "e9bf4e2f6f4447bb9b5bc130f220e246",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "8b626e7e60ad47c5b13da85dd7523866",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67764",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n博士后是继学士、硕士、博士之后的一种学位。（    ）",
+            "answer": "B",
+            "analysis": "《国务院关于改革完善博士后制度的意见》规定，博士后研究人员作为国家有计划、有目的培养的高层次创新型青年人才，在站期间是具有流动性质的科研人员。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "da533e38a2d943afa58cce5da4fd1abb",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "88b7c21d3846464dad7777518a11b3e7",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67765",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n设站单位不用给博士后人员缴纳社会保险。（    ）",
+            "answer": "B",
+            "analysis": "",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "d520ba86c67e42b4a3f99660e9d3be11",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "6e5b03c2cb494157b1fe33b8f6e411aa",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67766",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n设站单位不用给博士后人员作职称评定。（    ）",
+            "answer": "B",
+            "analysis": "《关于贯彻落实<国务院关于改革完善博士后制度的意见>有关问题的通知》规定，设站单位应按有关规定为博士后人员缴纳社会保险。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "cd5ca536fab94325adc7dac079a576cc",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "c706953ad114422cbc2fa157255e1b79",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67767",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n设站单位与博士后人员不用签订劳动合同或工作协议。（    ）",
+            "answer": "B",
+            "analysis": "《关于贯彻落实<国务院关于改革完善博士后制度的意见>有关问题的通知》规定，对进站前未进行过职称评定的博士后人员，设站单位应予以认定中级职称，在博士后人员期满出站前，可对其进行职称评定或提出评定意见。博士后人员在站期间的科研成果应作为在站或出站后评定职称的依据。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "e0cab55425624a6597c5ea0a06923f35",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "24767b783a7145c8a420c595b416a63f",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67768",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n“博导”可以担任流动站博士后人员的合作导师。（    ）",
+            "answer": "B",
+            "analysis": "《关于贯彻落实<国务院关于改革完善博士后制度的意见>有关问题的通知》规定，设站单位应与博士后人员签订事业单位聘用合同或企业劳动合同（在职博士后签订工作协议），结合科研项目要求签订科研计划书。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "ac39d0ef15574e9488e00c6564f2a6d6",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "8e8f3a6944b44c118c5ea5828db90849",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67769",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《专业技术人员继续教育规定》，继续教育方式和学时的具体认定办法，由省、自治区、直辖市人力资源社会保障行政部门制定。（    ）",
+            "answer": "A",
+            "analysis": "《关于贯彻落实<国务院关于改革完善博士后制度的意见>有关问题的通知》规定，流动站博士后合作导师应具有博士生指导教师资格或正高级专业技术职务，工作站博士后合作导师应具有高级专业技术职务。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "226dbfd85c9b403a8c20a48e01db431d",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "605629b7c0194703aad371bdcdbc5c2e",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67770",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《专业技术人员继续教育规定》，人力资源社会保障行政部门和有关行业主管部门直接举办继续教育活动，应当突出公益性，不得收取费用。（    ）",
+            "answer": "A",
+            "analysis": "《专业技术人员继续教育规定》第八条：继续教育方式和学时的具体认定办法，由省、自治区、直辖市人力资源社会保障行政部门制定。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "346e9707854d4c5cac91fd715f8b17bc",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "6eebb55e258949f28727553dae336160",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67771",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《专业技术人员继续教育规定》，专业技术人员承担全部或者大部分继续教育费用的，用人单位不得指定继续教育机构。（    ）",
+            "answer": "A",
+            "analysis": "《专业技术人员继续教育规定》第十五条：专业技术人员承担全部或者大部分继续教育费用的，用人单位不得指定继续教育机构。（    ）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "5d8ba2074f33497aaac9701c318821d9",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "f8785f833f344d06a09ba29103df8aa0",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67772",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《事业单位人事管理条例》规定，事业单位制定工作人员年度考核方案和绩效工资分配办法，应当通过职工代表大会或者其他形式听取工作人员意见。（    ）",
+            "answer": "A",
+            "analysis": "《事业单位人事管理条例》第四条规定，事业单位制定或者修改人事管理制度，应当通过职工代表大会或者其他形式听取工作人员意见。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "3d3870bfbda5400aa1bcf79786c3d9a5",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "35f2c31eaf684ae2b202d2e0b2e52162",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67773",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《关于进一步支持和鼓励事业单位科研人员创新创业的指导意见》规定，事业单位科研人员兼职创新或者在职创办企业期间，可适当减少本单位岗位职责。",
+            "answer": "B",
+            "analysis": "人力资源社会保障部关于进一步支持和鼓励事业单位科研人员创新创业的指导意见》“二、支持和鼓励科研人员兼职创新、在职创办企业”规定，科研人员开展“双创”活动，可在保证保质保量完成本职工作的基础上，进行兼职创新、在职创办企业。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "7853ffcbdc824b38b0d4cde52404bc9e",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "0bf39f9cb91e4682a9e735f0914c9b4b",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67774",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《关于进一步支持和鼓励事业单位科研人员创新创业的指导意见》的有关规定，事业单位科研人员到企业工作或者参与项目合作，合作期满，但所从事工作确未结束的，由本人提出申请续签协议的，原单位应同意申请。（    ）",
+            "answer": "B",
+            "analysis": "《人力资源社会保障部关于进一步支持和鼓励事业单位科研人员创新创业的指导意见》“三、支持和鼓励事业单位选派科研人员到企业工作或者参与项目合作”规定，合作期满选派人员应当返回派出单位原岗位工作，或者由派出单位安排相应等级的岗位工作；所从事工作确未结束的，三方协商一致可以续签协议。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c8dc5672015a4affbf1e7ec1791b5990",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "119e2bafe1c24362a08f9309c2f788a2",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67775",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《事业单位公开招聘违纪违规行为处理规定》规定，对应聘人员违纪违规行为作出处理决定前，应当告知应聘人员拟作出的处理决定及相关事实、理由和依据，也必须告知应聘人员依法享有陈述和申辩的权利。（    ）",
+            "answer": "A",
+            "analysis": "《事业单位公开招聘违纪违规行为处理规定》第十九条规定，对应聘人员违纪违规行为作出处理决定前，应当告知应聘人员拟作出的处理决定及相关事实、理由和依据，并告知应聘人员依法享有陈述和申辩的权利。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c9a57402a8164bca9266d21b4c91c4aa",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "2f7a0b4ef94e432e8bdd3d09b7a3adde",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67776",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《事业单位公开招聘人员暂行规定》规定，考试可采取笔试、面试等多种方式。对于应聘工勤岗位的人员，可根据需要重点进行实际操作能力测试。（    ）",
+            "answer": "A",
+            "analysis": "《事业单位公开招聘人员暂行规定》第十八条规定，考试可采取笔试、面试等多种方式。对于应聘工勤岗位的人员，可根据需要重点进行实际操作能力测试。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "6631ab596eb54e44ace583557d293e52",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "c0015a7abe21459bb1c90a7b71cb5c03",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67777",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《〈事业单位岗位设置管理试行办法〉实施意见》规定，经费自理的事业单位不纳入岗位设置管理。（    ）",
+            "answer": "B",
+            "analysis": "《〈事业单位岗位设置管理试行办法〉实施意见》第一条规定，为了社会公益目的，由国家机关举办或者其他组织利用国有资产举办的事业单位，包括经费来源主要由财政拨款、部分由财政支持以及经费自理的事业单位，都要按照《事业单位岗位设置管理试行办法》和本实施意见实施岗位设置管理。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "a1eaa307a2e147e8b1e964a08536bc52",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "205aa4e11bad43a9af8ac0d461a8bd0a",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67778",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《事业单位岗位设置管理试行办法》规定，事业单位要按照科学合理、精简效能的原则进行岗位设置，坚持按需设岗、竞聘上岗、按岗聘用、合同管理。（    ）",
+            "answer": "A",
+            "analysis": "《事业单位岗位设置管理试行办法》第四条规定，事业单位要按照科学合理、精简效能的原则进行岗位设置，坚持按需设岗、竞聘上岗、按岗聘用、合同管理。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "a54a77c1a058498cb2c27baa4c513f43",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "a42a448650704c7089fdba1894c5e1b9",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67779",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《事业单位岗位设置管理试行办法》规定，不按规定进行岗位设置和岗位聘用的事业单位，不予确认岗位等级、不予兑现工资、不予核拨经费。（    ）",
+            "answer": "A",
+            "analysis": "《事业单位岗位设置管理试行办法》第三十七条规定，不按规定进行岗位设置和岗位聘用的事业单位，政府人事行政部门及有关部门不予确认岗位等级、不予兑现工资、不予核拨经费。情节严重的，对相关领导和责任人予以通报批评，按照人事管理权限给予相应的纪律处分。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "eb505029b91d4516ad88a337f8375ecc",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "248172cad6f64a46b2c2293aa66d0aef",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67780",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《事业单位人事管理条例》规定，考核应当听取服务对象的意见和评价。（    ）",
+            "answer": "A",
+            "analysis": "《事业单位人事管理条例》第二十条规定，考核应当听取服务对象的意见和评价。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "f635e58248194897bdb9cbb9bc0e0fd6",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "dec10fec026b4a5c928b1e0e24033635",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67781",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《事业单位工作人员申诉规定》规定，省级事业单位人事综合管理部门作出的申诉处理决定不是发生效力的最终决定。（    ）",
+            "answer": "B",
+            "analysis": "《事业单位工作人员申诉规定》第二十八条第三款规定，中央和省级事业单位人事综合管理部门作出的申诉处理决定是发生效力的最终决定。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "680220bf906f4ca388ad299b07bc9a7c",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "80a040a588a6498db3783dd2953fc85b",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67782",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《事业单位工作人员申诉规定》规定，事业单位工作人员对中央垂直管理部门省级以下机关作出的复核决定不服提出的申诉，由同级事业单位人事综合管理部门管辖。（    ）",
+            "answer": "B",
+            "analysis": "《事业单位工作人员申诉规定》第十条规定，事业单位工作人员对中央垂直管理部门省级以下机关作出的复核决定不服提出的申诉，由上一级机关管辖。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "abdf8372e9f74e7eba524714fb76fcb8",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "7bd6af128c6743f58d03054012d871ae",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67783",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《人力资源社会保障部关于贯彻执行〈事业单位工作人员处分暂行规定〉若干问题的意见》规定，对被判处刑罚事业单位工作人员的处分决定，应当在判决生效后三个月内作出。（    ）",
+            "answer": "B",
+            "analysis": "根据《人力资源社会保障部关于贯彻执行〈事业单位工作人员处分暂行规定〉若干问题的意见》第六项规定，对被判处刑罚事业单位工作人员的处分决定，应当在判决生效后一个月内作出。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "d8c470ebc39c433aaee3b600659657aa",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "1a437564b8874896ab8fc3cb520a3e37",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67784",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《事业单位人事管理回避规定》，上级正职、副职与下级副职不构成直接上下级领导关系。（    ）",
+            "answer": "A",
+            "analysis": "《事业单位人事管理回避规定》第七条明确，本规定所称直接上下级领导关系包括：（一）领导班子正职与副职；（二）同一内设机构正职与副职；（三）上级正职、副职与下级正职；（四）单位无内设机构的，其正职、副职与其他管理人员以及从事审计、财务工作的专业技术人员；（五）内设机构无下一级单位的，其正职、副职与其他管理人员以及从事审计、财务工作的专业技术人员。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "5f7db0646a8142939c80ccd91abbcd74",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "7995055a6c5c4a8da08ed75078f67c18",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67785",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《事业单位人事管理回避规定》，事业单位工作人员执行岗位回避时，岗位等级不同的一般由岗位等级较高的一方回避。（    ）",
+            "answer": "B",
+            "analysis": "《事业单位人事管理回避规定》第九条明确，事业单位工作人员执行岗位回避时，岗位等级不同的一般由岗位等级较低的一方回避。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "fc5c3afa4fc9417aab4ace9306e9fe3c",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "b0871a9a0f3e419fb80209ee2fe338c0",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67786",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《关于进一步支持和鼓励事业单位科研人员创新创业的指导意见》，兼职创新、在职创办企业人员不可以在兼职单位或者创办企业申报职称。（    ）",
+            "answer": "B",
+            "analysis": "《人力资源社会保障部关于进一步支持和鼓励事业单位科研人员创新创业的指导意见》“二、支持和鼓励科研人员兼职创新、在职创办企业”规定，兼职创新、在职创办企业人员可以在兼职单位或者创办企业申报职称。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "492663895c9f40bea220e76f7dd035e8",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "92194fe993914443bc1edf29f9d57e08",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67787",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《人力资源社会保障部关于进一步支持和鼓励事业单位科研人员创新创业的指导意见》，事业单位选派科研人员到企业工作或参与项目合作期间，选派人员只需遵守派驻企业的规章制度。（    ）",
+            "answer": "B",
+            "analysis": "《人力资源社会保障部关于进一步支持和鼓励事业单位科研人员创新创业的指导意见》“三、支持和鼓励事业单位选派科研人员到企业工作或参与项目合作”规定，选派人员在选派期间执行事业单位人事管理政策规定和派出单位的内部人事管理办法，同时遵守派驻企业的规章制度。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c8e59f5f192b4f53932348e81dbf5bbc",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "5a985888c16b49c282b4e89e1a066bdc",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67788",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《事业单位工作人员奖励规定》，对获得嘉奖、记功、记大功的事业单位工作人员给予一次性奖金。获奖人员所在地区或者单位不得追加其他物质奖励。",
+            "answer": "B",
+            "analysis": "《事业单位工作人员奖励规定》第十七条规定，对获得嘉奖、记功、记大功的事业单位工作人员给予一次性奖金。获奖人员所在地区或者单位经批准可以追加其他物质奖励。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "4965ee6ae9ae455c8c9a4c1492d06300",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "1a5ee138d200422a880fa6152402e1e2",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67789",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《中共中央组织部人力资源社会保障部监察部关于事业单位工作人员和机关工人受处分工资待遇处理有关问题的通知》规定，事业单位工作人员和机关工人受开除处分的，从作出处分决定的当月起，取消原工资待遇。（    ）",
+            "answer": "B",
+            "analysis": "《中共中央组织部人力资源社会保障部监察部关于事业单位工作人员和机关工人受处分工资待遇处理有关问题的通知》（人社部发〔2012〕68号）第一条第五款规定，事业单位工作人员和机关工人受开除处分的，从作出处分决定的次月起，取消原工资待遇。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "b2501ae4d79e4b65ab7695fb2cc585e1",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "38b9988215ae4d9f91d021b5228a41b9",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67790",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《中共中央组织部人力资源社会保障部监察部关于事业单位工作人员和机关工人受处分工资待遇处理有关问题的通知》规定，事业单位工作人员和机关工人受处分决定变更，需要调整工资待遇的，从处分决定被变更的当月起执行。（    ）",
+            "answer": "B",
+            "analysis": "《中共中央组织部人力资源社会保障部监察部关于事业单位工作人员和机关工人受处分工资待遇处理有关问题的通知》（人社部发〔2012〕68号）第一条第四款规定，事业单位工作人员和机关工人受处分决定变更，需要调整工资待遇的，从处分决定被变更的次月起执行。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "7f9bd9d7598c48ba81e18712bc3398fb",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "4fa12dad61b04f879cd9a6f01ad63a1d",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67791",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《关于深化事业单位工作人员收入分配制度改革的意见》明确，奖励性绩效工资主要体现工作量和实际贡献。（    ）",
+            "answer": "A",
+            "analysis": "《关于深化事业单位工作人员收入分配制度改革的意见》作为《国务院办公厅关于印发分类推进事业单位改革配套文件的通知》（国办发〔2011〕37号）的一个配套文件，规定奖励性绩效工资主要体现工作量和实际贡献。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "6fd3c703ded3440587caf6b536fd79e5",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "002d98a7d1534b9f954c44ccadee14aa",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67792",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《关于深化事业单位工作人员收入分配制度改革的意见》明确，加强对特殊岗位津贴补贴动态调整机制，除国务院以及各省级地方政府外，任何地区、部门和单位不得自行建立特殊岗位津贴补贴项目、扩大实施范围和提高标准。（    ）",
+            "answer": "B",
+            "analysis": "《关于深化事业单位工作人员收入分配制度改革的意见》作为《国务院办公厅关于印发分类推进事业单位改革配套文件的通知》（国办发〔2011〕37号）的一个配套文件，明确除国务院以及人力资源社会保障部、财政部外，任何地区、部门和单位不得自行建立特殊岗位津贴补贴项目、扩大实施范围和提高标准。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "59d2dd1339284e83a590d0b7c2068676",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "a84aaf0c3da643aea6552e222fe76d75",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67793",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《关于印发事业单位工作人员收入分配制度改革方案的通知》（国人部发〔2006〕56号）规定，国家对事业单位绩效工资分配实行总量调控和政策指导。（    ）",
+            "answer": "A",
+            "analysis": "根据《关于印发事业单位工作人员收入分配制度改革方案的通知》（国人部发〔2006〕56号）规定，国家对事业单位绩效工资分配实行总量调控和政策指导。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "68ea310328d64e8f819ef23461f6ee53",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "2e492dc41e664ec6a0c5393ea276ad87",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67794",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《中央组织部人力资源社会保障部关于机关事业单位县处级女干部和具有高级职称的女性专业技术人员退休年龄问题的通知》印发后，已办理退休手续的县处级女干部和具有高级职称的女性专业技术人员，适用本通知，可以追溯。（    ）",
+            "answer": "B",
+            "analysis": "《中央组织部人力资源社会保障部关于机关事业单位县处级女干部和具有高级职称的女性专业技术人员退休年龄问题的通知》规定，四、凡已办理退休手续的县处级女干部和具有高级职称的女性专业技术人员，不适用本通知，不予追溯。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "0b37742ac3ee4c1d917833f5ee2786c9",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "242b54577aa347cab4e0c143e313d278",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67795",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《中央组织部人力资源社会保障部关于机关事业单位县处级女干部和具有高级职称的女性专业技术人员退休年龄问题的通知》规定，党政机关、人民团体中的正、副县处级及相应职务层次的女干部，事业单位中担任党务、行政管理工作的相当于正、副处级的女干部和具有高级职称的女性专业技术人员，如本人申请，可以在年满五十五周岁时自愿退休。（    ）",
+            "answer": "A",
+            "analysis": "《中央组织部人力资源社会保障部关于机关事业单位县处级女干部和具有高级职称的女性专业技术人员退休年龄问题的通知》规定，一、党政机关、人民团体中的正、副县处级及相应职务层次的女干部，事业单位中担任党务、行政管理工作的相当于正、副处级的女干部和具有高级职称的女性专业技术人员，年满六十周岁退休。二、上述女干部和具有高级职称的女性专业技术人员如本人申请，可以在年满五十五周岁时自愿退休。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "46a9d1acb299427b8e680d7260fbf7e6",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "7bec51255856414f8b9a86eefa3d3c44",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67796",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《国务院发布〈国务院关于高级专家离休退休若干问题的暂行规定〉的通知》规定，副教授、副研究员以及相当这一级职称的高级专家，经所在单位报请上一级主管机关批准，可以适当延长退休年龄，但最长不超过65周岁。（    ）",
+            "answer": "A",
+            "analysis": "《国务院发布〈国务院关于高级专家离休退休若干问题的暂行规定〉的通知》规定，副教授、副研究员以及相当这一级职称的高级专家，经所在单位报请上一级主管机关批准，可以适当延长退休年龄，但最长不超过65周岁。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "9d74542881d44ed39454ea45533c65e3",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "25dd9fbaaad2498380c43e4007cbcf64",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67797",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n事业单位的高层次人才，可参考人才市场价格合理确定薪酬水平，所需绩效工资总量在事业单位绩效工资总量中单列，相应增加单位绩效工资总量。（    ）",
+            "answer": "A",
+            "analysis": "根据《人力资源社会保障部 财政部关于完善事业单位高层次人才工资分配激励机制的指导意见》规定，事业单位高层次人才可参考人才市场价格合理确定薪酬水平，所需绩效工资总量在事业单位绩效工资总量中单列，相应增加单位绩效工资总量。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c3b6620d82ff4b65b0de94b23b12eea1",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "fba7df9ba3704042a791500a94f668bb",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67798",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n对从事基础性研究、农业和社会公益研究等研发周期较长的高层次人才，事业单位在内部分配时可适当提高奖励性绩效工资的比重。（    ）",
+            "answer": "B",
+            "analysis": "根据《人力资源社会保障部 财政部关于完善事业单位高层次人才工资分配激励机制的指导意见》规定，对从事基础性研究、农业和社会公益研究等研发周期较长的高层次人才，事业单位在内部分配时可适当提高基础性绩效工资（或基本薪酬）的比重。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "e2b7a1e0858d4509a96bb6fcb937f320",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "ddf07846bb414fbfaa630c8bb7b8cb3b",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67799",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n共和国勋章和国家荣誉称号可以追授。（    ）",
+            "answer": "A",
+            "analysis": "生前作出突出贡献符合本法规定授予国家勋章、国家荣誉称号条件的人士，本法施行后去世的，可以向其追授国家勋章、国家荣誉称号。（《中华人民共和国国家勋章和国家荣誉称号法》第十六条）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "54bdab41e04c43349b83908e3409e040",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "ffe91d4fc60d4d1c97b4d586ec266a5f",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67800",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n博士后设站单位可以招收党政机关领导干部在职进站从事博士后研究。",
+            "answer": "B",
+            "analysis": "《国务院办公厅关于改革和完善博士后制度的意见》（国办发〔2015〕87号）（八）完善招收办法规定：不得招收党政机关领导干部在职进站从事博士后研究。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "303086ceffbc4f4ba6cf131829756f75",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "e57fafa6c9004608bbe0749723291fd6",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        }
+    ],
+    "code": "SUCCESS"
+}

@@ -1,0 +1,4712 @@
+{
+    "httpStatus": "OK",
+    "status": 0,
+    "message": "成功",
+    "data": [
+        {
+            "id": "67480",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n《国务院关于机关事业单位工作人员养老保险制度改革的决定》中规定：参保人员死亡的，个人账户余额可以依法继承。（    ）",
+            "answer": "A",
+            "analysis": "《国务院关于机关事业单位工作人员养老保险制度改革的决定》中第三条规定，参保人员死亡的，个人账户余额可以依法继承。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "5b98d67af24a41f18493289ef5069aac",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "316ee6f1511f429c9d25b2310a432aee",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67481",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n机关事业单位养老保险制度改革的范围是按照公务员法管理的单位、参照公务员法管理的机关（单位）、事业单位及其编制内的工作人员。（    ）",
+            "answer": "A",
+            "analysis": "《国务院关于机关事业单位工作人员养老保险制度改革的决定》中第二条规定，本决定适用于按照公务员法管理的单位、参照公务员法管理的机关（单位）、事业单位及其编制内的工作人员。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "6c394fbfa02f454f87a4c533461136ff",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "5c533e91102e44da99a2746e983feb02",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67482",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n《关于机关事业单位基本养老保险关系和职业年金转移接续有关问题的通知》规定，改革前参加地方原有机关事业单位养老保险试点、改革后纳入机关事业单位基本养老保险的人员，在转移接续基本养老保险关系时，也应转移参加试点期间的单位缴费和个人缴费。（    ）",
+            "answer": "B",
+            "analysis": "《人力资源社会保障部财政部关于机关事业单位基本养老保险关系和职业年金转移接续有关问题的通知》中第一条第六款规定，改革前参加地方原有机关事业单位养老保险试点、改革后纳入机关事业单位基本养老保险的人员，在转移接续基本养老保险关系时，不转移参加试点期间的单位缴费和个人缴费。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "acf4e55eef1b4a7bbd0346f540b79ab1",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "36536b83f2f84ffeb7108e190a0e9b6b",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67483",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n对财政全额供款的单位，单位缴费根据单位提供的信息采取记账方式，每年按照国家统一公布的记账利率计算利息。（    ）",
+            "answer": "A",
+            "analysis": "《国务院办公厅关于印发机关事业单位职业年金办法的通知》中第六条规定，对财政全额供款的单位，单位缴费根据单位提供的信息采取记账方式，每年按照国家统一公布的记账利率计算利息。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "df93dbb8280b4a25bcbe3048eefffd61",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "9f062c0e17964306a1b968ff9cecbd90",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67484",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n中央国家机关所属京外单位应按规定参加在京中央国家机关事业单位基本养老保险工作。（    ）",
+            "answer": "B",
+            "analysis": "《国务院关于机关事业单位工作人员养老保险制度改革的决定》中第十一条规定，中央国家机关所属京外单位的基本养老保险实行属地化管理。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "ea5788db7825482fa29672f278240acc",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "98584d4780f44672924fb13bb71be67f",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67485",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n基本养老金水平高低与本人缴费年限长短有关，但与缴费工资水平高低无关。（    ）",
+            "answer": "B",
+            "analysis": "按照我国目前基本养老金计发办法，基本养老金与退休时间、个人累计缴费年限长短、缴费工资高低、个人账户金额多少、当地职工平均工资高低都有直接关系。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "4c012629e5c14e0b836459f7bfa7b726",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "7b0e0f5d68af477c945c724b4dd95a18",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67486",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n缴费年限只计算到年。（    ）",
+            "answer": "B",
+            "analysis": "缴费年限计算到月。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "a710021d07e142bebe5a591cf3bf49f8",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "e893f8a235de499384c19329a4e399eb",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67487",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n个人账户养老金计发月数与本人退休年龄有关。退休时年龄越大，计发月数越小。（    ）",
+            "answer": "A",
+            "analysis": "计发月数根据职工退休时城镇人口平均预期寿命、本人退休年龄、利息等因素确定。退休时年龄越大，计发月数越小。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "5fefa982041444ef87d6f117fa2ed35a",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "ddd1abb0baa149d1879c942edd091301",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67488",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n缴费年限包括视同缴费年限和实际缴费年限。（    ）",
+            "answer": "A",
+            "analysis": "略。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "485e1969f5ae4c36a000fec263272754",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "60f540441b864fbcbe2ae9733ad3ad28",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67489",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n参加职工基本养老保险的人员死亡的，其个人账户的余额不能继承，充入统筹基金。（    ）",
+            "answer": "B",
+            "analysis": "社会保险法规定：个人死亡的，个人账户余额可以继承。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "4f1d5399d8b2460aa38a93d2560ca436",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "7846eaf52e844493bf7dfe5258fb95a4",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67490",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n企业职工基本养老保险中央调剂基金实行以支定收，当年筹集的资金全部拨付地方。（    ）",
+            "answer": "B",
+            "analysis": "《国务院关于建立企业职工基本养老保险基金中央调剂制度的通知》（国发〔2018〕18号）规定，中央调剂基金实行以收定支，当年筹集的资金全部拨付地方。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "8ac29fc03deb45d6a4344c6f728853d0",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "fc5fbb6d56f04ad2a2512cd94eb2549d",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67491",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n各地在实施养老保险基金中央调剂制度之前累计结余基金原则上留存地方。（    ）",
+            "answer": "A",
+            "analysis": "《国务院关于建立企业职工基本养老保险基金中央调剂制度的通知》（国发〔2018〕18号）规定，各地在实施养老保险基金中央调剂制度之前累计结余基金原则上留存地方，用于本省（区、市）范围内养老保险基金余缺调剂。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "ef2cea4a87e04a7c8890f5a5a5b82c8d",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "9130fb12821042e3ab3b5c5e5d5c9dff",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67492",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n建立企业职工基本养老保险基金中央调剂制度，现行中央财政补助政策和补助方式保持不变。（    ）",
+            "answer": "A",
+            "analysis": "《国务院关于建立企业职工基本养老保险基金中央调剂制度的通知》（国发〔2018〕18号）规定，现行中央财政补助政策和补助方式保持不变。中央政府在下达中央财政补助资金和拨付中央调剂基金后，各省份养老保险基金缺口由地方政府承担。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "e03bdc044b244425ae39fb2996c98c67",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "b87b52478dce4cf2aa935dd858169b80",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67493",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n中央政府在下达中央财政补助资金和拨付中央调剂基金后，各省份养老保险基金缺口由地方政府承担。地市级政府要切实承担确保基本养老金按时足额发放和弥补养老保险基金缺口的主体责任。（    ）",
+            "answer": "B",
+            "analysis": "《国务院关于建立企业职工基本养老保险基金中央调剂制度的通知》（国发〔2018〕18号）规定，中央政府在下达中央财政补助资金和拨付中央调剂基金后，各省份养老保险基金缺口由地方政府承担。省级政府要切实承担确保基本养老金按时足额发放和弥补养老保险基金缺口的主体责任。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "4d62496d99184172b80150a924c333f6",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "392c3b8aed6246cf871dbc7600b61e44",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67494",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n养老保险省级统筹制度应覆盖全省（自治区、直辖市）所有地区，目前省内仍实行单独统筹的地区（含计划单列市、副省级省会城市、经济特区、各类开发园区等）要尽快将其纳入省级统筹范围，执行全省（自治区、直辖市）统一政策。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部财政部关于进一步完善企业职工基本养老保险省级统筹制度的通知》（人社部发〔2017〕72号）规定，省级统筹制度应覆盖全省（自治区、直辖市）所有地区，目前省内仍实行单独统筹的地区（含计划单列市、副省级省会城市、经济特区、各类开发园区等）要尽快将其纳入省级统筹范围，执行全省（自治区、直辖市）统一政策。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "2661dc7c49a94d4da0942bd313f04cab",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "b7ef44d2110d4263b70798a670b98f9e",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67495",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n企业年金产品投资中，流动性产品是指随时可以变现，同时投资收益遭受的损失也不大的金融产品。（    ）",
+            "answer": "A",
+            "analysis": "略。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "df33cba78a8042afbc4814613556369e",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "daa5b7d6531243e1afc6990a14cac0f9",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67496",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n遇到企业年金基金财产市场价值大幅波动时，投资管理人应当及时告知企业参加企业年金计划的职工。（    ）",
+            "answer": "B",
+            "analysis": "遇到企业年金基金财产市场价值大幅波动时，投资管理人应当及时向受托人和委托人告知，是否及时止损，或者及时改变资产配置方式。无需直接向职工告知。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "3137157cee0a4ea1aa3cb923d8c6bc22",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "dfd9828153b84715af34637a860c633b",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67497",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n企业年金方案报送备案时，需有集体协商双方通过企业年金方案的决议以确定履行民主程序。（    ）",
+            "answer": "B",
+            "analysis": "需经职工大会或职工代表大会讨论通过。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "31eb971a8134474bbef54281a1ca3764",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "045b5f2134944799831fb2b51aca9874",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67498",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n因为企业年金理事会不是独立法人，所以由其受托管理企业年金基金不需要签订受托管理合同。（    ）",
+            "answer": "B",
+            "analysis": "法人受托机构和企业年金理事会都是合规的受托人，受托管理企业年金基金都需要进行受托合同备案。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "3df93785755049fca2ea86afa964a673",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "72bcb80624cb4d709a5369043991c247",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67499",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n下属单位比较多的集团企业可以统一使用一个年金方案。（    ）",
+            "answer": "A",
+            "analysis": "下属单位比较多的集团企业可以统一使用一个年金方案。但方案备案时需同时提供各参加单位情况表以及各下属单位履行民主决策程序形成的决议。各下属单位实施细则无须单独备案，可由集团作为备案材料的一部分统一上报备案。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "de6d9d8101be4feda0b082e7ff0e6f71",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "ac11029974da48cfb10b0867ccea2e01",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67500",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n机关事业单位工作人员变动工作单位时，新就业单位没有实行职业年金或企业年金制度的，应将其职业年金累计储存额一次性支付给本人。（    ）",
+            "answer": "B",
+            "analysis": "《国务院办公厅关于印发机关事业单位职业年金办法的通知》中第八条规定，工作人员升学、参军、失业期间或新就业单位没有实行职业年金或企业年金制度的，其职业年金个人账户由原管理机构继续管理运营。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "f13e95fea2ec43ddae77ea3f606f0f5a",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "274e329976fd4835985dabe4cc7dcbc7",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67501",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n具有与我国签订社会保险缴费双边或多边协议（或协定，以下简称协议）国家国籍的就业人员，在其依法获得在我国境内就业证件3个月内提供协议国出具参保证明的，应按协议规定免除其规定险种在规定期限内的缴费义务。（    ）",
+            "answer": "A",
+            "analysis": "《关于做好在我国境内就业的外国人参加社会保险工作有关问题的通知》（人社厅发〔2011〕113号）规定，具有与我国签订社会保险缴费双边或多边协议（或协定，以下简称协议）国家国籍的就业人员，在其依法获得在我国境内就业证件3个月内提供协议国出具参保证明的，应按协议规定免除其规定险种在规定期限内的缴费义务。对于依法获得在我国境内就业证件3个月后不能提供协议国出具的参保证明的，应按规定征收社会保险费并收取相应的滞纳金。对于协议之外的险种以及协议规定险种超过规定期限的，应要求其按规定缴纳社会保险费。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "27e2f55c514a46c2a5d344ea2e0b2e27",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "7de5bb143d1544808b7068bdc1b83b9c",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67502",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n变更后的企业年金方案应当经职工代表大会或者全体职工讨论通过，不需报送人力资源社会保障行政部门。",
+            "answer": "B",
+            "analysis": "36号令第十一条?企业与职工一方可以根据本企业情况，按照国家政策规定，经协商一致，变更企业年金方案。变更后的企业年金方案应当经职工代表大会或者全体职工讨论通过，并重新报送人力资源社会保障行政部门。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "843c9f744b6f48b4bd4c7f729697e495",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "03bd4ba486fb480e9692e56b3367a3e2",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67503",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n企业年金理事会除管理本企业的企业年金事务之外，还可以少量管理其他企业的企业年金事务，并按合同规定收取少量的管理费用。",
+            "answer": "B",
+            "analysis": "《企业年金办法》第二十六条规定：企业年金理事会除管理本企业的企业年金事务之外，不得从事其他任何形式的营业性活动。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "7973bf93a42840b499409d94c1ff9698",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "089cf96804ee4d0ab138d72b8a322229",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67504",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n县级以上人民政府人力资源社会保障经办部门负责对《企业年金办法》的执行情况进行监督检查。",
+            "answer": "B",
+            "analysis": "《企业年金办法》第二十九条规定：县级以上人民政府人力资源社会保障行政部门负责对《企业年金办法》的执行情况进行监督检查。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "bbed39c94e6a4b01a5d3009365690914",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "16d760728aaa4b30b3dc07717f918ade",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67505",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n企业年金基金应当与受托人、账户管理人、投资管理人、托管人和其他为企业年金基金管理提供服务的自然人、法人或者其他组织的自有资产或者其他资产分开管理；为节约成本与委托人的其他资产可合并管理。",
+            "answer": "B",
+            "analysis": "《企业年金办法》第二十八条规定：企业年金基金应当与委托人、受托人、账户管理人、投资管理人、托管人和其他为企业年金基金管理提供服务的自然人、法人或者其他组织的自有资产或者其他资产分开管理，不得挪作其他用途。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "0efbf01d406a4b009a3b61294568a774",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "3b798987078542d087cc647ecd1a38c8",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67506",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n企业年金暂时未分配至职工企业年金个人账户的企业缴费及其投资收益计入企业年金企业账户。",
+            "answer": "A",
+            "analysis": "《企业年金办法》第二十一条规定：企业年金暂时未分配至职工企业年金个人账户的企业缴费及其投资收益，以及职工企业年金个人账户中未归属于职工个人的企业缴费及其投资收益，计入企业年金企业账户。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "759b13e40b93467ebc5c5d73d226e7d8",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "b820ad0db79a442781a9e1b2f3b6e9e9",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67507",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n职工企业年金个人账户中未归属于职工个人的企业缴费及其投资收益，计入企业在银行开立的基本账户。",
+            "answer": "B",
+            "analysis": "《企业年金办法》第二十一条第一款规定：企业年金暂时未分配至职工企业年金个人账户的企业缴费及其投资收益，以及职工企业年金个人账户中未归属于职工个人的企业缴费及其投资收益，计入企业年金企业账户。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "36801ff63d8b4669a7cfe0db2b0ec95f",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "d54f62cef3744f03a49241fbbfc8489f",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67508",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n企业年金企业账户中的企业缴费及其投资收益应当按照企业年金方案确定的比例和办法计入职工企业年金个人账户。（    ）",
+            "answer": "A",
+            "analysis": "《企业年金办法》第二十一条第二款原文:企业年金企业账户中的企业缴费及其投资收益应当按照企业年金方案确定的比例和办法计入职工企业年金个人账户。\n命题单位：养老保险司",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "08d60bc3219948239ea4a0846da916de",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "9bc39a9e670b4e1c80f49b230c95c388",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67509",
+            "type": "001003",
+            "level": "003001",
+            "content": "．股权分置改革新老划断后，凡在境内证券市场首次公开发行股票并上市的含国有股的股份有限公司，除国务院另有规定的，均须按首次公开发行时实际发行股份数量的10%，将股份有限公司部分国有股转由社保基金会持有，国有股东持股数量少于应转持股份数量的，按实际持股数量转持。（    ）",
+            "answer": "B",
+            "analysis": "以上文字出自《境内证券市场转持部分国有股充实全国社会保障基金实施办法》（财企〔2009〕94号）文件，而在《国务院关于印发划转部分国有资本金实施方案的通知》（国发〔2017〕49号）中规定，自国发〔2017〕49号文件印发之日起，财企〔2009〕94号政策停止执行。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "8c17cbf7bc994e92b103ef2eb6c4dec0",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "ebdb97a4af8042bc97811f2d138532d8",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67510",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n企业职工基本养老保险省级统筹要求各省要实行基金省级统一集中管理，“收支两条线”差额缴拨，统收统支。（  ）",
+            "answer": "B",
+            "analysis": "《关于规范企业职工基本养老保险省级统筹制度的通知》（人社部发〔2019〕112号），要求各省要实行基金省级统一集中管理，“收支两条线”全额缴拨，统收统支。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "dd23fec372394a5988fd7ebca13d00b1",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "5a74341ea9d74599a77d1e5506cb8823",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67511",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n养老保险基金省级统收是指除各级财政补助外的全省各项基金收入按期全额归集至省级社会保障基金财政专户。（  ）",
+            "answer": "B",
+            "analysis": "《关于规范企业职工基本养老保险省级统筹制度的通知》（人社部发〔2019〕112号），明确基金省级统收是指全省各项基金收入按期全额归集至省级社会保障基金财政专户（以下简称省级财政专户）。基金收入项目包括：征收机构征收的养老保险费、中央及省内各级财政补助、中央调剂下拨资金以及其它项目收入。省内各地基金累计结余要限期全部归集至省级财政专户。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "ba9bd2b9b6fd417184c0742cb1896a89",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "8dd25b1cd6d746759099f6833ce6c62b",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67512",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n养老保险实施基金统收统支后，各级政府要切实承担企业离退休人员基本养老金按时足额发放的主体责任。（  ）",
+            "answer": "B",
+            "analysis": "《关于规范企业职工基本养老保险省级统筹制度的通知》（人社部发〔2019〕112号），明确各省级政府承担全省企业离退休人员基本养老金按时足额发放的主体责任。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "10a4bc1427a943d4aaa51d85079ddf53",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "cf01b9ccfa6d437590cdd97fb5aafa1f",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67513",
+            "type": "001003",
+            "level": "003001",
+            "content": "&nbsp;\n养老保险实施基金统收统支后，对基金出现缺口的地市，省级政府将要求该地市全部弥补缺口。（    ）",
+            "answer": "B",
+            "analysis": "《关于规范企业职工基本养老保险省级统筹制度的通知》（人社部发〔2019〕112号），明确省级政府要根据本省基金收支总体状况，在综合考虑地方经济社会中长期发展规划、经济发展状况、人口结构、就业状况、财政投入能力、参保缴费人数、抚养比等因素的基础上，建立养老保险工作责任分担机制，合理确定各级政府对基金缺口的分担办法。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "5cbc5069514447ab841648802bf3b70b",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "546b4c8c49924483a6ce3ae88243be62",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67514",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n落实被征地农民社会保障所需资金从当地财政列支。（    ）",
+            "answer": "B",
+            "analysis": "根据《国务院办公厅转发劳动保障部关于做好被征地农民就业培训和社会保障工作指导意见的通知》（国办发〔2006〕29号）第（十）条“落实就业培训和社会保障资金”的规定，社会保障所需资金从当地政府批准提高的安置补助费和用于被征地农户的土地补偿费中统一安排，两项费用尚不足以支付的，由当地政府从国有土地有偿使用收入中解决。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "4be68449cf494fec82788e5914b7a355",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "e1aa458bc9bf44138de26a825d1b06dc",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67515",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n失业保险稳岗补贴只适用于兼并重组企业、化解产能严重过剩企业、淘汰落后产能企业等三类企业。（    ）",
+            "answer": "B",
+            "analysis": "《国务院关于进一步做好新形势下就业创业工作的意见》（国发〔2015〕23号）规定，失业保险基金支持企业稳岗政策实施范围由兼并重组企业、化解产能过剩企业、淘汰落后产能企业等三类企业扩大到所有符合条件的企业。因此，现行失业保险稳岗补贴政策已不仅仅适用于题干所表述的三类企业。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "19bffda534f449d893da67ecb8902158",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "fc52190917e444e68fb8a7dbd8da6f18",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67516",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n对申请稳岗补贴的企业，人力资源社会保障部门确定补贴企业名单和补贴数额后，可不公开相关信息。（    ）",
+            "answer": "B",
+            "analysis": "详见《人力资源社会保障部 财政部 国家发展改革委 工业和信息化部关于失业保险支持企业稳定岗位有关问题的通知》（人社部发〔2014〕76号）的规定，人力资源社会保障部门会同行业主管部门对企业类型认定后，对申请稳岗补贴企业的基本条件进行审定，确定补贴企业名单和补贴数额，并公开相关信息，接受社会监督。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c59e8b321b9a4596a1d701e3e228a977",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "54c446f9d6134024a647d195d4e485e1",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67517",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n上年失业保险基金滚存结余具备12个月以上支付能力且失业保险基金使用管理规范的统筹地区，可以实施稳岗补贴政策。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部 财政部 国家发展改革委 工业和信息化部关于失业保险支持企业稳定岗位有关问题的通知》（人社部发〔2014〕76号）规定，失业保险统筹地区实施稳岗补贴应同时具备以下条件：上年失业保险基金滚存结余具备一年以上支付能力；失业保险基金使用管理规范。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "04b72aa38b164c988a8cd4bde331855b",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "b536d0fd67b94d548bd4a55bbf8512b0",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67518",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n2019年1月1日至12月31日，对面临暂时性生产经营困难且恢复有望、坚持不裁员或少裁员的参保企业，稳岗返还标准可按6个月的当地月人均失业保险金和参保职工人数确定，或按6个月的企业及其职工应缴纳社会保险费的50%的标准确定。（    ）",
+            "answer": "A",
+            "analysis": "《国务院关于做好当前和今后一个时期促进就业工作的若干意见》（国发〔2018〕39号）规定，2019年1月1日至12月31日，对面临暂时性生产经营困难且恢复有望、坚持不裁员或少裁员的参保企业，返还标准可按6个月的当地月人均失业保险金和参保职工人数确定，或按6个月的企业及其职工应缴纳社会保险费的50%的标准确定。上述资金由失业保险基金列支。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "1966a1a081824d3a8ae23643514a6b2e",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "8dba6edf657a4c3eabd2b3337362d065",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67519",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n失业保险技能提升补贴必须由参保职工所在企业集体申领。（    ）",
+            "answer": "A",
+            "analysis": "《关于失业保险支持参保职工提升职业技能有关问题的通知》（人社部发〔2017〕40号）审核程序第（一）项规定，职工应在职业资格证书或职业技能等级证书核发之日起12个月内，到本人失业保险参保地失业保险经办机构，申领技能提升补贴。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "5fcd32e657864c0ea65667f61b42f124",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "eadce3375cbd4b81b45d040f40a6ebbf",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67520",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n申领失业保险技能提升补贴必须连续缴纳失业保险费36个月。（    ）",
+            "answer": "B",
+            "analysis": "《关于失业保险支持参保职工提升职业技能有关问题的通知》（人社部发〔2017〕40号）规定，失业保险技能提升补贴的申领条件是累计缴纳失业保险费36个月及以上。\n根据《人力资源社会保障部、财政部、国家发展和改革委员会、工业和信息化部关于失业保险支持企业稳定就业岗位的通知》（人社部发〔2019〕23号）规定，自2019年1月至2020年12月31日，将现行技能提升补贴政策申领条件由企业在职职工累计缴纳失业保险费36个月及以上放宽至累计缴纳失业保险费12个月及以上。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "99c92168e0454f24be329e643ecfea7e",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "3002710321e94b5080c95553f660ee93",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67521",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n失业保险技能提升补贴标准可向地区紧缺急需职业（工种）倾斜。（    ）",
+            "answer": "A",
+            "analysis": "《关于失业保险支持参保职工提升职业技能有关问题的通知》（人社部发〔2017〕40号）规定，各省（自治区、直辖市）可根据本地产业发展方向和人力资源市场需求，研究制定本地区紧缺急需的职业（工种）目录。技能提升补贴标准可向地区紧缺急需职业（工种）予以倾斜。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "366fdbe84456437db40e651cfe3b0bb5",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "fdd5e87bed1e4fd8ae008be2f7d38ce4",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67522",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n2015年以来，失业保险费率连续三次降低，总费率已由3%普降至1%。（    ）",
+            "answer": "A",
+            "analysis": "2015年3月，国务院决定失业保险总费率由3%降至2%；2016年5月，国务院决定由2%阶段性降至1%~1.5%；2017年1月，国务院决定总费率为1.5%的省份降至1%，期限一年。2018年4月，《关于继续阶段性降低社会保险费率的通知》（人社部发〔2018〕25号）规定，自2018年5月1日起，实施失业保险总费率1%的省（区、市），延长阶段性降低费率的期限至2019年4月30日。因此，失业保险费率由3%降至2%，由2%降至1%~1.5%，再由1.5%普降至1%，可以说是连续三次降低。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "837ccbe596ff4282a203ac88c51e5eaf",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "9770851b0da049779817ce8c259a67fe",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67523",
+            "type": "001003",
+            "level": "003001",
+            "content": "失业保险基金的来源仅包括参保用人单位和职工缴纳的失业保险费。（    ）",
+            "answer": "B",
+            "analysis": "《失业保险条例》第五条规定，失业保险基金由下列各项构成：（一）城镇企业事业单位、城镇企业事业单位职工缴纳的失业保险费；（二）失业保险基金的利息；（三）财政补贴；（四）依法纳入失业保险基金的其他资金。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "4c54776d2f54424d90b69eac3108ef3b",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "9d58eb3e9f234c04b5176672422e795d",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67524",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n失业保险基金专款专用，只能用于为参加失业保险后失业的职工发放失业保险金。（    ）",
+            "answer": "B",
+            "analysis": "《失业保险条例》第十条规定，失业保险基金用于下列支出：（一）失业保险金；（二）领取失业保险金期间的医疗补助金（社会保险法对失业人员的医疗保障作出新的规定，该项规定不再执行）；（三）领取失业保险金期间死亡的失业人员的丧葬补助金和其供养的配偶、直系亲属的抚恤金；（四）领取失业保险金期间接受职业培训、职业介绍的补贴；（五）国务院规定或者批准的与失业保险有关的其他费用。\n《中华人民共和国社会保险法》第四十八条规定，失业人员在领取失业保险金期间，参加职工基本医疗保险，享受基本医疗保险待遇。失业人员应当缴纳的基本医疗保险费从失业保险基金中支付，个人不缴纳基本医疗保险费。\n近年来，经国务院批准，失业保险实施稳岗返还政策和技能提升补贴政策，进一步扩大了失业保险基金支出范围。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "fab1e6e5e4bf4e66a3bfeaf635b666de",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "f35da207249e448c80c8acda87f8613e",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67525",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n失业保险基金可用于政府平衡财政收支。（    ）",
+            "answer": "B",
+            "analysis": "《失业保险条例》第十一条规定，失业保险基金专款专用，不得挪作他用，不得用于平衡财政收支。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "5281392cdfed4271a7346f7117053ff1",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "3b2caf32d2d34eb3b1718cfd7b4adc15",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67526",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n失业保险调剂金以统筹地区依法应当征收的失业保险费为基数，按照省、自治区人民政府规定的比例筹集。（    ）",
+            "answer": "A",
+            "analysis": "《失业保险条例》第八条规定，失业保险调剂金以统筹地区依法应当征收的失业保险费为基数，按照省、自治区人民政府规定的比例筹集。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "8b4b46e243e349acb3604777d20e2fc7",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "338a6a829d46418bb26dc618bf2fde10",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67527",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n失业保险金的标准，由职工参保所在地失业保险经办机构确定，并根据当地物价水平合理调整。（    ）",
+            "answer": "B",
+            "analysis": "《中华人民共和国社会保险法》第四十七条规定，失业保险金的标准，由省、自治区、直辖市人民政府确定，不得低于城市居民最低生活保障标准。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "079c71df7e30419a95135120724ce9df",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "8fd232a71a6c42cf9e1df1fa0040e5c3",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67528",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n失业人员领取失业保险金的期限最长为36个月。（    ）",
+            "answer": "B",
+            "analysis": "《中华人民共和国社会保险法》第四十六条、《失业保险条例》第十七条对失业保险金领取期限都有明确规定，失业人员失业前所在单位和本人按照规定累计缴费时间满1年不足5年的，领取失业保险金的期限最长为12个月；满5年不足10年的，领取失业保险金的期限最长为18个月；累计缴费时间10年以上的，领取失业保险金的期限最长为24个月。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "73aebc1b285c4cd7ab2e7036a9190f92",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "5c4172719bc84c3d98ce4994f303d59f",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67529",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n失业人员领取失业保险金，至少需要所在单位和本人已依法依规履行缴费义务满2年。（    ）",
+            "answer": "B",
+            "analysis": "《中华人民共和国社会保险法》第四十五条、《失业保险条例》第十四条规定，领取失业保险金需具备下列条件：（一）失业前用人单位和本人已经缴纳失业保险费满一年的；（二）非因本人意愿中断就业的；（三）已经进行失业登记，并有求职要求的。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "4e5f4842644643ab98a13c7d6f28e40f",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "d6d6b621df034740b42fb363fa540289",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67530",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n领取失业保险金人员参加职工医保应缴纳的基本医疗保险费从失业保险基金中支付，个人不缴费。（    ）",
+            "answer": "A",
+            "analysis": "《关于领取失业保险金人员参加职工基本医疗保险有关问题的通知》（人社部发〔2011〕77号）规定，领取失业保险金人员参加职工医保应缴纳的基本医疗保险费从失业保险基金中支付，个人不缴费。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "9da6ca2d9d104e9e988a13e35e255ac4",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "c672d071c8104230a0845c1e981d7bdb",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67531",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n领取失业保险金人员失业保险关系跨省、自治区、直辖市转入户籍所在地的，其职工医保关系随同转移，执行转入地职工医保政策。应当缴纳的基本医疗保险费按转出地标准一次性划入转入地失业保险基金。（    ）",
+            "answer": "A",
+            "analysis": "《关于领取失业保险金人员参加职工基本医疗保险有关问题的通知》（人社部发〔2011〕77号）规定，领取失业保险金人员失业保险关系跨省、自治区、直辖市转入户籍所在地的，其职工医保关系随同转移，执行转入地职工医保政策。应当缴纳的基本医疗保险费按转出地标准一次性划入转入地失业保险基金。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "428278465d6c4d7d8792c34fe1d481c6",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "307f99d09b4f4414a6dac1ea198747c9",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67532",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《失业保险金申领发放办法》规定，对领取失业保险金期限即将届满的失业人员，经办机构应提前7日告知本人。",
+            "answer": "B",
+            "analysis": "《失业保险金申领发放办法》（劳动和社会保障部令第8号）第十八条规定，对领取失业保险金期限即将届满的失业人员，经办机构应提前一个月告知本人。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "5251e6141e1b40f3bbad5b5cb0ed1b1d",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "96d5bba2098e44eaaa9941077ce9002c",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67533",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n实施企业稳岗返还的统筹地区上年失业保险基金滚存结余应具备12个月以上支付能力。",
+            "answer": "A",
+            "analysis": "《关于失业保险支持企业稳定就业岗位的通知》（人社部发〔2019〕23号）规定，实施企业稳岗返还的统筹地区上年失业保险基金滚存结余应具备12个月以上支付能力。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c3f603c60a2c4f968aeb771acb71f072",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "9b24f4707a0246cf8bfe35dea9e13fb6",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67534",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n实施经营困难且恢复有望企业稳岗返还的统筹地区上年失业保险基金滚存结余应具备12个月以上支付能力。",
+            "answer": "B",
+            "analysis": "《关于失业保险支持企业稳定就业岗位的通知》（人社部发〔2019〕23号）规定，实施经营困难且恢复有望企业稳岗返还的统筹地区上年失业保险基金滚存结余应具备24个月以上支付能力。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "1cf535cca1944d319b42d76156bc0542",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "267e79bdc3144ec19c9b637727d23b98",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67535",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n经办机构要通过用人单位为领金人员缴纳养老保险、失业人员办理工商登记等情况，验证领金人员是否重新就业。",
+            "answer": "B",
+            "analysis": "《人力资源社会保障部关于推进失业保险金“畅通领、安全办”的通知》（人社部发〔2019〕18号）规定，通过用人单位为领金人员缴纳失业保险、失业人员办理工商登记等情况，验证领金人员是否重新就业。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "4f882fe1697b4931b5f7dce632c3a7dc",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "ba4653da03b4466087073324db051cb2",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67536",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n失业人员到公共就业服务机构或社会保险经办机构申领失业保险金，受理其申请的机构都应一并办理失业登记和失业保险金发放。",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部关于推进失业保险金“畅通领、安全办”的通知》（人社部发〔2019〕18号）规定，失业人员到公共就业服务机构或社会保险经办机构申领失业保险金，受理其申请的机构都应一并办理失业登记和失业保险金发放。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "82224b4e2f2748ed8050e9144b88197d",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "3f72854ec68d41c1b72e8949e75616a8",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67537",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《关于失业保险基金省级统筹的指导意见》规定，实行省级统筹，各省（自治区、直辖市）要统筹考虑地区间的经济发展水平、经办服务能力差异，统一各项失业保险政策。",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部 财政部 国家税务总局关于失业保险基金省级统筹的指导意见》（人社部发〔2019〕95号）规定，实行省级统筹，各省（自治区、直辖市）要统筹考虑地区间的经济发展水平、经办服务能力差异，统一各项失业保险政策。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "0fea81526af64e6499a0d74e0919c645",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "b1537d8df08c479db1453e1fce59c643",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67538",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《国务院关于进一步做好稳就业工作的意见》要求，对领取失业保险金期满仍未就业且距离法定退休年龄不足6个月的人员，可继续发放失业保险金直至法定退休年龄。",
+            "answer": "B",
+            "analysis": "《国务院关于进一步做好稳就业工作的意见》（国发〔2019〕28号）要求，对领取失业保险金期满仍未就业且距离法定退休年龄不足１年的人员，可继续发放失业保险金直至法定退休年龄。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "fa3ee2013a7b498db3557ddd0d6caeb1",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "23a26c59453e489a93879b96cfe276dc",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67539",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n社会保险行政部门等部门制定工伤保险的政策、标准，应当征求工会组织和用人单位代表的意见。（    ）",
+            "answer": "A",
+            "analysis": "《工伤保险条例》第六条规定，社会保险行政部门等部门制定工伤保险的政策、标准，应当征求工会组织、用人单位代表的意见。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "e1195acd769d4a7fb55477f67da239f0",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "51d067d56e284b3ea4b9a99794caef9f",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67540",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n职工被派遣出境工作，依照当地法律已参加当地工伤保险，其国内工伤保险关系中止。（    ）",
+            "answer": "A",
+            "analysis": "《工伤保险条例》第四十四条规定，职工被派遣出境工作，依据前往国家或者地区的法律应当参加当地工伤保险的，参加当地工伤保险，其国内工伤保险关系中止。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "fc7a44a24ac64405b2f042525a4f307b",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "3d2d5dde0b354527813309d11eda6b3a",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67541",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《工伤保险条例》施行前已受到事故伤害或者患职业病的职工尚未完成工伤认定的，无法按照《工伤保险条例》的规定执行。（    ）",
+            "answer": "B",
+            "analysis": "《工伤保险条例》第六十七条规定，本条例施行前已受到事故伤害或者患职业病的职工尚未完成工伤认定的，按照本条例的规定执行。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c6bd1b087f3941caa895dc314f1d4c80",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "88f21352181745f1a9e09a641e2d755f",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67542",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《工伤保险条例》适用范围是中华人民共和国境内的企业、事业单位及社会团体。（    ）",
+            "answer": "B",
+            "analysis": "《工伤保险条例》第二条规定，中华人民共和国境内的企业、事业单位、社会团体、民办非企业单位、基金会、律师事务所、会计师事务所等组织和有雇工的个体工商户应当依照本条例规定参加工伤保险，为本单位全部职工或者雇工缴纳工伤保险费。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "80a65503b6974680bfdf2f099f898d17",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "788dd51aa4c24f229c25f5d5981bab10",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67543",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n医疗机构、辅助器具配置机构不按服务协议提供服务的，经办机构可以解除服务协议。（    ）",
+            "answer": "B",
+            "analysis": "《工伤保险条例》第五十九条规定，医疗机构、辅助器具配置机构不按服务协议提供服务的，经办机构可以解除服务协议。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "ac1cc22f95874ede9af6af743890846a",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "454c8625a5554a07ad8de08ef4f47205",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67544",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n用人单位未在注册地为职工参加工伤保险的，可在生产经营地为其参加工伤保险。（    ）",
+            "answer": "A",
+            "analysis": "《关于执行<工伤保险条例>若干问题的意见（二）》规定，用人单位注册地与生产经营地不在同一统筹地区的，原则上应在注册地为职工参加工伤保险；未在注册地参加工伤保险的职工，可由用人单位在生产经营地为其参加工伤保险。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "45dcba7608f843b69a60afeb97652429",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "d9e8ab8f1d9e4fd9b99de08cef45819f",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67545",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n职工本人在工作中伤亡不能认定为工伤的情形为：犯罪、醉酒或吸毒、自残或自杀。（    ）",
+            "answer": "B",
+            "analysis": "《中华人民共和国社会保险法》第三十七条规定，职工因下列情形之一导致本人在工作中伤亡的，不认定为工伤：（一）故意犯罪；（二）醉酒或者吸毒；（三）自残或者自杀。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "459f75c4600d418983a556b9b8390a59",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "b541dcef48d644508e836d8b05af2c84",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67546",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n按照《国民经济行业分类》（GB/T4754-2011）对行业的划分，根据不同行业风险程度，由低到高，依次将行业工伤风险类别划分为一类至六类。（    ）",
+            "answer": "B",
+            "analysis": "《人力资源社会保障部财政部关于调整工伤保险费率政策的通知》（人社部发[2015]71号）规定，按照《国民经济行业分类》（GB/T4754-2011）对行业的划分，根据不同行业风险程度，由低到高，依次将行业工伤风险类别划分为一类至八类。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "9b56112d6bf248079546fe5635ce7c17",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "92c1b031f2df46d29b9e832c354c925e",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67547",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n用人单位未按规定为职工提出工伤认定申请，受到事故伤害或者患职业病的职工或者其近亲属、工会组织提出工伤认定申请，职工所在单位是否同意（签字、盖章）不是必经程序。（    ）",
+            "answer": "A",
+            "analysis": "《关于实施工伤保险条例若干问题的意见》第五条规定，用人单位未按规定为职工提出工伤认定申请，收到事故伤害或者患职业病的职工或者其近亲属、工会组织提出工伤认定申请，职工所在单位是否同意（签字、盖章）不是必经程序。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "dfb7c1359a7a4b67b689a47ee9a65dbf",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "c43234a9b0b442c2aeb239bba6d9819c",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67548",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n列入计划的工伤预防项目实施周期最长不超过3年。（    ）",
+            "answer": "B",
+            "analysis": "《工伤预防费使用管理暂行办法》第九条规定，列入计划的工伤预防项目实施周期最长不超过2年。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "bd3d7850da554b4b98f92c5bfe0f9fe5",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "30d9551ce7674034b1468d258c83df6c",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67549",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n按照规定，铁路企业工伤职工的工伤认定和劳动能力鉴定工作由统筹地区劳动保障行政部门和劳动能力鉴定机构负责。（    ）",
+            "answer": "A",
+            "analysis": "《关于铁路企业参加工伤保险有关问题的通知》第三条规定：铁路企业工伤职工的工伤认定工作由统筹地区劳动保障行政部门负责，工伤职工的劳动能力鉴定工作由统筹地区劳动能力鉴定机构负责。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "4280c5575c26492ba6651188499374b3",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "959d54299b0b4561a8a814a1d229d4aa",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67550",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n目前仍在办理工伤认定和劳动能力初次鉴定事项的省（自治区、直辖市）人社部门，要按照《工伤保险条例》的规定，全面下放工伤认定和劳动能力鉴定事项。（    ）",
+            "answer": "B",
+            "analysis": "人社部办公厅《关于推进工伤认定和劳动能力鉴定便民化服务工作的通知》中规定，目前仍在办理工伤认定和劳动能力初次鉴定事项的省（自治区、直辖市）人社部门，要按照《工伤保险条例》的规定，全面下放工伤认定和劳动能力初次鉴定事项。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "ec5169f3728b4a7da5e54525665dfd16",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "fe31b01220a74d208b8a29eb7939c98d",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67551",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n工伤保险基金由用人单位缴纳的工伤保险费、工伤保险基金的利息和依法纳入工伤保险基金的其他资金构成。（    ）",
+            "answer": "A",
+            "analysis": "《工伤保险条例》第七条规定，工伤保险基金由用人单位缴纳的工伤保险费、工伤保险基金的利息和依法纳入工伤保险基金的其他资金构成。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "6fe7f27104d8415db77e4f8fa4374d6d",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "4a0ac6aff7504fffae1df41433a0f109",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67552",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n用人单位参加工伤保险并补缴应当缴纳的工伤保险费、滞纳金后，由工伤保险基金和用人单位依照《工伤保险条例》的规定，支付新发生的费用。（    ）",
+            "answer": "A",
+            "analysis": "《工伤保险条例》六十二条规定，用人单位参加工伤保险并补缴应当缴纳的工伤保险费、滞纳金后，由工伤保险基金和用人单位依照《工伤保险条例》的规定，支付新发生的费用。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "9972e7d2f7c045959c086ba97158e65b",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "5cc433ce7e5346a29216dc49ba970d2d",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67553",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n职工与用人单位发生工伤待遇方面的争议，按照处理劳动争议的有关规定处理。（    ）",
+            "answer": "A",
+            "analysis": "《工伤保险条例》五十四条规定，职工与用人单位发生工伤待遇方面的争议，按照处理劳动争议的有关规定处理。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "97f9cf7d90b24f89a35743bed3f57346",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "37fb12edf08b4d74b4b844f690901439",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67554",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n职工因工外出期间发生事故或者在抢险救灾中下落不明的，从事故发生当月起5个月内照发工资，从第6个月起停发工资，由工伤保险基金向其供养亲属按月支付供养亲属抚恤金。（    ）",
+            "answer": "B",
+            "analysis": "《工伤保险条例》第四十一条规定，职工因工外出期间发生事故或者在抢险救灾中下落不明的，从事故发生当月起3个月内照发工资，从第4个月起停发工资，由工伤保险基金向其供养亲属按月支付供养亲属抚恤金。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "a4e52504f06b48c69c9ad5e5a8925aa2",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "5a5c8e6670d9424b9a289613e5d7e903",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67555",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n生活不能自理的工伤职工在停工留薪期需要护理的，由家属负责。（    ）",
+            "answer": "B",
+            "analysis": "《工伤保险条例》第三十三条规定，生活不能自理的工伤职工在停工留薪期需要护理的，由所在单位负责。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "234ea2d4ce36460e8516b0d46b9bd633",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "856604a5206c4ce2a1472eea470fed63",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67556",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n工伤职工在停工留薪期满后仍需治疗的，继续享受工伤医疗待遇。（    ）",
+            "answer": "A",
+            "analysis": "《工伤保险条例》第三十三条规定，工伤职工在停工留薪期满后仍需治疗的，继续享受工伤医疗待遇。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "a31e1a2b5a274ab9b3f91a20196084e4",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "41d0061413164d37a35a0f0cb3dd5318",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67557",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《工伤保险条例》规定，停工留薪期最长不超过12个月。（   ）",
+            "answer": "B",
+            "analysis": "《工伤保险条例》第三十三条规定，停工留薪期一般不超过12个月。伤情严重或者情况特殊，经设区的市级劳动能力鉴定委员会确认，可以适当延长，但延长不得超过12个月。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "cd2d56b8f5f245e190b4dfd4806eaeff",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "a8292432490d4cc89b210f50d3aea4d3",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67558",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n劳动功能障碍分为十个伤残等级，最重的是十级，最轻的是一级。（    ）",
+            "answer": "B",
+            "analysis": "《工伤保险条例》第二十二条第二款规定，劳动功能障碍分为十个伤残等级，最重的是一级，最轻的是十级。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "8116b4c6a1e94712844523039b553387",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "795dbffbcefe41949396a2e14fd50974",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67559",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n工伤保险基金实现省级统筹，其基金管理模式必须实行基金统收统支管理。（    ）",
+            "answer": "B",
+            "analysis": "《关于工伤保险基金省级统筹的指导意见（人社部发〔2017〕60号）规定，实行省级统筹，要求在省（区、市）内统一工伤保险参保范围和参保对象，统一工伤保险费率政策和缴费标准，统一工伤认定和劳动能力鉴定办法，统一工伤保险待遇支付标准，统一工伤保险经办流程和信息系统。在基金管理上，有条件的省（区、市）可以实行基金统收统支管理；不具备条件的省（区、市）也可以在省级建立调剂金，由市（地）按照一定的规则和比例上解到省级社保基金财政专户集中管理，用于调剂解决各市（地）工伤保险基金支出缺口。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c31c2e3337c94c1b919dc4dc0bfa7b43",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "3d91ac08416a434d8b902a0643414d78",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67560",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n各省（市、自治区）工伤保险基金只要建立了省级调剂金，就是实现了工伤保险基金省级统筹。（    ）",
+            "answer": "B",
+            "analysis": "按照《关于工伤保险基金省级统筹的指导意见》（人社部发〔2017〕60号）有关规定，工伤保险基金省级统筹有明确的标准和条件，在管理上，需要实现“五统一”，要求在省（区、市）内统一工伤保险参保范围和参保对象，统一工伤保险费率政策和缴费标准，统一工伤认定和劳动能力鉴定办法，统一工伤保险待遇支付标准，统一工伤保险经办流程和信息系统。在基金管理上，可以实行基金统收统支管理或者在省级建立调剂金。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "81dd644b5e174bbfbed99be140d22a0e",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "a909d49ea5b04999b878ad7f0497726c",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67561",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n工伤保险基金实现省级统筹后，地市对于基金征缴、待遇支付、基金缺口等不再承担责任。（   ）",
+            "answer": "B",
+            "analysis": "《关于工伤保险基金省级统筹的指导意见（人社部发〔2017〕60号）明确了在管理上的主体责任，坚持“以支定收，收支平衡”的原则，完善基金预算管理，健全基金征缴责任制和考核指标，建立职、权、责约束机制和基金缺口分担机制。各市（地）要强化基金征缴主体责任，严格执行基金支出范围和标准，根据《工伤保险条例》的规定，加强工伤认定、劳动能力鉴定管理，规范、优化流程，提高工作质量。地方各级财政要切实保证工伤认定调查必要的经费支出。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "8a84b91225ea4f3caf5dfe3756109d2c",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "f96ec6013df443788f2ed972f965e358",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67562",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n年满16周岁（不含在校学生），非国家机关和事业单位工作人员及不属于职工基本养老保险制度覆盖范围的城乡居民，可以在居住地参加城乡居民养老保险。（    ）",
+            "answer": "B",
+            "analysis": "《国务院关于建立统一的城乡居民基本养老保险制度的意见》（国发〔2014〕8号）规定，年满16周岁（不含在校学生），非国家机关和事业单位工作人员及不属于职工基本养老保险制度覆盖范围的城乡居民，可以在户籍地参加城乡居民养老保险。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "657a03c304aa454d99b7dcd9ab14511c",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "72d24eab5b1d4c57a24af71a09896349",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67563",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《国务院关于建立统一的城乡居民基本养老保险制度的意见》规定，中央财政对中西部地区的基础养老金给予50%的补助。（    ）",
+            "answer": "B",
+            "analysis": "《国务院关于建立统一的城乡居民基本养老保险制度的意见》（国发〔2014〕8号）规定，政府对符合领取城乡居民养老保险待遇条件的参保人全额支付基础养老金，其中，中央财政对中西部地区按中央确定的基础养老金标准给予全额补助，对东部地区给予50%的补助。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "eac1f6847f9743738bde21501820bf2d",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "72cdbcd290ed4d418d43cf8d03e94c09",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67564",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n参加城乡居民养老保险的参保人死亡，其个人账户资金余额不能继承。（    ）",
+            "answer": "B",
+            "analysis": "《国务院关于建立统一的城乡居民基本养老保险制度的意见》（国发〔2014〕8号）规定，参保人死亡，个人账户资金余额可以依法继承。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "cd83fb6e41b244d3b8a0412d061c733c",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "cfccd555104c4f6787ae6283219ba9b3",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67565",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n达到待遇领取年龄的参保人员，到龄当年不可以缴纳本年度的养老保险费。（    ）",
+            "answer": "B",
+            "analysis": "《城乡居民基本养老保险经办规程》第三章保险费收缴第十二条规定，对于达到领取待遇年龄的参保人员，到龄当年可以缴纳本年度的养老保险费。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "d96c26f4d949460d877fecb017d0c256",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "a4c6a4bec05d4f1c98cbf621843d63ae",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67566",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n城乡居民养老保险工作经费可以从城乡居民养老保险基金中开支。（    ）",
+            "answer": "B",
+            "analysis": "《国务院关于建立统一的城乡居民基本养老保险制度的意见》（国发〔2014〕8号）规定，城乡居民养老保险工作经费纳入同级财政预算，不得从城乡居民养老保险基金中开支。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "84a25dce53d640a8b373b9d333b52f2f",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "4c6301854764428c80180edf40251de1",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67567",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n城乡居民基本养老保险待遇由基础养老金和个人账户养老金构成。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部财政部关于建立城乡居民基本养老保险待遇确定和基础养老金正常调整机制的指导意见》（人社部发〔2018〕21号）规定，城乡居民基本养老保险待遇由基础养老金和个人账户养老金构成。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "62a8b3ab26c94556a6fe8146fb74f54f",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "dd52ee5d567542ad827d75a43b711e1e",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67568",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n城乡居民基本养老保险个人账户养老金由个人账户全部储存额除以计发系数确定。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部财政部关于建立城乡居民基本养老保险待遇确定和基础养老金正常调整机制的指导意见》（人社部发〔2018〕21号）规定，城乡居民基本养老保险个人账户养老金由个人账户全部储存额除以计发系数确定。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "cc673d5bbef1418687ea0cc6d22f6965",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "8bb76e755c584291983b1142819930fa",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67569",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《城乡养老保险制度衔接暂行办法》规定，已经按照国家规定领取养老保险待遇的人员，不再办理城乡养老保险制度衔接手续。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部财政部关于印发<城乡养老保险制度衔接暂行办法>的通知》（人社部发〔2014〕17号）规定，已经按照国家规定领取养老保险待遇的人员，不再办理城乡养老保险制度衔接手续。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "d86379cb831f428da59d4aef845bd2e0",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "a83b6012e78044aea89ee5ff45490360",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67570",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《城乡养老保险制度衔接暂行办法》规定，参保人员申请办理制度衔接手续时，从城镇职工养老保险转入城乡居民养老保险的，在城镇职工养老保险关系转出地提出申请办理。（    ）",
+            "answer": "B",
+            "analysis": "《人力资源社会保障部财政部关于印发<城乡养老保险制度衔接暂行办法>的通知》（人社部发〔2014〕17号）规定，参保人员申请办理制度衔接手续时，从城镇职工养老保险转入城乡居民养老保险的，在转入城乡居民养老保险待遇领取地提出申请办理。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "cf90d7c93640495e83dc92d40fae38df",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "cd3cd8cb68da44d59134e24daacd10b0",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67571",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《城乡养老保险制度衔接暂行办法》规定，参保人员从城乡居民养老保险转入城镇职工养老保险的，城乡居民养老保险缴费年限合并计算或折算为城镇职工养老保险缴费年限。（    ）",
+            "answer": "B",
+            "analysis": "《人力资源社会保障部财政部关于印发<城乡养老保险制度衔接暂行办法>的通知》（人社部发〔2014〕17号）规定，参保人员从城乡居民养老保险转入城镇职工养老保险的，城乡居民养老保险缴费年限不合并计算或折算为城镇职工养老保险缴费年限。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "3ccacaf3440e4edd807a1bf2e17ff6bb",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "6f22afaa86694dc99888b28aac521c06",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67572",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《人力资源社会保障部财政部关于印发<城乡养老保险制度衔接暂行办法》规定，参保人不得同时领取城镇职工养老保险和城乡居民养老保险待遇。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部财政部关于印发<城乡养老保险制度衔接暂行办法>的通知》（人社部发〔2014〕17号）规定，参保人不得同时领取城镇职工养老保险和城乡居民养老保险待遇。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "d5b76319e15248e18446315e81cab89a",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "8e08733270f14f5c83bebf18599dacaf",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67573",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据社会保险法规定，我国要针对被征地农民为其建立单独的社会保险制度。（    ）",
+            "answer": "B",
+            "analysis": "根据《中华人民共和国社会保险法》第九十六条和国务院规定将被征地农民纳入社会保险制度，不是建立单独的针对被征地农民的社会保险制度。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c8203575d4d74df4be84aab33dc2034a",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "261ae1d066524ceb869576017523d5b9",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67574",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n国家为参加城乡居民基本养老保险的人员建立终身记录的养老保险个人账户，个人缴费、地方人民政府对参保人的缴费补贴、集体补助及其他社会经济组织、公益慈善组织、个人对参保人的缴费资助，全部记入个人账户。参保人死亡的，除政府补贴外的个人账户资金可以依法继承。（    ）",
+            "answer": "B",
+            "analysis": "《国务院关于建立统一的城乡居民基本养老保险制度的意见》（国发〔2014〕8号）规定，参保人死亡，个人账户资金余额可以依法继承。由此可知，参加城乡居民基本养老保险的参保人死亡的，个人账户资金继承无需扣除政府补贴。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "3f992c0850154281987d37337bc9c13a",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "9c32ae2570254f3d903cfdbef45a05ff",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67575",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n社会保险经办机构应当定期向社会保险监督委员会汇报社会保险基金的收支、管理和投资运营情况。（    ）",
+            "answer": "A",
+            "analysis": "《社会保险法》第八十条第二款规定，社会保险经办机构应当定期向社会保险监督委员会汇报社会保险基金的收支、管理和投资运营情况。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "15991d6eb0bf4863bf037e7e22f88776",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "ad012402d87449d9969159231a9c4560",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67576",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《社会保障基金现场监督规则》规定，在社会保险基金现场监督过程中，有关人员和单位拒绝签名或盖章的检查证据无效。（    ）",
+            "answer": "B",
+            "analysis": "《劳动保障部关于印发〈社会保障基金现场监督规则〉的通知》（劳社部发〔2003〕5号）第十四条规定，拒绝签名或盖章不影响客观事实的证据仍然有效。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "daa51a70735c445b9c758ec9937f3823",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "264e17d80c084416bfd4187074021580",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67577",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《社会保险基金行政监督办法》规定，社会保险行政部门基金监督机构及其监督人员在履行职责时，有权查阅被监督单位与社会保险基金有关的会计凭证、会计账簿、会计报表，以及其他与社会保险基金管理有关的资料。（    ）",
+            "answer": "A",
+            "analysis": "《社会保险基金行政监督办法》第六条规定，监督机构及其监督人员在履行职责时，有权要求被监督单位提供或报送社会保险基金预算或财务收支计划、预算执行情况、决算、财务报告，以及其他与社会保险基金管理有关的资料。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "fe30bf96fa014c1c9a546a8305694b3c",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "75b71951ab6449979f1fe9ef5b0e8f9e",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67578",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n目前，基本养老保险基金、失业保险基金、工伤保险基金都可以开展市场化投资运营，以提高基金收益、实现保值增值。（    ）",
+            "answer": "B",
+            "analysis": "除基本养老保险基金外，其他险种的基金开展市场化投资运营没有政策依据，因此不能开展市场化投资运营，只能存银行、买国债。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "7b0776ea3761426ca359afee5a587ed2",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "d839793e4b784ae193fb10acfbdb2db8",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67579",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《基本养老保险基金投资管理办法》，全国社会保障基金理事会受托开展基本养老保险基金投资时，既可以将基本养老保险基金单独进行投资，也可以与其管理的其他资金合并一同进行投资。（    ）",
+            "answer": "B",
+            "analysis": "《基本养老保险基金投资管理办法》（国发〔2015〕48号）第六条规定，基本养老保险基金资产独立于委托人、受托机构、托管机构、投资管理机构的固有财产及其管理的其他财产，即强调了资产的独立性。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "2172b40c41e245739a994295f9ead024",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "c706dee266454b67b7b514c6d800b8cc",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67580",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《企业年金基金管理办法》规定，企业年金基金可进行境外投资。（    ）",
+            "answer": "B",
+            "analysis": "依据《企业年金基金管理办法》（人社部银监会证监会保监会令第11号）第四十七条规定，企业年金基金财产限于境内投资。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "e22156a8b00a4f6b9b5c90dc4b6461df",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "7b537927451e49e1a42739e22cb7ab74",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67581",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《职业年金基金管理暂行办法》规定，职业年金代理人可选择、监督、更换职业年金计划托管人和投资管理人。（    ）",
+            "answer": "B",
+            "analysis": "依据《关于印发〈职业年金基金管理暂行办法〉的通知》（人社部发〔2016〕92号）第十五条规定，职业年金受托人应当履行选择、监督、更换职业年金计划托管人和投资管理人的职责。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "e60e3386ec5b43cd9ca6df652ddb843b",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "05bee7754f3f41a09f6812d0195e6fff",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67582",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《企业年金基金管理办法》规定，同一企业年金计划中，受托人与托管人不得为同一人。（    ）",
+            "answer": "A",
+            "analysis": "依据《企业年金基金管理办法》（人社部银监会证监会保监会令第11号）第六条规定，同一企业年金计划中，受托人与托管人、托管人与投资管理人不得为同一人。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "0db2fc328ba0421bb1d55490bac73096",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "885bc335ce074ea88f68e2b2bc5d9338",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67583",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《劳动和社会保障部关于印发社会保险基金要情报告制度的通知》规定，社会保险基金重大要情是指涉及基金额100万元以上（含100万元）或性质严重并造成恶劣影响的。（    ）",
+            "answer": "B",
+            "analysis": "《劳动和社会保障部关于印发社会保险基金要情报告制度的通知》（劳社部发〔2006〕43号）第六条规定，社会保险基金重大要情是指涉及基金额50万元以上（含50万元）或性质严重并造成恶劣影响的。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "bf73b98b1ae54ced9583b6d70284880b",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "3c3557f924404fa0b2f764d3e50d2b12",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67584",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据最高人民检察院批复（高检发释字〔2017〕1号）的规定，贪污社会保险基金属于刑法第三百八十三条贪污罪的严重情节，从重处罚。（    ）",
+            "answer": "A",
+            "analysis": "最高人民检察院批复（高检发释字〔2017〕1号）明确，养老、医疗、工伤、失业、生育等社会保险基金可以认定为《最高人民法院、最高人民检察院关于办理贪污贿赂刑事案件适用法律若干问题的解释》第一条第二款第一项规定的“特定款物”，即贪污社会保险基金属于刑法第三百八十三条第一款规定的“其他较重情节”，应从重处罚。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "f8457876402f4e0a8d40570f5ab617d1",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "245d378bdb5b4512a2b4edffb5f25e44",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67585",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《关于印发基本养老保险基金委托投资业务规程的通知》规定，为便于委托省（区、市）及时做好养老基金年度预决算工作，社保基金会应在每年1月底前向委托省（区、市）书面提供养老基金委托资金上年度业绩预告和保底收益率等数据。（    ）",
+            "answer": "A",
+            "analysis": "《关于印发基本养老保险基金委托投资业务规程的通知》（人社厅发〔2019〕82号）第十二条规定，为便于委托省（区、市）及时做好养老基金年度预决算工作，社保基金会应在每年1月底前向委托省（区、市）书面提供养老基金委托资金上年度业绩预告和保底收益率等数据。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "222da2c5583c488cbcebee5ae3444d62",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "8e5d3e6a017f4d49a3564666c247f461",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67586",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《中共中央 国务院关于打赢脱贫攻坚战三年行动的指导意见》明确提出，打赢脱贫攻坚战要量力而行，既不能降低标准，也不能擅自拔高标准、提不切实际的目标，避免陷入“福利陷阱”。（    ）",
+            "answer": "A",
+            "analysis": "《中共中央 国务院关于打赢脱贫攻坚战三年行动的指导意见》明确提出，要量力而行，既不能降低标准，也不能擅自拔高标准、提不切实际的目标，避免陷入“福利陷阱”，防止产生贫困村和非贫困村、贫困户和非贫困户待遇的“悬崖效应”，留下后遗症。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "2d51d107d5d34546884853ab495c7c8d",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "1dd2150f51ad4383a53d324313745aec",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67587",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《关于切实做好社会保险扶贫工作的意见》明确，对建档立卡未标注脱贫的贫困人口、低保对象、特困人员等困难群体，参加城乡居民基本养老保险的，在提高最低缴费档次时，可以对其保留现行最低缴费档次。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部 财政部 国务院扶贫办关于切实做好社会保险扶贫工作的意见》（人社部发〔2017〕59号）明确提出，对建档立卡未标注脱贫的贫困人口、低保对象、特困人员等困难群体，参加城乡居民基本养老保险的，在提高最低缴费档次时，对其保留现行最低缴费档次。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "b3ed5933daf14bb0974035c35b47e15b",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "e2def6912aa7403880716d2f7473ee2f",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67588",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《关于切实做好社会保险扶贫工作的意见》明确，“十三五”期间，在认定农村低保和扶贫对象时，中央确定的城乡居民基本养老保险基础养老金应当计入家庭收入。（    ）",
+            "answer": "B",
+            "analysis": "《人力资源社会保障部 财政部 国务院扶贫办关于切实做好社会保险扶贫工作的意见》（人社部发〔2017〕59号）明确提出，“十三五”期间，在认定农村低保和扶贫对象时，中央确定的城乡居民基本养老保险基础养老金暂不计入家庭收入。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "0932891196c34049b892d5e60a5fc522",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "7bf908f34038421599ef98809aa94502",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67589",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《关于加快实现贫困人员城乡居民基本养老保险应保尽保的通知》明确，年满60周岁、未领取国家规定的基本养老保险待遇的贫困人员，可以将其纳入城乡居民基本养老保险制度，并按月发放城乡居民基本养老保险待遇。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部办公厅关于加快实现贫困人员城乡居民基本养老保险应保尽保的通知》（人社厅发〔2018〕111号）要求，对年满60周岁、未领取国家规定的基本养老保险待遇的贫困人员，自本通知印发次月（2018年12月）起，可以将其纳入城乡居民基本养老保险制度，并按月发放城乡居民基本养老保险待遇。该项政策终止日期暂定2020年12月31日，已经按规定发放城乡居民基本养老保险待遇的贫困老人，支付终身。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "db0d0877c98e44478484da287959ce18",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "c3e0a04bc81c4016861785a8271c7fe3",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67590",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《关于加快实现贫困人员城乡居民基本养老保险应保尽保的通知》明确，对不愿享受城乡居民基本养老保险待遇的贫困人员，要向其解释清楚放弃的权益内容，经本人确认后，与其签订放弃意向书。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部办公厅关于加快实现贫困人员城乡居民基本养老保险应保尽保的通知》（人社厅发〔2018〕111号）要求，对不愿享受城乡居民基本养老保险待遇的贫困人员，要向其解释清楚放弃的权益内容，经本人确认后，与其签订放弃意向书。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "b0ecd420e03f4251a29263a12f18e809",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "3582ec81e8f44ffaac4b17101851ab31",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67591",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《关于切实做好社会保险扶贫工作的意见》明确，用人单位招用农民合同制工人应当依法缴纳失业保险费，农民合同制工人应按规定缴纳部分失业保险费。（    ）",
+            "answer": "B",
+            "analysis": "《人力资源社会保障部 财政部 国务院扶贫办关于切实做好社会保险扶贫工作的意见》（人社部发〔2017〕59号）明确提出，用人单位招用农民合同制工人应当依法缴纳失业保险费，农民合同制工人本人不缴纳失业保险费。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "f9a44015520a4eaa8a5851e69eebe61a",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "a3129d6171a3452bb46f811322effc7c",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67592",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《中华人民共和国社会保险法》规定，用人单位未按时足额缴纳社会保险费的，由社会保险费征收机构责令限期缴纳或者补足，并自欠缴之日起，按日加收万分之三的滞纳金；逾期仍不缴纳的，由有关行政部门处欠缴数额一倍以上五倍以下的罚款。（    ）",
+            "answer": "B",
+            "analysis": "社会保险法第八十六条规定，用人单位未按时足额缴纳社会保险费的，由社会保险费征收机构责令限期缴纳或者补足，并自欠缴之日起，按日加收万分之五的滞纳金；逾期仍不缴纳的，由有关行政部门处欠缴数额一倍以上三倍以下的罚款。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "cf4e6a367e354ba8b7d182c574ece0ca",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "60983727a0c741a8a708a08b69a7f0da",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67593",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《中华人民共和国社会保险法》规定，无雇工的个体工商户、未在用人单位参加社会保险的非全日制从业人员以及其他灵活就业人员，可以直接向社会保险费征收机构缴纳社会保险费。（    ）",
+            "answer": "A",
+            "analysis": "社会保险法第六十条规定，无雇工的个体工商户、未在用人单位参加社会保险的非全日制从业人员以及其他灵活就业人员，可直接向社会保险费征收机构缴纳社会保险费。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "a81e7301d6b44c1880f96091a37e6fa7",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "211c31f77fe04ae2a7d4d2efb495cdae",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67594",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《中华人民共和国社会保险法》规定，社会保险经办机构的人员经费和经办社会保险发生的基本运行费用、管理费用，从统筹地区社会保险基金中列支。（    ）",
+            "answer": "B",
+            "analysis": "根据《中华人民共和国社会保险法》第六十九条规定，社会保险基金不得违规投资运营，不得用于平衡其他政府预算，不得用于兴建、改建办公场所和支付人员经费、运行费用、管理费用，或者违反法律、行政法规规定挪作其他用途；根据《中华人民共和国社会保险法》第七十二条规定，社会保险经办机构的人员经费和经办社会保险发生的基本运行费用、管理费用，由同级财政按照国家规定予以保障。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "97abd934bbe84bb185328a24abada8a5",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "b26fb3dea71846e7940a131dc0ba4958",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67595",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《机关事业单位职业年金办法》规定，单位缴费按照个人缴费基数的8%计入统筹基金，个人缴费直接计入本人职业年金个人账户。（    ）",
+            "answer": "B",
+            "analysis": "根据《机关事业单位职业年金办法》第七条规定，单位缴费按照个人缴费基数的8%计入本人职业年金个人账户；个人缴费直接计入本人职业年金个人账户。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "005db46f4e50415eb4e4e4d3c3e2d931",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "247eb5d920864290a3bf02c202edad22",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67596",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《关于机关事业单位基本养老保险关系和职业年金转移接续有关问题的通知》规定，参保人员在同一统筹范围内的机关事业单位之间流动的，只转移基本养老保险关系，不转移基金。（    ）",
+            "answer": "A",
+            "analysis": "根据《人力资源社会保障部 财政部关于机关事业单位基本养老保险关系和职业年金转移接续有关问题的通知》（人社部规〔2017〕1号）规定，参保人员在同一统筹范围内的机关事业单位之间流动的，只转移基本养老保险关系，不转移基金。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "4ec6f25945254f99a669eab00fc4e0d4",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "50b58faaee324eec8dfc8e60af7298f5",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67597",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《中华人民共和国社会保险法》规定，以欺诈、伪造证明材料或者其他手段骗取社会保险待遇的，由社会保险行政部门责令退回骗取的社会保险金，并处骗取金额1倍以上3倍以下的罚款。（    ）",
+            "answer": "B",
+            "analysis": "根据《社会保险法》第八十八条规定，以欺诈、伪造证明材料或者其他手段骗取社会保险待遇的，由社会保险行政部门责令退回骗取的社会保险金，处骗取金额二倍以上五倍以下的罚款。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "02727a3e80434eb395d142816db82b6e",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "8d02f333ac574566901d1a9ee17f5e38",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67598",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《关于规范养老保险待遇发放数据向银行传送方式的通知》，各地应按照人力资源和社会保障部社银接口技术规范进行社银接口建设，优先在省级层面实现系统对接，条件不具备的可在地市级实现，确保发放数据“离库不离线，中途不落地”。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源和社会保障部办公厅关于规范养老保险待遇发放数据向银行传送方式的通知》（人社厅发〔2018〕67号）第二条规定：各地应按照我部社银接口技术规范进行社银接口建设，优先在省级层面实现系统对接，条件不具备的可在地市级实现，确保发放数据“离库不离线，中途不落地”，并要求发放银行验证人户是否相符，返回数据是否及时完整。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "11c2580c20f24cd5a70e548f3f808b79",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "d9913c3187f54a61a6b677da7ce2db70",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67599",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《人力资源社会保障部关于加强社会保险精算工作的意见》规定，各省和重点城市社会保险经办机构应建立专门的精算处（科）室，配备相应精算业务人员。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部关于加强社会保险精算工作的意见》规定，各省和重点城市社会保险经办机构应建立专门的精算处（科）室，配备相应精算业务人员。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "78cde120d0d5431b8bdc0143dcc928f2",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "541e81222def47cfb47ea74d1a56d337",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67600",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《国务院关于完善企业职工基本养老保险制度的决定》规定，城镇企业职工基本养老保险参保职工从参保到退休缴纳的划入个人账户的累计记账总额就是参保职工退休后个人账户养老金的总支出额。（    ）",
+            "answer": "B",
+            "analysis": "《国务院关于完善企业职工基本养老保险制度的决定》规定，个人账户养老金月计发公式为个人账户储存额除以计发月数，如果退休人员死亡前个人账户储存额已发放完毕，由统筹基金支出，因此个人账户累计总额不是个人账户养老金的总支出额。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "bdcb12c749d24496a731e0608bb1b8a7",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "26a2b16243934812b84c1c31ce4f515e",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67601",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《在中国境内就业的外国人参加社会保险暂行办法》，外国人死亡的，其社会保险个人账户余额可以依法继承。（    ）",
+            "answer": "A",
+            "analysis": "根据《在中国境内就业的外国人参加社会保险暂行办法》第六条，外国人死亡的，其社会保险个人账户余额可以依法继承。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "21c172d3be85494eaca8b1a4ee1dadd9",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "f749ec652cef45889e292e80a775889a",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67602",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《社会保险业务档案管理规定（试行）》附件《社会保险业务材料归档范围与保管期限》中规定，退休人员社会化管理服务材料保管期限为30年。（    ）",
+            "answer": "B",
+            "analysis": "《社会保险业务档案管理规定（试行）》附件：社会保险业务材料归档范围与保管期限中规定退休人员社会化管理服务材料保管期限为50年。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "667c259f6bba434c892879d88d5a16fb",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "385d10eecec341c0bbc1872b351a489d",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67603",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《社会保险业务档案管理规定（试行）》第九条规定，社会保险业务档案定期保管期限分为10年、30年、50年、100年。（    ）",
+            "answer": "A",
+            "analysis": "《社会保险业务档案管理规定（试行）》第九条规定：社会保险业务档案定期保管期限分为10年、30年、50年、100年。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "7e7d1bda3d3747f098be5a2bec78c9ce",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "d4aaee905b1444668760568bd3e2ab79",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67604",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n违反《社会保险个人权益记录管理办法》规定的行为，应当认定为刑法第二百五十三条之一规定的“违反国家有关规定”。（    ）",
+            "answer": "A",
+            "analysis": "《关于办理侵犯公民个人信息刑事案件适用法律若干问题的解释》第二条违反法律、行政法规、部门规章有关公民个人信息保护的规定的，应当认定为刑法第二百五十三条之一规定的“违反国家有关规定”。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "5e9220c786a046e3ad8b087af0343da8",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "b1ed0ad8df7b4ddbac773a8567d4e9c7",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67605",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n依照《工伤保险条例》规定应当参加工伤保险而未参加工伤保险的用人单位职工发生工伤的，由该用人单位按照本单位经营状况向工伤职工支付费用。（    ）",
+            "answer": "B",
+            "analysis": "《工伤保险条例》（国务院令第586号）第六十二条　依照本条例规定应当参加工伤保险而未参加工伤保险的用人单位职工发生工伤的，由该用人单位按照本条例规定的工伤保险待遇项目和标准支付费用。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "eaa7e573192b4e4cb8ae44374aa35d5e",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "acfc908429664d2e8fe8b21d8d159fab",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67606",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n工伤预防费用的提取比例、使用和管理的具体办法，由用人单位自行决定。（    ）",
+            "answer": "B",
+            "analysis": "《工伤保险条例》（国务院令第586号）第十二条　工伤保险基金存入社会保障基金财政专户，用于本条例规定的工伤保险待遇，劳动能力鉴定，工伤预防的宣传、培训等费用，以及法律、法规规定的用于工伤保险的其他费用的支付。工伤预防费用的提取比例、使用和管理的具体办法，由国务院社会保险行政部门会同国务院财政、卫生行政、安全生产监督管理等部门规定。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "57596b3237014d3799c8d0b4f0171145",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "2d8400e1618b4bf3b76078434fc9d556",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67607",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n职工治疗工伤不管什么情况都应当在签订服务协议的医疗机构就医。（    ）",
+            "answer": "B",
+            "analysis": "《工伤保险条例》（国务院令第586号）第三十条　职工因工作遭受事故伤害或者患职业病进行治疗，享受工伤医疗待遇。职工治疗工伤应当在签订服务协议的医疗机构就医，情况紧急时可以先到就近的医疗机构急救。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "16f9e11fda0949aaa3fcfdccefec3c94",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "198b1f3c125245eea6de940843ea38e0",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67608",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n用人单位应当按时缴纳工伤保险费，职工个人不缴纳工伤保险费。（    ）",
+            "answer": "A",
+            "analysis": "《工伤保险条例》（国务院令第586号）第十条　用人单位应当按时缴纳工伤保险费。职工个人不缴纳工伤保险费。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "4124b912a0b248359b3126158b129479",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "bb9b89023b0d42a493a709ca5eb6cc86",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67609",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n工伤保险费根据以支定收、收支平衡的原则，确定费率。国家根据不同行业的经济效益的不同，来确定行业的差别费率。（    ）",
+            "answer": "B",
+            "analysis": "《工伤保险条例》（国务院令第586号）第八条　工伤保险费根据以支定收、收支平衡的原则，确定费率。国家根据不同行业的工伤风险程度确定行业的差别费率，并根据工伤保险费使用、工伤发生率等情况在每个行业内确定若干费率档次。行业差别费率及行业内费率档次由国务院社会保险行政部门制定，报国务院批准后公布施行。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "7ab0357374e14cae849ba81593b529c1",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "309aa44db0bf460cbdaf8ef7ea752227",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67610",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n用人单位缴纳工伤保险费的数额为本单位职工工资总额乘以单位缴费费率之积。（    ）",
+            "answer": "A",
+            "analysis": "《工伤保险条例》（国务院令第586号）第十条　用人单位应当按时缴纳工伤保险费。职工个人不缴纳工伤保险费。用人单位缴纳工伤保险费的数额为本单位职工工资总额乘以单位缴费费率之积。对难以按照工资总额缴纳工伤保险费的行业，其缴纳工伤保险费的具体方式，由国务院社会保险行政部门规定。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "705024495a01421e8bc653bfe9cf08a9",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "62e726db4d364fec9baa74e388e44a70",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67611",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n劳动能力鉴定是指劳动功能障碍程度和生活自理障碍程度的等级鉴定。（    ）",
+            "answer": "A",
+            "analysis": "《工伤保险条例》（国务院令第586号）第二十二条  劳动能力鉴定是指劳动功能障碍程度和生活自理障碍程度的等级鉴定。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "a517b0e8b4af4dbcb7b45df6d0d93465",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "89a9382160d04e49ac6ac25939424809",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67612",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n生活不能自理的工伤职工在停工留薪期需要护理的，由职工本人或者其直系亲属负责。（    ）",
+            "answer": "B",
+            "analysis": "《工伤保险条例》（国务院令第586号）第三十三条　生活不能自理的工伤职工在停工留薪期需要护理的，由所在单位负责。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "584c079c776e4dbea6959626259f3f63",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "b24eb3d1ec374f3592bdb9a07c3c03b0",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67613",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n用人单位应当按照国家规定的本单位职工工资总额的比例缴纳基本养老保险费。（    ）",
+            "answer": "A",
+            "analysis": "《中华人民共和国社会保险法》第二章第十二条规定，用人单位应当按照国家规定的本单位职工工资总额的比例缴纳基本养老保险费，记入基本养老保险统筹基金。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "e16628f2ee904af0af2180e7c453f4f3",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "50d670bac73f44e8a5fa1717cf48a49e",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67614",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《国务院关于建立统一的城乡居民基本养老保险制度的意见》规定，地方人民政府为残疾人代缴部分或全部最低标准的养老保险费。（    ）",
+            "answer": "B",
+            "analysis": "《国务院关于建立统一的城乡居民基本养老保险制度的意见》四（三）规定，对重度残疾人等缴费困难群体，地方人民政府为其代缴部分或全部最低标准的养老保险费。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "72c9089356ce42b88b99fe9fb6360b6f",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "096a2b1562d3479f8f14ab95487f9c3f",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67615",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《城乡养老保险制度衔接暂行办法》规定，基本养老保险转入城乡居民养老保险，其基本养老保险每满一年的缴费年限视同城乡居民养老保险一年的缴费年限。（    ）",
+            "answer": "A",
+            "analysis": "《城乡养老保险制度衔接暂行办法》第六条规定，参保人员从城镇职工养老保险转入城乡居民养老保险的，城镇职工养老保险个人账户全部储存额并入城乡居民养老保险个人账户，参加城镇职工养老保险的缴费年限合并计算为城乡居民养老保险的缴费年限。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "cc7ec21a5f8f46978c96d33594ea8b3f",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "a7a3ee0780a147b583eef7343c15e9db",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67616",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《国务院关于完善企业职工基本养老保险制度的决定》规定，新的养老金计发办法中，企业职工基本养老保险个人账户养老金月标准为个人账户储存额除以计发月数。（    ）",
+            "answer": "A",
+            "analysis": "《国务院关于完善企业职工基本养老保险制度的决定》（国发〔2005〕38号）六规定，个人账户养老金月标准为个人账户储存额除以计发月数，计发月数根据职工退休时城镇人口平均预期寿命、本人退休年龄、利息等因素确定。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "77a6fac2d976482e88dc78dafa8f1370",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "c932f90013a243289afd506ba67bbfb9",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67617",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《城乡养老保险制度衔接暂行办法》规定，已经按照国家规定领取养老保险待遇的人员，不再办理城乡养老保险制度衔接手续。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部 财政部关于印发〈城乡养老保险制度衔接暂行办法〉的通知》规定，已经按照国家规定领取养老保险待遇的人员，不再办理城乡养老保险制度衔接手续。\n命题单位：社保中心",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "2c73f43053e84fa3ab40c6f7df48db98",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "1a446ed8f24343bfb936d028c2bba2b6",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67618",
+            "type": "001003",
+            "level": "003001",
+            "content": "依据《中华人民共和国社会保险法》，职工应当缴纳的社会保险费由用人单位代扣代缴，用人单位无需按月将缴纳社会保险费的明细情况告知本人。（    ）",
+            "answer": "B",
+            "analysis": "《社会保险法》第六十条规定，职工应当缴纳的社会保险费由用人单位代扣代缴，用人单位应当按月将缴纳社会保险费的明细情况告知本人。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "0d3b0500acc1426a8b5149dd2a6bea35",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "09ea9ee671e14ee49da1cd420f1b8cf3",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67619",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n依据《社会保险个人权益记录管理办法》，社会保险经办机构可以委托其他单位或者个人单独负责社会保险个人权益数据维护工作。（    ）",
+            "answer": "B",
+            "analysis": "《社会保险个人权益记录管理办法》第十一条规定，社会保险经办机构不得委托其他单位或者个人单独负责社会保险个人权益数据维护工作。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "f4d79510a3324808931fcebffbde7e73",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "4712106249544b54b68fb0038c0d29a4",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67620",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《中华人民共和国社会保险法》规定，个人跨统筹地区就业的，其基本养老保险关系随本人转移，缴费年限累计计算。（    ）",
+            "answer": "A",
+            "analysis": "根据《社会保险法》第十九条规定，个人跨统筹地区就业的，其基本养老保险关系随本人转移，缴费年限累计计算。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "3a2df70e4385418fb9cef57efcaa3087",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "2e69bef69b1145e9838c0967526e73e2",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67621",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n凡是能通过数据比对掌握的信息以及法律法规未规定由城乡居民提供的材料，社保机构不得要求城乡居民提供。（    ）",
+            "answer": "A",
+            "analysis": "按照《城乡居民基本养老保险经办规程》有关规定，凡是能通过数据比对掌握的信息以及法律法规未规定由城乡居民提供的材料，社保机构不得要求城乡居民提供。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "69424ddcd31b487da6bae80005dde8c3",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "5a6d0275a16c4da4bfadaf3abc5b5c1b",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67622",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n按照有关司法解释，贪污养老、工伤、失业等社会保险基金属于刑法第三百八十三条贪污罪第一款规定的“其他较重情节”。（    ）",
+            "answer": "A",
+            "analysis": "按照《最高人民检察院关于贪污养老、医疗等社会保险基金能否适用<最高人民法院最高人民检察院关于办理贪污贿赂刑事案件适用法律若干问题的解释>第一条第二款第一项规定的批复》，养老、医疗、工伤、失业、生育等社会保险基金可以认定为《最高人民法院、最高人民检察院关于办理贪污贿赂刑事案件适用法律若干问题的解释》第一条第二款第一项规定的“特定款物”，即贪污社会保险基金属于刑法第三百八十三条第一款规定的“其他较重情节”，贪污社会保险基金数额在一万元以上不满三万元的，依法判处三年以下有期徒刑或者拘役，并处罚金。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "a45047738d6d487e8bec8fb058115c44",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "133a69ffbaf646c0b225ffc51f60dfae",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67623",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n2020年7月起，城镇企业职工基本养老保险关系跨省转移接续所有新增业务均通过部转移系统进行信息交换，不再邮寄纸质表单。（    ）",
+            "answer": "A",
+            "analysis": "根据《人力资源社会保障部办公厅关于进一步做好养老保险关系转移接续经办服务工作的通知》（人社厅函〔2019〕185号）第一条，2020年7月起，城镇企业职工基本养老保险关系跨省转移接续所有新增业务均通过部转移系统进行信息交换，不再邮寄纸质表单。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "891211e148db4f3c9828198ce4a4a9ed",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "4ec15a0d76f74938920ecd0a35fe582b",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67624",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n被纳入严重失信人名单的失信主体，联合惩戒期为1年。（    ）",
+            "answer": "B",
+            "analysis": "根据《社会保险领域严重失信人名单管理暂行办法》规定，因发生第五条第（二）项、第（三）项、第（五）项、第（八）项规定情形或再次发生第五条规定情形被纳入社会保险严重失信人名单的，联合惩戒期限为3年，期满自动移出社会保险严重失信人名单。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "e4e2121160304b1b83568c2636efecb1",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "d3e2ee470aae4f7786bfa3c3c029931a",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67625",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n中方赴日本工作人员申请办理“参保证明”可以通过访问“国家社会保险公共服务平台”实现网上申请办理。（  ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部办公厅关于实施中国-日本社会保障协定的通知》首次明确了社保协定参保证明网上办理的相关流程。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "1135f52b3b7049c9a0f0e88241922a5a",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "d20160c738e54f46ac4102f868af80bd",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67626",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n按照《关于加快推进工伤保险基金省级统筹工作的通知》要求，粉尘危害高发企业要依法承担起尘肺病预防的主体责任，切实做好粉尘危害预防控制、组织劳动者进行职业健康检查以及尘肺病预防宣传和培训等工作。（    ）",
+            "answer": "A",
+            "analysis": "《关于加快推进工伤保险基金省级统筹工作的通知》（人社厅函〔2019〕164号）的要求，粉尘危害高发企业要依法承担起尘肺病预防的主体责任，切实做好粉尘危害预防控制、组织劳动者进行职业健康检查以及尘肺病预防宣传和培训等工作。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "2df5537ab67a44f49541cf98426c96ad",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "ad4f997b3d244301a5e75e8c4dd0443d",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        }
+    ],
+    "code": "SUCCESS"
+}

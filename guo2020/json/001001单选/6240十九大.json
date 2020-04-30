@@ -1,0 +1,492 @@
+{
+    "httpStatus": "OK",
+    "status": 0,
+    "message": "成功",
+    "data": [
+        {
+            "id": "65036",
+            "type": "001001",
+            "level": "003001",
+            "content": "党的十九大报告提出的三大攻坚战是指(  )",
+            "answer": "B",
+            "analysis": "突出抓重点、补短板、强弱项，特别是要坚决打好防范化解重大风险、精准脱贫、污染\n防治的攻坚战，使全面建成小康社会得到人民认可、经得起历史检验。（习近平：决胜全面建\n成小康社会夺取新时代中国特色社会主义伟大胜利——在中国共产党第十九次全国代表大会上\n的报告）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "d83d9e229dcb4f358a6a58592280552c",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "精准脱贫、防范金融风险、污染防治"
+                },
+                {
+                    "id": "a07bcc22f9294617bd6dce215463c5c1",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "防范化解重大风险、精准脱贫、污染防治"
+                },
+                {
+                    "id": "7a6ab41a54844db19a3eb7f391ee8f7c",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "污染防控、扶贫攻坚、风险治理"
+                },
+                {
+                    "id": "e966f1a4cf37446c975b30524a0a20c2",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "反腐倡廉、精准脱贫、污染防控"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "65037",
+            "type": "001001",
+            "level": "003001",
+            "content": "我国每年将(    )设立为“扶贫日”。",
+            "answer": "A",
+            "analysis": "《国务院关于同意设立“扶贫日”的批复》同意自2014年起，将每年的10月17日设立为\n“扶贫日”，具体工作由国务院扶贫办商有关部门组织实施。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "d659dfa4e67c4703835f62d2701779bc",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "10月17日"
+                },
+                {
+                    "id": "8532ad55538e46f68a4a0d1a9bc214cd",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "3月12日"
+                },
+                {
+                    "id": "c77b54f78a534dc4b4ef34ffcf05037c",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "3月15日"
+                },
+                {
+                    "id": "91b0109ca2194dd8829600ee064e94d1",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "10月10日"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "65038",
+            "type": "001001",
+            "level": "003001",
+            "content": "2015年6月，在部分省区市扶贫攻坚与“十三五”时期经济社会发展座谈会上，习近平总书\n记提出了扶贫开发工作的管理体制。其准确表述是( &nbsp; &nbsp;)&amp;2526lt;/p&amp;2526gt;",
+            "answer": "A",
+            "analysis": "&amp;2526lt;p&amp;2526gt;要强化扶贫开发工作领导责任制，把中央统筹、省负总责、市（地）县抓落实的管理体\n制，片为重点、工作到村、扶贫到户的工作机制，党政一把手负总责的扶贫开发工作责任制，\n真正落到实处。（《在部分省区市扶贫攻坚与“十三五”时期经济社会发展座谈会上的讲话》\n（2015年6月18日））。&amp;2526lt;/p&amp;2526gt;",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "e39ec9d2df124cb78bd27560e68b91b1",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "&amp;2526lt;p&amp;2526gt;中央统筹、省负总责、市（地）县抓落实&amp;2526lt;/p&amp;2526gt;"
+                },
+                {
+                    "id": "8da33c07db464fe38763e9a1e32e4397",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "&amp;2526lt;p&amp;2526gt;中央统筹、东西协作、精准扶贫脱贫&amp;2526lt;/p&amp;2526gt;"
+                },
+                {
+                    "id": "2aa81a14fc604cf8b6dea61823d6b370",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "&amp;2526lt;p&amp;2526gt;中央统筹、省负总责、各级扶贫机构抓落实&amp;2526lt;/p&amp;2526gt;"
+                },
+                {
+                    "id": "faa6889870e14ffca2cb092b08131e5a",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "&amp;2526lt;p&amp;2526gt;中央统筹、东西协作、精准滴灌&amp;2526lt;/p&amp;2526gt;"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "65039",
+            "type": "001001",
+            "level": "003001",
+            "content": "脱贫攻坚“两不愁、三保障”是指：到2020年，稳定实现农村贫困人口（    ）。",
+            "answer": "C",
+            "analysis": "“十三五”期间脱贫攻坚的目标是，到2020年实现“两不愁、三保障”。“两不愁”，\n就是稳定实现农村贫困人口不愁吃、不愁穿；“三保障”，就是农村贫困人口义务教育、基本\n医疗和住房安全有保障。（《在中央扶贫开发工作会议上的讲话》（2015年11月27日））",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "f14fd15f7b344874a1dbc6f900ed55af",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "不愁吃、不愁穿，住房、生活、医疗有保障"
+                },
+                {
+                    "id": "e181e33568c14c95aafa2cd7df53870a",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "不愁吃、不愁喝，养老、医疗、住房有保障"
+                },
+                {
+                    "id": "e6994fb8513d4177b48827a24c4ed7ca",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "不愁吃、不愁穿，义务教育、基本医疗和住房安全有保障"
+                },
+                {
+                    "id": "d93330d9bcaf41e6b33c8191a3162e74",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "不愁吃、不愁穿，基本养老、基本医疗和住房安全有保障"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "65040",
+            "type": "001001",
+            "level": "003001",
+            "content": "新时期脱贫攻坚的目标，就是到2020年实现“两个确保”，即确保(    )。",
+            "answer": "A",
+            "analysis": "新时期脱贫攻坚的目标，集中到一点，就是到2020年实现“两个确保”：农村贫困人口\n实现脱贫，贫困县全部脱贫摘帽。（《在中央扶贫开发工作会议上的讲话》（2015年11月27日\n））",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "7d4af17e13c24e8bb28d1c1ae0b3620e",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "农村贫困人口实现脱贫，贫困县全部脱贫摘帽。"
+                },
+                {
+                    "id": "4407d962e50b4a498554bcb582f3d4a1",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "贫困人口实现脱贫，贫困县实现小康。"
+                },
+                {
+                    "id": "199fdd5b1605484f8d77f25f8d061766",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "农村人口实现脱贫，“三区三州”贫困县全部摘帽。"
+                },
+                {
+                    "id": "01fca859f7114e6aba7fc66f50ee869b",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "“三区三州”人口实现脱贫，贫困县全部摘帽。"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "65041",
+            "type": "001001",
+            "level": "003001",
+            "content": "党的十九大的主题是：不忘初心，牢记使命，高举中国特色社会主义伟大旗帜，决胜全面建\n成小康社会，夺取新时代中国特色社会主义伟大胜利，(    )。",
+            "answer": "D",
+            "analysis": "大会的主题是：不忘初心，牢记使命，高举中国特色社会主义伟大旗帜，决胜全面建成\n小康社会，夺取新时代中国特色社会主义伟大胜利，为实现中华民族伟大复兴的中国梦不懈奋\n斗。（习近平：决胜全面建成小康社会夺取新时代中国特色社会主义伟大胜利——在中国共产\n党第十九次全国代表大会上的报告）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "67d0e7a5dc6447c68e0c0e50072973ec",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "为实现四个现代化不懈奋斗"
+                },
+                {
+                    "id": "717e807c867c4985b34ddf97580dfe7a",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "为实现改革开放总目标不懈奋斗"
+                },
+                {
+                    "id": "36a843fc508c41069a3fe01f149cc626",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "为实现经济体制改革总目标不懈奋斗"
+                },
+                {
+                    "id": "c4cc208776874a7fae15906654099cb4",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "为实现中华民族伟大复兴的中国梦不懈奋斗"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "65042",
+            "type": "001001",
+            "level": "003001",
+            "content": "(  )是近代以来中华民族最伟大的梦想。",
+            "answer": "C",
+            "analysis": "实现中华民族伟大复兴是近代以来中华民族最伟大的梦想。（习近平：决胜全面建成小\n康社会夺取新时代中国特色社会主义伟大胜利——在中国共产党第十九次全国代表大会上的报\n告）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "0d329892af2e4c1d984e3a1afd5e1add",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "富国强兵"
+                },
+                {
+                    "id": "e4da9a18476442a78e04d138e6e75555",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "民族独立"
+                },
+                {
+                    "id": "59a454ed9d204c30ad168119877de8a4",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "实现中华民族伟大复兴"
+                },
+                {
+                    "id": "e3566b4e3aa54a728c910ebdf5d204c7",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "全面建成小康社会"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "65043",
+            "type": "001001",
+            "level": "003001",
+            "content": "当前，国内外形势正在发生深刻复杂变化，我国发展仍处于重要(    )，前景十分光明，挑\n战也十分严峻。",
+            "answer": "B",
+            "analysis": "当前，国内外形势正在发生深刻复杂变化，我国发展仍处于重要战略机遇期，前景十分\n光明，挑战也十分严峻。（习近平：决胜全面建成小康社会夺取新时代中国特色社会主义伟大\n胜利——在中国共产党第十九次全国代表大会上的报告）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "1d9882fd3fed4e0a9ae1e4c3afee5182",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "战略发展期"
+                },
+                {
+                    "id": "acadee9a1aae476f8ab5d6ebfaab4c71",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "战略机遇期"
+                },
+                {
+                    "id": "722135582db14409b27b274c44d9d6cb",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "战略调整期"
+                },
+                {
+                    "id": "c144811f68b349d3a67ccab8b55fe6b5",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "战略规划期"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "65044",
+            "type": "001001",
+            "level": "003001",
+            "content": "新时代中国特色社会主义思想，明确中国特色社会主义事业总体布局是(  )。",
+            "answer": "A",
+            "analysis": "明确中国特色社会主义事业总体布局是“五位一体”、战略布局是“四个全面”，强调\n坚定道路自信、理论自信、制度自信、文化自信。（习近平：决胜全面建成小康社会夺取新时\n代中国特色社会主义伟大胜利——在中国共产党第十九次全国代表大会上的报告）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "eaf66cffa1874ba7b69ae8857ff2ae43",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "“五位一体”"
+                },
+                {
+                    "id": "973a11f7d15f4eacaf1a96943594eb36",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "“四个全面”"
+                },
+                {
+                    "id": "1826eecbff944191a1badd620a068348",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "“四个自信”"
+                },
+                {
+                    "id": "2fb09478e8d74f5eb8a49c6a387a99f7",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "两步走战略"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "65045",
+            "type": "001001",
+            "level": "003001",
+            "content": "中国特色社会主义进入新时代，我国社会主要矛盾已经转化为（    ）。",
+            "answer": "B",
+            "analysis": "中国特色社会主义进入新时代，我国社会主要矛盾已经转化为人民日益增长的美好生活\n需要和不平衡不充分的发展之间的矛盾。（习近平：决胜全面建成小康社会夺取新时代中国特\n色社会主义伟大胜利——在中国共产党第十九次全国代表大会上的报告）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c73cb971a1af44588185fa725e2ff36c",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "人民日益增长的物质生活需要和落后的社会生产之间的矛盾"
+                },
+                {
+                    "id": "f9134684f40444c599452c18f6330d41",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "人民日益增长的美好生活需要和不平衡不充分的发展之间的矛盾"
+                },
+                {
+                    "id": "9bdcab7bab0a4287a0efd1b5abd93377",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "生产力和生产关系之间的矛盾"
+                },
+                {
+                    "id": "0fcd8f451af9463abcd6f1015b0bace3",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "人民日益增长的美好生活需要和落后的社会生产之间的矛盾"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "65046",
+            "type": "001001",
+            "level": "003001",
+            "content": "新时代中国特色社会主义思想，明确全面深化改革总目标是（    ）。",
+            "answer": "B",
+            "analysis": "明确全面深化改革总目标是完善和发展中国特色社会主义制度、推进国家治理体系和治\n理能力现代化。（习近平：决胜全面建成小康社会夺取新时代中国特色社会主义伟大胜利——\n在中国共产党第十九次全国代表大会上的报告）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "3227d585b95242a28518de583ec832eb",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "完善和发展中国特色社会主义制度"
+                },
+                {
+                    "id": "c1095aa7f330485ab2a2c2321705db77",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "完善和发展中国特色社会主义制度、推进国家治理体系和治理能力现代化"
+                },
+                {
+                    "id": "f6edde8daffc48c49cb6b9dd2ad6b2b8",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "推进国家治理体系和治理能力现代化"
+                },
+                {
+                    "id": "f3f72d1522ac4191a625f79c7e4f5a2e",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "建设社会主义现代化强国"
+                }
+            ],
+            "keywords": null
+        }
+    ],
+    "code": "SUCCESS"
+}

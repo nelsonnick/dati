@@ -1,0 +1,3528 @@
+{
+    "httpStatus": "OK",
+    "status": 0,
+    "message": "成功",
+    "data": [
+        {
+            "id": "67627",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《国务院关于职工工作时间的规定》规定，国家机关、企事业单位实行统一的工作时间，星期六和星期日为周休息日。企业和不能实行前款规定的统一工作时间的事业单位，可以根据实际情况灵活安排周休息日。（    ）",
+            "answer": "B",
+            "analysis": "《国务院关于职工工作时间的规定》第七条规定， 国家机关、事业单位实行统一的工作时间，星期六和星期日为周休息日。企业和不能实行前款规定的统一工作时间的事业单位，可以根据实际情况灵活安排周休息日。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "21479d2392154d2d8d447cc12f6ef071",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "1fb5d51758994aa1ba9043f6bea9d02a",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67628",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《女职工劳动保护特别规定》规定，允许用人单位因女职工怀孕、生育、哺乳适当降低其工资，但不予以辞退、与其解除劳动或者聘用合同。（    ）",
+            "answer": "B",
+            "analysis": "《女职工劳动保护特别规定》第五条规定，用人单位不得因女职工怀孕、生育、哺乳而降低其工资、予以辞退、与其解除劳动或者聘用合同。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "495a6f7b09d2450fbda88691184f7022",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "e0f6b617d51347e194aadc334a2f8ae4",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67629",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《未成年工特殊保护规定》规定，未成年工是指年满十六周岁，未满十八周岁的劳动者。（    ）",
+            "answer": "A",
+            "analysis": "《未成年工特殊保护规定》第二条规定，未成年工是指年满十六周岁，未满十八周岁的劳动者。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "6a4e24c2aac945b9a279f7377fd1d2dd",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "53b2096b19c342c9ad29abccd9f5799b",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67630",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《未成年工特殊保护规定》规定，用人单位应根据未成年工的健康检查结果安排其从事适合的劳动，对不能胜任原劳动岗位的，应根据医务部门的证明，予以辞退、应依法解除劳动合同。（    ）",
+            "answer": "B",
+            "analysis": "《未成年工特殊保护规定》第八条规定，用人单位应根据未成年工的健康检查结果安排其从事适合的劳动，对不能胜任原劳动岗位的，应根据医务部门的证明，予以减轻劳动量或安排其他劳动。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "dd011d4e4d0c450ca66bb91ac624a99a",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "db03192fec4e462b80bd11fefd6cfeac",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67631",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《关于企业实行不定时工作制和综合计算工时工作制的审批办法》规定，中央直属企业实行不定时工作制和综合计算工时工作制等其他工作和休息办法的，经职工代表大会审核通过后实施。（    ）",
+            "answer": "B",
+            "analysis": "《关于企业实行不定时工作制和综合计算工时工作制的审批办法》第七条规定，中央直属企业实行不定时工作制和综合计算工时工作制等其他工作和休息办法的，经国务院行业主管部门审核，报国务院劳动行政部门批准。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "3510ba7ed0b14375a525c8d525cf47e0",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "d862e9228a284f7792d77f1127c4f1c9",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67632",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《企业职工带薪年休假实施办法》规定，职工连续工作满12个月以上的，享受带薪年休假。（    ）",
+            "answer": "A",
+            "analysis": "《企业职工带薪年休假实施办法》第三条规定，职工连续工作满12个月以上的，享受带薪年休假（以下简称年休假）。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "1cee2d46c560436898dbe8d90eab518e",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "2f552947825c4e7b9b0781cc1fa0f546",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67633",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《企业职工带薪年休假实施办法》规定，年休假天数根据职工在本单位连续工作时间确定。（    ）",
+            "answer": "B",
+            "analysis": "《企业职工带薪年休假实施办法》第四条规定，年休假天数根据职工累计工作时间确定。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "82dc1f1e77fb47d98471fd7820fbd932",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "33eaa29f35184389909308e09160002a",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67634",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《女职工劳动保护特别规定》规定，对怀孕6个月以上的女职工，用人单位不得延长劳动时间或者安排夜班劳动，并应当在劳动时间内安排一定的休息时间。（    ）",
+            "answer": "B",
+            "analysis": "《女职工劳动保护特别规定》第六条规定，对怀孕7个月以上的女职工，用人单位不得延长劳动时间或者安排夜班劳动，并应当在劳动时间内安排一定的休息时间。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c5e7855d8fa645db9d92479ef2868546",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "6c3f6edaae0346159e05241b803595b2",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67635",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《女职工劳动保护特别规定》规定，女职工生育享受98天产假，其中产前可以休假15天;难产的，应增加产假15天;生育多胞胎的，每多生育1个婴儿，可增加产假15天。女职工怀孕未满4个月流产的，享受15天产假;怀孕满4个月流产的，享受42天产假。（    ）",
+            "answer": "A",
+            "analysis": "女职工劳动保护特别规定》第七条规定，女职工生育享受98天产假，其中产前可以休假15天;难产的，应增加产假15天;生育多胞胎的，每多生育1个婴儿，可增加产假15天。女职工怀孕未满4个月流产的，享受15天产假;怀孕满4个月流产的，享受42天产假。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "140a815f8fdf4fa2a430199dc6ed55f2",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "9e205407d8234590bc32cef43c8979ed",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67636",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《女职工劳动保护特别规定》规定，怀孕女职工在劳动时间内进行产前检查，所需时间计入休息休假时间。 （    ）",
+            "answer": "B",
+            "analysis": "《女职工劳动保护特别规定》第六条规定，怀孕女职工在劳动时间内进行产前检查，所需时间计入劳动时间。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "1ff60dbda26e41a2914a5539446776fb",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "bf80477632564c17aa8b283a13399ea5",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67637",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《女职工劳动保护特别规定》规定,用人单位应当在每天的劳动时间内为哺乳期女职工安排半个小时的哺乳时间。（    ）",
+            "answer": "B",
+            "analysis": "《女职工劳动保护特别规定》第九条规定，用人单位应当在每天的劳动时间内为哺乳期女职工安排1小时哺乳时间；女职工生育多胞胎的，每多哺乳1个婴儿每天增加1小时哺乳时间。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "e43ed03ddfaa4b8692b045157e8e5c71",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "1c092fb849d645fca7f5f5e5f2b528cd",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67638",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《女职工劳动保护特别规定》第八条规定，女职工产假期间的生育津贴，对已经参加生育保险的，按照用人单位产假前工资的标准由生育保险基金支付。（    ）",
+            "answer": "B",
+            "analysis": "根据《女职工劳动保护特别规定》第八条规定，女职工产假期间的生育津贴，对已经参加生育保险的，按照用人单位上年度职工月平均工资的标准由生育保险基金支付；对未参加生育保险的，按照女职工产假前工资的标准由用人单位支付。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c0b52edc1ab64b65816199f4ee8058f3",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "e271cd996cc248b3b3a0893795877d6b",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67639",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《女职工劳动保护特别规定》第八条规定，女职工产假期间的生育津贴，对未参加生育保险的，按照女职工产假前工资的标准由用人单位支付。（    ）",
+            "answer": "A",
+            "analysis": "根据《女职工劳动保护特别规定》第八条规定，女职工产假期间的生育津贴，对已经参加生育保险的，按照用人单位上年度职工月平均工资的标准由生育保险基金支付；对未参加生育保险的，按照女职工产假前工资的标准由用人单位支付。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "cc8cf1eceed5433cb36091e0e13cae51",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "d1400de5e774440282956dfce50bc82a",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67640",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《女职工劳动保护特别规定》规定，女职工生育多胞胎的，每多生育1个婴儿，增加产假10天。（    ）",
+            "answer": "B",
+            "analysis": "根据《女职工劳动保护特别规定》第七条规定，女职工生育享受98天产假，其中产前可以休假15天；难产的，应增加产假15天；生育多胞胎的，每多生育1个婴儿，可增加产假15天。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "90f70ebd7a3f42f9b59fb855cc0be0f9",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "2662a09f032344639a92e8d2320930c7",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67641",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《女职工劳动保护特别规定》，女职工生育多胞胎的，每多哺乳1个婴儿每天增加1小时哺乳时间。（    ）",
+            "answer": "A",
+            "analysis": "《女职工劳动保护特别规定》第九条规定，用人单位应当在每天的劳动时间内为哺乳期女职工安排1小时哺乳时间；女职工生育多胞胎的，每多哺乳1个婴儿每天增加1小时哺乳时间。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "a4a07dd693424e74b959c4b2d874f608",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "c50c742b6c68483ebd122bc0c0ada42d",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67642",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《劳动合同法》规定，已经建立劳动关系，未同时订立书面劳动合同的，应当自用工之日起一个月内订立书面劳动合同。（    ）",
+            "answer": "A",
+            "analysis": "《劳动合同法》第十条规定，已经建立劳动关系，未同时订立书面劳动合同的，应当自用工之日起一个月内订立书面劳动合同。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c48167831187441db6d99c55a85ee678",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "26c0a73e386e4b2f9f03670a5e4bdc1e",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67643",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《劳动合同法》规定，无固定期限劳动合同是不能解除、终止的劳动合同。（    ）",
+            "answer": "B",
+            "analysis": "《劳动合同法》并未对无固定期限劳动合同的解除、终止条件作出例外规定。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "303e563915454dada1decdf0d09696ef",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "ab892060c04a4e81aaaa5a7fa8492068",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67644",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《劳动合同法实施条例》规定，劳动者非因本人原因从原用人单位被安排到新用人单位工作的，劳动者在原用人单位的工作年限合并计算为新用人单位的工作年限。（    ）",
+            "answer": "A",
+            "analysis": "《劳动合同法实施条例》第十条规定，劳动者非因本人原因从原用人单位被安排到新用人单位工作的，劳动者在原用人单位的工作年限合并计算为新用人单位的工作年限。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "65b447721f634f17a4fa580124750997",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "24ca8ca593c54ef9a67246e6fa036331",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67645",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《劳动合同法》规定，无论何种情形下，用人单位都不能解除在孕期、产期、哺乳期的女职工。（    ）",
+            "answer": "B",
+            "analysis": "《劳动合同法》第四十二条规定，用人单位不能依照本法第四十条、第四十一条的规定解除女职工在孕期、产期、哺乳期的劳动合同。因此，如有符合法律规定的其他情形，用人单位仍可以解除劳动合同。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "6f85c02a1297412bb5cdff263b0d833d",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "05de28c5df0f44169821079610907ac9",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67646",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《劳动合同法实施条例》规定，以完成一定工作任务为期限的劳动合同因任务完成而终止的，用人单位可以不用向劳动者支付经济补偿。（    ）",
+            "answer": "B",
+            "analysis": "《劳动合同法实施条例》第二十二条规定，以完成一定工作任务为期限的劳动合同因任务完成而终止的，用人单位应当依照劳动合同法第四十七条的规定向劳动者支付经济补偿。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c3a8748e904f4137ad10847563d77864",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "2662a725bc994f72828bf8188048a713",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67647",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《劳动合同法》规定，劳动合同法规定的订立区域性行业性集体合同的区域是县级以下区域。（    ）",
+            "answer": "A",
+            "analysis": "《劳动合同法》第五十三条规定，在县级以下区域内，建筑业、采矿业、餐饮服务业等行业可以由工会与企业方面代表订立行业性集体合同，或者订立区域性集体合同。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "8174c430ee3c41148a4a971e5d4b0e37",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "c6d448d0feaf42359da582443c9ae89f",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67648",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n劳务派遣单位应当与被派遣劳动者订立一年以上的固定期限劳动合同，按月支付劳动报酬。（    ）",
+            "answer": "B",
+            "analysis": "《劳动合同法》第五十八条规定，劳务派遣单位应当与被派遣劳动者订立二年以上的固定期限劳动合同。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "d9cc10f3219f4b43a25b39d5988a7a7c",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "7cb3fefcfc4d4bc4b9ee9caac9f8cc95",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67649",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n被派遣劳动者在无工作期间，劳务派遣单位应当按照最低生活保障标准，向其按月支付报酬。（    ）",
+            "answer": "B",
+            "analysis": "《劳动合同法》第五十八条规定，此种情况下，劳务派遣单位应当按照最低工资标准支付劳动者报酬。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "5b5189f58f4c4cdfb0445efb2862a727",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "388cbbb7a54b493e96e2219942530191",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67650",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n劳务派遣单位跨地区派遣劳动者的，被派遣劳动者享有的劳动报酬和劳动条件，按照劳务派遣单位注册所在地的标准执行。（    ）",
+            "answer": "B",
+            "analysis": "《劳动合同法》第六十一条的规定，应按照用工单位所在地的标准执行。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "d3cfe74397f04db29f92becc6b2c17a5",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "27be52cc921c44deb5c100382ed54c87",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67651",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n非全日制用工劳动报酬支付周期最长不得超过十五日。（    ）",
+            "answer": "A",
+            "analysis": "《劳动合同法》第七十二条规定，非全日制用工劳动报酬支付周期最长不得超过十五日。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "03c563c203c44dafb6a1710b2c326cb8",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "f2fea5a61ac342a0bb12a8f04cddf191",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67652",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《国务院关于印发注册资本登记制度改革方案的通知》，申请经营劳务派遣业务的注册资本必须是实缴。（    ）",
+            "answer": "A",
+            "analysis": "《国务院关于印发注册资本登记制度改革方案的通知 》（国发〔2014〕7号）明确劳务派遣为暂不实行注册资本登记认缴制的行业。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "bd6b820e0bd940b5b5ba6a0309dcd7ae",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "68a90d7e13524887b374c35913cf4d25",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67653",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n地方各级人民政府及县级以上地方人民政府有关部门，为安置就业困难人员提供的给予岗位补贴和社会保险补贴的公益性岗位，其劳动合同适用劳动合同法有关无固定期限劳动合同的规定以及支付经济补偿的规定。（    ）",
+            "answer": "B",
+            "analysis": "《劳动合同法实施条例》第十二条。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "3a287254971041239cba25b87690b29f",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "558cba3bc5b242c785f1ed4febd899a7",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67654",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n用人单位或者其所属单位出资或者合伙设立劳务派遣单位，不能向本单位或者所属单位派遣劳动者。（    ）",
+            "answer": "A",
+            "analysis": "《劳动合同法》第六十七条及《劳动合同法实施条例》第二十八条。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "cffa10158be7450da294dc209ed061fb",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "8ebfa872300040f89b0c2ddfb03fb7cb",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67655",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n非全日制用工双方当事人任何一方都可以随时通知对方终止用工。（    ）",
+            "answer": "A",
+            "analysis": "《劳动合同法》第七十一条。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "8af5e2dfb94a4b829a702e05dcd46305",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "e677576d9e76462b9b81f58f8f7a98f0",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67656",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n事业单位与实行聘用制的工作人员订立、履行、变更、解除或者终止劳动合同，依照劳动合同法的有关规定执行。（    ）",
+            "answer": "B",
+            "analysis": "《劳动合同法》第九十六条。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "ec11f54b884d4b8d912cea315c7964a2",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "1ec45b745c214af38c183cc05ebb6d2e",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67657",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《劳动合同法》，劳动者在试用期的工资不得低于用人单位所在地的最低工资标准。（    ）",
+            "answer": "A",
+            "analysis": "《劳动合同法》第二十条规定：劳动者在试用期的工资不得低于本单位相同岗位最低档工资或者劳动合同约定工资的百分之八十，并不得低于用人单位所在地的最低工资标准。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "159ac3883ed74c2e96be90bb9206a2e0",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "86d5529701c6488ca9266704bf551018",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67658",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n用人单位与劳动者协商一致的，订立的劳动合同中劳动报酬和劳动条件等标准可以低于集体合同规定的标准。（    ）",
+            "answer": "B",
+            "analysis": "《劳动合同法》第五十五条规定：集体合同中劳动报酬和劳动条件等标准不得低于当地人民政府规定的最低标准；用人单位与劳动者订立的劳动合同中劳动报酬和劳动条件等标准不得低于集体合同规定的标准。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "047d127bde5e48748dea01f07ef2a630",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "c6fbb8ad5f8444c08763487fdfd698e7",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67659",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《最低工资规定》，劳动者依法享受带薪年休假、探亲假、婚丧假、生育（产）假、节育手术假等国家规定的假期间，以及法定工作时间内依法参加社会活动期间，视为提供了正常劳动。（    ）",
+            "answer": "A",
+            "analysis": "《最低工资规定》第三条第二款规定：本规定所称正常劳动，是指劳动者按依法签订的劳动合同约定，在法定工作时间或劳动合同约定的工作时间内从事的劳动。劳动者依法享受带薪年休假、探亲假、婚丧假、生育（产）假、节育手术假等国家规定的假期间，以及法定工作时间内依法参加社会活动期间，视为提供了正常劳动。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "e4f0ebd8c23f4ae78139320544190a09",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "ca7efb54d6f845e7862e955f9d26a7e7",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67660",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n各级工会发现用人单位支付劳动者工资违反《最低工资规定》的，有权要求当地劳动保障行政部门处理。（    ）",
+            "answer": "A",
+            "analysis": "《最低工资规定》第四条第二款规定：各级工会组织依法对本规定执行情况进行监督，发现用人单位支付劳动者工资违反本规定的，有权要求当地劳动保障行政部门处理。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "837dc96c4fa94aada0a1c2090bd3999b",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "3110d88c0eca4401b324f0fb96d4c6b9",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67661",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n省、自治区、直辖市范围内的不同行政区域可以有不同的最低工资标准。（    ）",
+            "answer": "A",
+            "analysis": "《最低工资规定》第七条规定：省、自治区、直辖市范围内的不同行政区域可以有不同的最低工资标准。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c75b14bc7a984cc7a62ae756f2f07451",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "dcd7899ae9e34b4db4ea9dd7a2c2fb28",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67662",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n用人单位应在最低工资标准发布后10日内将该标准向本单位全体劳动者公示。（    ）",
+            "answer": "A",
+            "analysis": "《最低工资规定》第十一条规定：用人单位应在最低工资标准发布后10日内将该标准向本单位全体劳动者公示。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "1aa20625496041909a46fdf3b0b189f0",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "36f1e51339194ce6b9986ccf222767eb",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67663",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《最低工资规定》，劳动者由于本人原因造成在法定工作时间内或依法签订的劳动合同约定的工作时间内未提供正常劳动的，用人单位应支付给劳动者的工资不得低于最低工资标准。（    ）",
+            "answer": "B",
+            "analysis": "《最低工资规定》第十二条规定：在劳动者提供正常劳动的情况下，用人单位应支付给劳动者的工资在剔除下列各项以后，不得低于当地最低工资标准……劳动者由于本人原因造成在法定工作时间内或依法签订的劳动合同约定的工作时间内未提供正常劳动的，不适用于本条规定。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "761179b7e8764c5cb7faa45ef98f26c0",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "0f3eb89bd3734b19926617e1946eb5e6",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67664",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n用人单位应将工资支付给劳动者本人。劳动者本人因故不能领取工资时，可由其亲属或委托他人代领。（    ）",
+            "answer": "A",
+            "analysis": "《工资支付暂行规定》第六条第一款规定：用人单位应将工资支付给劳动者本人。劳动者本人因故不能领取工资时，可由其亲属或委托他人代领。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "e1331845169b400dbc31efa2d07ac3ce",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "9e2325567190469a8c84376121f48847",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67665",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n用人单位在支付工资时应向劳动者提供一份其个人的工资清单。（    ）",
+            "answer": "A",
+            "analysis": "《工资支付暂行规定》第六条第三款规定：用人单位必须书面记录支付劳动者工资的数额、时间、领取者的姓名以及签字，并保存两年以上备查。用人单位在支付工资时应向劳动者提供一份其个人的工资清单。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "88029ceb074c448cb31886eb1ec8961a",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "47a9e7d2696d43fbba7bffff88bb27ad",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67666",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n对不实行月工资制的劳动者可以按季或按年支付工资。（    ）",
+            "answer": "B",
+            "analysis": "《工资支付暂行规定》第七条规定：工资必须在用人单位与劳动者约定的日期支付。如遇节假日或休息日，则应提前在最近的工作日支付。工资至少每月支付一次，实行周、日、小时工资制的可按周、日、小时支付工资。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "b5f1bbc00c0e4fc9917c19e442e7cd8f",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "f4fdfb7884674adeab22103520bd6f1d",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67667",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n对完成一次性临时劳动或某项具体工作的劳动者，用人单位应按有关协议或合同规定在其完成劳动任务后即支付工资。（    ）",
+            "answer": "A",
+            "analysis": "《工资支付暂行规定》第八条规定：对完成一次性临时劳动或某项具体工作的劳动者，用人单位应按有关协议或合同规定在其完成劳动任务后即支付工资。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "6eafe116fd424fd09cb3f1dd17f19186",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "c7b91bebdfe743adbafb626eb49e7578",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67668",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n用人单位因生产经营困难、资金周转受到影响，在征得本单位工会同意后，在一定期限内可暂时延期支付劳动者工资。（    ）",
+            "answer": "A",
+            "analysis": "《关于印发〈对《工资支付暂行规定》有关问题的补充规定〉的通知》（劳部发〔1995〕226号）第四条：《规定》第十八条所称“无故拖欠”系指用人单位无正当理由超过规定付薪时间未支付劳动者工资。不包括：（1）用人单位遇到非人力所能抗拒的自然灾害、战争等原因，无法按时支付工资；（2）用人单位确因生产经营困难、资金周转受到影响，在征得本单位工会同意后，可暂时延期支付劳动者工资，延期时间的最长限制可由各省、自治区、直辖市劳动行政部门根据各地情况确定。其他情况下拖欠工资均属无故拖欠。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "b127cd907a0d4976a9f813fdd49cbb8c",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "b3f9ee121c9643a1bd51596a34091b1f",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67669",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《国务院办公厅关于全面治理拖欠农民工工资问题的意见》提出，对发生过拖欠工资的企业实行重点监控并要求其定期申报。（    ）",
+            "answer": "A",
+            "analysis": "《国务院办公厅关于全面治理拖欠农民工工资问题的意见》第（六）条规定：构建企业工资支付监控网络，依托基层劳动保障监察网格化、网络化管理平台的工作人员和基层工会组织设立的劳动法律监督员，对辖区内企业工资支付情况实行日常监管，对发生过拖欠工资的企业实行重点监控并要求其定期申报。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "fe31bc14a7cd448789b5b15130d2b31f",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "3a9baaef3035489c9997a3d526f5ded7",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67670",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《工资支付暂行规定》，企业在支付给职工工资时，可以以有价证券替代货币。（    ）",
+            "answer": "B",
+            "analysis": "《工资支付暂行规定》第五条规定：工资应当以法定货币支付。不得以实物及有价证券替代货币支付。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "f616f1a3fda5447cae8c27e69b426a4f",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "28db24bd33a34bdcb047116640a48653",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67671",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《最低工资规定》，实行计件工资或提成工资等工资形式的用人单位，在科学合理的劳动定额基础上，其支付劳动者的工资可以低于相应的最低工资标准。（    ）",
+            "answer": "B",
+            "analysis": "《最低工资规定》第十二条第二款规定：实行计件工资或提成工资等工资形式的用人单位，在科学合理的劳动定额基础上，其支付劳动者的工资不得低于相应的最低工资标准。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "335fe86bef9a459082aa96e23bfa3c49",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "2236865882ba43a597ba620b0667a0a7",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67672",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n用人单位与其他单位合并，注册成立新的单位，在原用人单位工作的劳动者继续在新用人单位工作，未取得经济补偿。新用人单位与该劳动者解除劳动合同时，计算经济补偿的年限不包括该劳动者在原用人单位的工作年限。（    ）",
+            "answer": "B",
+            "analysis": "《最高人民法院关于审理劳动争议案件适用法律若干问题的解释（四）》第五条规定，劳动者非因本人原因从原用人单位被安排到新用人单位工作，原用人单位未支付经济补偿，劳动者依照劳动合同法第三十八条规定与新用人单位解除劳动合同，或者新用人单位向劳动者提出解除、终止劳动合同，在计算支付经济补偿或赔偿金的工作年限时，劳动者请求把在原用人单位的工作年限合并计算为新用人单位工作年限的，人民法院应予支持。用人单位符合下列情形之一的，应当认定属于“劳动者非因本人原因从原用人单位被安排到新用人单位工作”：……（三）因用人单位合并、分立等原因导致劳动者工作调动……。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "6944dc95b5f14a0a9802c9b4372ef832",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "f8a5788ae3244fea960b7e3d02651126",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67673",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n企业可以自行决定实行不定时工作制。(    )",
+            "answer": "B",
+            "analysis": "根据劳动法第三十九条和《关于企业实行不定时工作制和综合计算工时工作制的审批办法》规定，企业实行特殊工时须经劳动行政部门批准。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "ad22dc26b7034deb91f57226e1a651c1",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "97bd835e7fd84d0e9d4c0a4c1d123f21",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67674",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n职工在任何情况下都有权拒绝加班。（    ）",
+            "answer": "B",
+            "analysis": "根据劳动法第四十一条、第六十一条规定，在特定的需要紧急处理、必须及时抢修等情形下，用人单位安排职工加班不受双方协商等规定的限制。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "8761bdcdbbb34ee38c97389c65b4d1ff",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "a47c735fff5247dcbe90c740ab6df55a",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67675",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n目前，我国职工全年月平均计薪天数是21.75天。（    ）",
+            "answer": "A",
+            "analysis": "根据《关于职工全年月平均工作时间和工资折算问题的通知》第二条规定，目前职工的月计薪天数为21.75天。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "dd9eb9b229874b7585e871d387984186",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "c8c89d7a10204030835f52b23c52a286",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67676",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n用人单位因不可抗力未能在支付日期支付工资的，应当在不可抗力消除后及时支付。（    ）",
+            "answer": "A",
+            "analysis": "《保障农民工工资支付条例》第十四条规定：用人单位因不可抗力未能在支付日期支付工资的，应当在不可抗力消除后及时支付。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "96e7bd91bd2f4d14871d199f7cc11db4",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "b8097a25810a431d88927dc11ef36359",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67677",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n用人单位合并或者分立时，经与农民工书面协商一致的，可以由合并或者分立后承继其权利和义务的用人单位清偿拖欠的农民工工资。（    ）",
+            "answer": "A",
+            "analysis": "《保障农民工工资支付条例》第二十一条规定：用人单位合并或者分立时，应当在实施合并或者分立前依法清偿拖欠的农民工工资；经与农民工书面协商一致的，可以由合并或者分立后承继其权利和义务的用人单位清偿。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "1ec35030e62d4f6baea0ee6bdd5ee245",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "87fd35e3546f4d6f9fd65dc43d004c46",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67678",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《国务院关于进一步做好为农民工服务工作的意见》，到2020年要实现农民工工资基本无拖欠并稳定增长。（    ）",
+            "answer": "A",
+            "analysis": "《国务院关于进一步做好为农民工服务工作的意见》中第（三）条。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "8d0e2059ce674c4595b9614552fc1422",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "02055890d2f24f8da2ce6dc53513a3a0",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67679",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n农民工及其随迁家属在输入地城镇未落户的，依法申领居住证，持居住证享受规定的基本公共服务。（    ）",
+            "answer": "A",
+            "analysis": "《国务院关于进一步做好为农民工服务工作的意见》中第（十三）条。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "885758976f324db281256b0899e4c53c",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "2a3917e53f90412ea7819cfc8b4006ea",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67680",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《企业劳动争议协商调解规定》，企业应当依法执行职工大会、职工代表大会、厂务公开等民主管理制度，建立集体协商、集体合同制度，维护劳动关系和谐稳定。（    ）",
+            "answer": "A",
+            "analysis": "根据《企业劳动争议协商调解规定》第三条规定，企业应当依法执行职工大会、职工代表大会、厂务公开等民主管理制度，建立集体协商、集体合同制度，维护劳动关系和谐稳定。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "a9ec3f90c1eb4f959b5e52dd8a836de1",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "e1cb47e170534e3d98ca8ccb4b75801b",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67681",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《中华人民共和国劳动争议调解仲裁法》，达成调解协议后，一方当事人在协议约定期限内不履行调解协议的，另一方当事人可以依法申请仲裁。（    ）",
+            "answer": "A",
+            "analysis": "根据《劳动争议调解仲裁法》第十五条规定，达成调解协议后，一方当事人在协议约定期限内不履行调解协议的，另一方当事人可以依法申请仲裁。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "30395480b64e4506a1ea68b9e1e3bc27",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "13cacbc23899447c8e8116ffdcaf3c32",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67682",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《劳动人事争议仲裁办案规则》，申请人在举证期限届满后提出增加或者变更仲裁请求的，可以与之前案件合并审理。（    ）",
+            "answer": "B",
+            "analysis": "根据《劳动人事争议仲裁办案规则》第四十四条规定，申请人在举证期限届满后提出增加或者变更仲裁请求的，应当另行申请仲裁。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "28303ea6cb84404ea9c46edf768f24c3",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "db0d1087b33a49e499249c2d57bca457",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67683",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《企业劳动争议协商调解规定》，调解委员会调解劳动争议一般不公开进行。但是，双方当事人要求公开调解的除外。（    ）",
+            "answer": "A",
+            "analysis": "根据《企业劳动争议协商调解规定》第二十四条规定，调解委员会调解劳动争议一般不公开进行。但是，双方当事人要求公开调解的除外。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "76b1fa61b57641df8fbfcef3a6af4ece",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "beb17cea5c3a4c209eed8632f7b43e39",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67684",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《劳动人事争议仲裁办案规则》，仲裁庭审理争议案件时，应当进行调解。必要时可以邀请有关单位、组织或者个人参与调解。（    ）",
+            "answer": "A",
+            "analysis": "根据《劳动人事争议仲裁办案规则》第七十一条规定，仲裁庭审理争议案件时，应当进行调解。必要时可以邀请有关单位、组织或者个人参与调解。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "1cfc6cfe17e5453b81281176eb9c3337",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "dca83ae9b26b46c781ca16c331516977",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67685",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《劳动人事争议仲裁办案规则》，仲裁委员会处理争议案件，可以坚持调解优先，引导当事人通过协商、调解方式解决争议，给予必要的法律释明以及风险提示。（    ）",
+            "answer": "B",
+            "analysis": "根据《劳动人事争议仲裁办案规则》第六十八条规定，仲裁委员会处理争议案件，应当坚持调解优先，引导当事人通过协商、调解方式解决争议，给予必要的法律释明以及风险提示。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "0c224c3648c14b31ae5011141585a863",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "024c65ba2863473f9fe8c4a5a5eea31a",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67686",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《劳动人事争议仲裁办案规则》，经调解组织调解达成调解协议的，双方当事人可以自调解协议生效之日起十五日内，共同向有管辖权的仲裁委员会提出仲裁审查申请。（    ）",
+            "answer": "A",
+            "analysis": "根据《劳动人事争议仲裁办案规则》第七十四条规定， 经调解组织调解达成调解协议的，双方当事人可以自调解协议生效之日起十五日内，共同向有管辖权的仲裁委员会提出仲裁审查申请。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "61e710c47b094d63a46d8ce804be2aae",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "4bf06c5feea44cd99b5330ba469ca5d6",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67687",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《劳动人事争议仲裁办案规则》，仲裁委员会决定不予制作调解书的，可以口头通知当事人。（    ）",
+            "answer": "B",
+            "analysis": "根据《劳动人事争议仲裁办案规则》第七十八条规定，仲裁委员会决定不予制作调解书的，应当书面通知当事人。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "ebb8595fdee14438a63475975c939ad3",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "4eb5f0c409b8404696d190e4148830e8",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67688",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《劳动人事争议仲裁办案规则》，调解书送达前，一方或者双方当事人撤回仲裁审查申请的，仲裁委员会应当准许。（    ）",
+            "answer": "A",
+            "analysis": "根据《劳动人事争议仲裁办案规则》第七十六条第二款规定，调解书送达前，一方或者双方当事人撤回仲裁审查申请的，仲裁委员会应当准许。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "6942c682520b45cd8af0e06283c4aafe",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "abf9722e90e146bdbe355473252e7bac",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67689",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《中华人民共和国劳动争议调解仲裁法》,企业劳动争议调解委员会由职工代表和企业代表组成。职工代表由工会成员担任或者由全体职工推举产生，企业代表由企业负责人指定。企业劳动争议调解委员会主任由工会成员或者双方推举的人员担任。（    ）",
+            "answer": "A",
+            "analysis": "根据《中华人民共和国劳动争议调解仲裁法》第十条第二款规定，企业劳动争议调解委员会由职工代表和企业代表组成。职工代表由工会成员担任或者由全体职工推举产生，企业代表由企业负责人指定。企业劳动争议调解委员会主任由工会成员或者双方推举的人员担任。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "8f0514504b7e4cacbfeb6b56bd0b63f3",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "c396ef3ee7024010915ac865d5b0020a",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67690",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n仲裁裁决结案的案卷，保存期不少于五年，国家另有规定的，从其规定。（    ）",
+            "answer": "B",
+            "analysis": "根据《劳动人事争议仲裁办案规则》第二十四条规定，仲裁裁决结案的案卷，保存期不少于十年；仲裁调解和其他方式结案的案卷，保存期不少于五年；国家另有规定的，从其规定。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "3a748ca04ee9406587aa1cb605b0bcb6",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "46643123a5ea4a88ab648f86ca176997",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67691",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n从中断时起，仲裁时效期间重新计算。（    ）",
+            "answer": "A",
+            "analysis": "根据《劳动人事争议仲裁办案规则》第二十七条规定，从中断时起，仲裁时效期间重新计算。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "d30a78e4d93f444a929a3a9d66a949ee",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "0452c9309b2c4e9b892b7d3e548c77f8",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67692",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n仲裁申请不能口头申请。（    ）",
+            "answer": "B",
+            "analysis": "根据《劳动人事争议仲裁办案规则》第二十九条规定，书写仲裁申请确有困难的，可以口头申请，由仲裁委员会记入笔录，经申请人签名、盖章或者捺印确认。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "2a4ad746741146f099b9424abc44e29d",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "16560ff38811458492f34dcbfbd63254",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67693",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n仲裁处理结果作出前，申请人可以自行撤回仲裁申请。申请人再次申请仲裁的，仲裁委员会应当受理。（    ）",
+            "answer": "A",
+            "analysis": "根据《劳动人事争议仲裁办案规则》第三十五条规定，仲裁处理结果作出前，申请人可以自行撤回仲裁申请。申请人再次申请仲裁的，仲裁委员会应当受理。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "8b193fc39e9b48f6bb31d69c14e6657f",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "e677ad3d489f43a2b270869dc19181aa",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67694",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n中止审理的情形消除后，仲裁庭应当恢复审理。（    ）",
+            "answer": "A",
+            "analysis": "根据《劳动人事争议仲裁办案规则》第四十七条规定，中止审理的情形消除后，仲裁庭应当恢复审理。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "7da44a807a4443c59b172d2d92b64252",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "f38aa20b711845e0951df8c3759a5161",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67695",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n仲裁庭裁决案件时，裁决内容同时涉及终局裁决和非终局裁决的，可以只制作一份裁决书。（    ）",
+            "answer": "B",
+            "analysis": "根据《劳动人事争议仲裁办案规则》第五十条规定，仲裁庭裁决案件时，裁决内容同时涉及终局裁决和非终局裁决的，应当分别制作裁决书，并告知当事人相应的救济权利。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "96e6acbf6dc3430ab9d27f5a49378688",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "f52365d26c8240768192df45ad448f72",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67696",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n劳动者申请先予执行的，可以不提供担保。（    ）",
+            "answer": "A",
+            "analysis": "根据《劳动人事争议仲裁办案规则》第五十一条规定，劳动者申请先予执行的，可以不提供担保。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "bdfc39e9ba6041708943491685e881b4",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "7638454c7b4946cb8db25191fa331091",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67697",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n仲裁庭对简易处理的案件可以用电话、短信、传真、电子邮件等简便方式送达裁决书。（    ）",
+            "answer": "B",
+            "analysis": "根据《劳动人事争议仲裁办案规则》第五十九条规定，简易处理的案件，仲裁庭可以用电话、短信、传真、电子邮件等简便方式送达仲裁文书，但送达调解书、裁决书除外。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "dc0162819c93434db5e6a04722523767",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "c2b5dedda8364269b41767a793d85430",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67698",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n因履行集体合同发生的劳动争议，经协商解决不成的，工会可以依法申请仲裁；尚未建立工会的，由当地劳动行政部门指导劳动者推举产生的代表依法申请仲裁。（    ）",
+            "answer": "B",
+            "analysis": "根据《劳动人事争议仲裁办案规则》第六十三条规定，因履行集体合同发生的劳动争议，经协商解决不成的，工会可以依法申请仲裁；尚未建立工会的，由上级工会指导劳动者推举产生的代表依法申请仲裁。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "f0bc4513095d4e298afdcc972a9f80f3",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "a5d451738cd34001841c52880f9f2f18",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67699",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n仲裁庭审理争议案件时可以不进行调解。（    ）",
+            "answer": "B",
+            "analysis": "根据《劳动人事争议仲裁办案规则》第七十一条规定，仲裁庭审理争议案件时，应当进行调解。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "15b1483f6bc44272b74f052d85656571",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "e3cb589124c0475db8f99afdd7b80979",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67700",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n申请人收到书面通知，无正当理由拒不到庭或者未经仲裁庭同意中途退庭的，可以按撤回仲裁申请。（    ）",
+            "answer": "A",
+            "analysis": "根据《劳动人事争议仲裁办案规则》第三十九条规定，申请人收到书面开庭通知，无正当理由拒不到庭或者未经仲裁庭同意中途退庭的，可以按撤回仲裁申请。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "a68406ce19b341c6890246861f0a5d41",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "d5431457c34e480592b08eaa806e1cc4",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67701",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n调解不成或者调解书送达前，一方当事人反悔的，仲裁庭可以及时作出裁决。（    ）",
+            "answer": "B",
+            "analysis": "根据《劳动人事争议仲裁办案规则》第七十二条规定，调解不成或者调解书送达前，一方当事人反悔的，仲裁庭应当及时作出裁决。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "0f1658694ea74813af9773d0c1d80120",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "ea13c5e5ab6547a9a72e41443ed25f99",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67702",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n劳动争议申请仲裁的时效期间为二年。仲裁时效期间从当事人知道或者应当知道其权利被侵害之日起计算。（    ）",
+            "answer": "B",
+            "analysis": "根据《调解仲裁法》第二十七条规定，劳动争议申请仲裁的时效期间为一年。仲裁时效期间从当事人知道或者应当知道其权利被侵害之日起计算。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "f1c967bb6f894db3949412a6d5556bb4",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "2ef943a730bb44d1977f1a08b4ed77ab",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67703",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n劳动人事争议当事人提出管辖异议的，应当在答辩期满前书面提出。（    ）",
+            "answer": "A",
+            "analysis": "根据《劳动人事争议仲裁办案规则》第十条规定，当事人提出管辖异议的，应当在答辩期满前书面提出。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "842ed549b94a4cdd8117d7246dad6c1f",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "b8f856d72c1249bf8463ba6f947d29ef",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67704",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n仲裁委员会调查取证时，不得少于三人，并应当向被调查对象出示工作证件和仲裁委员会出具的介绍信。（    ）",
+            "answer": "B",
+            "analysis": "根据《劳动人事争议仲裁办案规则》第十七条条规定，仲裁委员会调查取证时，不得少于两人，并应当向被调查对象出示工作证件和仲裁委员会出具的介绍信。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "0713d73a8fe04934b3f6f73c7a10fdf6",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "a508f113376147f592b8117444cc39cb",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67705",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n发生争议的用人单位未办理营业执照、被吊销营业执照、营业执照到期继续经营、被责令关闭、被撤销以及用人单位解散、歇业，不能承担相关责任的，劳动人事争议仲裁委员会应当将用人单位和其出资人、开办单位或者主管部门作为共同当事人。（    ）",
+            "answer": "A",
+            "analysis": "《劳动人事争议仲裁办案规则》第六条规定，发生争议的用人单位未办理营业执照、被吊销营业执照、营业执照到期继续经营、被责令关闭、被撤销以及用人单位解散、歇业，不能承担相关责任的，应当将用人单位和其出资人、开办单位或者主管部门作为共同当事人。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c9e08b9565904ef2848a9ff2214ce08d",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "9f12a5f64210431d958c9a673f2312ff",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67706",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n劳动人事争议仲裁委员会应当审查当事人提出的管辖异议，异议成立的，将案件移送至有管辖权的仲裁委员会并书面通知当事人；异议不成立的，应当书面决定驳回。当事人逾期提出的，仲裁程序应当暂停，由劳动人事争议仲裁委员会决定是否受理。（    ）",
+            "answer": "B",
+            "analysis": "《劳动人事争议仲裁办案规则》第十条规定，当事人提出管辖异议的，应当在答辩期满前书面提出。仲裁委员会应当审查当事人提出的管辖异议，异议成立的，将案件移送至有管辖权的仲裁委员会并书面通知当事人；异议不成立的，应当书面决定驳回。当事人逾期提出的，不影响仲裁程序的进行。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "0182ebeb701b43f98a25f8e1636c9bb1",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "b2af8690174444c2b378b910fd348f24",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67707",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n被申请回避的劳动人事争议仲裁员、记录人员在回避决定作出前，应当暂停参与该案处理，但因案件需要采取紧急措施的除外。（    ）",
+            "answer": "A",
+            "analysis": "《劳动人事争议仲裁办案规则》第十二条规定，仲裁员、记录人员是否回避，由仲裁委员会主任或者其委托的仲裁院负责人决定。仲裁委员会主任担任案件仲裁员是否回避，由仲裁委员会决定。在回避决定作出前，被申请回避的人员应当暂停参与该案处理，但因案件需要采取紧急措施的除外。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "07251c7924414426ac432a64bba6d541",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "7de87203e1384fc0b305e6d6f8d89966",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67708",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n劳动人事争议仲裁委员会送达仲裁文书必须有送达回证，由受送达人在送达回证上记明收到日期，并签名或者盖章。受送达人在送达回证上的签收日期为送达日期。（    ）",
+            "answer": "A",
+            "analysis": "《劳动人事争议仲裁办案规则》第二十条规定，劳动人事争议仲裁委员会送达仲裁文书必须有送达回证，由受送达人在送达回证上记明收到日期，并签名或者盖章。受送达人在送达回证上的签收日期为送达日期。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "cd7c41b7932542d4afc4d614bf52a5dd",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "09d1e20b53514f9cbc35ab9da78c413a",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67709",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n劳动人事争议仲裁庭应当将开庭情况记入笔录。当事人或者其他仲裁参与人认为对自己陈述的记录有遗漏或者差错的，有权当庭申请补正。仲裁庭认为申请无理由或者无必要的，可以不予补正，但是应当记录该申请。（    ）",
+            "answer": "A",
+            "analysis": "《劳动人事争议仲裁办案规则》第四十二条规定，仲裁庭应当将开庭情况记入笔录。当事人或者其他仲裁参与人认为对自己陈述的记录有遗漏或者差错的，有权当庭申请补正。仲裁庭认为申请无理由或者无必要的，可以不予补正，但是应当记录该申请。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "09df2a128cc34e4d87f1d7a1b60f2ab9",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "32898e2f027c4428935c020c311bb3b7",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67710",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n劳动人事争议仲裁裁决书由仲裁员签名，加盖仲裁委员会印章。对裁决持不同意见的仲裁员，可以签名，也可以不签名。（    ）",
+            "answer": "A",
+            "analysis": "《劳动人事争议仲裁办案规则》第五十三条规定，裁决书由仲裁员签名，加盖仲裁委员会印章。对裁决持不同意见的仲裁员，可以签名，也可以不签名。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "1cae84e6615f491ba13ce6f169f2ff7b",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "c6b57c9bcf1043888c58ebecbd52aa61",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67711",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n人民法院在审理拖欠农民工工资争议案件中，对劳动人事争议仲裁庭已依法质询、质证的证据，除当事人有相反证据足以推翻的以外，可不再予以当庭质证。（    ）",
+            "answer": "A",
+            "analysis": "《关于实施“护薪”行动全力做好拖欠农民工工资争议处理工作的通知》规定，人民法院在审理拖欠农民工工资争议案件中，对仲裁庭已依法质询、质证的证据，除当事人有相反证据足以推翻的以外，可不再予以当庭质证。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "e0286df45da946269d68098480b3380d",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "840f11970c1946b99d6e4f344410c98a",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67712",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n人民法院在审理拖欠农民工工资争议案件中，对当事人在劳动人事争议仲裁程序中未依法提交或拒不提交的证据，除该证据与案件基本事实有关，可不予采纳。（    ）",
+            "answer": "A",
+            "analysis": "《关于实施“护薪”行动全力做好拖欠农民工工资争议处理工作的通知》规定，人民法院在审理拖欠农民工工资争议案件中，对当事人在仲裁程序中未依法提交或拒不提交的证据，除该证据与案件基本事实有关，人民法院可不予采纳。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "6e03d15c4d164913b51e201db45f3810",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "9c898adf95ac4d15a2bc788e9f8292db",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67713",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n劳动者认为用人单位侵犯其劳动保障合法权益的，有权向劳动保障行政部门投诉。劳动保障行政部门应当为投诉人保密。（    ）",
+            "answer": "B",
+            "analysis": "根据《劳动保障监察条例》第九条第三款。劳动保障行政部门应当为举报人保密，但不必应当为投诉人保密。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "13b47318b5c847e2befbfc04feb4f13e",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "d48d2f82ab3e4e5485c52c8c2ab14894",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67714",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n县级、设区的市级人民政府劳动保障行政部门可以委托符合监察执法条件的组织实施劳动保障监察。（    ）",
+            "answer": "A",
+            "analysis": "根据《劳动保障监察条例》第四条第一款，县级、设区的市级人民政府劳动保障行政部门可以委托符合监察执法条件的组织实施劳动保障监察。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "7e4194cfceb34b599895553b7632dae8",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "2e6cdef036374626956de23de2c0f4bd",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67715",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n劳动保障行政部门在劳动保障监察工作中可以听取工会组织的意见和建议。（    ）",
+            "answer": "B",
+            "analysis": "根据《劳动保障监察条例》第七条第二款规定，劳动保障行政部门在劳动保障监察工作中应当注意听取工会组织的意见和建议。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "879dfe1e71db431c816f5d2297f40426",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "e80e4b7182b94efaa20d7a6932a2ba53",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67716",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《关于实施〈劳动保障监察条例〉若干规定》，回避决定应在收到申请之日起3个工作日内作出。作出回避决定前，承办人员可以停止对案件的调查处理。（    ）",
+            "answer": "B",
+            "analysis": "根据《关于实施〈劳动保障监察条例〉若干规定》第二十五条第一款规定，回避决定应在收到申请之日起3个工作日内作出。作出回避决定前，承办人员不得停止对案件的调查处理。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "92ffa6f97215481d84f0128c591c4154",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "f3d7c1a4358f4995b97e80372ad5efdc",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67717",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n单位在录用职工时，任何岗位不得以性别为由拒绝录用或者提高对妇女录用标准。（    ）",
+            "answer": "B",
+            "analysis": "根据《妇女权益保障法》第二十三条第一款规定，各单位在录用职工时，除不适合妇女的工种或岗位外，不得以性别为由拒绝录用或者提高对妇女录用标准。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "9c5c150bae8b4017af95829967aa1e2b",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "b36916dede46447497c6a65081a99f5a",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67718",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n文艺、体育单位经未成年的学校或所在地居民委员会同意，可以招用不满16周岁的专业文艺工作者、运动员。（    ）",
+            "answer": "B",
+            "analysis": "根据《禁止使用童工规定》第十三条第一款规定，文艺、体育单位经未成年的父母或者其他监护人同意，可以招用不满16周岁的专业文艺工作者、运动员。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "1f3b1510be44496a8020b26936ad266e",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "6f925cecc1684054b97f4d32f3ed8ddb",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67719",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《就业促进法》第六十二条规定，违反该法实施就业歧视的，劳动者可以向人民法院提起诉讼。（    ）",
+            "answer": "A",
+            "analysis": "《就业促进法》第六十二条规定：“违反本法规定，实施就业歧视的，劳动者可以向人民法院提起诉讼。”",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "9fd7623e0aa7437bb61445812f25275f",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "55fc5b87f1fd4e499963bbb9ae1cbdc1",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67720",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n对劳动保障监察投诉而言，投诉人无法提供证据时，可不予受理。（    ）",
+            "answer": "B",
+            "analysis": "根据《劳动保障监察条例》第十条第（三）项规定，受理对违反劳动保障法律、法规或者规章的行为的举报、投诉，是劳动保障行政部门实施劳动保障监察应当履行的职责。而《关于实施〈劳动保障监察条例〉若干规定》在其第十八条第二款规定了不符合“违反劳动保障法律的行为发生在两年内的”情形的，不予受理。该《规定》并未将“投诉人无法提供劳动保障违法证据（证明劳动关系成立证据）”作为不予受理情形。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "bd708eb5a1bd4f188ffc26e3527177b0",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "6e1a6de72bd7481db26d1a5e49be671c",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67721",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n张某大学毕业后进入A公司，连续工作4个月后辞职进入B公司工作；其在B公司连续工作满10个月时申请带薪年休假，B公司不予批准，理由为：张某在B公司连续工作还不满12个月以上，不符合可以享受带薪年休假的条件。B公司的理由是成立的。（    ）",
+            "answer": "B",
+            "analysis": "《企业职工带薪年休假实施办法》第三条规定，职工连续工作满12个月以上的，享受带薪年休假。而人力资源和社会保障部办公厅《关于<企业职工带薪年休假实施办法>有关问题的复函》（人社厅函〔2009〕149号）第一条规定：《企业职工带薪年休假实施办法》第三条中的“职工连续工作满12个月以上”，既包括职工在同一用人单位连续工作满12个月以上的情形，也包括职工在不同用人单位连续工作满12个月以上的情形。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "3bdef97625b540fcac1a55e1a1f08ace",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "64bee862b43543c4adec4323bfa09801",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67722",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n一些地方劳动保障监察机构开辟网上投诉渠道，一味降低投诉受理门槛，投诉人不需要当面办理手续，不仅失去了上述工作便利，还增加了案件办理难度，没有必要。（    ）",
+            "answer": "B",
+            "analysis": "《人力资源社会保障部办公厅关于进一步加强劳动保障监察队伍作风建设的通知》（人社厅发〔2013〕49号）在其第二点“加强劳动保障监察队伍作风建设的主要任务”中规定，要“进一步改进服务措施，努力为劳动者维权提供高效便捷的服务。各级劳动保障监察机构要牢固树立执法为民的理念，通过开辟网上举报投诉渠道、建立省市联动举报投诉平台、设立基层网格举报投诉接待服务窗口等措施，降低劳动者维权的成本，确保受侵权劳动者的权利及时得到救济。”可见开辟网上举报投诉渠道意在降低劳动者维权成本，确保受侵权劳动者的权利及时得到救济，是加强劳动保障监察队伍作风建设的主要任务之一，并非没有必要。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "ff83dd18202c4ee3961942850745e4fc",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "07b17770a4fd41a8b5c84a78c5e82b74",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67723",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n女职工依法休产假期间没有提供劳动，也不能视同提供了正常劳动。（    ）",
+            "answer": "B",
+            "analysis": "《最低工资规定》第三条第二款规定：“本规定所称正常劳动，是指劳动者按依法签订的劳动合同约定，在法定工作时间或劳动合同约定的工作时间内从事的劳动。劳动者依法享受带薪年休假、探亲假、婚丧假、生育（产）假、节育手术假等国家规定的假期间，以及法定工作时间内依法参加社会活动期间，视为提供了正常劳动。”",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "dbeabee20a81463ca19677dd30650120",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "9787fb1886a94a4987272062e5a915f8",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67724",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《劳动保障监察条例》规定，人力资源社会保障行政部门对违反劳动保障法律、法规或者规章的行为的调查，最长应当自立案之日起90个工作日内完成。（    ）",
+            "answer": "A",
+            "analysis": "根据《劳动保障监察条例》第十七条规定，劳动保障行政部门对违反劳动保障法律、法规或者规章的行为的调查，应当自立案之日起60个工作日内完成；对情况复杂的，经劳动保障行政部门负责人批准，可以延长30个工作日。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "2688b9e1b3364b9e9aa50a99246f074d",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "9a5efc4059824888b5de69b6651289a4",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67725",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n人力资源社会保障行政部门不能对职业中介机构、职业技能培训机构和职业技能考核鉴定机构实施劳动保障监察。（    ）",
+            "answer": "B",
+            "analysis": "根据《劳动保障监察条例》第二条第二款规定，对职业介绍机构、职业技能培训机构和职业技能考核鉴定机构进行劳动保障监察，依照本条例执行。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "8b0ee25fc0794d8f82f3b2d3be9cb0d5",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "9430fea5f7234f74b69e153b764c2692",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67726",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n人力资源社会保障行政部门不得拒绝听取拟被行政处罚当事人的陈述、申辩，不得因其申辩而加重处罚。（    ）",
+            "answer": "A",
+            "analysis": "根据《行政处罚法》第三十二条规定，当事人有权进行陈述和申辩。行政机关必须充分听取当事人的意见，对当事人提出的事实、理由和证据，应当进行复核；当事人提出的事实、理由或者证据成立的，行政机关应当采纳。行政机关不得因当事人申辩而加重处罚。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "e2a6e3a78fa044908829c02a09c3927b",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "2a55531aa34742838739e201fa0dbd5b",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67727",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n只要劳动保障违法行为在2年内未被人力资源社会保障行政部门发现，也未被举报、投诉的，人力资源社会保障行政部门就不再查处，不用考虑是否具有连续、继续等状态。（    ）",
+            "answer": "B",
+            "analysis": "根据《劳动保障监察条例》第二十条规定，违反劳动保障法律、法规或者规章的行为在2年内未被劳动保障行政部门发现，也未被举报、投诉的，劳动保障行政部门不再查处。前款规定的期限，自违反劳动保障法律、法规或者规章的行为发生之日起计算；违反劳动保障法律、法规或者规章的行为有连续或者继续状态的，自行为终了之日起计算。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "08e660c7a6ca4392a570ffd368c35c38",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "ad46f1cbaa49477ba7a4426040b75a78",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67728",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n单位犯拒不支付劳动报酬罪的，对单位判处罚金，并对其法定代表人处三年以下有期徒刑或者拘役，并处或者单处罚金。（    ）",
+            "answer": "B",
+            "analysis": "根据《中华人民共和国刑法修正案（八）》四十一规定，在刑法第二百七十六条后增加一条，作为第二百七十六条之一：“以转移财产、逃匿等方法逃避支付劳动者的劳动报酬或者有能力支付而不支付劳动者的劳动报酬，数额较大，经政府有关部门责令支付仍不支付的，处三年以下有期徒刑或者拘役，并处或者单处罚金；造成严重后果的，处三年以上七年以下有期徒刑，并处罚金。单位犯前款罪的，对单位判处罚金，并对其直接负责的主管人员和其他直接责任人员，依照前款的规定处罚。有前两款行为，尚未造成严重后果，在提起公诉前支付劳动者的劳动报酬，并依法承担相应赔偿责任的，可以减轻或者免除处罚。”",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "9215daaad93a4cb1ba82fcc06ea19b55",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "af371363ccd74220a4164486d91c0875",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67729",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n人力资源社会保障行政部门和其他有关部门应当公开举报投诉电话、网站等渠道，依法接受对拖欠农民工工资行为的举报、投诉。属于本部门受理的，应当依法及时处理；不属于本部门受理的，应当及时转送相关部门。（    ）",
+            "answer": "A",
+            "analysis": "《保障农民工工资支付条例》第十条第三款规定，人力资源社会保障行政部门和其他有关部门应当公开举报投诉电话、网站等渠道，依法接受对拖欠农民工工资行为的举报、投诉。对于举报、投诉的处理实行首问负责制，属于本部门受理的，应当依法及时处理；不属于本部门受理的，应当及时转送相关部门，相关部门应当依法及时处理，并将处理结果告知举报、投诉人。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "af724077d71649b4ab2dd18f75ad9599",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "9a696ead49c649c38c262235fac298d7",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67730",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n农民工工资应当以货币形式，通过银行转账或者现金支付给农民工本人，不得以实物或者有价证券等其他形式替代。（    ）",
+            "answer": "A",
+            "analysis": "《保障农民工工资支付条例》第十一条规定，农民工工资应当以货币形式，通过银行转账或者现金支付给农民工本人，不得以实物或者有价证券等其他形式替代。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "54b2c17e2bd448f4bd66641f5e76acaa",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "6f2fd349e2764fcb9a9acbf71b37d46c",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67731",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n用人单位允许个人、不具备合法经营资格或者未取得相应资质的单位以用人单位的名义对外经营，导致拖欠所招用农民工工资的，由个人、不具备合法经营资格或者未取得相应资质的单位清偿。（    ）",
+            "answer": "B",
+            "analysis": "《保障农民工工资支付条例》第十九条第二款规定，用人单位允许个人、不具备合法经营资格或者未取得相应资质的单位以用人单位的名义对外经营，导致拖欠所招用农民工工资的，由用人单位清偿，并可以依法进行追偿。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "43ce6a6596b544b19fc527dd334cc98b",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "14a526a248f24c90b25d57c0202dad81",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67732",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n用人单位被依法吊销营业执照或者登记证书、被责令关闭、被撤销或者依法解散的，应当在申请注销登记后依法清偿拖欠的农民工工资。（    ）",
+            "answer": "B",
+            "analysis": "《保障农民工工资支付条例》第二十二条第一款规定，用人单位被依法吊销营业执照或者登记证书、被责令关闭、被撤销或者依法解散的，应当在申请注销登记前依法清偿拖欠的农民工工资。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "1d8821313a874f4cb48a97d1c1ad45ae",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "5ad9f9bfda8e486cb9857553dfd1e387",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67733",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n建设单位应当有满足施工所需要的资金安排。没有满足施工所需要的资金安排的，工程建设项目暂停开工建设；依法需要办理施工许可证的，相关行业工程建设主管部门不予颁发施工许可证。（    ）",
+            "answer": "B",
+            "analysis": "《保障农民工工资支付条例》第二十三条规定，建设单位应当有满足施工所需要的资金安排。没有满足施工所需要的资金安排的，工程建设项目不得开工建设；依法需要办理施工许可证的，相关行业工程建设主管部门不予颁发施工许可证。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "91de2804ad4f4bff970010c35955dcc2",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "b4e1b8450f7b44869828399fc503cab5",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67734",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n分包单位拖欠农民工工资的，由施工总承包单位先行清偿，再依法进行追偿。（    ）",
+            "answer": "A",
+            "analysis": "《保障农民工工资支付条例》第三十条第三款规定，分包单位拖欠农民工工资的，由施工总承包单位先行清偿，再依法进行追偿。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "1c055d7ac9e846d5888f2872e6adc90d",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "f670ea7eeac84f5aacc082ef3fd4d210",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67735",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n农民工与用人单位就拖欠工资存在争议，农民工应当提供依法由其保存的劳动合同、职工名册、工资支付台账和清单等材料；不提供的，依法承担不利后果。（    ）",
+            "answer": "B",
+            "analysis": "《保障农民工工资支付条例》第五十条规定，农民工与用人单位就拖欠工资存在争议，用人单位应当提供依法由其保存的劳动合同、职工名册、工资支付台账和清单等材料；不提供的，依法承担不利后果。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "7f91f9be84a34fd7a51631886bd3d194",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "443ad72d25e14acab0439f402e2cdaca",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67736",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n被派遣劳动者在无工作期间，劳务派遣单位应当向其按月支付生活费。（    ）",
+            "answer": "B",
+            "analysis": "《劳动合同法》第五十八条第二款：劳务派遣单位应当与被派遣劳动者订立二年以上的固定期限劳动合同，按月支付劳动报酬；被派遣劳动者在无工作期间，劳务派遣单位应当按照所在地人民政府规定的最低工资标准，向其按月支付报酬。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c4c68a9101804542a271e8c7acbbb883",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "227179f92d854db38914b2dca68c67b2",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        }
+    ],
+    "code": "SUCCESS"
+}

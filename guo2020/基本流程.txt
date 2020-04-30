@@ -1,0 +1,13 @@
+获取验证码——https://bw.chinahrt.com.cn/api/kaptcha
+登录——https://bw.chinahrt.com.cn/api/candidate/login
+    科目列表——https://bw.chinahrt.com.cn/api/courseCategory/listChapter
+    日日学题目列表——https://bw.chinahrt.com.cn/api/questionPractice/listQuestions?chapterId=6238&questionType=001001&number=5
+    题目总数——https://bw.chinahrt.com.cn/api/questionPractice/getNumbers?chapterId=6244
+提交日日学——https://bw.chinahrt.com.cn/api/questionPractice/saveAnswer————一组五个，可重复提交。
+周周练开始前——https://bw.chinahrt.com.cn/api/examination/listExamination?pageSize=1&curPage=1&examType=009002————为了获取id
+获取周周练题目——https://bw.chinahrt.com.cn/api/examination/enterExamination?id=XXX————根据上一步的id，获取题目和recordId
+    自动保存周周练答案————https://bw.chinahrt.com.cn/api/examination/saveAnswer
+提交周周练————https://bw.chinahrt.com.cn/api/examination/submit————根据上一步的recordId
+重置周周练————https://bw.chinahrt.com.cn/api/examination/checkExamination?id=XX————根据上两步的id
+
+日日学的题目列表，似乎少了几个题。

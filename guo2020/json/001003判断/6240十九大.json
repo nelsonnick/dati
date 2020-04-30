@@ -1,0 +1,296 @@
+{
+    "httpStatus": "OK",
+    "status": 0,
+    "message": "成功",
+    "data": [
+        {
+            "id": "67384",
+            "type": "001003",
+            "level": "003001",
+            "content": "党的十九大报告指出，从现在到二〇二〇年，是全面建成小康社会决胜期。（  ）",
+            "answer": "A",
+            "analysis": "从现在到二○二○年，是全面建成小康社会决胜期。（习近平：决胜全面建成小康社会 \n夺取新时代中国特色社会主义伟大胜利——在中国共产党第十九次全国代表大会上的报告）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "f8a2f970ed5f49b7903b4d8296a575bd",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "331c41c9c29448daab9e1e504ccb75fa",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67385",
+            "type": "001003",
+            "level": "003001",
+            "content": "人民当家作主是党领导人民治理国家的基本方式。（  ）",
+            "answer": "B",
+            "analysis": "人民当家作主是社会主义民主政治的本质特征，依法治国是党领导人民治理国家的基本\n方式，三者统一于我国社会主义民主政治伟大实践。（习近平：决胜全面建成小康社会 夺取新\n时代中国特色社会主义伟大胜利——在中国共产党第十九次全国代表大会上的报告）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c9ed4d94a23e4d9f80867b0dafcb4945",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "a394043149a845038efbc0b7d0edbb0a",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67386",
+            "type": "001003",
+            "level": "003001",
+            "content": "当前和今后一个时期，我国经济发展面临的问题，供给和需求两侧都有，但矛盾的主要方面\n在供给侧。（  ）",
+            "answer": "A",
+            "analysis": "当前和今后一个时期，我国经济发展面临的问题，供给和需求两侧都有，但矛盾的主要\n方面在供给侧。（《习近平新时代中国特色社会主义思想三十讲》）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "28e1a1a3ca704883ba96456e69576e7f",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "71f29cb4444d4f7993bd1822399b5889",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67387",
+            "type": "001003",
+            "level": "003001",
+            "content": "衡量服务型政府建设成效的试金石是：尽量让企业和群众“办事不求人”。（ ）",
+            "answer": "A",
+            "analysis": "尽量让企业和群众“办事不求人”，这是衡量服务型政府建设成效的一个“试金石”。\n（李克强同志在全国深化“放管服”改革转变政府职能电视电话会议上的讲话）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "953d021f7d7d4fd0b8377abb73748b3a",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "8653e1b6289a4db2bbb379f18c85a7a5",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67388",
+            "type": "001003",
+            "level": "003001",
+            "content": "从二〇二〇年到二〇三五年，在全面建成小康社会的基础上，再奋斗十五年，基本实现社会\n主义现代化。（ ）",
+            "answer": "A",
+            "analysis": "从二○二○年到二○三五年，在全面建成小康社会的基础上，再奋斗十五年，基本实现\n社会主义现代化。（习近平：决胜全面建成小康社会 夺取新时代中国特色社会主义伟大胜利—\n—在中国共产党第十九次全国代表大会上的报告）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "91b4ed704bff4d809d8f73b58bff8757",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "e15b79a3e6f241979e0954ad23485be6",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67389",
+            "type": "001003",
+            "level": "003001",
+            "content": "发展是解决我国一切问题的基础和关键，发展必须是科学发展，必须坚定不移贯彻创新、协\n调、绿色、开放、和谐的发展理念。（ ）",
+            "answer": "A",
+            "analysis": "发展是解决我国一切问题的基础和关键，发展必须是科学发展，必须坚定不移贯彻创新\n、协调、绿色、开放、共享的发展理念。（习近平：决胜全面建成小康社会 夺取新时代中国特\n色社会主义伟大胜利——在中国共产党第十九次全国代表大会上的报告）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "1d0da0535968432aab2a63a6a69505ee",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "42ac391aae3d45f59c59dc9075bd64e5",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67390",
+            "type": "001003",
+            "level": "003001",
+            "content": "全面从严治党永远在路上，一个政党，一个政权，其前途命运取决于人心向背。（ ）",
+            "answer": "A",
+            "analysis": "全面从严治党永远在路上。一个政党，一个政权，其前途命运取决于人心向背。（习近\n平：决胜全面建成小康社会 夺取新时代中国特色社会主义伟大胜利——在中国共产党第十九次\n全国代表大会上的报告）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "f93e08916bdf4fa9a6e8488b62385248",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "c9f9ecb4032441ddaf0342486171bfe0",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67391",
+            "type": "001003",
+            "level": "003001",
+            "content": "从十八大到二十大，是“两个一百年”奋斗目标的历史交汇期。（  ）",
+            "answer": "B",
+            "analysis": "从十九大到二十大，是“两个一百年”奋斗目标的历史交汇期。（习近平：决胜全面建\n成小康社会 夺取新时代中国特色社会主义伟大胜利——在中国共产党第十九次全国代表大会上\n的报告）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "01436a0c241348b387b09d30a99313d3",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "8b2de5c02763456ea5f56ed64765181c",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67392",
+            "type": "001003",
+            "level": "003001",
+            "content": "“一带一路”倡议是构建人类命运共同体重要平台。（  ）",
+            "answer": "A",
+            "analysis": "“一带一路”倡议是构建人类命运共同体重要平台。（《习近平新时代中国特色社会主\n义思想三十讲》）",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "629b5e420edf44cca039d2a987dc35d6",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "cdf5465fe7304704bbd97ae988b4f348",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        }
+    ],
+    "code": "SUCCESS"
+}

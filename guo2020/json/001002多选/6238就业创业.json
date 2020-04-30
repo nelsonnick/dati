@@ -1,0 +1,5382 @@
+{
+    "httpStatus": "OK",
+    "status": 0,
+    "message": "成功",
+    "data": [
+        {
+            "id": "66740",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n就业促进法的立法目的是（    ）",
+            "answer": "A,B,C",
+            "analysis": "《就业促进法》第一条规定，为了促进就业，促进经济发展与扩大就业相协调，促进社会和谐稳定，制定本法。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "31abe9c307f942eda5e04e68aa83cfb8",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "促进就业"
+                },
+                {
+                    "id": "1d1c888dd90542d19ce06e13103acd43",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "促进经济发展与扩大就业相协调"
+                },
+                {
+                    "id": "b2933afc9b044e6c8ea0b4ff9d102783",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "促进社会和谐稳定"
+                },
+                {
+                    "id": "161bb530c1184c9793542f6e0b7764c8",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "构建和发展和谐稳定的劳动关系"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66741",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《就业促进法》规定，地方各级人民政府和有关部门应当加强对失业人员从事个体经营的指导，提供（    ）等服务。",
+            "answer": "A,B,C",
+            "analysis": "《就业促进法》第二十四条规定，地方各级人民政府和有关部门应当加强对失业人员从事个体经营的指导，提供政策咨询、就业培训和开业指导等服务。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "48d7caae783c4a03bff31e1cf0b65430",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "政策咨询"
+                },
+                {
+                    "id": "e1111eaf00914c2b9dccd33948293d7a",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "就业培训"
+                },
+                {
+                    "id": "8fa3086b2b5c4084b55bbbaf5a9f024f",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "开业指导"
+                },
+                {
+                    "id": "cb7d0957972c435c967b2d3b42f8970a",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "业务信息"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66742",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n劳动者就业，不因（    ）等不同而受歧视。",
+            "answer": "A,B,C,D",
+            "analysis": "《就业促进法》第三条规定，劳动者依法享有平等就业和自主择业的权利。劳动者就业，不因民族、种族、性别、宗教信仰等不同而受歧视。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "fcf9b68dfcc34a62b1640cee70b1153b",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "民族"
+                },
+                {
+                    "id": "656c4bb8b8f8484c99efbe8441e67b2b",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "种族"
+                },
+                {
+                    "id": "b5ecf5a190cd4687900fb510754a0d95",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "性别"
+                },
+                {
+                    "id": "4cb6cac280c84f2ab773ff090e56b174",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "宗教信仰"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66743",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《就业促进法》规定，（    ）以及其他社会组织，协助人民政府开展促进就业工作，依法维护劳动者的劳动权利。",
+            "answer": "A,B,C,D",
+            "analysis": "《就业促进法》第九条规定，工会、共产主义青年团、妇女联合会、残疾人联合会以及其他社会组织，协助人民政府开展促进就业工作，依法维护劳动者的劳动权利。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "a7cf37ec214942138646b845409029a6",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "工会"
+                },
+                {
+                    "id": "493b1cf3735247d4868088c084b24908",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "共产主义青年团"
+                },
+                {
+                    "id": "d60e30a2bd114601be86fdaa2d0a3f47",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "妇女联合会"
+                },
+                {
+                    "id": "c1e2292ff46f4d33847c9fe34e02f26c",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "残疾人联合会"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66744",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《就业促进法》第三章公平就业中，包括下列哪些选项（    ）",
+            "answer": "A,B,C,D",
+            "analysis": "《就业促进法》第三章规定。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "7a1f1a13cd6049f1bd7dccdf893fe703",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "国家保障妇女享有与男子平等的劳动权利"
+                },
+                {
+                    "id": "0b10539e75224887bb6a8bf8671cb7fb",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "各民族劳动者享有平等的劳动权利"
+                },
+                {
+                    "id": "3fa85d76630c4d8eb88450667a6b2509",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "国家保障残疾人的劳动权利"
+                },
+                {
+                    "id": "8752f8260381424ebdb7213ed19f314d",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "农村劳动者进城就业享有与城镇劳动者平等的劳动权利"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66745",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《就业促进法》规定，属于国家给予税收优惠的事项有（    ）",
+            "answer": "A,B,C,D",
+            "analysis": "《就业促进法》第十七条规定，国家鼓励企业增加就业岗位，扶持失业人员和残疾人就业，对下列企业、人员依法给予税收优惠：（一）吸纳符合国家规定条件的失业人员达到规定要求的企业；（二）失业人员创办的中小企业；（三）安置残疾人员达到规定比例或者集中使用残疾人的企业；（四）从事个体经营的符合国家规定条件的失业人员；（五）从事个体经营的残疾人；（六）国务院规定给予税收优惠的其他企业、人员。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "377a21062bcf406ca033a0779e964c23",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "吸纳符合国家规定条件的失业人员达到规定要求的企业"
+                },
+                {
+                    "id": "1bb6f5f423504f81813dfb0e9b5719c5",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "失业人员创办的中小企业"
+                },
+                {
+                    "id": "de70450164fd48009504b681e77a30fb",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "安置残疾人员达到规定比例或者集中使用残疾人的企业"
+                },
+                {
+                    "id": "1efac4827ff64c8f9483995dd1a18195",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "从事个体经营的残疾人"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66746",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《就业促进法》规定，不得歧视的劳动者有（    ）",
+            "answer": "A,B,C,D",
+            "analysis": "《就业促进法》第二十九条、三十条、三十一条规定。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "87f387618cf34e78b627104f5c6e9cbf",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "残疾人"
+                },
+                {
+                    "id": "aa50a25e64bd4b2289e4fdca48cd1350",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "农村进城劳动者"
+                },
+                {
+                    "id": "299a78d921bc40fea6b21c4e8643ad1c",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "传染病病原携带者"
+                },
+                {
+                    "id": "d3235b070f044c25b21c18397dd06a5b",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "女职工"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66747",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《就业促进法》规定，国家建立（    ）制度，开展劳动力资源和就业、失业状况调查统计，并公布调查统计结果。",
+            "answer": "A,B,D",
+            "analysis": "《就业促进法》第四十三条规定：国家建立劳动力调查统计制度和就业登记、失业登记制度，开展劳动力资源和就业、失业状况调查统计，并公布调查统计结果。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "b6f49d3dcb334cb0b50654873b2653dd",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "劳动力调查统计"
+                },
+                {
+                    "id": "2d33c672cffb478ba71341778e89fbb2",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "就业登记"
+                },
+                {
+                    "id": "f7544586e2e847e9aa4b95aa0386c411",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "失业动态监测"
+                },
+                {
+                    "id": "908b43d425db44c9abfb3568f247cb0e",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "失业登记"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66748",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《就业促进法》规定，国家把扩大就业放在经济社会发展的突出位置，实施积极的就业政策，坚持（    ）的方针，多渠道扩大就业。",
+            "answer": "A,B,D",
+            "analysis": "《就业促进法》第二条规定，国家把扩大就业放在经济社会发展的突出位置，实施积极的就业政策，坚持劳动者自主择业、市场调节就业、政府促进就业的方针，多渠道扩大就业。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "ee98ec67098a44518536a2c60b095c3c",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "劳动者自主择业"
+                },
+                {
+                    "id": "e16adbaf0d87493ba0da4033f850609e",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "市场调节就业"
+                },
+                {
+                    "id": "de038678a731497faef9b41971e5cab5",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "公益性岗位托底安置"
+                },
+                {
+                    "id": "c64f9da19feb4598b694f31e2ad30be9",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "政府促进就业"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66749",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《就业促进法》规定，从事职业中介活动，应当遵循（    ）的原则。",
+            "answer": "A,B,C,D",
+            "analysis": "《就业促进法》第三十九条规定，从事职业中介活动，应当遵循合法、诚实信用、公平、公开的原则。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "4e0eb8b9713146db92a0c8c05b936e03",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "合法"
+                },
+                {
+                    "id": "8496e65e888144058da95fb6c6ca6efc",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "诚实信用"
+                },
+                {
+                    "id": "2fb1ed07baf1445799f3fde1e6f2e585",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "公平"
+                },
+                {
+                    "id": "6feea7cc4e374715a4b2287f69f7ac42",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "公开"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66750",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《就业促进法》规定，（    ）与企业应当密切联系，实行产教结合，为经济建设服务，培养实用人才和熟练劳动者。",
+            "answer": "B,D",
+            "analysis": "《就业促进法》第四十七条规定，职业院校、职业技能培训机构与企业应当密切联系，实行产教结合，为经济建设服务，培养实用人才和熟练劳动者。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "153565886f0742dfad991ad207538d8f",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "高等院校"
+                },
+                {
+                    "id": "692f3e4997f743bfbdb5cf3bae03bde2",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "职业院校"
+                },
+                {
+                    "id": "6035f8b6e2224245b64fda82053702d8",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "行业组织"
+                },
+                {
+                    "id": "02a0928419934777b52a4a768f814d73",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "职业技能培训机构"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66751",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n对到（    ）县以下机关事业单位工作的高校毕业生，新录用为公务员的，试用期工资可直接按试用期满后工资确定。",
+            "answer": "A,B,C,D",
+            "analysis": "《中共中央办公厅、国务院办公厅关于进一步引导和鼓励高校毕业生到基层工作的意见》规定，对到中西部地区、东北地区或艰苦边远地区、国家扶贫开发工作重点县县以下机关事业单位工作的高校毕业生，新录用为公务员的，试用期工资可直接按试用期满后工资确定。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "3e1b3f876554407a9132fb804d4e042a",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "中西部地区"
+                },
+                {
+                    "id": "d486b70c16874444aa4d3c2bd0e51259",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "东北地区"
+                },
+                {
+                    "id": "6c8153d483424b62877c2ee55daa6fdd",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "艰苦边远地区"
+                },
+                {
+                    "id": "21227a6ba93e40579e5765b699540503",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "国家扶贫开发工作重点县"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66752",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《中共中央办公厅、国务院办公厅关于进一步引导和鼓励高校毕业生到基层工作的意见》规定，对小微企业新招用毕业年度高校毕业生，可按规定给予（    ）。",
+            "answer": "A,C",
+            "analysis": "《中共中央办公厅、国务院办公厅关于进一步引导和鼓励高校毕业生到基层工作的意见》规定，对小微企业新招用毕业年度高校毕业生，按规定给予社会保险补贴和职业培训补贴。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "630c39a9a241449f8822362b9233f0fc",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "职业培训补贴"
+                },
+                {
+                    "id": "f66e66389419465f88ef06085c80e739",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "就业见习补贴"
+                },
+                {
+                    "id": "48e99c7e37284a3a8d73c6198d357212",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "社会保险补贴"
+                },
+                {
+                    "id": "3bf472f9d1f94efd9a10310c7d497cdd",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "生活补贴"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66753",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《中共中央办公厅、国务院办公厅关于进一步引导和鼓励高校毕业生到基层工作的意见》规定，参加基层服务项目前无工作经历的人员服务期满且考核合格后2年内，在参加（    ）等方面可同等享受应届高校毕业生的相关政策。",
+            "answer": "A,B,C,D",
+            "analysis": "《中共中央办公厅、国务院办公厅关于进一步引导和鼓励高校毕业生到基层工作的意见》规定，参加基层服务项目前无工作经历的人员服务期满且考核合格后2年内，在参加机关事业单位考录（招聘）、各类企业吸纳就业、自主创业、落户、升学等方面可同等享受应届高校毕业生的相关政策。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "7bef5d1ef56a4d2fb8534a59a8463348",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "机关事业单位考录（招聘）"
+                },
+                {
+                    "id": "9c4894fb04c4423fa4a32b808e28a084",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "各类企业吸纳就业"
+                },
+                {
+                    "id": "54ad8dec7e7e4db28564c51d9159bf8c",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "自主创业"
+                },
+                {
+                    "id": "5c65cfd05cf34c45b5e8b607e5070ae9",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "落户、升学"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66754",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《中共中央办公厅、国务院办公厅关于进一步引导和鼓励高校毕业生到基层工作的意见》规定，健全统一规范的人力资源市场，打破（    ）、人事关系等制约，促进高校毕业生在不同地域和不同性质单位间合理流动。",
+            "answer": "A,B,C,D",
+            "analysis": "《中共中央办公厅、国务院办公厅关于进一步引导和鼓励高校毕业生到基层工作的意见》提出，健全统一规范的人力资源市场，打破户籍、地域、身份、学历、人事关系等制约，促进高校毕业生在不同地域和不同性质单位间合理流动。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c076be622b884fe784334f920534868e",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "户籍"
+                },
+                {
+                    "id": "e74fcad54f2b413393b5cc6565488a8c",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "地域"
+                },
+                {
+                    "id": "27ca5000af934c31b47a79464ca58617",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "身份"
+                },
+                {
+                    "id": "1314a24820b34ce0a31a175d9a205a7b",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "学历"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66755",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《国务院办公厅关于做好2013年全国普通高等学校毕业生就业工作的通知》（国办发〔2013〕35号）规定，招聘高校毕业生，不得以（    ）等作为限制性要求。",
+            "answer": "A,B,C",
+            "analysis": "《国务院办公厅关于做好2013年全国普通高等学校毕业生就业工作的通知》（国办发〔2013〕35号）规定，招聘高校毕业生，不得以毕业院校、年龄、户籍等作为限制性要求。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "abd105168bcb45099ac09209c5eb952b",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "毕业院校"
+                },
+                {
+                    "id": "ef1f8da0390f4baf8c2c85c80b13e6ba",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "年龄"
+                },
+                {
+                    "id": "9b776019fc18412988359fd9fb3fec4c",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "户籍"
+                },
+                {
+                    "id": "c4fe8dd6fd36437fbedbae1c5be7a856",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "学历"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66756",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《国务院关于进一步做好新形势下就业创业工作的意见》规定，对高校毕业生到（    ）县以下基层单位就业、履行一定服务期限的，按规定给予学费补偿和国家助学贷款代偿。",
+            "answer": "A,B,C",
+            "analysis": "《国务院关于进一步做好新形势下就业创业工作的意见》（国发〔2015〕23号）规定，对高校毕业生到中西部地区、艰苦边远地区和老工业基地县以下基层单位就业、履行一定服务期限的，按规定给予学费补偿和国家助学贷款代偿。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "1da80e22cb184fe9af6fe7246e4abd53",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "中西部地区"
+                },
+                {
+                    "id": "81ac8c5980bb45c6b9ba3f822e617557",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "艰苦边远地区"
+                },
+                {
+                    "id": "a8aa018155924329b61b24780c7ddd08",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "老工业基地"
+                },
+                {
+                    "id": "ef545c2929104f01ac4e0d7429a15474",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "东北地区"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66757",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《就业服务与就业管理规定》规定，公共就业服务机构应当加强工作人员的政策、业务和服务技能培训，组织（    ）等专业人员参加相应职业资格培训。",
+            "answer": "A,B,C",
+            "analysis": "《就业服务与就业管理规定》第三十二条规定，公共就业服务机构应当加强工作人员的政策、业务和服务技能培训，组织职业指导人员、职业信息分析人员、劳动保障协理员等专业人员参加相应职业资格培训。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "976e5d36c8824644852bb8f4ca105971",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "职业指导人员"
+                },
+                {
+                    "id": "b1fe723fe6184a1395d8228395828845",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "职业信息分析人员"
+                },
+                {
+                    "id": "633989bdaff04062abb7cdcb95e5cca2",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "劳动保障协理员"
+                },
+                {
+                    "id": "c246afaf7da54952afa0c99d8f035c04",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "劳动保障分析人员"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66758",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《就业服务与就业管理规定》规定，职业指导工作的内容包括（    ）。",
+            "answer": "A,B,C,D",
+            "analysis": "《就业服务与就业管理规定》第二十八条规定，职业指导工作包括以下内容：（一）向劳动者和用人单位提供国家有关劳动保障的法律法规和政策、人力资源市场状况咨询；（二）帮助劳动者了解职业状况，掌握求职方法，确定择业方向，增强择业能力；（三）向劳动者提出培训建议，为其提供职业培训相关信息；（四）开展对劳动者个人职业素质和特点的测试，并对其职业能力进行评价。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "45d53eb90a8744819ff88fc6f2e6da73",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "向劳动者和用人单位提供国家有关劳动保障的法律法规和政策、人力资源市场状况咨询"
+                },
+                {
+                    "id": "2ab3d664c7f2456693c01a93d124ebfe",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "帮助劳动者了解职业状况，掌握求职方法，确定择业方向，增强择业能力"
+                },
+                {
+                    "id": "94b22d950bd1461194164ac65823fe1d",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "向劳动者提出培训建议，为其提供职业培训相关信息"
+                },
+                {
+                    "id": "7509cb763dd44b269834f583de3e37e3",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "开展对劳动者个人职业素质和特点的测试，并对其职业能力进行评价"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66759",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《就业服务与就业管理规定》规定，（    ）公共就业服务机构建立基层服务窗口，开展以就业援助为重点的公共就业服务，实施劳动力资源调查统计，并承担上级劳动保障行政部门安排的其他就业服务工作。",
+            "answer": "A,B,C",
+            "analysis": "《就业服务与就业管理规定》第三十一条，街道、乡镇、社区公共就业服务机构建立基层服务窗口，开展以就业援助为重点的公共就业服务，实施劳动力资源调查统计，并承担上级劳动保障行政部门安排的其他就业服务工作。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "8bd9f0cdd51e4a6cb63ec6baf226e3cd",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "街道"
+                },
+                {
+                    "id": "1df6a54a0eeb478da57026f1cc454ed3",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "乡镇"
+                },
+                {
+                    "id": "180c1150bc344fbda852e3b2bd867091",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "社区"
+                },
+                {
+                    "id": "02ec258b24d54aee99dac30a4aba576a",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "县城"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66760",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《就业服务与就业管理规定》规定，登记失业人员出现（    ）情形之一的，由公共就业服务机构注销其失业登记。",
+            "answer": "A,B,C,D",
+            "analysis": "《就业服务与就业管理规定》第六十六条，登记失业人员出现下列情形之一的，由公共就业服务机构注销其失业登记：（一）被用人单位录用的；（二）从事个体经营或创办企业，并领取工商营业执照的；（三）已从事有稳定收入的劳动，并且月收入不低于当地最低工资标准的；（四）已享受基本养老保险待遇的；（五）完全丧失劳动能力的；（六）入学、服兵役、移居境外的；（七）被判刑收监执行的；（八）终止就业要求或拒绝接受公共就业服务的；（九）连续6个月未与公共就业服务机构联系的；（十）已进行就业登记的其他人员或各地规定的其他情形。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "002b303bdf9a4fe2bb16776868c2c814",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "完全丧失劳动能力的"
+                },
+                {
+                    "id": "492dc0cd45a8464d8fcd5e4d4ca608de",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "入学、服兵役、移居境外的"
+                },
+                {
+                    "id": "a9bb5f0e7ce54a27a5e933092161955b",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "被判刑收监执行的"
+                },
+                {
+                    "id": "5d9b16b6194b4d99baad4189879056b9",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "终止就业要求或拒绝接受公共就业服务的"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66761",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n根据《就业服务与就业管理规定》，公共就业服务机构应当积极拓展服务功能，根据用人单位需求提供（    ）服务。",
+            "answer": "A,B,C,D",
+            "analysis": "《就业服务与就业管理规定》第二十六条规定，公共就业服务机构应当积极拓展服务功能，根据用人单位需求提供以下服务：招聘用人指导服务；代理招聘服务；跨地区人员招聘服务；企业人力资源管理咨询等专业性服务、劳动保障事务代理服务。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "5378716461ba4fd5846328d0b90ed57c",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "招聘用人指导"
+                },
+                {
+                    "id": "0157c4ffc77a46c18693bd1d1909e618",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "劳动保障事务代理"
+                },
+                {
+                    "id": "6431d1ff9b314c96a90dac8ff5cab78a",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "跨地区人员招聘"
+                },
+                {
+                    "id": "c60cc5f44e7f42eb95a1e2029919c749",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "企业人力资源管理咨询等专业性"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66762",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n根据《就业服务与就业管理规定》，用人单位可以通过（    ）自主招用人员。",
+            "answer": "A,B,C,D",
+            "analysis": "《就业服务与就业管理规定》第十条规定，用人单位可以通过下列途径自主招用人员：（一）委托公共就业服务机构或职业中介机构；（二）参加职业招聘洽谈会；（三）委托报纸、广播、电视、互联网站等大众传播媒介发布招聘信息；（四）利用本企业场所、企业网站等自有途径发布招聘信息。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "d6f7c45c3b2246eeb08aa9628e5b3b25",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "委托公共就业服务机构或职业中介机构"
+                },
+                {
+                    "id": "a586d697c491481ea355c9370abbd1b1",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "参加职业招聘洽谈会"
+                },
+                {
+                    "id": "11ebc4d1c56f4f5b93f73037edf4ac08",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "委托报纸、广播、电视、互联网站等大众传播媒介发布招聘信"
+                },
+                {
+                    "id": "4aa7da653aa14702a29cb47f3f73b25a",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "利用本企业场所、企业网站等自有途径发布招聘信息"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66763",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n根据《就业服务与就业管理规定》，公共就业服务机构应当根据服务对象的特点，在一定时期内为不同类型的（    ）集中组织活动，开展专项服务。",
+            "answer": "A,B,D",
+            "analysis": "《就业服务与就业管理规定》第三十条规定，公共就业服务机构应当根据服务对象的特点，在一定时期内为不同类型的劳动者、就业困难对象或用人单位集中组织活动，开展专项服务。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "a429560708514d909d246bec01bcf2c6",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "劳动者"
+                },
+                {
+                    "id": "40183d48db5943d3a04ec95f654cae35",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "就业困难对象"
+                },
+                {
+                    "id": "462404afbfc8498d9060eccf8b648543",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "外国人"
+                },
+                {
+                    "id": "9759fac55b48484188709c53da791c17",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "用人单位"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66764",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n根据《就业服务与就业管理规定》，劳动者年满16周岁，有劳动能力且有就业愿望的，可凭本人身份证件，通过（    ）等渠道求职。",
+            "answer": "A,B,C,D",
+            "analysis": "《就业服务与就业管理规定》第六条明确规定，劳动者依法享有自主择业的权利，劳动者年满16周岁，有劳动能力且有就业愿望的，可凭本人身份证件，通过公共就业服务机构、职业中介机构或者直接联系用人单位等渠道求职。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "0b5cd48555444ccbb3f0a1c24257ef40",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "公共就业服务机构"
+                },
+                {
+                    "id": "c7204e275c1e49d088d2452f8149aa8d",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "职业中介机构"
+                },
+                {
+                    "id": "ede0a763aaa2427fbd6753727557e5f4",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "熟人介绍"
+                },
+                {
+                    "id": "e6bcb747656d41d59410b08f45fd12a0",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "直接联系用人单位"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66765",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n根据《就业服务与就业管理规定》，公共就业服务机构应当逐步实行信息化管理与服务，在城市内实现（    ）信息共享和公共就业服务全程信息化管理，并逐步实现与劳动工资信息、社会保险信息的互联互通和信息共享。",
+            "answer": "A,B,C",
+            "analysis": "《就业服务与就业管理规定》第三十三条明确规定：公共就业服务机构应当逐步实行信息化管理与服务，在城市内实现就业服务、失业保险、就业培训信息共享和公共就业服务全程信息化管理，并逐步实现与劳动工资信息、社会保险信息的互联互通和信息共享。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "018bd106096a4ddf9ff3cb1ae0d3cadf",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "就业服务"
+                },
+                {
+                    "id": "bc8cb262e6644bbcad1309c1d053a65e",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "失业保险"
+                },
+                {
+                    "id": "144c910b03044d35b834061d138b0d4e",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "就业培训"
+                },
+                {
+                    "id": "17532cf3c5da4841b720aad417ccf527",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "公民犯罪记录"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66766",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《就业服务与就业管理规定》规定，公共就业服务机构应当建立健全人力资源市场信息服务体系，完善（    ）信息的发布制度，为劳动者求职择业、用人单位招用人员以及培训机构开展培训提供支持。",
+            "answer": "A,B,C,D",
+            "analysis": "《就业服务与就业管理规定》第三十四条明确规定：公共就业服务机构应当建立健全人力资源市场信息服务体系，完善职业供求信息、市场工资指导价位信息、职业培训信息、人力资源市场分析信息的发布制度，为劳动者求职择业、用人单位招用人员以及培训机构开展培训提供支持。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c779dc0bfa874b328a7c7bbb75dd7dc9",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "职业供求"
+                },
+                {
+                    "id": "7eed180badb44d47b83e5d4154598106",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "市场工资指导价位"
+                },
+                {
+                    "id": "570850a82f89490992b7045f5160d884",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "职业培训"
+                },
+                {
+                    "id": "7919adbc9e39489abf97e2525c653870",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "人力资源市场分析"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66767",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n根据《就业服务与就业管理规定》，公共就业服务机构应当加强工作人员的政策、业务和服务技能培训，组织（    ）等专业人员参加相应职业资格培训。",
+            "answer": "A,C,D",
+            "analysis": "《就业服务与就业管理规定》第三十二条规定，公共就业服务机构应当加强工作人员的政策、业务和服务技能培训，组织职业指导人员、职业信息分析人员、劳动保障协理员等专业人员参加相应职业资格培训。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "fbe5c2c2693842b0ae033801bdeeee0b",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "职业指导人员"
+                },
+                {
+                    "id": "5e84a1306f3c466490aed3a84de71b2b",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "公益性岗位人员"
+                },
+                {
+                    "id": "e49b24d369524e9eb23a0085eb584a34",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "职业信息分析人员"
+                },
+                {
+                    "id": "c196779f0618444d9bb68f8abddd267c",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "劳动保障协理员"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66768",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《就业补助资金管理办法》规定，就业补助资金管理应遵循（    ）原则。",
+            "answer": "A,B,D",
+            "analysis": "《就业补助资金管理办法》第三条规定，就业补助资金管理应遵循注重普惠，重点倾斜；奖补结合，激励相容；易于操作，精准效能原则。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "55588d55dc16495d9b93a7ec9317edca",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "注重普惠，重点倾斜"
+                },
+                {
+                    "id": "b9ed305c6634404181d7c2ab82c6fd01",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "奖补结合，激励相容"
+                },
+                {
+                    "id": "f1d970b57fde4e61ba820b3d1035fc37",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "保障基本，严格标准"
+                },
+                {
+                    "id": "e8bd377a2c824cf081b0b21b041a36b8",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "易于操作，精准效能"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66769",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《就业补助资金管理办法》规定，享受就业补助资金职业培训补贴的人员范围包括：贫困家庭子女、毕业年度高校毕业生（含技师学院高级工班、预备技师班和特殊教育院校职业教育类毕业生）、（    ），以及符合条件的企业职工。",
+            "answer": "A,B,C",
+            "analysis": "《就业补助资金管理办法》第五条规定，享受职业培训补贴的人员范围包括：贫困家庭子女、毕业年度高校毕业生（含技师学院高级工班、预备技师班和特殊教育院校职业教育类毕业生，下同）、城乡未继续升学的应届初高中毕业生、农村转移就业劳动者、城镇登记失业人员，以及符合条件的企业职工。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "bd03aaf1ed2c486fa5311588ebbd289d",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "城乡未继续升学的应届初高中毕业生"
+                },
+                {
+                    "id": "36b33ca0fdfe4665ae0cb75acf0057bc",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "农村转移就业劳动者"
+                },
+                {
+                    "id": "7344cf31c4f244e9add44890b8d198b6",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "城镇登记失业人员"
+                },
+                {
+                    "id": "1acee29e9e6f4ad8841e49ee12352781",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "退役军人"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66770",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《就业补助资金管理办法》规定，对参加就业技能培训和创业培训的五类人员，培训后取得（    ）的，给予一定标准的职业培训补贴。",
+            "answer": "A,B,C,D",
+            "analysis": "《就业补助资金管理办法》第五条规定，对参加就业技能培训和创业培训的五类人员，培训后取得职业资格证书的（或职业技能等级证书、专项职业能力证书、培训合格证书），给予一定标准的职业培训补贴。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "66310cfc5727486b894067bf9d89a540",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "职业资格证书"
+                },
+                {
+                    "id": "06031e6fe5fe49af8cff46427766ddc5",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "职业技能等级证书"
+                },
+                {
+                    "id": "ff1c6906e32646dba4d55870600c37ce",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "专项职业能力证书"
+                },
+                {
+                    "id": "d7d1556fdaf04e8a943e36babd2cd710",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "培训合格证书"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66771",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《就业补助资金管理办法》规定，对为城乡未继续升学的应届初高中毕业生垫付劳动预备制培训费的培训机构，给予一定标准的职业培训补贴。其中参加劳动预备制培训的（    ），同时给予一定标准的生活费补贴。",
+            "answer": "A,D",
+            "analysis": "《就业补助资金管理办法》第五条规定，对为城乡未继续升学的应届初高中毕业生垫付劳动预备制培训费的培训机构，给予一定标准的职业培训补贴。其中农村学员和城市低保家庭学员参加劳动预备制培训的，同时给予一定标准的生活费补贴。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "594d77b6946140b9903053ac27e7947b",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "农村学员"
+                },
+                {
+                    "id": "df3df96c55ee4c3ca41070d720f1f35c",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "困难家庭学员"
+                },
+                {
+                    "id": "39c82979e0474ce8b6b527d27994c7d9",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "肢体残疾学员"
+                },
+                {
+                    "id": "80341d74dc27490182884adce1b3bba8",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "城市低保家庭学员"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66772",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《就业补助资金管理办法》规定，各地人社、财政部门可通过项目制方式，向政府认定的培训机构整建制购买就业技能培训或创业培训项目，为（    ）免费提供就业技能培训或创业培训。",
+            "answer": "B,C",
+            "analysis": "《就业补助资金管理办法》第五条规定，各地人社、财政部门可通过项目制方式，向政府认定的培训机构整建制购买就业技能培训或创业培训项目，为化解钢铁煤炭煤电行业过剩产能企业失业人员、建档立卡贫困劳动力免费提供就业技能培训或创业培训。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "87d4985043f74e1cb9a2dfd8a2305de2",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "登记失业人员"
+                },
+                {
+                    "id": "f0c186cea5dd4f5e8b2fa8a8ebd6f5e8",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "化解钢铁煤炭煤电行业过剩产能企业失业人员"
+                },
+                {
+                    "id": "f143fe155b9f4cb1bb1b74aa5be9c435",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "建档立卡贫困劳动力"
+                },
+                {
+                    "id": "42e64c018d874d758f51fa050d3714bc",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "大龄失业人员"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66773",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《就业补助资金管理办法》规定，享受就业补助资金社会保险补贴的人员范围包括（    ）。",
+            "answer": "B,D",
+            "analysis": "《就业补助资金管理办法》第七条规定，享受社会保险补贴的人员范围包括：符合《就业促进法》规定的就业困难人员和高校毕业生。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "7c99f834bc394dabbbad6771162c42fe",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "登记失业人员"
+                },
+                {
+                    "id": "1f8f156f2ea645579d5ab2b7d600c25e",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "就业困难人员"
+                },
+                {
+                    "id": "e8482c28dd344263bf1c4757d23a9a57",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "农民工"
+                },
+                {
+                    "id": "08aa316ba77646188fea11552f4bbc8b",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "高校毕业生"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66774",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《就业补助资金管理办法》规定，对招用就业困难人员并缴纳社会保险费的单位，以及通过公益性岗位安置就业困难人员并缴纳社会保险费的单位，按其为就业困难人员实际缴纳的（    ）给予补贴，不包括就业困难人员个人应缴纳的部分。",
+            "answer": "A,B,D",
+            "analysis": "《就业补助资金管理办法》第七条规定，对招用就业困难人员并缴纳社会保险费的单位，以及通过公益性岗位安置就业困难人员并缴纳社会保险费的单位，按其为就业困难人员实际缴纳的基本养老保险费、基本医疗保险费和失业保险费给予补贴，不包括就业困难人员个人应缴纳的部分。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "7837db628a964c00b85efd68b2c1ecb9",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "基本养老保险费"
+                },
+                {
+                    "id": "3a735f3b09d1446c81962be382eb5166",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "基本医疗保险费"
+                },
+                {
+                    "id": "304c19a609ec48d7ab9170638888df64",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "工伤保险费"
+                },
+                {
+                    "id": "3a51cd3205644b2597978c3d6413c4fe",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "失业保险费"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66775",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《就业补助资金管理办法》规定，对在毕业年度有就业创业意愿并积极求职创业的（    ）中的高校毕业生，残疾及获得国家助学贷款的高校毕业生，给予一次性求职创业补贴。",
+            "answer": "A,B,C,D",
+            "analysis": "《就业补助资金管理办法》第十一条规定，对在毕业年度有就业创业意愿并积极求职创业的低保家庭、贫困残疾人家庭、建档立卡贫困家庭和特困人员中的高校毕业生，残疾及获得国家助学贷款的高校毕业生，给予一次性求职创业补贴。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "003822d50f754d499a0f79b141697b04",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "低保家庭"
+                },
+                {
+                    "id": "78ab23326d544f059e5e15c61581c500",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "贫困残疾人家庭"
+                },
+                {
+                    "id": "c30bac0f290844b2857da59168f744e9",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "建档立卡贫困家庭"
+                },
+                {
+                    "id": "61dc18f7329f4b33afd1b012c81d2510",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "特困人员"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66776",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《就业补助资金管理办法》规定，中央财政就业补助资金实行因素法分配，分配因素包括（    ）",
+            "answer": "A,B,C",
+            "analysis": "《就业补助资金管理办法》第十七条规定，中央财政就业补助资金实行因素法分配。分配因素包括基础因素、投入因素和绩效因素三类。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "0334301556884b2b826d4bcbaa122225",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "基础因素"
+                },
+                {
+                    "id": "496d162063414718a178c761380f7085",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "投入因素"
+                },
+                {
+                    "id": "87acb81d133a48658912d118c2750166",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "绩效因素"
+                },
+                {
+                    "id": "785ee7aae9f84cb79871a192d963c8c9",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "保障因素"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66777",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《就业补助资金管理办法》规定，就业见习补贴可以用于支付（    ）。",
+            "answer": "A,B,C",
+            "analysis": "《就业补助资金管理办法》规定，就业见习补贴用于见习单位支付见习人员见习期间基本生活费、为见习人员办理人身意外伤害保险，以及对见习人员的指导管理费用。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "cf4816a2e1bb46d5b4d64148355d2c0d",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "见习人员见习期间基本生活费"
+                },
+                {
+                    "id": "98efdfcf827d40c590d9c636ad96e7aa",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "为见习人员办理人身意外伤害保险"
+                },
+                {
+                    "id": "60dcc0c520824ee2aa18a33e32d27bea",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "对见习人员的指导管理费用"
+                },
+                {
+                    "id": "f196e2a98e5f4fb5ada0d6b09be0206c",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "见习单位的管理费用"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66778",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n全方位公共就业服务包括（    ）。",
+            "answer": "A,B,C,D",
+            "analysis": "《人力资源社会保障部、国家发展改革委、财政部关于推进全方位公共就业服务的指导意见》（人社部发〔2018〕77号）规定，提供覆盖全民、贯穿全程、辐射全域、便捷高效的全方位公共就业服务，以全方位公共就业服务促进就业增长，以就业增长支撑经济发展和民生改善。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "0a4ac8e8b3e040c3a6fbc5151fef748b",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "覆盖全民"
+                },
+                {
+                    "id": "e45d5badf9244a74947c6999a90ad230",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "贯穿全程"
+                },
+                {
+                    "id": "8a127e8ac783421bb4d5cfa84faebe89",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "辐射全域"
+                },
+                {
+                    "id": "4563bae5a4734fa098508bb0499ab86b",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "便捷高效"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66779",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n属于就业补助资金适用范畴的是（    ）。",
+            "answer": "A,B,C,D",
+            "analysis": "《就业补助资金管理办法》第五条规定，对参加就业技能培训和创业培训的五类人员（贫困家庭子女、毕业年度高校毕业生、城乡未继续升学的应届初高中毕业生、农村转移就业劳动者、城镇登记失业人员），培训后取得职业资格证书的（或职业技能等级证书、专项职业能力证书、培训合格证书），给予一定标准的职业培训补贴。\n《就业补助资金管理办法》第七条规定，对招用就业困难人员并缴纳社会保险费的单位，以及通过公益性岗位安置就业困难人员并缴纳社会保险费的单位，按其为就业困难人员实际缴纳的基本养老保险费、基本医疗保险费和失业保险费给予补贴。\n《就业补助资金管理办法》第八条规定，对公益性岗位安置的就业困难人员给予岗位补贴。\n《关于进一步加大就业扶贫政策支持力度着力提高劳务组织化程度的通知》（人社部发〔2018〕46号）规定，对有创业意愿并由一定创业条件的贫困劳动力，及时开展创业培训，落实税费减免、资金补贴、场地安排、创业担保贷款及贴息等政策。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c99be8ca4aa0495e9c3390d383d3676f",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "公益性岗位安置就业困难人员给予岗位补贴"
+                },
+                {
+                    "id": "b8514389987a4e09924fedab4f3b489d",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "企业吸纳就业困难人员并缴纳社会保险费的给予社会保险补贴"
+                },
+                {
+                    "id": "984c45ee04c84a67bab4f2ec18431cb0",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "为农村转移就业劳动者开展职业培训给予职业培训补贴"
+                },
+                {
+                    "id": "662fb2573b37456bb0fb137eb9183903",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "对建档立卡贫困劳动力给予创业担保贷款贴息"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66780",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《关于实施三年百万青年见习计划的通知》规定，三年百万青年见习计划对象为（    ）。",
+            "answer": "A,C",
+            "analysis": "《人力资源社会保障部、财政部、商务部、国务院国资委、共青团中央、全国工商联关于实施三年百万青年见习计划的通知》（人社部函〔2018〕186号）规定，三年百万青年见习计划对象为离校2年内未就业高校毕业生和16～24岁失业青年。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "f77a3b37aa324c7aaa11385c8baba20c",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "离校2年内未就业高校毕业生"
+                },
+                {
+                    "id": "3d4e9c7448ac4591b8c67172348b67cc",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "普通高等院校学生"
+                },
+                {
+                    "id": "e1c4444d27264e7491ed9a303e9a531d",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "16～24岁失业青年"
+                },
+                {
+                    "id": "816a42b316a44d6b91661ea48dda89d9",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "16～35岁失业青年"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66781",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《关于实施三年百万青年见习计划的通知》规定，高校毕业生参见就业见习，与见习单位签订的见习协议包含（    ）。",
+            "answer": "A,B,C,D",
+            "analysis": "《人力资源社会保障部、财政部、商务部、国务院国资委、共青团中央、全国工商联关于实施三年百万青年见习计划的通知》（人社部函〔2018〕186号）规定，见习单位与见习人员签订见习协议，明确见习期限、岗位职责、见习待遇、见习计划安排、双方权利义务、解除终止协议条件等。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "5d73e84a54a84764935a32e661a5b4db",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "见习期限"
+                },
+                {
+                    "id": "2df0235ea9844b68bc7b54d98fe3277c",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "岗位职责"
+                },
+                {
+                    "id": "13911d128f05478f83d4969b0d95b87a",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "见习计划安排"
+                },
+                {
+                    "id": "c1e4952c44c94f8cbcc6428c54fa4841",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "双方权利义务"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66782",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《关于进一步支持和促进重点群体创业就业有关税收政策的通知》规定的政策享受人员包括（    ）。",
+            "answer": "A,B,C,D",
+            "analysis": "《财政部、税务总局、人力资源社会保障部、国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》（财税〔2019〕22号）规定的政策享受人员包括建档立卡贫困人口，登记失业半年以上人员，零就业、低保家庭登记失业人员，毕业年度高校毕业生。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "d134c9b46dcb40be931f606265ab4382",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "建档立卡贫困人口"
+                },
+                {
+                    "id": "fb3d5ceda4704cec91d7484aa726b941",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "登记失业半年以上人员"
+                },
+                {
+                    "id": "4ba1b4001de24789bf4757ea92681ac9",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "零就业、低保家庭登记失业人员"
+                },
+                {
+                    "id": "b0a3ae7e050e40829474819e5ec71cfe",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "毕业年度高校毕业生"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66783",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《关于进一步支持和促进重点群体创业就业有关税收政策的通知》规定，国务院扶贫办在每年1月15日前建档立卡贫困人口名单及相关信息提供给（    ），以便执行支持和促进重点群体创业就业有关税收政策。",
+            "answer": "C,D",
+            "analysis": "《财政部、税务总局、人力资源社会保障部、国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》（财税〔2019〕22号）规定，国务院扶贫办在每年1月15日前建档立卡贫困人口名单及相关信息提供给人力资源社会保障部、税务总局，以便执行支持和促进重点群体创业就业有关税收政策。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "2226bf10cf7e4591bf76e813a3d883e4",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "中央人民政府"
+                },
+                {
+                    "id": "0ff9d4ee0c2c461e8582daf34d5c7e61",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "财政部"
+                },
+                {
+                    "id": "119644e5cb8744909633e27b84373cc9",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "人力资源社会保障部"
+                },
+                {
+                    "id": "f9a5a0a9135849f0a99830dc9c816b16",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "税务总局"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66784",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n实施重点群体职业培训专项行动，全面开展（    ）培训。",
+            "answer": "A,C,D",
+            "analysis": "《人力资源社会保障部、国家发展改革委、财政部关于推进全方位公共就业服务的指导意见》（人社部发〔2018〕77号）规定，实施重点群体职业培训专项行动，全面开展企业职工岗前培训、新型学徒制培训、岗位技能提升培训。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "04395bfbf1f147f2adc47069458c77e8",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "企业职工岗前"
+                },
+                {
+                    "id": "04db54840a3d414f95f3971c4c2eb977",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "动预备制"
+                },
+                {
+                    "id": "32163fefca8d4432a785833112aa1a07",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "新型学徒制"
+                },
+                {
+                    "id": "39f18eee693b436ab50dc06e15e09995",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "岗位技能提升"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66785",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n强化窗口单位作风建设，全面实行（    ），加强与就业关联业务之间的信息共享和业务协同。",
+            "answer": "A,B,C,D",
+            "analysis": "《人力资源社会保障部办公厅关于推进公共就业服务专业化的意见》（人社厅发〔2017〕86号）规定，强化窗口单位作风建设，全面实行首问负责制、全程代理制、一次性告知制、限时办结制，加强与就业关联业务之间的信息共享和业务协同。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "3f8f0f54a2d04a4491365521d3180c06",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "首问负责制"
+                },
+                {
+                    "id": "f0abb4e5f2ff415d83c088e07474fa71",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "全程代理制"
+                },
+                {
+                    "id": "c069214f606f4fb28675ab322e7fb4ec",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "一次性告知制"
+                },
+                {
+                    "id": "0f8deaa073834c1e9b319d150c8624f2",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "限时办结制"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66786",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n用人单位聘用外国人的岗位，必须同时符合（    ）。",
+            "answer": "A,B,D",
+            "analysis": "《外国人在中国就业管理规定》（人力资源和社会保障部令第32号）第六条规定，用人单位聘用外国人从事的岗位应是有特殊需要，国内暂缺适当人选，且不违反国家有关规定的岗位。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "d66d735de0cc4985b41e0c7ea65f5d04",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "有特殊需要"
+                },
+                {
+                    "id": "dfb814493af6448684dbfb907d311876",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "国内暂缺适当人选"
+                },
+                {
+                    "id": "4609bb5a46fc42ee85b1f14984f21583",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "用人单位急需人选"
+                },
+                {
+                    "id": "e9f33984c09642aa8fba07b716585f2b",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "不违反国家有关规定的"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66787",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《关于推进公共就业服务专业化的意见》规定，各地要建立健全重点群体信息数据库，定期对（    ）群体开展摸底调查，对个人状况、就业需求等情况及时登记和更新，实行实名制动态管理。",
+            "answer": "A,B,C,D",
+            "analysis": "《人力资源社会保障部办公厅关于推进公共就业服务专业化的意见》（人社厅发〔2017〕86号）规定，各地要建立健全重点群体信息数据库，定期对辖区内长期失业的就业困难人员、高校毕业生等青年、去产能企业下岗职工、建档立卡贫困人员开展摸底调查，对个人状况、就业需求等情况及时登记和更新，实行实名制动态管理。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "b107d24b5e0442fea71ec623d77880a7",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "辖区内长期失业的就业困难人员"
+                },
+                {
+                    "id": "d1b46f0e3486402e978856b7adce585e",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "高校毕业生等青年"
+                },
+                {
+                    "id": "9ae0704e8d43462d923b5f8b051db0a5",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "去产能企业下岗职工"
+                },
+                {
+                    "id": "f0953b3cb4444d4eab9fee6ccd80936b",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "建档立卡贫困人员"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66788",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n根据去产能计划任务锁定涉及职工分流安置的企业，通过（    ）等，对企业填报的职工信息进行摸底核实。",
+            "answer": "A,B,C,D",
+            "analysis": "《人力资源社会保障部 国家发展改革委等八部委关于切实做好化解过剩产能中职工安置工作的通知》（人社部发〔2019〕56号）规定，根据去产能计划任务锁定涉及职工分流安置的企业，通过实地调查、电话抽查、社保数据比对、用工凭证或工资发放记录核查等，对企业填报的职工信息进行摸底核实。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "a743af44d3dc4d56b8f1f1d44d494a8e",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "实地调查"
+                },
+                {
+                    "id": "0f7754e3de4b4425b6d6b0acbe20cb01",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "电话抽查"
+                },
+                {
+                    "id": "5434d1d674294ceabad52640f8df20c9",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "社保数据比对"
+                },
+                {
+                    "id": "36b6c033679a4e248c70864d61e6d0cb",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "用工凭证或工资发放记录核查"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66789",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n针对不同对象开展精准培训，全面开展企业职工技能提升培训或转岗转业培训，组织失业人员参加技能培训或创业培训，实施农民工、高校毕业生、（    ）等重点群体专项培训计划。",
+            "answer": "A,C,D",
+            "analysis": "《国务院关于进一步做好稳就业工作的意见》（国发〔2019〕28号）规定：针对不同对象开展精准培训，全面开展企业职工技能提升培训或转岗转业培训，组织失业人员参加技能培训或创业培训，实施农民工、高校毕业生、退役军人、建档立卡贫困人口、残疾人等重点群体专项培训计划。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "04a70434e4aa4f3997b5c142281143b2",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "退役军人"
+                },
+                {
+                    "id": "f2aa1713d65f45d494f7079bfb577cd9",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "低保家庭成员"
+                },
+                {
+                    "id": "1badceb0be634845a3e27822451e40bf",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "建档立卡贫困人口"
+                },
+                {
+                    "id": "e750688a86fb4f2c91736150da09163b",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "残疾人"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66790",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n企业在开展技师培训或新型学徒制培训前，应将（    ）报当地人力资源社会保障部门备案。",
+            "answer": "B,C,D",
+            "analysis": "《人力资源社会保障部 财政部关于进一步精简证明材料和优化申办程序充分便利就业补贴政策享受的通知》（人社部发〔2019〕94号）规定：企业在开展技师培训或新型学徒制培训前，应将培训计划、培训人员花名册、劳动合同复印件报当地人力资源社会保障部门备案。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "851aa4dd5f774e37897e61551b2231cf",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "基本身份类证明复印件"
+                },
+                {
+                    "id": "3ea58ec9b9624a94b0c4c09060d379a0",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "培训计划"
+                },
+                {
+                    "id": "39856bcfad31422ea14592014af18aae",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "培训人员花名册"
+                },
+                {
+                    "id": "4e84b6e4e2104706984fbdfb0ed8cc9a",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "劳动合同复印件"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66791",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n申请职业培训补贴时，（    ）等证明材料不再提供，调整为人力资源社会保障部门内部核查。",
+            "answer": "A,B",
+            "analysis": "《人力资源社会保障部 财政部关于进一步精简证明材料和优化申办程序充分便利就业补贴政策享受的通知》（人社部发〔2019〕94号）规定：申请职业培训补贴时，原规定的职业资格证书、职业技能等级证书不再提供，调整为人力资源社会保障部门内部核查；凭培训合格证书、专项职业能力证书申领补贴的仍需提供复印件。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "eb33581253f544808a1682eda1fbfe2d",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "职业资格证书"
+                },
+                {
+                    "id": "d3e52d236cc544839186a28baaf6814c",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "职业技能等级证书"
+                },
+                {
+                    "id": "20520e88e3404b5ca6c0fb74a46f4532",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "培训合格证书"
+                },
+                {
+                    "id": "d0876a5c3b304100a794d478669cb4c9",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "专项职业能力证书"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66792",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n吸纳符合条件人员参加就业见习的单位，申请就业见习补贴应向当地人力资源社会保障部门提供(    )材料。",
+            "answer": "A,B,C,D",
+            "analysis": "《人力资源社会保障部 财政部关于进一步精简证明材料和优化申办程序充分便利就业补贴政策享受的通知》（人社部发〔2019〕94号）规定：申请就业见习补贴应向当地人力资源社会保障部门提供以下材料：基本身份类证明（或毕业证书）复印件、就业见习协议书、单位发放基本生活补助明细账（单）、为见习人员办理人身意外伤害保险发票复印件等。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c0e40fb4985341fbaf8707488e2c32b4",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "基本身份类证明（或毕业证书）复印件"
+                },
+                {
+                    "id": "8edd5fcfb37f49daa1048a6896450496",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "就业见习协议书"
+                },
+                {
+                    "id": "c01722b6ea59427cb2456dac8b0f2d22",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "单位发放基本生活补助明细账（单）"
+                },
+                {
+                    "id": "0e9cfa58af9740a4ad65f1125d4863d7",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "为见习人员办理人身意外伤害保险发票复印件等"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66793",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n各地要加强对辖区内企业的招聘用工服务，通过（    ）等多种渠道，定期了解企业用工情况和招聘计划，及时采集招聘岗位信息。",
+            "answer": "A,B,C,D",
+            "analysis": "《人力资源社会保障部办公厅关于做好就业岗位信息归集和服务工作的通知》（人社厅发〔2020〕4号）规定：要加强对辖区内企业的招聘用工服务，通过窗口经办、上门服务、电话沟通、网络登记等多种渠道，定期了解企业用工情况和招聘计划，及时采集招聘岗位信息。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "bacf1c50926e4f6184c6c63aaaad5bf8",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "窗口经办"
+                },
+                {
+                    "id": "9d7839cbde7f434a94b19faa9eaec269",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "门服务"
+                },
+                {
+                    "id": "18f963961f70458cac9af8842e8bf087",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "电话沟通"
+                },
+                {
+                    "id": "abdb7722cb3644fb983c9df44533faaf",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "网络登记"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66794",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n招用就业困难人员的单位和招用符合条件高校毕业生的小微企业，申请社会保险补贴应向当地人力资源社会保障部门提供（    ）材料。",
+            "answer": "A,B",
+            "analysis": "《人力资源社会保障部 财政部关于进一步精简证明材料和优化申办程序充分便利就业补贴政策享受的通知》（人社部发〔2019〕94号）规定：招用就业困难人员的单位和招用符合条件高校毕业生的小微企业，申请社会保险补贴应向当地人力资源社会保障部门提供以下材料：基本身份类证明（或毕业证书）复印件、劳动合同复印件等。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "915b37f4ed5d44d4baf03e4bdeb5a644",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "基本身份类证明（或毕业证书）复印件"
+                },
+                {
+                    "id": "ea417a1de5484f8da7b8ead94b0e5104",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "劳动合同复印件"
+                },
+                {
+                    "id": "11a5452fcafd4153aa2b093c244b5dfd",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "符合条件人员名单"
+                },
+                {
+                    "id": "f0cf71b89d254b15bd893b54eebc6997",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "社会保险缴费明细账（单）"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66795",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n人社部门负责管理的公益性岗位，需具备(    )条件。",
+            "answer": "A,D",
+            "analysis": "《人力资源社会保障部 财政部关于做好公益性岗位开发管理有关工作的通知》（人社部〔2019〕124号）明确：公益性岗位，是指由各类用人单位开发并经人力资源社会保障部门认定，用于安置就业困难人员的岗位。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "a6b962eb90154e17a0159369ff4392cd",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "经人力资源社会保障部门认定"
+                },
+                {
+                    "id": "96835774d68e4f82be092327341a6835",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "由各级政府及部门开发"
+                },
+                {
+                    "id": "646b02f792284ba483366aaafba383d3",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "用于安置本地劳动力"
+                },
+                {
+                    "id": "6ba79198511245f89da422d625f68bb5",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "用于安置就业困难人员"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66796",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n公益性岗位应优先安置(    )",
+            "answer": "B,D",
+            "analysis": "《人力资源社会保障部 财政部关于做好公益性岗位开发管理有关工作的通知》（人社部〔2019〕124号）规定：优先安排符合岗位条件的距离法定退休年龄不足5年人员和零就业家庭成员。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "d2ea53bbc6754af5b54aa45496ef62d6",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "长期失业人员"
+                },
+                {
+                    "id": "f94ddc38df1a4ad7b80541439aa4527f",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "距离法定退休年龄不足5年人员"
+                },
+                {
+                    "id": "bd14efea1209458abbde8fdd9e30557b",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "就业困难高校毕业生"
+                },
+                {
+                    "id": "161f4c34a64c4c0a8448764f86100dcf",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "零就业家庭成员"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66797",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n对开发公益性岗位安置就业困难人员的用人单位，给予岗位补贴和社会保险补贴。关于岗位补贴说法正确的是(    )。",
+            "answer": "A,C",
+            "analysis": "依据：《人力资源社会保障部 财政部关于做好公益性岗位开发管理有关工作的通知》（人社部〔2019〕124号）。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "525752b1e7064392ab8194cf4bf82cc5",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "由各地结合实际确定"
+                },
+                {
+                    "id": "880ad2dae372444f98724a167a1fb635",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "应等于当地最低工资标准"
+                },
+                {
+                    "id": "c293af91056a409faee088c1a673f0b7",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "原则上不高于当地最低工资标准"
+                },
+                {
+                    "id": "7614fb22af534674ac9324ba6679b58c",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "原则上不低于当地最低工资标准"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66798",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n关于公益性岗位补贴期限，说法正确的是(    )",
+            "answer": "A,C",
+            "analysis": "《人力资源社会保障部 财政部关于做好公益性岗位开发管理有关工作的通知》（人社部〔2019〕124号），公益性岗位补贴期限不超过3年，距离退休年龄不足5年的人员可延长至退休。对补贴期满后仍然难以通过其他渠道实现就业的大龄就业困难人员、零就业家庭成员、重度残疾人等特殊困难人员，可再次按程序通过公益性岗位予以安置，岗位补贴和社会保险补贴期限重新计算，并报送省级人力资源社会保障部门和财政部门备案，累计安置次数原则上不超过2次。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "7c81703e65604f7d8b3071a4b31b0f23",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "不超过3年，距离法定退休年龄不足5年的可延长至退休"
+                },
+                {
+                    "id": "2de87e37d49b4354b4992bede8e494ee",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "补贴期满后即可再次安置"
+                },
+                {
+                    "id": "4939a326cf41466ea47a2b63dd3bbc94",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "累计安置次数不超过2次"
+                },
+                {
+                    "id": "8f2dbb0aaa7b43a7b1e50f7c6aeab7c3",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "累计安置次数不超过3次"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66799",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n公益性岗位政策具备(    )属性",
+            "answer": "A,B,D",
+            "analysis": "依据：《人力资源社会保障部 财政部关于做好公益性岗位开发管理有关工作的通知》（人社部〔2019〕124号）。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "7af014ff552f4192bd48c9769a66bd1b",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "托底线"
+                },
+                {
+                    "id": "91fdbbcfa05b45b69104560d34a184ec",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "临时性"
+                },
+                {
+                    "id": "e9307e01dd6149efa0c558c1e54f16b2",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "福利性"
+                },
+                {
+                    "id": "08223745b3fe43eb8035d6e8d127a909",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "救急难"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66800",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n对返乡入乡创业企业吸纳（    ）就业的，按规定给予社会保险补贴。",
+            "answer": "A,D",
+            "analysis": "《人力资源社会保障部 财政部 农业农村部关于进一步推动返乡入乡创业工作的意见》（人社部发〔2019〕129号）规定：对返乡入乡创业企业吸纳就业困难人员、农村建档立卡贫困人员就业的，按规定给予社会保险补贴，符合条件的可参照新型农业经营主体支持政策给予支持。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "a1eac21b0d5041748a083fb386967608",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "就业困难人员"
+                },
+                {
+                    "id": "eb46df490fc74da8ac1b735ebdba21cc",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "事业单位专业技术人员"
+                },
+                {
+                    "id": "09c4b89b1b014033a53b7320162e02fb",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "复员转业退役军人"
+                },
+                {
+                    "id": "4c0381918a4945fa83c9d045966c7ab0",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "农村建档立卡贫困人员"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66801",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《人力资源市场暂行条例》规定，通过人力资源市场求职、招聘和开展人力资源服务，应当遵循（    ）的原则。",
+            "answer": "A,B,D",
+            "analysis": "《人力资源市场暂行条例》第三条规定，通过人力资源市场求职、招聘和开展人力资源服务，应当遵循合法、公平、诚实信用的原则。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "31addb07698a4b338bf199863e30f499",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "合法"
+                },
+                {
+                    "id": "c676bc0a6e2145508a3eed05ba3c5000",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "公平"
+                },
+                {
+                    "id": "5383c1394f7b4683b20cae3b0e1ea37e",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "平等"
+                },
+                {
+                    "id": "5dffedb248f74b51a1d123c1a4bc649b",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "诚实信用"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66802",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《人力资源市场暂行条例》规定，国务院人力资源社会保障行政部门负责全国人力资源市场的（    ）工作。",
+            "answer": "A,D",
+            "analysis": "《人力资源市场暂行条例》第四条规定，国务院人力资源社会保障行政部门负责全国人力资源市场的统筹规划和综合管理工作。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "93b3783090bf4ee89b607298a0c6e2d9",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "统筹规划"
+                },
+                {
+                    "id": "af178a96deb9425cbc13bffb6953d430",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "行政管理"
+                },
+                {
+                    "id": "ab017bf1601646d0953b8cc78ccfd627",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "统一规划"
+                },
+                {
+                    "id": "68cbfea041904c6dae008bc80bf21f06",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "综合管理"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66803",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《人力资源市场暂行条例》规定，国家加强人力资源服务标准化建设，发挥人力资源服务标准在（    ）等方面的作用。",
+            "answer": "A,B,C",
+            "analysis": "《人力资源市场暂行条例》第五条规定，国家加强人力资源服务标准化建设，发挥人力资源服务标准在行业引导、服务规范、市场监管等方面的作用。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "1358c748a6594155badc983c492a9027",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "行业引导"
+                },
+                {
+                    "id": "233fc04d37824afb9ce54eca6c445844",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "服务规范"
+                },
+                {
+                    "id": "fce90b0379224236892fc029fa0e6dcf",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "市场监管"
+                },
+                {
+                    "id": "04259b3df743489a9230117a873c9499",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "行业管理"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66804",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《人力资源市场暂行条例》规定，国家建立（    ）的人力资源市场体系，发挥市场在人力资源配置中的决定性作用，健全人力资源开发机制，激发人力资源创新创造创业活力，促进人力资源市场繁荣发展。",
+            "answer": "A,B",
+            "analysis": "《人力资源市场暂行条例》第七条规定，国家建立统一开放、竞争有序的人力资源市场体系，发挥市场在人力资源配置中的决定性作用，健全人力资源开发机制，激发人力资源创新创造创业活力，促进人力资源市场繁荣发展。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "321587194d144dad8f61d88c88445f2a",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "统一开放"
+                },
+                {
+                    "id": "2471773d98974ae6b0770c38f85b8319",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "竞争有序"
+                },
+                {
+                    "id": "7f8ecc6c06ea4b20a013ed790c07e054",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "自由竞争"
+                },
+                {
+                    "id": "3a01703a986f467b88b44e5628edddcf",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "平等一致"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66805",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《人力资源市场暂行条例》规定，任何地方和单位不得违反国家规定在（    ）等方面设置限制人力资源流动的条件。",
+            "answer": "A,B,C",
+            "analysis": "《人力资源市场暂行条例》第十一条规定，国家引导和促进人力资源在机关、企业、事业单位、社会组织之间以及不同地区之间合理流动。任何地方和单位不得违反国家规定在户籍、地域、身份等方面设置限制人力资源流动的条件。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "ba5a55ff06084926957617d6f2af91af",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "户籍"
+                },
+                {
+                    "id": "391f477bd0df4a0cb0bdcecb69d0ccdf",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "地域"
+                },
+                {
+                    "id": "7ac9cbe5606e4a33abc7278537fd75af",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "身份"
+                },
+                {
+                    "id": "7e5844a39f9f4c8ea5cb44843ff8eb61",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "学历"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66806",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《人力资源市场暂行条例》规定，人力资源社会保障行政部门应当（    ）。",
+            "answer": "A,B,D",
+            "analysis": "《人力资源市场暂行条例》第十二条规定，人力资源社会保障行政部门应当加强人力资源市场监管，维护市场秩序，保障公平竞争。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "7a587c6abede48339b532e2d8bbdbffa",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "加强人力资源市场监管"
+                },
+                {
+                    "id": "313f97862ad24130ba9bb74e744e5275",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "维护市场秩序"
+                },
+                {
+                    "id": "832f71e8cb8641a7a3c8371c45dbcc6e",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "保障全部就业"
+                },
+                {
+                    "id": "0226a3117c0f4b539208413eb383e518",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "保障公平竞争"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66807",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《人力资源市场暂行条例》规定，本条例所称人力资源服务机构，包括（    ）。",
+            "answer": "A,C",
+            "analysis": "《人力资源市场暂行条例》第十四条规定，本条例所称人力资源服务机构，包括公共人力资源服务机构和经营性人力资源服务机构。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "aaf38fc067ad46df89dccbc04d9a2a6e",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "公共人力资源服务机构"
+                },
+                {
+                    "id": "e7ca9703ab884cb399d859dd0e837426",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "盈利型人力资源服务机构"
+                },
+                {
+                    "id": "92741aec935040eaaacfc5f5adff1122",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "经营性人力资源服务机构"
+                },
+                {
+                    "id": "5fc53fa2672e46598f332af2456d24b0",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "服务型人力资源服务机构"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66808",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《人力资源市场暂行条例》规定，公共人力资源服务机构提供（    ）服务，不得收费。",
+            "answer": "A,B,C,D",
+            "analysis": "《人力资源市场暂行条例》第十五条规定，公共人力资源服务机构提供下列服务，不得收费：\n（一）人力资源供求、市场工资指导价位、职业培训等信息发布；\n（二）职业介绍、职业指导和创业开业指导；\n（三）就业创业和人才政策法规咨询；\n（四）对就业困难人员实施就业援助；\n（五）办理就业登记、失业登记等事务；\n（六）办理高等学校、中等职业学校、技工学校毕业生接收手续；\n（七）流动人员人事档案管理；\n（八）县级以上人民政府确定的其他服务。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "3106b4f350714935b971449cbe350fbc",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "人力资源供求、市场工资指导价位、职业培训等信息发布"
+                },
+                {
+                    "id": "6654240e5ddb4aef8617db7db1ca490d",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "职业介绍、职业指导和创业开业指导"
+                },
+                {
+                    "id": "5e09467f6470465b9873b98e797055dc",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "对就业困难人员实施就业援助"
+                },
+                {
+                    "id": "ce2feb25caeb4f33808d2525f8f66412",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "流动人员人事档案管理"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66809",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《人力资源市场暂行条例》规定，个人求职，应当如实提供本人基本信息以及与应聘岗位相关的（    ）等情况。",
+            "answer": "B,C,D",
+            "analysis": "《人力资源市场暂行条例》第二十三条规定，个人求职，应当如实提供本人基本信息以及与应聘岗位相关的知识、技能、工作经历等情况。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "41367c097a45477b96c499a84500611d",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "家庭"
+                },
+                {
+                    "id": "6bde5d3e6de04128a8a0a011c6a8a936",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "知识"
+                },
+                {
+                    "id": "3f0fa8f30d6e42968b376c1f3512f609",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "技能"
+                },
+                {
+                    "id": "ce86626892a04c0b8587597237799256",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "工作经历"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66810",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《人力资源市场暂行条例》规定，人力资源服务机构接受用人单位委托招聘人员，应当要求用人单位提供（    ），并对所提供材料的真实性、合法性进行审查。",
+            "answer": "A,B,C,D",
+            "analysis": "《人力资源市场暂行条例》第二十六条规定，人力资源服务机构接受用人单位委托招聘人员，应当要求用人单位提供招聘简章、营业执照或者有关部门批准设立的文件、经办人的身份证件、用人单位的委托证明，并对所提供材料的真实性、合法性进行审查。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "00118424ef0b409d9971e39cd5947280",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "招聘简章"
+                },
+                {
+                    "id": "7f6efc62cfe04c5d8b1e2b3c31a11aa0",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "经办人的身份证件"
+                },
+                {
+                    "id": "a916300326a243a0baa09e3c7cc68b1f",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "营业执照或者有关部门批准设立的文件"
+                },
+                {
+                    "id": "478331b029eb4852b601ab093db71ae1",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "用人单位的委托证明"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66811",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《人力资源市场暂行条例》规定，人力资源服务机构举办现场招聘会，应当制定（    ），核实参加招聘会的招聘单位及其招聘简章的真实性、合法性，提前将招聘会信息向社会公布，并对招聘中的各项活动进行管理。",
+            "answer": "A,B,C",
+            "analysis": "《人力资源市场暂行条例》第二十八条规定，人力资源服务机构举办现场招聘会，应当制定组织实施办法、应急预案和安全保卫工作方案，核实参加招聘会的招聘单位及其招聘简章的真实性、合法性，提前将招聘会信息向社会公布，并对招聘中的各项活动进行管理。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "f937a69f55c645f9a81e7a3dcc0ca5cd",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "组织实施办法"
+                },
+                {
+                    "id": "ffbab1939d64402697d9b993b5e8be60",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "应急预案"
+                },
+                {
+                    "id": "ea0cac7c2b814a069ba4a10392c988b0",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "安全保卫工作方案"
+                },
+                {
+                    "id": "290d631adbcc425793f80cd76f6d1d6a",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "招聘方案"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66812",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《人力资源市场暂行条例》规定，经营性人力资源服务机构应当在服务场所明示（    ）事项，并接受人力资源社会保障行政部门和市场监督管理、价格等主管部门的监督检查。",
+            "answer": "A,B,C,D",
+            "analysis": "《人力资源市场暂行条例》第三十二条规定，经营性人力资源服务机构应当在服务场所明示下列事项，并接受人力资源社会保障行政部门和市场监督管理、价格等主管部门的监督检查：\n（一）营业执照；\n（二）服务项目；\n（三）收费标准；\n（四）监督机关和监督电话。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "dfaa5a8c52ea41768f0d263029921655",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "营业执照"
+                },
+                {
+                    "id": "91e795580d4a4f06b247b4e6dedb6ad3",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "服务项目"
+                },
+                {
+                    "id": "535e8786a66941928a6a379ac5ac0ce2",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "收费标准"
+                },
+                {
+                    "id": "0402b4900dc04297aadef3d5d0da1096",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "监督机关和监督电话"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66813",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《人力资源市场暂行条例》规定，人力资源社会保障行政部门对经营性人力资源服务机构实施监督检查，可以采取的措施有（    ）。",
+            "answer": "A,B,C,D",
+            "analysis": "《人力资源市场暂行条例》第三十四条规定，人力资源社会保障行政部门对经营性人力资源服务机构实施监督检查，可以采取下列措施：\n（一）进入被检查单位进行检查；\n（二）询问有关人员，查阅服务台账等服务信息档案；\n（三）要求被检查单位提供与检查事项相关的文件资料，并作出解释和说明；\n（四）采取记录、录音、录像、照相或者复制等方式收集有关情况和资料；\n（五）法律、法规规定的其他措施。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c99cfdb016684cb09d9775a5dd0f8943",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "进入被检查单位进行检查"
+                },
+                {
+                    "id": "07ca7c7c4c92454199bf07128ef13d34",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "询问有关人员，查阅服务台账等服务信息档案"
+                },
+                {
+                    "id": "8969599b84504346a6addb35d085ddf3",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "要求被检查单位提供与检查事项相关的文件资料，并作出解释和说明"
+                },
+                {
+                    "id": "aa78867990f74971bdf35674b87b8bf9",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "采取记录、录音、录像、照相或者复制等方式收集有关情况和资料"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66814",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n档案转递时，不属于接收审核流动人员人事档案必备材料的是（    ）。",
+            "answer": "A,B,C",
+            "analysis": "根据《中共中央组织部人力资源社会保障部等五部门关于进一步加强流动人员人事档案管理服务工作的通知》中第四条规范流动人员人事档案接收和转递中“档案转递时，行政（工资）介绍信、转正定级表、调整改派手续等材料不再作为接收审核流动人员人事档案必备材料”可知答案为ABC。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "d440ee80a8434b88886a667ec6b13ba5",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "行政（工资）介绍信"
+                },
+                {
+                    "id": "e91a2be638c44bb29e30ec1627975691",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "转正定级表"
+                },
+                {
+                    "id": "5f1ca3d71126409e99b347ac6aef2195",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "调整改派手续"
+                },
+                {
+                    "id": "b6ed5edd8f1f4d9884c803a77733fab6",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "商调函件"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66815",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n不属于流动人员人事档案转递方式的是（    ）。",
+            "answer": "C,D",
+            "analysis": "根据《中共中央组织部人力资源社会保障部等五部门关于进一步加强流动人员人事档案管理服务工作的通知》中第四条规范流动人员人事档案接收和转递中“转递档案时应严密包封并填写档案转递通知单，通过机要交通或派专人送取，严禁个人自带档案转递”可知答案。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "9877be9b9bb34d1891fabb0577f35426",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "机要通讯"
+                },
+                {
+                    "id": "0dc31b3f750645949925c04ef3cdbd8b",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "专人送取"
+                },
+                {
+                    "id": "05b45d8bd9f544b1bf3262f2060bade7",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "个人自带"
+                },
+                {
+                    "id": "bb3c7d6209504bda96b14b3853cb3dc6",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "商业快递"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66816",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n公共就业和人才服务机构按照辖区公安机关相关规定，开展人才集体户口管理服务的主要内容包括（    ）。",
+            "answer": "A,B,C,D",
+            "analysis": "根据《人力资源社会保障部办公厅国家发展改革委办公厅公安部办公厅财政部办公厅关于做好人才集体户口管理服务工作的通知》中“公共就业和人才服务机构开展人才集体户口管理服务的主要内容包括：按照辖区公安机关相关规定，协助其办理流动人员落户、户口迁移手续以及人口统计等工作；负责户口页保管、借用等日常管理”可知，答案为ABCD。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "2fa7a9974c104dd480f7618fef0475a4",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "协助其办理流动人员落户、户口迁移手续"
+                },
+                {
+                    "id": "d6c542dcc2404ae594ab1eb5c8c970e0",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "协助做好人口统计等工作"
+                },
+                {
+                    "id": "6a19c943b201407c931800f699f7cede",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "负责户口页保管工作"
+                },
+                {
+                    "id": "67f7412b01a24e9f85f377bd8d528885",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "负责户口页借用工作"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66817",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n属于进一步加强和改进人力资源社会保障领域公共服务的基本原则的是（    ）。",
+            "answer": "A,B,C,D",
+            "analysis": "根据《人力资源社会保障部关于加强和改进人力资源社会保障领域公共服务的意见》中第一条总体目标和基本原则：1.便民利民原则。2.依法依规原则。3.公开透明原则。4.开放共享原则。答案为ABCD。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "cf7a9074b40f41d491b2167c1c04cba5",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "便民利民原则"
+                },
+                {
+                    "id": "8b439309bd584b1e957a61ec235fcd8e",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "依法依规原则"
+                },
+                {
+                    "id": "b87ce221d35647098de035752a4f86e9",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "公开透明原则"
+                },
+                {
+                    "id": "5ec7f8bcd66c46e58d41ccb139273f62",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "开放共享原则"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66818",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n个人跨地区就业且按照有关规定办理入职手续后，其档案在有人事档案管理权限的（    ）之间可直接办理转递手续。",
+            "answer": "A,B,C,D",
+            "analysis": "根据《人力资源社会保障部办公厅关于简化优化流动人员人事档案管理服务的通知》中第六点畅通档案转递渠道“个人跨地区就业且按照有关规定办理入职手续后，其档案在有人事档案管理权限的机关事业单位、国有企业和流动人员人事档案管理服务机构之间可直接办理转递手续”可知，答案为ABCD。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "1e224ea422334aef897482987eaed795",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "机关"
+                },
+                {
+                    "id": "06fda469a9504f1f9a8ed0774a1cc47c",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "事业单位"
+                },
+                {
+                    "id": "88183d0ca8554964ba57fd598b727f0a",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "国有企业"
+                },
+                {
+                    "id": "f623b6449acf47ffa3c427ac207a1641",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "流动人员人事档案管理服务机构"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66819",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n属于基于档案延伸服务的是（    ）。",
+            "answer": "A,C,D",
+            "analysis": "根据《人力资源社会保障部办公厅关于简化优化流动人员人事档案管理服务的通知》中第七条推进前台业务受理、后台政策协调“办理社会保险代缴、退休初审、专业技术资格评定等其他基于档案延伸服务的档案管理服务机构，要加强前台服务和后台政策的协调，及时反映有关共性问题，并配合行政管理部门研究制定合理可行的解决办法，积极为存档人解决难题”可知答案为ACD，B选项属于流动人员人事档案基本公共服务内容。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "6538e82453ff40d3a5a93cfb60da7d77",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "社会保险代缴"
+                },
+                {
+                    "id": "caf4fed45531420ca2a0ffb899edc710",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "出具亲属关系证明"
+                },
+                {
+                    "id": "1b01ea5a8c8e458e9793575341affc3c",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "退休初审"
+                },
+                {
+                    "id": "6563ebe8324c459781c93bf291c03dce",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "专业技术资格评定"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66820",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n属于流动人员人事档案管理服务工作纪律的是（    ）。",
+            "answer": "A,B,C,D",
+            "analysis": "根据《中央组织部人力资源社会保障部等五部门关于进一步加强流动人员人事档案管理服务工作的通知》第八条严肃流动人员人事档案纪律中“严禁任何单位和个人涂改流动人员人事档案，严禁在年龄、工龄、党龄、学历、经历和身份等方面弄虚作假，严禁为不符合政策规定的人员新建、重建档案，不得无故推诿拒收档案，不得出具虚假证明，不得擅自向外公布或泄露流动人员人事档案内容”可知，答案为ABCD。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "7e679422058441f987ccc153d8bdf02d",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "严禁任何单位和个人涂改流动人员人事档案"
+                },
+                {
+                    "id": "9e6c27011efe46578afd350336925ce2",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "严禁在年龄、工龄、党龄、学历、经历和身份等方面弄虚作假"
+                },
+                {
+                    "id": "292cfd6061fe45c7b323e77750786798",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "严禁为不符合政策规定的人员新建、重建档案"
+                },
+                {
+                    "id": "a9831e0eef434478bfd3198580f45d32",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "不得无故推诿拒收档案，不得出具虚假证明"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66821",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n属于流动人员办理人事档案业务主要作用的是（    ）。",
+            "answer": "A,B,C,D",
+            "analysis": "根据《中央组织部人力资源社会保障部等五部门关于进一步加强流动人员人事档案管理服务工作的通知》明确的基本公共服务内容，可知答案为ABCD。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "70d41d96a8724e27aeee39226ce69776",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "招聘录用和选拔使用"
+                },
+                {
+                    "id": "8fafbe54d0f9468b88afeaac749a96ff",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "政审和审查"
+                },
+                {
+                    "id": "1f6addbdb3774aae81632a2dfcabc934",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "党组织关系接转"
+                },
+                {
+                    "id": "1fa0eec5165b463dbc0e5cbd82884e13",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "出具相关证明"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66822",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n应及时收集归入流动人员人事档案中的材料是（    ）。",
+            "answer": "A,B,C,D",
+            "analysis": "根据《中共中央组织部人力资源社会保障部等五部门关于进一步加强流动人员人事档案管理服务工作的通知》中第四点规范流动人员人事档案接收和转递中“接收的档案应真实、准确、完整、规范，如实反映存档人员的出生日期、教育培训、工作经历、职务任免、职称评审、奖励处罚、政治面貌等基本情况。要加强与存档人员本人、工作单位及相关部门的联系，及时收集有关材料，建立规范的收集、鉴别、整理、归档机制”可知，答案为ABCD。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "da1ee0647d4145f4b58dc6006631d269",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "学位学历材料"
+                },
+                {
+                    "id": "8b4bcfa66aec4e07bc0309e812000d64",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "职称材料"
+                },
+                {
+                    "id": "8f20c68550a9470ab3d53d403a3f7683",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "党员材料"
+                },
+                {
+                    "id": "7572cd16698142b491dca1719eb77a10",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "工作材料"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66823",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n属于公共就业人才服务机构管理的应届高校毕业生的档案是（    ）。",
+            "answer": "B,C,D",
+            "analysis": "根据《中共中央组织部人力资源社会保障部等五部门关于进一步加强流动人员人事档案管理服务工作的通知》中第二点明确流动人员人事档案范围中“具体包括：非公有制企业和社会组织聘用人员的档案；辞职辞退、取消录（聘）用或被开除的机关事业单位工作人员档案；与企事业单位解除或终止劳动（聘用）关系人员的档案；未就业的高校毕业生及中专毕业生的档案；自费出国留学及其他因私出国（境）人员的档案；外国企业常驻代表机构的中方雇员的档案；自由职业或灵活就业人员的档案；其他实行社会管理人员的档案”，可知答案为BCD。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "7ef25e7d478a4d49876a82ff38c9d428",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "在公有制企业就业的"
+                },
+                {
+                    "id": "bd436dd00951488db9c5938cadc4816d",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "自费出国留学的"
+                },
+                {
+                    "id": "f2d12ec9fdb046318f585ff939edc28d",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "自由职业或灵活就业"
+                },
+                {
+                    "id": "72030cfade7042eaa47672bc69ef3b53",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "未就业应届高校毕业生"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66824",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n档案管理机构可以依据档案记载出具的证明有（    ）",
+            "answer": "A,B,C,D",
+            "analysis": "根据《中共中央组织部人力资源社会保障部等五部门关于进一步加强流动人员人事档案管理服务工作的通知》附件1流动人员人事档案基本公共服务内容：存档证明、经历证明、亲属关系证明、无犯罪记录证明、其他证明，答案为ABCD。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "d2627de500c049e590ab534d36280b11",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "存档证明"
+                },
+                {
+                    "id": "e7bc8956dfd843e1bc01710d7e524fb1",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "亲属关系证明"
+                },
+                {
+                    "id": "40c2e8bf106b4787b2707750ca71f744",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "无犯罪记录证明"
+                },
+                {
+                    "id": "fe617608b68947b882f0886e1270ff59",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "经历证明"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66825",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《人力资源社会保障部关于进一步规范人力资源市场秩序的意见》规定，各级人力资源社会保障部门要依法实施（    ），建立完善人力资源服务机构管理服务台账。",
+            "answer": "A,C,D",
+            "analysis": "《人力资源社会保障部关于进一步规范人力资源市场秩序的意见》规定，各级人力资源社会保障部门要依法实施劳务派遣经营许可、人力资源服务许可和备案制度，建立完善人力资源服务机构管理服务台账，为实施事中事后监管奠定坚实基础。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "3b4130f385ef4afdb04f3a99a502228b",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "劳务派遣经营许可"
+                },
+                {
+                    "id": "ef9a99c08403466db7bf8744b12dd99c",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "劳务派遣备案"
+                },
+                {
+                    "id": "b1eba6140d674c0dacf42740be5c5272",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "人力资源服务许可"
+                },
+                {
+                    "id": "4a8417b3f4ee477cb21ddee46ac14a8c",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "人力资源服务备案"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66826",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n对人力资源服务机构（    ）、服务范围、联系方式、设立分支机构、网站网址以及行政许可和备案及其变更、延续、行政处罚情况等年度报告有关内容，要向社会公布，接受社会监督。",
+            "answer": "A,B,C,D",
+            "analysis": "《人力资源社会保障部关于进一步规范人力资源市场秩序的意见》规定，对人力资源服务机构名称、营业地址、法定代表人、服务范围、联系方式、设立分支机构、网站网址以及行政许可和备案及其变更、延续、行政处罚情况等年度报告有关内容，要向社会公布，接受社会监督。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "cecdd016241b46ba961411c01245cf12",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "名称"
+                },
+                {
+                    "id": "90afe4aa59d0485e910181aa06d226ed",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "营业地址"
+                },
+                {
+                    "id": "e56fad4672004d1da8e1ecd225ff9bc8",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "法定代表人"
+                },
+                {
+                    "id": "56c7bbcac67c469d88a91dab0572d4c2",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "注册资本"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66827",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《人力资源社会保障部关于进一步规范人力资源市场秩序的意见》规定，各级人力资源社会保障部门要指导和督促网络招聘平台加强对招聘单位的资质认证和信息发布人员的实名认证，规范信息发布流程，确保发布的信息（    ）。",
+            "answer": "A,B,C",
+            "analysis": "《人力资源社会保障部关于进一步规范人力资源市场秩序的意见》规定，各级人力资源社会保障部门指导和督促网络招聘平台加强对招聘单位的资质认证和信息发布人员的实名认证，规范信息发布流程，确保发布的信息真实、合法、有效。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "e1bdfae9c41c48609c281d3001935cdc",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "真实"
+                },
+                {
+                    "id": "41683534229d44f49922fb0369cb0110",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "合法"
+                },
+                {
+                    "id": "e9be3bb6d0534034b9daccd7252149fc",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "有效"
+                },
+                {
+                    "id": "955abac99ffc457eadfdc3ac620b016d",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "丰富"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66828",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n各级人力资源社会保障部门要加强与公安、市场监管等相关部门的协同配合，定期开展清理整顿人力资源市场秩序专项执法行动，重点排查各类人力资源服务机构（    ）等扰乱人力资源市场秩序的违法违规行为。",
+            "answer": "A,B,C",
+            "analysis": "《人力资源社会保障部关于进一步规范人力资源市场秩序的意见》规定，各级人力资源社会保障部门要加强与公安、市场监管等相关部门的协同配合，定期开展清理整顿人力资源市场秩序专项执法行动，重点排查各类人力资源服务机构发布虚假信息或含有歧视性内容信息、签订不实就业协议、违规保管流动人员人事档案、哄抬人力资源市场价格、利用职业中介和劳务派遣活动牟取不正当利益等扰乱人力资源市场秩序的违法违规行为。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "655a76ad1920419ea1ec50f2b33213d9",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "发布虚假信息或含有歧视性内容信息"
+                },
+                {
+                    "id": "5286f08b677247b4b609e4f67a7eaad7",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "签订不实就业协议"
+                },
+                {
+                    "id": "bfc249caac0d4ef6881b45066f4ae66d",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "违规保管流动人员人事档案"
+                },
+                {
+                    "id": "02203c9eb7ee4c3b9aeb86613e433740",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "未在服务场所明示许可证"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66829",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n各级人力资源社会保障部门要大力推进“双随机一公开”执法监管，认真梳理完善人力资源市场领域监管对象名单、检查事项清单，明确抽查（    ）等。",
+            "answer": "A,B,C,D",
+            "analysis": "《人力资源社会保障部关于进一步规范人力资源市场秩序的意见》规定，各级人力资源社会保障部门要大力推进“双随机一公开”执法监管，认真梳理完善人力资源市场领域监管对象名单、检查事项清单，明确抽查的依据、主体、内容、方式等。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "cecd3b045e3d4e5992e87e7ee4b143de",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "依据"
+                },
+                {
+                    "id": "09e0360551d74482b79103f29e8db210",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "主体"
+                },
+                {
+                    "id": "961d444a560240459c5ca0996ea02e19",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "内容"
+                },
+                {
+                    "id": "8bee2527baae4e6983ded4c4991c498a",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "方式"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66830",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《外商投资人才中介机构管理暂行规定》规定，县级以上人民政府（    ）依法按照职责分工负责本行政区域内外商投资人才中介机构的审批、登记、管理和监督工作。",
+            "answer": "A,B,C",
+            "analysis": "《外商投资人才中介机构管理暂行规定》第五条规定，县级以上人民政府人事行政部门、商务部门和工商行政管理部门依法按照职责分工负责本行政区域内外商投资人才中介机构的审批、登记、管理和监督工作。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "22c7971464554d83bc8dbda2a123bdfa",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "人事行政部门"
+                },
+                {
+                    "id": "678cff8b1c6a4bba84a02bfcbd280aae",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "商务部门"
+                },
+                {
+                    "id": "3d28abb717784d599f5e97f857fa2ded",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "工商行政管理部门"
+                },
+                {
+                    "id": "9f2e7eb0730941dfbaaf8f8c66b83342",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "公安部门"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66831",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n申请设立外商投资人才中介机构的材料应包括（    ）。",
+            "answer": "A,B,D",
+            "analysis": "《外商投资人才中介机构管理暂行规定》第八条规定，申请设立外商投资人才中介机构，可以通过信函、电报、电传、传真、电子数据交换和电子邮件等方式向县级以上人民政府人事行政部门提出申请。申请材料应包括以下内容：（一）书面申请及可行性报告；（二）管理制度草案与章程；（三）工商营业执照（副本）；（四）法律、法规和县级以上人民政府人事行政部门要求提供的其他材料。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "69ef9c804ff34970b0d346941d0400bb",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "书面申请及可行性报告"
+                },
+                {
+                    "id": "16faf7bdfb8f4dff9c0442090d7e5d09",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "管理制度草案与章程"
+                },
+                {
+                    "id": "54ceb8086563453c85eb74f0d08587fa",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "合资各方开展人才中介服务3年以上的资质证明"
+                },
+                {
+                    "id": "0e20739d5a0a46dba662fec36d634000",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "工商营业执照（副本）"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66832",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n外商投资人才中介机构招聘人才出境，应当按照中国政府有关规定办理手续。其中，不得招聘（    ）人才出境。",
+            "answer": "A,B,D",
+            "analysis": "《外商投资人才中介机构管理暂行规定》第十二条规定，外商投资人才中介机构招聘人才出境，应当按照中国政府有关规定办理手续。其中，不得招聘下列人才出境：（一）正在承担国家、省级重点工程、科研项目的技术和管理人员，未经单位或主管部门同意的；（二）在职国家公务员；（三）由国家统一派出而又未满轮换年限的支援西部开发的人员； （四）在岗的涉密人员和离岗脱密期未满的涉密人员；（五）有违法嫌疑正在依法接受审查尚未结案的人员；（六）法律、法规规定暂时不能流动的其他特殊岗位的人员或者需经批准方可出境的人员。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "8ebc6c9a17c2464891fb4aa452ae25e1",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正在承担国家、省级重点工程、科研项目的技术和管理人员，未经单位或主管部门同意的"
+                },
+                {
+                    "id": "097db18cc16a490e8d59ca42c3a2e122",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "在职国家公务员"
+                },
+                {
+                    "id": "e6a7164cd1554983b35774dce3a5c52f",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "高科技公司管理人员"
+                },
+                {
+                    "id": "d71127ca9aa54cffbd7179862d862a53",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "在岗的涉密人员和离岗脱密期未满的涉密人员"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66833",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n设立人才中介服务机构应具备（    ）条件。",
+            "answer": "A,B,C,D",
+            "analysis": "《人才市场管理规定》第六条规定，设立人才中介服务机构应具备下列条件：（一）有与开展人才中介业务相适应的场所、设施；（二）有5名以上大专以上学历、取得人才中介服务资格证书的专职工作人员；（三）有健全可行的工作章程和制度；（四）有独立承担民事责任的能力；（五）具备相关法律、法规规定的其他条件。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "b282754dd0074a4cb008e11f7e916dff",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "有与开展人才中介业务相适应的场所、设施"
+                },
+                {
+                    "id": "17bdffbdcaaf435789783aa8fec9c8ad",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "有5名以上大专以上学历、取得人才中介服务资格证书的专职工作人员"
+                },
+                {
+                    "id": "8475fe93f5b34353866504082084a1dd",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "有健全可行的工作章程和制度"
+                },
+                {
+                    "id": "57f7df8ced144da19ad18cfd608674b2",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "有独立承担民事责任的能力"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66834",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n人才中介服务机构有改变（    ）等情形的，应当按原审批程序办理变更或者注销登记手续。",
+            "answer": "A,B,C,D",
+            "analysis": "《人才市场管理规定》第十五条规定，人才中介服务机构有改变名称、住所、经营范围、法定代表人以及停业、终止等情形的，应当按原审批程序办理变更或者注销登记手续。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "a1a7c3a33e89459790894b0cf08699ae",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "名称"
+                },
+                {
+                    "id": "0ef2211c6a9e46f69d6a37aa7b6e4168",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "住所"
+                },
+                {
+                    "id": "59790c189b5344cfaa92652ffec4f3a4",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "经营范围"
+                },
+                {
+                    "id": "976f364db1764cc6baf3c6d26f54d44e",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "法定代表人"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66835",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n高技能领军人才包括获得（    ）等荣誉以及享受省级以上政府特殊津贴，或各省（区、市）政府认定的“高精尖缺”高技能人才。",
+            "answer": "A,B,C,D",
+            "analysis": "根据中办、国办《关于提高技术工人待遇的意见》，高技能领军人才包括获得全国劳动模范、全国五一劳动奖章、中华技能大奖、全国技术能手等荣誉以及享受省级以上政府特殊津贴，或各省（区、市）政府认定的“高精尖缺”高技能人才。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "f7d6e19bb2c2451289fd6efe7bc87d7a",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "全国劳动模范"
+                },
+                {
+                    "id": "c43c14e78ecd4c9cbef481e42e4760ed",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "全国五一劳动奖章"
+                },
+                {
+                    "id": "9ca8a2f7dc834a03a64008f61ba0d9d3",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "中华技能大奖"
+                },
+                {
+                    "id": "29ec7a3687c94247a9a4b5b7e56c95e5",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "全国技术能手"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66836",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n为提高高技能领军人才的社会待遇，鼓励各地根据实际情况，研究探索对高技能领军人才在（    ）等方面的支持政策。",
+            "answer": "A,B,C,D",
+            "analysis": "根据中办、国办《关于提高技术工人待遇的意见》，鼓励各地根据实际情况，研究探索对高技能领军人才在购（租）住房、安家补贴、子女接受义务教育等方面的支持政策，通过提供人才公寓和发放房租补贴等方式，解决引进高技能领军人才的住房问题。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "87f9bb650328480a81116eb83de78c2b",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "购房"
+                },
+                {
+                    "id": "469ffb5f309f4492b658b1594bbd6611",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "租房"
+                },
+                {
+                    "id": "c19a8256a5bc4d8983ccd1c0a71bec3f",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "安家补贴"
+                },
+                {
+                    "id": "19c168adf2b0405299aa7e4ef19b4a13",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "子女接受义务教育"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66837",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n对中华技能大奖获得者，我部将授予中华技能大奖荣誉称号，颁发（    ）。",
+            "answer": "A,B,C,D",
+            "analysis": "根据《人力资源社会保障部关于开展第十四届高技能人才评选表彰活动的通知》要求，对中华技能大奖获得者，我部将授予中华技能大奖荣誉称号，颁发中华技能大奖奖章、证书、奖杯和奖金。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "bafdb19c344a462da1d3bbbe05a12dab",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "奖章"
+                },
+                {
+                    "id": "de6cea6f7fac4a7e9c012ff9c79a6304",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "证书"
+                },
+                {
+                    "id": "90ba178539e742b8885db2fad419382a",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "奖杯"
+                },
+                {
+                    "id": "91f7b77bfb464dc6b534b6a0d7f93a84",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "奖金"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66838",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n对评选出的全国技术能手，我部将授予全国技术能手荣誉称号，颁发（    ）。",
+            "answer": "A,B,C,D",
+            "analysis": "根据《人力资源社会保障部关于开展第十四届高技能人才评选表彰活动的通知》要求，对评选出的全国技术能手，我部将授予全国技术能手荣誉称号，颁发全国技术能手奖章、证书、奖牌和奖金。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "3cda9a54760845f6ae1bde7bf78853ff",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "奖章"
+                },
+                {
+                    "id": "5a61360793c54fc2a2c6b5627bbc030c",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "证书"
+                },
+                {
+                    "id": "d03734432e024b0bbba5e84c7d1711ac",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "奖牌"
+                },
+                {
+                    "id": "3d8e943c46eb47a6b07b67ff4f2d85fc",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "奖金"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66839",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n鼓励（    ）及社会各方面力量，以多种方式对高技能领军人才进行特殊奖励。",
+            "answer": "A,B,C,D",
+            "analysis": "根据中办、国办《关于提高技术工人待遇的意见》，鼓励行业主管部门、群团组织、行业协会、企业及社会各方面力量，以多种方式对高技能领军人才进行特殊奖励。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "6f2dc1b140014837b88582f97769fc4e",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "行业主管部门"
+                },
+                {
+                    "id": "84b8760681c44ae0955120f50b7d779e",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "群团组织"
+                },
+                {
+                    "id": "9484282b1ff74329b61ed104e5c9e301",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "行业协会"
+                },
+                {
+                    "id": "f51051a9473b4831a5d0cf9bb2e6ab44",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "企业"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66840",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《关于公布国家职业资格目录的通知》规定，行业协会、学会等社会组织和企事业单位不得变相开展资格资质许可和认定，证书不得使用（    ）字样及国徽标志。",
+            "answer": "A,B,C,D",
+            "analysis": "《人力资源社会保障部关于公布国家职业资格目录的通知》（人社部发〔2017〕68号）中规定，行业协会、学会等社会组织和企事业单位不得变相开展资格资质许可和认定，证书不得使用“中华人民共和国”、“中国”、“中华”、“国家”、“全国”、“职业资格”或“人员资格”等字样。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "9dc5ae78e77b4a6083dd5938ecb71c43",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "中国"
+                },
+                {
+                    "id": "b5f33aca079449dca6f8f68231903b4c",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "国家"
+                },
+                {
+                    "id": "0b8561d8855b46d8bc543b83ebbc7ab9",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "人员资格"
+                },
+                {
+                    "id": "52074efb40384204b57d458f4a3ad677",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "职业资格"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66841",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n属于准入类职业资格的是（    ）。",
+            "answer": "B,C",
+            "analysis": "《人力资源社会保障部关于公布国家职业资格目录的通知》（人社部发〔2017〕68号）中，焊工与轨道列车司机属于技能人员准入类职业资格，电工、钳工属于技能人员水平评价类职业资格。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "5090fffb0f6e4ecebc317ce30933f343",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "电工"
+                },
+                {
+                    "id": "a6f31f2daab64fd1b873dd0ee7004acf",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "焊工"
+                },
+                {
+                    "id": "0e369ffa379e446a8ff40a1c6d9d2ec9",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "轨道列车司机"
+                },
+                {
+                    "id": "f416eceeb63049089d61cb154b89f8b2",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "钳工"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66842",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n未纳入国家职业资格目录的是（    ）。",
+            "answer": "A,D",
+            "analysis": "《人力资源社会保障部关于公布国家职业资格目录的通知》（人社部发〔2017〕68号）中，酿酒师、安检员属于技能人员职业资格，修脚师、美甲师未列入目录。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "4fb47247fe894f58a53de77be8d10fb0",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "修脚师"
+                },
+                {
+                    "id": "4ba48e7aaf2c4105b0f2735c7d9d5709",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "酿酒师"
+                },
+                {
+                    "id": "aa0a55a0c11d4f728570d76cc78d0f96",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "安检员"
+                },
+                {
+                    "id": "675c9cfd342648e7847d529798417cae",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "美甲师"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66843",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n国家职业资格目录中，列出了职业资格名称、资格类别和（    ）等信息。",
+            "answer": "C,D",
+            "analysis": "《人力资源社会保障部关于公布国家职业资格目录的通知》（人社部发〔2017〕68号）中，目录包含职业资格名称、实施部门、资格类别、设定依据等信息。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "476645f2f0f44e28aa7aaeb279486669",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "联系电话"
+                },
+                {
+                    "id": "92231de091624221a6ed0909205eefbc",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "职业标准"
+                },
+                {
+                    "id": "14c8afd4fb2d4a0e8383f9175ff49fb5",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "实施部门"
+                },
+                {
+                    "id": "3654b1d2bd1d417ea3fdd1c53337218e",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "设定依据"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66844",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n技能人员职业资格中，社会体育指导员的游泳、（    ）、攀岩项目，属于准入类职业资格。",
+            "answer": "A,D",
+            "analysis": "《人力资源社会保障部关于公布国家职业资格目录的通知》（人社部发〔2017〕68号）中，社会体育指导员（游泳、滑雪、潜水、攀岩）属于技能人员准入类职业资格。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "0f98f15c238d4e959cc5f3e791617cb6",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "滑雪"
+                },
+                {
+                    "id": "7e5db45d61f64d8bbfcfdeb5b0cf5f6a",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "篮球"
+                },
+                {
+                    "id": "9fc5cd5ce14a406f8b2ffd942132a30e",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "足球"
+                },
+                {
+                    "id": "6c7aed023b6945ffbd4e6500d58b4553",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "潜水"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66845",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《中华人民共和国职业教育法》规定，职业培训包括从业前培训、（    ）及其他职业性培训。",
+            "answer": "A,B,C,D",
+            "analysis": "《中华人民共和国职业教育法》第十四条规定，职业培训包括从业前培训、转业培训、学徒培训、在岗培训、转岗培训及其他职业性培训。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "75824582b9d449c89e4cc717e66e56f6",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "转业培训"
+                },
+                {
+                    "id": "caf60cb1fe73475b8c6820e6c102b7fa",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "学徒培训"
+                },
+                {
+                    "id": "5215b38d3e9e48f2b350e25b5c8fbc7a",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "在岗培训"
+                },
+                {
+                    "id": "0ead4ab38d0845039b74c1b15b6fbcf5",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "转岗培训"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66846",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《中华人民共和国民办教育促进法》规定，民办学校对招收的学生，根据其（    ），可以根据国家有关规定发给学历证书、结业证书或者培训合格证书。",
+            "answer": "A,B,D",
+            "analysis": "《中华人民共和国民办教育促进法》第二十五条规定，民办学校对招收的学生，根据其类别、修业年限、学业成绩，可以根据国家有关规定发给学历证书、结业证书或者培训合格证书。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "154ed482211e43cdabfd7bdd02cf5580",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "类别"
+                },
+                {
+                    "id": "a376b900190b4395a16d14a8daf06279",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "修业年限"
+                },
+                {
+                    "id": "6ff58c23899b4ca7bd3457574648012f",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "所学专业"
+                },
+                {
+                    "id": "f356e09652134f95a9a01d28c6ed3187",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "学业成绩"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66847",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《中外合作职业技能培训办学管理办法》规定，中外合作职业技能培训机构名称中不得冠以（    ）等字样，不得违反国家规定，不得损害社会公共利益。",
+            "answer": "B,C,D",
+            "analysis": "《中外合作职业技能培训办学管理办法》第十八条规定，中外合作职业技能培训机构名称中不得冠以“中国”“全国”“中华”等字样，不得违反国家规定，不得损害社会公共利益。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "9dc905668b9e4317b850d9d19919ab80",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "合作"
+                },
+                {
+                    "id": "b3f6b0bd10c1410fa397d349a2f16be8",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "中国"
+                },
+                {
+                    "id": "a6ca99a254604a308f689e126355a6d0",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "全国"
+                },
+                {
+                    "id": "dc011275fd3f49869e4c8af3bf12e904",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "中华"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66848",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《国务院关于推行终身职业技能培训制度的意见》规定，支持劳动者凭技能提升待遇，建立健全技能人才（    ）相统一的激励机制。",
+            "answer": "A,B,C,D",
+            "analysis": "《国务院关于推行终身职业技能培训制度的意见》（十三）建立技能提升多渠道激励机制规定，支持劳动者凭技能提升待遇，建立健全技能人才培养、评价、使用、待遇相统一的激励机制。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "400451961a0048369fd7b31d13ac5695",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "培养"
+                },
+                {
+                    "id": "f7ffbb1105934ae5b508f291025cb6ab",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "评价"
+                },
+                {
+                    "id": "c181ba5b65a44a03a15a18add220c3ad",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "使用"
+                },
+                {
+                    "id": "51d55e45a46d48358db61d2c03293d6e",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "待遇"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66849",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n《关于全面推行企业新型学徒制的意见》规定，企业对学徒开展（    ）等企业内部发生的费用，符合有关政策规定的，可从企业职工教育经费中列支。",
+            "answer": "B,C",
+            "analysis": "《关于全面推行企业新型学徒制的意见》第八条规定，企业对学徒开展在岗培训、业务研修等企业内部发生的费用，符合有关政策规定的，可从企业职工教育经费中列支。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "b4da4036cbf04df1bf2269e4e2a180a4",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "岗前培训"
+                },
+                {
+                    "id": "bd5b3f044cdb415cb8bdcc8846dc61b3",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "在岗培训"
+                },
+                {
+                    "id": "6408b664ec6545718d95f3e4c45a0de5",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "业务研修"
+                },
+                {
+                    "id": "b4feea15414742f283a84be3ba79145f",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "业务考核"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66850",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n技工院校类型包括（    ）。",
+            "answer": "A,B,C",
+            "analysis": "《人力资源社会保障部印发<关于深化技工院校教师职称制度改革的指导意见>的通知》明确技工院校（包括技师学院、高级技工学校和技工学校）是国民教育体系和人力资源开发的重要组成部分，是培养技能人才的专门学校。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "012e1cedd1e044ff889561d06cb536bc",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "技工学校"
+                },
+                {
+                    "id": "bedc775f4b144c368c0d223b6474efc3",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "技师学院"
+                },
+                {
+                    "id": "761d14b2acef4ad888dc579e6efc353d",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "高级技工学校"
+                },
+                {
+                    "id": "3c539216ea2d4cbbb1b881216569617d",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "高级技术学校"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66851",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n建立技工院校教师职称评审公开制度，实行（    ），确保评价的客观公正。",
+            "answer": "A,B,C,D",
+            "analysis": "《人力资源社会保障部印发<关于深化技工院校教师职称制度改革的指导意见>的通知》指出要建立技工院校教师职称评审公开制度，实行政策公开、标准公开、程序公开、结果公开，确保评价的客观公正。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "34cc9db78a1f49b08507447fdebcac05",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "政策公开"
+                },
+                {
+                    "id": "6f278933db3d470d8f9ff976cab15def",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "标准公开"
+                },
+                {
+                    "id": "bee2a96b312a41d4a80c366b42006c63",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "结果公开"
+                },
+                {
+                    "id": "4d489ed9cbd44d0b97d5185e02808e58",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "程序公开"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66852",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n技工院校已经成为综合性的（    ），形成了鲜明的办学特色和独特的技能人才培养优势。",
+            "answer": "B,C,D",
+            "analysis": "《人力资源社会保障部国务院国资委关于深入推进技工院校与国有企业开展校企合作的若干意见》指出技工院校已经成为综合性的技工教育培训基地、高技能人才培养的重要阵地、与企业联系紧密的办学实体，形成了鲜明的办学特色和独特的技能人才培养优势。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "8652db8126aa4235bc995824c0cb9807",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "技工教育实训基地"
+                },
+                {
+                    "id": "212d133f6fc34cbeb63d527d3f214e74",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "技工教育培训基地"
+                },
+                {
+                    "id": "b9d90eb0845643a8b66a824ee8266053",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "高技能人才培养的重要阵地"
+                },
+                {
+                    "id": "636ed8b122d647b6ba6a7f3a221fd6de",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "与企业联系紧密的办学实体"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66853",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n第45届世界技能大赛，我国新增了参赛项目，分别是（    ）。",
+            "answer": "A,B,C,D",
+            "analysis": "第45届世界技能大赛，我国新增化学实验室技术、云计算、网络安全、酒店接待4个参赛项目。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "29e1203e416e49039d3b571ecb2cf3a8",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "化学实验室技术"
+                },
+                {
+                    "id": "fad09c7f6b5d4d72a7310b51c565fcdb",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "云计算"
+                },
+                {
+                    "id": "9035f7b9006541ca961558ed1c701f32",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "酒店接待"
+                },
+                {
+                    "id": "7d8a502e321943dea0f094fd9a5276b9",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "网络安全"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66854",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n为推动我国技能竞赛工作的发展，围绕世界技能竞赛，我部开展了相关活动，这些活动包括（    ）。",
+            "answer": "A,B,C",
+            "analysis": "为推动我国技能竞赛工作的发展，围绕世界技能竞赛，我部开发开展了相关活动：技能中国行、青年技能营、中国大能手等诸多相关活动，期待更多人关注技能、支持技能、享受技能。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "3cbf95df2a36466cac388449430cf0a8",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "技能中国行活动"
+                },
+                {
+                    "id": "6f85ad9d0e94406abfa8f4e6c4814872",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "青年技能营活动"
+                },
+                {
+                    "id": "64780d9bc6ec4c5f9d83d8516af5a0cb",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "中国大能手宣传活动"
+                },
+                {
+                    "id": "f2e8d4312c0f4857a47a6e94d6c9dd63",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "中国技能达人秀"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66855",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n企业、院校、培训机构只有在满足（    ）时，才可申请世界技能大赛参赛项目集训基地。",
+            "answer": "A,B,C",
+            "analysis": "世界技能大赛参赛项目的集训基地遍布中国的大江南北，有的在职业院校，有的则在企业。人力资源和社会保障部出台的《世界技能大赛参赛管理暂行办法》中对参赛项目集训基地确定了明确的条件和程序。企业、院校、培训机构只有在满足具有满足竞赛项目要求的训练场地和生活场所；具有满足竞赛项目要求的设施、设备和辅助工具；所在地省级人民政府或所在行业主管部门积极支持，并提供人力、物力、财力支持的条件时，才可申请世界技能大赛参赛项目集训基地。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "171367cbbfe240b1bfe3ca460583cb28",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "具有满足竞赛项目要求的训练场地和生活场所"
+                },
+                {
+                    "id": "60f9a1a7e5c84115be711938c540bb9c",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "具有满足竞赛项目要求的设施、设备和辅助工具"
+                },
+                {
+                    "id": "e9879b964c1e4791be01983babcbf836",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "所在地省级人民政府或所在行业主管部门积极支持，并提供人力、物力、财力支持"
+                },
+                {
+                    "id": "74a571a143504e599bcbd72668dcaaeb",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "申请单位必须有世界级技能大赛获奖选手产生"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66856",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n世界技能大赛中国组委会设的部门包括秘书处和（    ）。",
+            "answer": "A,B,C,D",
+            "analysis": "世界技能大赛中国组委会设秘书处、对外工作组、技术支持组、保障服务组、新闻宣传组。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "1fc5badd5fc64478968b743e76535cde",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "新闻宣传组"
+                },
+                {
+                    "id": "4d7c92c2390b41c492c5187eb8232385",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "对外工作组"
+                },
+                {
+                    "id": "21fb5f67b5ce4b7c98668c8dcf5b23c0",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "技术支持组"
+                },
+                {
+                    "id": "69479280cf2645ebb369ce9d95ac9d64",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "保障服务组"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66857",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n关于青年国际实习交流计划，以下正确的是（    ）。",
+            "answer": "A,D",
+            "analysis": "有意参与青年国际实习交流计划的中国青年应直接与相关企业联系。按照《人力资源和社会保障部办公厅关于印发<青年国际实习交流计划资助管理办法（试行）>的通知》（人社厅发﹝2018﹞77号）规定，申请青年国际实习交流计划资助者提交申请材料后，人力资源和社会保障部按照“总量控制、择优资助”原则进行审核、公示后，确定拟资助人员名单。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "90a777f66aa44f449d3f7aac27355f4c",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "参与青年国际实习交流计划，首先需要取得资格证明"
+                },
+                {
+                    "id": "347c5dbd68e542c582b52937b1418c0c",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "参与青年国际实习交流计划，需要参加所在高校选拔并已获得推荐"
+                },
+                {
+                    "id": "05cbd53974df4aa69d10a4831ff06652",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "申请青年国际实习交流计划资助者，均可获得资助"
+                },
+                {
+                    "id": "7ff96277d4f042c1964fef16cbd3c9d5",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "获得资助者，国家承担一次往返国际旅费、实习期内的部分生活费和杂费"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66858",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n（    ）具有中德青年实习交流计划参加资格。",
+            "answer": "A,B,C,D",
+            "analysis": "根据《关于中华人民共和国政府和德意志联邦共和国政府青年实习交流计划的实施方案》规定，“参与该计划的人员在实习首日须已年满18周岁且未满35周岁。有资格参与的人员包括：已完成至少四个学期高等教育的中国高校在校生（含本科、硕士、博士研究生）；毕业未满12个月的中国高校毕业生；中国职业院校（含技工院校）在校生；毕业未满12个月的中国职业院校（含技工院校）毕业生。实习领域应与实习生即将获得或已经持有的学位或资格具有相关性。”",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "da53c8cafe0c4a4294d5c7938830ce8a",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "已完成至少四个学期高等教育的中国高校在校生（含本科、硕士、博士研究生）。"
+                },
+                {
+                    "id": "51990de4266f4e0f894e46aee5b9848a",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "毕业未满12个月的中国高校毕业生。"
+                },
+                {
+                    "id": "360ca843e2a949c4aa0b36ccff77729d",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "中国职业院校（含技工院校）在校生。"
+                },
+                {
+                    "id": "1a3bca30022d4d97a8f2497179df1354",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "毕业未满12个月的中国职业院校（含技工院校）毕业生。"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66859",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n推进创业孵化基地建设，既可在土地利用总体规划确定的城填建设用地范围内经审批立项新建，也可利用符合条件的现有（  ）等通过挂牌、共建等方式，认定为创业孵化基地。",
+            "answer": "A,B,C,D,E",
+            "analysis": "人社部函〔2012〕108号文件规定，既可在土地利用总体规划确定的城填建设用地范围内经审批立项新建，也可利用符合条件的现有经济技术开发区、工业园区、高新技术园区、大学科技园区、小企业孵化园等通过挂牌、共建等方式，认定为创业孵化基地。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "07fcc5177d664e69b75935c2bfc2fb45",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "经济技术开发区"
+                },
+                {
+                    "id": "39c51f45eac54407b6a2bf28c9320f8a",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "工业园区"
+                },
+                {
+                    "id": "e73ec07ddd8549009bcf31b3a1703e8f",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "高新技术园区"
+                },
+                {
+                    "id": "f6a8f2d1bee94ea88f973d6caa887a23",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "大学科技园区"
+                },
+                {
+                    "id": "890b971bad9a49588d010ac5ba391a52",
+                    "sort": 5,
+                    "code": "E",
+                    "content": "小企业孵化园"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66860",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n第四届“中国创翼”创业创新大赛评审标准，重点关注（   ）。",
+            "answer": "A,B,C,D",
+            "analysis": "根据《人力资源社会保障部关于举办第四届“中国创翼”创业创新大赛的通知》内附方案第八条规定：大赛的评审标准突出“创新引领创业，创业带动就业”的导向，重点关注项目的创新性、示范性、引领性及带动就业、扶贫等社会价值。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "27415c537e794485ad62a6a9dc35a7f8",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "项目的创新性"
+                },
+                {
+                    "id": "9e2f787885cd4c838e61811affe036d6",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "项目的示范性"
+                },
+                {
+                    "id": "9843babdefe347408a9911cf601af220",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "项目的引领性"
+                },
+                {
+                    "id": "0b75370b4fdf494d9099f59f186fbb7c",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "带动就业、扶贫等社会价值"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "66861",
+            "type": "001002",
+            "level": "003001",
+            "content": "\n对于在第四届“中国创翼”创业创新大赛中，获得“全国优秀创业创新项目”称号的项目，鼓励各地人社部门在（    ）给予优先扶持。",
+            "answer": "A,B,C,D",
+            "analysis": "根据《人力资源社会保障部关于举办第四届“中国创翼”创业创新大赛的通知》内附方案第九条规定：鼓励各地人社部门积极协调其他相关部门，将大赛评选结果与本地创业扶持、创业服务、人才鼓励等政策措施挂钩，对晋级全国选拔赛的项目，尤其是获得“全国优秀创业创新项目”称号的项目，可放宽创业担保贷款申请条件，并在资金扶持、入驻园区、孵化培训等方面给予优先扶持。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "bdacc24f0a4e41108babd8f8c6e0ad63",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "放宽创业担保贷款申请条件"
+                },
+                {
+                    "id": "68b7b43ebab44b65ae5676d6a7e6d3f2",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "资金扶持"
+                },
+                {
+                    "id": "1191c02d35544b4b9e5d01b876e6d5c3",
+                    "sort": 3,
+                    "code": "C",
+                    "content": "入驻园区"
+                },
+                {
+                    "id": "114c3752079445c29b719bf7bc82c2e2",
+                    "sort": 4,
+                    "code": "D",
+                    "content": "孵化培训"
+                }
+            ],
+            "keywords": null
+        }
+    ],
+    "code": "SUCCESS"
+}

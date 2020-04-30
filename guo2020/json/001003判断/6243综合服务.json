@@ -1,0 +1,2152 @@
+{
+    "httpStatus": "OK",
+    "status": 0,
+    "message": "成功",
+    "data": [
+        {
+            "id": "67801",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n信访事项已经受理或者正在办理的，信访人在规定期限内向受理、办理机关的上级机关再提出同一信访事项的，该上级机关应当再次受理。（    ）",
+            "answer": "B",
+            "analysis": "《信访条例》第十六条规定，信访事项已经受理或者正在办理的，信访人在规定期限内向受理、办理机关的上级机关再提出同一信访事项的，该上级机关不予受理。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "abbc898c7f054ff09c438192d344b000",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "e47043978d424e47802cd79129ed5d87",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67802",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n在受理环节，不属于本级部门受理范围的，应当告知来访人向有权处理的人社部门或其他机关提出。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部办公厅关于推进依法逐级走访工作的通知》中规定，对不属于本级部门受理范围的，应当告知来访人向有权处理的人社部门或其他机关提出。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "86b6453520d24e73ab83235e69cb5a65",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "cc932f7140464843a88c01bf74f28e21",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67803",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n加强法制宣传和舆论引导，积极引导群众以理性合法方式逐级表达诉求，不支持、不受理越级上访。",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部关于进一步加强人力资源和社会保障信访工作的意见》规定，加强法制宣传和舆论引导，积极引导群众以理性合法方式逐级表达诉求，不支持、不受理越级上访。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "4d4f1ce6e05e4e818d66afdd9c4f3ab4",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "c48fa356ed0e4c788d62085d0eee7180",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67804",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n在处理来访事项的各个环节，在规定期限内尽量向来访群众出具书面文书，履行相关手续。",
+            "answer": "B",
+            "analysis": "《人力资源社会保障部办公厅关于推进依法逐级走访工作的通知》规定，在处理来访事项的各个环节，均要在规定期限内向来访群众出具书面文书，履行相关手续。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "a054a01c1bb5475792564a946fdf66e7",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "2334b6caed6548898a1c97decf178343",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67805",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《国务院办公厅关于做好证明事项清理工作的通知》要求，没有法律法规规定的证明事项一律取消。（    ）",
+            "answer": "A",
+            "analysis": "《国务院办公厅关于做好证明事项清理工作的通知》（国办发〔2018〕47号）第一段“切实做到没有法律法规规定的证明事项一律取消”。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "0051f449a4a8429dbc71f6cd4cd53a35",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "a0e9c9203d2e49a6b43a8d8e32b56157",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67806",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n证明事项清理中，对于法律、行政法规设定的证明事项，都应当提出保留意见。（    ）",
+            "answer": "B",
+            "analysis": "根据《国务院办公厅关于做好证明事项清理工作的通知》（国办发〔2018〕47号）要求，对法律、行政法规设定的证明事项，本着尽可能取消的原则，逐项提出取消或保留的建议。对可以通过法定证照、书面告知承诺、政府部门内部核查和部门间核查、网络核验、合同凭证等办理的，能被其他材料涵盖或者替代的，开具单位无法调查核实的，以及不适用形势需要的，要提出取消建议；对实践中确需保留的，要列出目录。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "87582dafaf01421799754b30c8526475",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "6ab34530170844b8a3cead2b7c3447fd",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67807",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n人社部在前期取消83项证明材料的基础上，2019年10月印发《人力资源社会保障部关于第二批取消部分规章规范性文件设定的证明材料的决定》，再次取消42项证明材料。",
+            "answer": "A",
+            "analysis": "2018年12月《人力资源社会保障部关于修改部分规章的决定》（人社部令第38号）取消了由规章设定的证明材料10项；2019年3月《人力资源社会保障部关于取消部分规范性文件设定的证明材料的决定》（人社部发〔2019〕20号）取消了由规范性文件设定的证明材料73项；2019年10月《人力资源社会保障部关于第二批取消部分规章规范性文件设定的证明材料的决定》（人社部发〔2019〕115号）决定再取消42项由规章、规范性文件设定的证明材料。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c48fa16bd97b4815bdce55a64a578272",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "413bc27cf2004aee8320965025e99679",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67808",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n行政执法全过程记录是行政执法活动合法有效的重要保障，主要采取文字、音像等记录形式。",
+            "answer": "A",
+            "analysis": "行政执法全过程记录制度，主要通过规范文字记录、推行音像记录，实现文字记录、音像记录及其他记录方式的相互补充、有机衔接，实现执法全过程留痕和可回溯管理，特别是在容易发生争议的执法环节、执法场所实施全过程音像记录，对执法人员和管理相对人都有约束力，既提高了执法严格规范公正文明程度，也减少了执法阻力和暴力抗法的情况发生，实现了“双赢”。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "2f0c5a22f77241a0aba165308fda13a2",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "fcaefaae69964ddca3555b84994fa992",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67809",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n推进“证照分离”改革，要按照“谁审批、谁监管，谁主管、谁监管”的原则，创新和加强事中事后监管。",
+            "answer": "A",
+            "analysis": "加强事中事后监管首先要厘清监管责任。“谁审批、谁监管，谁主管、谁监管”是《国务院关于“先照后证”改革后加强事中事后监管的意见》（国发〔2015〕62号）中明确提出来的加强事中事后监管的基本原则，是职责法定原则的核心内容，也是行政机关进行市场监管必须遵守的基础性原则，审批与监管结为一体、权责统一，有利于审批部门科学合理设定审批事项，有利于及时取消或降低准入门槛，有利于创造大众创业、万众创新的环境。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "7fdd62a5298f473999f04912e4e6e2bd",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "6cf063e6763e4fa6b51c0474f779f59d",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67810",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n已在实体大厅办理的事项，不得要求企业和群众补填网上流程。（    ）",
+            "answer": "A",
+            "analysis": "中共中央办公厅、国务院办公厅印发《关于深入推进审批服务便民化的指导意见》明确要求，已在实体大厅办理的事项，不得要求企业和群众补填网上流程。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c7b83e2acffd49a0afb0f8cdb046a813",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "75bee29a96894b41b009e21c62a2da87",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67811",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《人力资源和社会保障事业发展“十三五”规划纲要》主要目标提出，全面推进社会保障制度改革，覆盖城乡居民的社会保障体系全面建成，基本实现法定人员全覆盖。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源和社会保障事业发展“十三五”规划纲要》主要目标提出，全面推进社会保障制度改革，覆盖城乡居民的社会保障体系全面建成，基本实现法定人员全覆盖。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "8835a8c09dfc429c921f892ae974befc",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "6af3a28f0035436badbfab5fa7d2356f",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67812",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n《人力资源和社会保障事业发展“十三五”规划纲要》规定，要完善社会保障制度体系提出，制定出台渐进式延迟退休年龄方案。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源和社会保障事业发展“十三五”规划纲要》中第三章第二节完善社会保障制度体系提出，制定出台渐进式延迟退休年龄方案。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "18bf308e8bdb4bdfa7cc29a1e3366c36",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "ac3f4ee2a5534941b67d3b1f50d3541e",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67813",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n强制性标准必须执行，国家鼓励采用强制性标准。（    ）",
+            "answer": "B",
+            "analysis": "《中华人民共和国标准化法》（2017年修订）第二条规定，强制性标准必须执行，国家鼓励采用推荐性标准。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "597d07e5f3a94b739c33d3c09d6162a1",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "df6d70b433d144ac945c3c382d93681a",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67814",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n制定地方标准的项目，由省、自治区、直辖市人民政府确定。（    ）",
+            "answer": "B",
+            "analysis": "《中华人民共和国标准化法实施条例》第十五条规定，制定地方标准的项目，由省、自治区、直辖市人民政府标准化行政主管部门确定。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "237b7ab2b8f44d4b9ec5e5f3144179b9",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "6f514c00899246088a01b5e5edb29aab",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67815",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n统计资料能够通过行政记录取得的，不得组织实施全面调查，可以实施抽样调查。（    ）",
+            "answer": "B",
+            "analysis": "《统计法实施条例》第二条规定，统计资料能够通过行政记录取得的，不得组织实施调查。通过抽样调查、重点调查能够满足统计需要的，不得组织实施全面调查。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "ccf19d2a201b4d4fbeecff15e08c8439",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "b392b8340d434fc2bf4066ae6f456993",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67816",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n县级以上人民政府统计机构和有关部门不得组织实施营利性统计调查。（    ）",
+            "answer": "A",
+            "analysis": "《统计法实施条例》第五条规定，县级以上人民政府统计机构和有关部门不得组织实施营利性统计调查。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "0ecee71dc25144589e8a32a518f3ef78",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "1102eb779eca4db5861e6b50e3e744a7",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67817",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n统计调查中取得的统计调查对象的原始资料，应当至少保存2年。（    ）",
+            "answer": "A",
+            "analysis": "《统计法实施条例》第二十二条规定，统计调查中取得的统计调查对象的原始资料，应当至少保存2年。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "600292b661b04d7eac37e3b3c64b840f",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "9937a58093504083b96464134b953cfb",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67818",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n为推进工作进度，对已在实体大厅办理的事项，可以要求企业和群众补填网上流程。（    ）",
+            "answer": "B",
+            "analysis": "中办、国办《关于深入推进审批服务便民化的指导意见》要求，已在实体大厅办理的事项，不得要求企业和群众补填网上流程。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "0898113a122840a888b878d66f652c24",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "c624e01591f1464c999a5159123788e4",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67819",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n为压缩企业开办时间，各级社保经办机构不再单独核发社会保险登记证，但登记证应定期验证和换证。（    ）",
+            "answer": "B",
+            "analysis": "国务院办公厅《关于进一步压缩企业开办时间的意见》（国办〔2018〕32号）要求，强化落实“多证合一、一照一码”改革效果，各级社保经办机构不再单独核发社会保险登记证，取消社会保险登记证的定期验证和换证制度，逐步采用统一社会信用代码进行登记管理。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "8732ae70987442c6994e9349818f18d6",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "ec242c654991406e9cf63998233776cc",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67820",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n继续实行统账结合的城镇职工基本养老保险制度，完善个人账户，健全激励约束机制，推动实现职工基础养老金全国统筹。（    ）",
+            "answer": "A",
+            "analysis": "《国务院关于印发“十三五”推进基本公共服务均等化规划的通知》要求，继续实行统账结合的城镇职工基本养老保险制度，完善个人账户，健全激励约束机制，提高收付透明度，坚持精算平衡，推动实现职工基础养老金全国统筹。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "2dedd05179554eaea121a0da3d28ac3e",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "a7756ae2f2d642a8a8df5399d28451dd",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67821",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n依法设立的行政审批局办理的行政许可等事项具有法律效力，原主管部门不得要求企业和群众再加盖本部门印章，杜绝重复盖章。（    ）",
+            "answer": "A",
+            "analysis": "中办国办《关于深入推进审批服务便民化的指导意见》要求，深化和扩大相对集中行政许可权改革试点，整合优化审批服务机构和职责，有条件的市县和开发区可设立行政审批局，实行“一枚印章管审批”。依法设立的行政审批局办理的行政许可等事项具有法律效力，原主管部门不得要求企业和群众再加盖本部门印章，杜绝重复盖章。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "6886d2d6ca754a4692f9741edcad0fa3",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "7318fe24610240aaa1a7931b55663018",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67822",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n为建立健康、有序的中介服务市场，除因省级人民政府规定的情形外，严禁对中介服务机构数量进行限额管理。（    ）",
+            "answer": "B",
+            "analysis": "中办国办《关于深入推进审批服务便民化的指导意见》要求，严禁限额管理中介服务机构数量，营造服务高效、公平竞争、监督有力的中介服务市场。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "5062f25f53cd4440b0cc2af103bb600f",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "911a192494bd457aaa398c2d5f688838",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67823",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n除法律法规有特别规定外，各部门设定的区域性、行业性和部门间中介服务机构执业限制一律取消。（    ）",
+            "answer": "A",
+            "analysis": "中办国办《关于深入推进审批服务便民化的指导意见》要求，除法律法规有特别规定外，各部门设定的区域性、行业性和部门间中介服务机构执业限制一律取消。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "0b8a00f3a911417380575258127a123d",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "f89a8e2f19a94c6ba58329b6f9a5c3cf",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67824",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n企业自主选择中介服务机构，政府部门不得强制指定或变相指定。（    ）",
+            "answer": "A",
+            "analysis": "中办国办《关于深入推进审批服务便民化的指导意见》要求，企业自主选择中介服务机构，政府部门不得强制指定或变相指定。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "3556600682d843d1a5e8ece37dd39e44",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "d7bd057879a74214828fa7b6149c3a4d",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67825",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n基本公共服务是由政府主导、保障全体公民生存和发展基本需要、与经济社会发展水平相适应的公共服务。（    ）",
+            "answer": "A",
+            "analysis": "《国务院关于印发“十三五”推进基本公共服务均等化规划的通知》要求，基本公共服务是由政府主导、保障全体公民生存和发展基本需要、与经济社会发展水平相适应的公共服务。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "9e255d65078342fd93f9121440485143",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "ed04ce0db0dd41b6a856cf4df719a5ae",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67826",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n民生持续改善能为经济发展创造更多有效需求，为推进供给侧结构性改革提供强大内生动力。（    ）",
+            "answer": "A",
+            "analysis": "《国务院关于印发“十三五”推进基本公共服务均等化规划的通知》要求，民生持续改善能为经济发展创造更多有效需求，为推进供给侧结构性改革提供强大内生动力。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "5666c8c612784db3986f09240c007041",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "233e15702a524b8380d91844a1445da0",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67827",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n为进一步优化营商环境，要深化信息共享和业务协同，简化企业准入手续，凡是能通过信息共享获取的信息和前序流程已收取的材料，不得要求企业和群众重复提交。（    ）",
+            "answer": "A",
+            "analysis": "《国务院办公厅关于加快推进“多证合一”改革的指导意见》（国办发〔2017〕41号）要求，深化信息共享和业务协同，简化企业准入手续。从严控制个性化信息采集，凡是能通过信息共享获取的信息和前序流程已收取的材料，不得要求企业和群众重复提交；凡是能通过网络核验的信息，不得要求其他单位和申请人重复提交；凡是应由行政机关及相关机构调查核实的信息，由部门自行核实，实现相同信息“一次采集、一档管理”，避免让企业重复登记、重复提交材料。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "932d660255b24524831265754ac1cb0d",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "7cf1b23d132d440eba55f875af5251fb",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67828",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n为进一步优化营商环境，要深化信息共享和业务协同，简化企业准入手续，凡是能通过网络核验的信息，不得要求其他单位和申请人重复提交。（    ）",
+            "answer": "A",
+            "analysis": "《国务院办公厅关于加快推进“多证合一”改革的指导意见》（国办发〔2017〕41号）要求，深化信息共享和业务协同，简化企业准入手续。从严控制个性化信息采集，凡是能通过信息共享获取的信息和前序流程已收取的材料，不得要求企业和群众重复提交；凡是能通过网络核验的信息，不得要求其他单位和申请人重复提交；凡是应由行政机关及相关机构调查核实的信息，由部门自行核实，实现相同信息“一次采集、一档管理”，避免让企业重复登记、重复提交材料。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "b79de85740f04e6abf1693780104d807",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "1cd6c46d78584140b1cb27dbd4b33166",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67829",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n为进一步优化营商环境，要深化信息共享和业务协同，简化企业准入手续，凡是应由行政机关及相关机构调查核实的信息，由部门自行核实。（    ）",
+            "answer": "A",
+            "analysis": "《国务院办公厅关于加快推进“多证合一”改革的指导意见》（国办发〔2017〕41号）要求，深化信息共享和业务协同，简化企业准入手续。从严控制个性化信息采集，凡是能通过信息共享获取的信息和前序流程已收取的材料，不得要求企业和群众重复提交；凡是能通过网络核验的信息，不得要求其他单位和申请人重复提交；凡是应由行政机关及相关机构调查核实的信息，由部门自行核实，实现相同信息“一次采集、一档管理”，避免让企业重复登记、重复提交材料。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "1d5a78f8abdb44bfb6ddb2626ef8d658",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "5678a14641cc4cf68aeb6b0499b02da8",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67830",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n“一网、一门、一次”改革实施方案指出，要加强数据共享服务运行监测，全面清理并制止仅向特定企业、社会组织开放公共数据的行为。（    ）",
+            "answer": "A",
+            "analysis": "《国务院办公厅关于印发进一步深化“互联网+政务服务”推进政务服务“一网、一门、一次”改革实施方案的通知》（国办发〔2018〕45号）要求，加强数据共享服务运行监测，全面清理并制止仅向特定企业、社会组织开放公共数据的行为。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "165b8a447f5c4c1abcb11a4f39256c1e",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "420fac6af5754c01ab864c68dbc3d23d",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67831",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n按照做好政务信息系统改造对接的要求，原则上不再批准单个部门建设独立信息系统。（    ）",
+            "answer": "A",
+            "analysis": "《国务院办公厅关于印发进一步深化“互联网+政务服务”推进政务服务“一网、一门、一次”改革实施方案的通知》（国办发〔2018〕45号）要求：“做好政务信息系统改造对接，各级政务信息化建设项目审批部门和运维经费审批部门要联合建立政务信息系统清单制度，加强清单式管理，对于未按要求进行改造对接的，不审批新项目，不拨付运维经费。原则上不再批准单个部门建设孤立信息系统。”",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "6fc126c2d22748b0b055e571834c0ed9",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "29196bf739974c2eae7037a896518365",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67832",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n严格落实取消收取人事关系及档案保管费的规定，在特殊情况下可将参加社会保险、职称评审等业务与档案保管相挂钩，杜绝以档案为载体的捆绑收费、隐形收费行为。（    ）",
+            "answer": "B",
+            "analysis": "《人力资源社会保障部关于加强和改进人力资源社会保障领域公共服务的意见》（人社部发〔2016〕44号）规定，严格落实取消收取人事关系及档案保管费的规定，不得将参加社会保险、职称评审等业务与档案保管相挂钩，杜绝以档案为载体的捆绑收费、隐形收费行为。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "9cfc7aeec86b45c199e46dae2243a3a4",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "03d9d841e44e4b69ad98adc18df0fce5",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67833",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n市县级人力资源社会保障部门要按照省级行政审批和公共服务事项清单，编制本级行政审批和公共服务事项清单。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部关于规范人力资源社会保障系统行政审批和公共服务事项清单的指导意见》（人社部发〔2018〕75号）规定，市县级人力资源社会保障部门要按照省级系统事项清单，编制本级事项清单，已有事项清单的地区要逐步统一到上级的要求上来。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "efe3ed1070644283ad7bbdb9a98b2cec",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "1c9e846967ab4fd988c0a4776f895279",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67834",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n对虽有设定依据但不符合深化“放管服”改革要求和经济社会发展需要的事项，以及调整对象消失、多年不发生管理服务行为的事项，要按权限主动取消或提出取消的建议。（    ）",
+            "answer": "A",
+            "analysis": "2015年，中办国办印发《关于推行地方各级政府工作部门权力清单制度的指导意见》，提出：“大力清理调整行政职权，对虽有设定依据但不符合全面深化改革要求和经济社会发展需要的，法定依据相互冲突矛盾的，调整对象消失、多年不发生管理服务行为的行政职权，应及时提出取消或调整的建议。行政职权取消下放后，要加强事中事后监管。”《人力资源社会保障部关于规范人力资源社会保障系统行政审批和公共服务事项清单的指导意见》（人社部发〔2018〕75号）要求，对虽有设定依据但不符合深化“放管服”改革要求和经济社会发展需要的事项，以及调整对象消失、多年不发生管理服务行为的事项，要按权限主动取消或提出取消的建议。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "2937dd4880b04e5a901330603cea86af",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "cff017edad5b4bc1a946ca81d22149f8",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67835",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n人力资源社会保障审批服务事项办事指南，要明确结果送达时限及送达方式，能够当场送达的，可不注明。（    ）",
+            "answer": "B",
+            "analysis": "《人力资源社会保障部关于规范人力资源社会保障系统行政审批和公共服务事项清单的指导意见》（人社部发〔2018〕75号）附件3《人力资源社会保障系统行政审批和公共服务事项办事指南构成要素》要求，明确结果送达时限及送达方式，能够当场送达的，应注明“当场送达”。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "bd1f03f8571444dc94f1e310f4c92099",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "295952c3986b4d4cbe131249b81c49f2",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67836",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n人力资源社会保障审批服务事项办事指南，要注明收费所依据的法律法规、法定收费项目及标准；无需收费的，应注明“无”或“不收费”。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部关于规范人力资源社会保障系统行政审批和公共服务事项清单的指导意见》（人社部发〔2018〕75号）附件3《人力资源社会保障系统行政审批和公共服务事项办事指南构成要素》要求，注明收费所依据的法律法规、法定收费项目及标准，无需收费的，应注明“无”或“不收费”。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "aa129e9870df4f719ce1c302d2634209",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "a4fce9ab89bf4d7fb78d30828355fb4d",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67837",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n人力资源社会保障审批服务事项取消后，原事项编码可用于新的事项。（    ）",
+            "answer": "B",
+            "analysis": "《人力资源社会保障部办公厅关于规范人力资源社会保障系统行政审批和公共服务事项编码的通知》（人社厅发〔2018〕146号）规定，事项取消后，编码随即作废，列入废置库。废置库中的编码仅作为历史记录供查询、追溯使用，不再重新服务其他事项。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "284748649e8743b0b26114779e894364",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "2bca7e24e334419c970d894f6ffcb4d5",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67838",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n人力资源社会保障审批服务事项合并后，形成的新事项依据事项权重，以最重要的事项为该事项名称。（    ）",
+            "answer": "B",
+            "analysis": "《人力资源社会保障部办公厅关于规范人力资源社会保障系统行政审批和公共服务事项编码的通知》（人社厅发〔2018〕146号）规定，事项合并后，形成的事项视同新增事项，被合并的事项视为取消事项，分别按照新增和取消的规范进行编码处理。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "df3d4d2c1c2549a1b4f593a28878f8a5",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "deb297cdbbc64d2d8db494e83cb05338",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67839",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n疫情防控期间，对于因作出贡献而获得嘉奖、记功、记大功的事业单位工作人员，按照规定可以给予一次性奖金。（    ）",
+            "answer": "A",
+            "analysis": "根据《关于切实做好新型冠状病毒感染的肺炎疫情防控期间事业单位人事管理工作有关问题的通知》（人社厅发〔2020〕8号）要求，“事业单位及其主管部门、事业单位人事综合管理部门对于在疫情防控中做出贡献的事业单位工作人员和集体特别是奋战在疫情防控一线、贡献突出的事业单位工作人员和集体，可根据《事业单位工作人员奖励规定》有关规定开展及时奖励，对于获得嘉奖、记功、记大功的事业单位工作人员给予一次性奖金，获奖人员所在地区或者单位经批准可以追加其他物质奖励，所需经费按规定渠道解决”。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "304caf32adbd44859866d17d0cbdbcb5",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "ca1aba290b9f41de887dd3efb1450d29",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67840",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n疫情防控期间，各地公共就业服务机构和基层服务窗口就业服务工作应暂停开展。（    ）",
+            "answer": "B",
+            "analysis": "根据《关于优化就业服务推进2020年春风行动暨就业援助月活动的通知》（人社厅明电〔2020〕2号），“各地要确保公共就业服务机构和基层服务窗口就业服务工作正常开展。要按照当地党委、政府的统一部署要求，合理确定和安排现场招聘活动。确定停办现场招聘活动的，要将线下活动转向线上，集中开展互联网招聘，大力推广远程面试，着力打造“就业服务不打烊、网上招聘不停歇”的线上春风行动。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "eec1bbf3866f4e22b18fc542e7096d5f",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "c046e44847464372ba46669f59779772",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67841",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n因受疫情影响造成当事人不能在法定仲裁时效期间申请仲裁的，仲裁时效可以适当延长。（    ）",
+            "answer": "A",
+            "analysis": "根据《关于妥善处理新型冠状病毒感染的肺炎疫情防控期间劳动关系问题的通知》（人社厅明电〔2020〕5号），因受疫情影响造成当事人不能在法定仲裁时效期间申请劳动人事争议仲裁的，仲裁时效中止，从中止时效的原因消除之日起，仲裁时效期间继续计算。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "9e45c1c63e334fc38eb98dc3881f6197",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "d67ea7d8ad9a4352b5f3ec99be237b17",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67842",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n疫情防控期间，对因治疗导致农民工暂不能提供正常劳动的，用工单位可将劳动者退回劳务派遣单位。（    ）",
+            "answer": "B",
+            "analysis": "根据《关于进一步做好春节后农民工返程服务保障工作的通知》（国农工办发〔2020〕1号），对于因隔离、留观、治疗或政府采取紧急措施导致农民工暂不能提供正常劳动的，企业不得解除劳动合同或退回劳动派遣工。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "bd23eeb38c1d4a18a08aa4ed5c0590eb",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "4106e3a935684282971ba684d6fe57f0",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67843",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n要探索将程序相似、材料相近、结果关联的多个事项整合为企业和群众眼里的“一件事”，对流程再造和优化。（    ）",
+            "answer": "A",
+            "analysis": "根据《关于做好人力资源和社会保障部政务服务“好差评”工作的通知》（人社部发〔2020〕31号），要探索将程序相似、材料相近、结果关联的多个事项整合为企业和群众眼里的“一件事”，对流程再造和优化。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "6767552559804e809cf62099ac145a85",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "6f3d2442aff045f38ad0029ffc230e4c",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67844",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n任何单位不得利用营商环境评价谋取利益。（    ）",
+            "answer": "A",
+            "analysis": "《优化营商环境条例》第八条规定，任何单位不得利用营商环境评价谋取利益",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "42edfdc188134f0f9a1cf511d00966bd",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "3e2ae43666c7460f8f4de7e74cb86cbc",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67845",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n国家持续放宽市场准入，并实行全国统一的市场准入正面清单制度。（    ）",
+            "answer": "B",
+            "analysis": "《优化营商环境条例》第二十条规定，国家持续放宽市场准入，并实行全国统一的市场准入负面清单制度。市场准入负面清单以外的领域，各类市场主体均可以依法平等进入。各地区、各部门不得另行制定市场准入性质的负面清单。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "661f70b39b5b406d848ac56466d3ae75",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "972a3870184940b3a948d5d216fa4952",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67846",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n设立政府性基金、涉企行政事业性收费，应当有法律、行政法规依据或者经国务院批准。（    ）",
+            "answer": "A",
+            "analysis": "《优化营商环境条例》第二十五条规定，设立政府性基金、涉企行政事业性收费、涉企保证金，应当有法律、行政法规依据或者经国务院批准。对政府性基金、涉企行政事业性收费、涉企保证金以及实行政府定价的经营服务性收费，实行目录清单管理并向社会公开，目录清单之外的前述收费和保证金一律不得执行。推广以金融机构保函替代现金缴纳涉企保证金。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "69437b1c3a6a462a845ceda708687c12",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "8dd10e0af1e2440aad520806e1fe2033",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67847",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n根据《关于做好易地扶贫搬迁就业帮扶工作的通知》要求，各地在安置区实施的政府投资建设项目、以工代赈项目，服务安置区的社会管理和公共服务岗位，都应安排一定数量的岗位吸纳搬迁群众就业，并优先吸纳有就业意愿的搬迁贫困劳动力。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部 国家发展改革委 财政部 国务院扶贫办关于做好易地扶贫搬迁就业帮扶工作的通知》（人社部发〔2019〕47号）规定：各地在安置区实施的政府投资建设项目、以工代赈项目，服务安置区的社会管理和公共服务岗位，都应安排一定数量的岗位吸纳搬迁群众就业，并优先吸纳有就业意愿的搬迁贫困劳动力。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c28607d0f57f4faea567f42254e02c73",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "4e65373c5fd444199dbc7a6891383729",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67848",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n各地要将易地扶贫搬迁群众全部纳入当地公共就业服务体系，搬迁至城镇区域的，按城镇户籍人员落实就业扶持政策。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部 国家发展改革委 财政部 国务院扶贫办关于做好易地扶贫搬迁就业帮扶工作的通知》（人社部发〔2019〕47号）规定：各地要将搬迁群众全部纳入当地公共就业服务体系，搬迁至城镇区域的，按城镇户籍人员落实就业扶持政策。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "da1d9406bb9a458daa8cf9c90148988b",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "90ab0301d9e8450b8dee23a31e42475f",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67849",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n对企业吸纳贫困劳动力就业的，参照就业困难人员落实社会保险补贴等政策。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部 财政部关于进一步加大就业扶贫政策支持力度着力提高劳务组织化程度的通知》（人社部发〔2018〕46号）规定，对企业吸纳贫困劳动力就业的，参照就业困难人员落实社会保险补贴等政策。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "6d6fe8c8d841485b8df2c333abc88f46",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "5b026ca5b2b74d59b97b2f7c3d3e72cb",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67850",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n对首次创办小微企业或从事个体经营，且所创办企业或个体工商户自工商登记注册之日起正常运营6个月以上的贫困劳动力和农民工等返乡下乡创业人员，可给予一次性创业补贴。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部 财政部关于进一步加大就业扶贫政策支持力度着力提高劳务组织化程度的通知》（人社部发〔2018〕46号）规定，对首次创办小微企业或从事个体经营，且所创办企业或个体工商户自工商登记注册之日起正常运营6个月以上的贫困劳动力和农民工等返乡下乡创业人员，可给予一次性创业补贴。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "64b5e27c1414418b9d5ca57161e16acf",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "6cace555f5a04d99be3f307d18e62379",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67851",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n对人力资源服务机构、劳务经纪人等市场主体开展贫困劳动力有组织劳务输出的，可通过就业创业服务补助购买基本服务成果。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部 财政部关于进一步加大就业扶贫政策支持力度着力提高劳务组织化程度的通知》（人社部发〔2018〕46号）规定，对人力资源服务机构、劳务经纪人等市场主体开展贫困劳动力有组织劳务输出的，可通过就业创业服务补助购买基本服务成果。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "063b23bc5dcc40168cdc4d60b2d38e19",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "ab8d030b49f141fbade9267a72f477ae",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67852",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n处于劳动年龄段内，有劳动能力和培训意愿的建档立卡贫困人员均可参加贫困劳动力培训。（    ）",
+            "answer": "A",
+            "analysis": "依据《关于进一步加大就业扶贫政策支持力度着力提高劳务组织化程度的通知》（人社部发〔2018〕46号）、《打赢人力资源社会保障扶贫攻坚战三年行动方案》（人社部发〔2018〕54号）。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "c7e88dbd187446cb882bbbeb613fa37e",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "926c2230903b4c829c2cd60e5980a56c",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67853",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n贫困地区参加企业职工基本养老保险的某企业和在职人员存在欠缴和断缴行为，该企业已经退休人员的基本养老金应当减额发放。（    ）",
+            "answer": "B",
+            "analysis": "国家建立企业职工基本养老保险制度，退休人员基本养老金实行社会化发放，无论原企业以及在职人员的缴费情况如何，国家都将保障其基本养老金按时足额发放。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "cd9b67631a0f444aa0cf4f5e3e6d97b0",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "5463b5e90fdb492d932c8982100e65ac",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67854",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n积极吸纳社会力量参与“互联网+人社”建设，在确保数据安全和个人隐私的前提下，支持创业者和社会组织开发衍生服务产品。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部关于印发“互联网+人社”2020行动计划的通知》（人社部发〔2016〕105号）中提到，积极吸纳社会力量参与“互联网＋人社”建设，支持创业者和社会组织开发衍生服务产品。构建面向公众的创业服务平台，为创业者提供在线的项目开发、开业指导、跟踪扶持等服务。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "d183d7ef8d4d4c0d97eb8a296f7f4e86",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "2723c81f957e42749a4405a82e9cea92",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67855",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n社会保障卡的金融应用和社保应用是相互独立的。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部、中国人民银行关于社会保障卡加载金融功能的通知》（人社部发〔2011〕83号）规定，芯片中应同时包含人力资源社会保障应用和金融应用。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "30593c813e304f278df63b6c5b8f91bb",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "6e27b2de74a44084b5c5182a4d787848",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67856",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n个人直接办理业务时，可以凭社会保障卡进行参保登记。（    ）",
+            "answer": "A",
+            "analysis": "《人力资源社会保障部关于加快推进社会保障卡应用的意见》（人社部发〔2014〕52号）规定个人直接办理业务时，可以凭社会保障卡进行参保登记。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "b6c7bee9d5284e28ac887067d9af2d80",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "e5ea4568ba324ae7bc38cc57ab713ab4",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67857",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n电子社保卡是社会保障卡的线上形态，是社会保障卡电子证照的具体表现形式。（    ）",
+            "answer": "A",
+            "analysis": "《关于印发全国一体化在线政务服务平台电子证照有关工程标准的通知》（国办电政函〔2019〕244号），附件《全国一体化在线政务服务平台 电子证照 社会保障卡》提到，电子社保卡是社会保障卡的线上形态，是社会保障卡电子证照的具体表现形式，是持卡人线上享受人力资源和社会保障服务及其民生服务的电子凭证和结算工具，与实体社会保障卡一一对应、唯一映射、状态相同、功能相通。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "813bf53ecdbe42909b3605b192cd6d59",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "88f0766e99634052a5d320cd9d9b06ac",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "67858",
+            "type": "001003",
+            "level": "003001",
+            "content": "\n按照《关于印发香港澳门台湾居民社会保障号码编制规则的通知》要求，港澳居民社会保障号码必须为18位，编制位数不足时应补齐。（    ）",
+            "answer": "B",
+            "analysis": "《人力资源社会保障部办公厅关于印发香港澳门台湾居民社会保障号码编制规则的通知》（人社厅函〔2020〕9号）中规定，编码规则中规定数据库对社会保障号码预留18位长度，港澳居民社会保障号码按第二条编制不足18位的，不需要补足位数。",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "e4b3c7d1861e401fb873778cb7070a41",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "正确"
+                },
+                {
+                    "id": "ce5f6678730840a8929e8e1cf366c1da",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错误"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "68371",
+            "type": "001003",
+            "level": "003001",
+            "content": "&amp;2526lt;p&amp;2526gt;对已取消的行政许可，行政机关可转由行业协会商会组织实施。&amp;2526lt;/p&amp;2526gt;",
+            "answer": "B",
+            "analysis": "&amp;2526lt;p&amp;2526gt;《优化营商环境条例》第四十条规定，国家实行行政许可清单管理制度，适时调整行政许可清单并向社会公布，清单之外不得违法实施行政许可。国家大力精简已有行政许可。对已取消的行政许可，行政机关不得继续实施或者变相实施，不得转由行业协会商会或者其他组织实施。对实行行政许可管理的事项，行政机关应当通过整合实施、下放审批层级等多种方式，优化审批服务，提高审批效率，减轻市场主体负担。符合相关条件和要求的，可以按照有关规定采取告知承诺的方式办理。&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "4f4706ad1deb48a9b9985717025478b3",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "对"
+                },
+                {
+                    "id": "3a305d8fe0544e5483096fdb6025a7d7",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "68377",
+            "type": "001003",
+            "level": "003001",
+            "content": "&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;不得将从事疫情防控工作的一线医务人员的轮休，计入本人带薪年休假假期。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;",
+            "answer": "A",
+            "analysis": "&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;《国务院应对新型冠状病毒感染肺炎疫情联防联控机制关于聚焦一线贯彻落实保护关心爱护医务人员措施的通知》（国发明电〔&amp;2526lt;/span&amp;2526gt;2020〕10号）规定，不得将一线医务人员轮休、隔离天数计入本人带薪年休假假期，不得向轮休的一线医务人员安排工作任务。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "cf593188cc1e4b188de3e3acc3375bab",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "对"
+                },
+                {
+                    "id": "f6983509e99745d89bf35998d0b7e2a5",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "68378",
+            "type": "001003",
+            "level": "003001",
+            "content": "&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;新冠肺炎疫情防控期间，企业提出复工复产申请，原则上&amp;2526lt;/span&amp;2526gt;5个工作日内作出答复。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;",
+            "answer": "B",
+            "analysis": "&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;《国务院办公厅关于进一步精简审批优化服务精准稳妥推进企业复工复产的通知》（国办发明电〔&amp;2526lt;/span&amp;2526gt;2020〕6号）规定，（二）优化复工复产办理流程。相关地区要积极推行复工复产一站式办理、上门办理、自助办理等服务，全面实行企业复工复产申请“一口受理、并行办理”，在本行政区域内明确一家牵头部门，统一受理申请、一次性收取材料，相关部门并行办理、限时办结，原则上要在2个工作日内作出答复。有条件的地方可将复工复产审批制改为备案制或告知承诺制，企业按规定做好防疫、达到复工复产条件，提交备案信息或承诺书后，即可组织复工复产，相关部门通过开展事后现场核查等，确保企业全面落实各项防疫措施。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "287898c61378481b89c1e472be8dff65",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "对"
+                },
+                {
+                    "id": "4b3edc073830498bac1f92b61bf64d04",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "68382",
+            "type": "001003",
+            "level": "003001",
+            "content": "&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;对人力资源服务机构、劳务经纪人开展跨区域有组织劳务输出的，给予就业创业服务补助。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;",
+            "answer": "A",
+            "analysis": "&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;《国务院办公厅关于应对新冠肺炎疫情影响强化稳就业举措的实施意见》（国办发&amp;2526lt;/span&amp;2526gt;[2020]6号）规定，&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;引导有序外出就业。强化重点企业用工调度保障、农民工&amp;2526lt;/span&amp;2526gt;“点对点、一站式”返岗复工服务，推广健康信息互认等机制，提升对成规模集中返岗劳动者的输送保障能力。引导劳动者有序求职就业，及时收集发布用工信息，加强输出地和输入地信息对接，鼓励低风险地区农民工尽快返岗复工。对组织集中返岗、劳务输出涉及的交通运输、卫生防疫等给予支持。对人力资源服务机构、劳务经纪人开展跨区域有组织劳务输出的，给予就业创业服务补助。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "9704a5dff8574dcabe90dad208d0787b",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "对"
+                },
+                {
+                    "id": "fc8a716311144b59938b25341093728f",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "68383",
+            "type": "001003",
+            "level": "003001",
+            "content": "&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;2020年度，国有企业招用高校毕业时，不得将本单位实习期限作为招聘入职的前提条件。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;",
+            "answer": "A",
+            "analysis": "&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;《国务院办公厅关于应对新冠肺炎疫情影响强化稳就业举措的实施意见》（国办发&amp;2526lt;/span&amp;2526gt;[2020]6号）规定，&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;对中小微企业招用毕业年度高校毕业生并签订&amp;2526lt;/span&amp;2526gt;1年以上劳动合同的，给予一次性吸纳就业补贴。国有企业今明两年连续扩大高校毕业生招聘规模，不得随意毁约，不得将本单位实习期限作为招聘入职的前提条件。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "fc5b73ac1eb14c20b668a1cc624dbe23",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "对"
+                },
+                {
+                    "id": "7f774a7f70f040ef96fb73d6eb643868",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "68384",
+            "type": "001003",
+            "level": "003001",
+            "content": "&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;对见习期未满与高校毕业生签订劳动合同的见习单位，不再发放剩余期限见习补贴。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;",
+            "answer": "B",
+            "analysis": "&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;《国务院办公厅关于应对新冠肺炎疫情影响强化稳就业举措的实施意见》（国办发&amp;2526lt;/span&amp;2526gt;[2020]6号）规定，&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;支持企业、政府投资项目、科研项目设立见习岗位。对因疫情影响见习暂时中断的，相应延长见习单位补贴期限。对见习期未满与高校毕业生签订劳动合同的，给予见习单位剩余期限见习补贴。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "0a60d43f200c4eb399fc6ca51fea4ac5",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "对"
+                },
+                {
+                    "id": "556e5b1d796145829f420797b7f92b14",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "68385",
+            "type": "001003",
+            "level": "003001",
+            "content": "&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;对领取失业保险金期满仍未就业的失业人员、不符合领取失业保险金条件的人员，可发放&amp;2526lt;/span&amp;2526gt;3个月的失业补助金。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;",
+            "answer": "B",
+            "analysis": "&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;《国务院办公厅关于应对新冠肺炎疫情影响强化稳就业举措的实施意见》（国办发&amp;2526lt;/span&amp;2526gt;[2020]6号）规定，&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;畅通失业保险金申领渠道，放宽失业保险申领期限，&amp;2526lt;/span&amp;2526gt;2020年4月底前实现线上申领失业保险金。对领取失业保险金期满仍未就业的失业人员、不符合领取失业保险金条件的参保失业人员，发放6个月的失业补助金，标准不高于当地失业保险金的80%。对生活困难的失业人员及家庭，按规定及时纳入最低生活保障、临时救助等社会救助范围。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "d601b138dd1c4559ab435e218c9a53fb",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "对"
+                },
+                {
+                    "id": "bec015fb63cd4f36bdc44de627e678f3",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "68391",
+            "type": "001003",
+            "level": "003001",
+            "content": "&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;2020-2021年，事业单位空缺岗位主要用于专项招聘高校毕业生（不含择业期内未落实工作单位的高校毕业生）。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;",
+            "answer": "B",
+            "analysis": "&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;《关于应对新冠肺炎疫情影响做好事业单位公开招聘高校毕业生工作的通知》（人社厅发〔&amp;2526lt;/span&amp;2526gt;2020〕27号）规定，要加大事业单位面向高校毕业生的公开招聘力度，今明两年事业单位空缺岗位主要用于专项招聘高校毕业生（含择业期内未落实工作单位的高校毕业生）。其中，湖北省事业单位可以面向湖北省高校的毕业生或湖北籍高校毕业生开展专项招聘。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "e46d142c727440ad82873da641e79198",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "对"
+                },
+                {
+                    "id": "db2178b188234264b6540a47228a8465",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错"
+                }
+            ],
+            "keywords": null
+        },
+        {
+            "id": "68393",
+            "type": "001003",
+            "level": "003001",
+            "content": "&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;用人单位与劳动者协商一致，可以采用电子形式订立书面劳动合同。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;",
+            "answer": "A",
+            "analysis": "&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;《关于订立电子劳动合同有关问题的函》（人社厅函〔&amp;2526lt;/span&amp;2526gt;2020〕33号）规定，用人单位与劳动者协商一致，可以采用电子形式订立书面劳动合同。采用电子形式订立劳动合同，应当使用符合电子签名法等法律法规规定的可视为书面形式的数据电文和可靠的电子签名。用人单位应保证电子劳动合同的生成、传递、储存等满足电子签名法等法律法规规定的要求，确保其完整、准确、不被篡改。符合劳动合同法规定和上述要求的电子劳动合同一经订立即具有法律效力，用人单位与劳动者应当按照电子劳动合同的约定，全面履行各自的义务。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;",
+            "score": null,
+            "userAnswer": null,
+            "blanksNumber": null,
+            "signed": null,
+            "checkResult": null,
+            "userScore": null,
+            "tag": "008001",
+            "chapterName": null,
+            "inCollection": 0,
+            "choices": [
+                {
+                    "id": "e1b78f61f8ee4079b23bf811319f8160",
+                    "sort": 1,
+                    "code": "A",
+                    "content": "对"
+                },
+                {
+                    "id": "b09b89a592c449629b91bff3547f0297",
+                    "sort": 2,
+                    "code": "B",
+                    "content": "错"
+                }
+            ],
+            "keywords": null
+        }
+    ],
+    "code": "SUCCESS"
+}
