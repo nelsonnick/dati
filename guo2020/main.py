@@ -4,6 +4,7 @@
 import requests
 import json
 import base64
+import hashlib
 from PIL import Image
 
 
@@ -38,13 +39,16 @@ def get_picture(session):
     change_pic()
 
 
-# 登录：将所有密码改为hy123456
-def login(session, mobile, verifyCode):
+# 登录
+def login(session, mobile, password, verifyCode):
+    m = hashlib.md5()
+    m.update(password.encode(encoding='utf-8'))
+    result = m.hexdigest()
     api_login = 'https://bw.chinahrt.com.cn/api/candidate/login'
     headers = {'User-Agent': 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'}
     data_login = {
         'mobile': mobile,
-        'password': 'e115bc404c7749385936f24c523b2016',
+        'password': result,
         'verifyCode': verifyCode}
     request = session.post(api_login, headers=headers, data=data_login)
     return json.loads(request.content.decode('UTF-8'))['message']
@@ -143,13 +147,13 @@ def get_code(file, token):
 
 
 # 自动登录
-def goLogin_auto(mobile, name):
+def goLogin_auto(mobile, password, name):
     session = requests.session()
     get_picture(session)
     # picture = input('请查看D盘根目录下的image.jpg文件，并输入验证码: ')
     token = get_token()
     picture = get_code(path + "1.jpg", token)
-    while login(session, mobile, picture) != '成功':
+    while login(session, mobile, password, picture) != '成功':
         get_picture(session)
         picture = get_code(path + "1.jpg", token)
         # print('更换验证码')
@@ -159,11 +163,11 @@ def goLogin_auto(mobile, name):
 
 
 # 手动登录
-def goLogin_hand(mobile):
+def goLogin_hand(mobile, password):
     session = requests.session()
     get_picture(session)
     picture = input('请查看D盘根目录下的image.jpg文件，并输入验证码: ')
-    login(session, mobile, picture)
+    login(session, mobile, password, picture)
     return session
 
 
@@ -230,24 +234,26 @@ def finish_week(session):
 
 
 # 单用户操作
-def one(mobile, name):
+def one(mobile, password, name):
     # session = goLogin_hand(mobile)
-    session = goLogin_auto(mobile, name)
+    session = goLogin_auto(mobile, password, name)
     finish_day(session, 41)
     finish_week(session)
 
 
 # 多用户操作
-def get_user():
+def get_user(password):
     file = open("user.txt", "r", encoding="utf-8", errors="ignore")
     line = file.readline()  # 调用文件的 readline()方法
     while line:
         info = line.split("#")
-        one(info[0], info[1])
+        one(info[0], password, info[1])
         line = file.readline()
     file.close()
 
 
-get_user()
+# get_user('hy123456')
 
 # pyinstaller -D D:/dati/guo2020/main.py
+
+
