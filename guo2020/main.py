@@ -172,11 +172,11 @@ def goLogin_hand(mobile, password):
 
 
 # 完成日日学
-def finish_day(session, times=7):
-    for num in range(1, times):
+def finish_day(session, times=6):
+    for num in range(1, times+1):
         day_day_up(session)
         print('-', end='*')
-    print('已完成日日练' + str((times-1)*5) + '题')
+    print('已完成日日练' + str(times*5) + '题')
 
 
 # 完成周周练
@@ -196,25 +196,72 @@ def finish_week(session):
         for q in danxuans:
             for question in questions:
                 if q['id'] == question['id']:
-                    ids.append(question['id'])
-                    answers.append(question['answer'])
-                    break
+                    if q['choices'][0]['content'] == question[question['answer']]:
+                        ids.append(question['id'])
+                        answers.append('A')
+                        break
+                    if q['choices'][1]['content'] == question[question['answer']]:
+                        ids.append(question['id'])
+                        answers.append('B')
+                        break
+                    if q['choices'][2]['content'] == question[question['answer']]:
+                        ids.append(question['id'])
+                        answers.append('C')
+                        break
+                    if q['choices'][3]['content'] == question[question['answer']]:
+                        ids.append(question['id'])
+                        answers.append('D')
+                        break
     with open("json/questions2.json", 'r', encoding="utf-8", errors="ignore") as load_f2:
         questions = json.load(load_f2)
         for q in duoxuans:
             for question in questions:
                 if q['id'] == question['id']:
+                    answers_list = []
+                    answers_list2 = []
+                    if 'A' in question['answer']:
+                        answers_list.append(question['A'])
+                    if 'B' in question['answer']:
+                        answers_list.append(question['B'])
+                    if 'C' in question['answer']:
+                        answers_list.append(question['C'])
+                    if 'D' in question['answer']:
+                        answers_list.append(question['D'])
+                    if 'E' in question['answer']:
+                        answers_list.append(question['E'])
+                    if q['choices'][0]['content'] in answers_list:
+                        answers_list2.append('A')
+                    if q['choices'][1]['content'] in answers_list:
+                        answers_list2.append('B')
+                    if q['choices'][2]['content'] in answers_list:
+                        answers_list2.append('C')
+                    if len(q['choices']) == 4:
+                        if q['choices'][3]['content'] in answers_list:
+                            answers_list2.append('D')
+                    if len(q['choices']) == 5:
+                        if q['choices'][3]['content'] in answers_list:
+                            answers_list2.append('D')
+                        if q['choices'][4]['content'] in answers_list:
+                            answers_list2.append('E')
+                    oo = ''
+                    for ans in answers_list2:
+                        oo = oo + ans + ','
                     ids.append(question['id'])
-                    answers.append(question['answer'])
+                    answers.append(oo[0:-1])
                     break
     with open("json/questions3.json", 'r', encoding="utf-8", errors="ignore") as load_f3:
         questions = json.load(load_f3)
         for q in panduans:
             for question in questions:
                 if q['id'] == question['id']:
-                    ids.append(question['id'])
-                    answers.append(question['answer'])
-                    break
+                    if q['choices'][0]['content'] == question[question['answer']]:
+                        ids.append(question['id'])
+                        answers.append('A')
+                        break
+                    if q['choices'][1]['content'] == question[question['answer']]:
+                        ids.append(question['id'])
+                        answers.append('B')
+                        break
     with open("json/questions4.json", 'r', encoding="utf-8", errors="ignore") as load_f4:
         questions = json.load(load_f4)
         for q in tiankons:
@@ -237,7 +284,7 @@ def finish_week(session):
 def one(mobile, password, name):
     # session = goLogin_hand(mobile)
     session = goLogin_auto(mobile, password, name)
-    finish_day(session, 41)
+    # finish_day(session, 6)
     finish_week(session)
 
 
@@ -252,8 +299,11 @@ def get_user(password):
     file.close()
 
 
-# get_user('hy123456')
+get_user('hy123456')
 
 # pyinstaller -D D:/dati/guo2020/main.py
 
-
+# with open("json/questions2.json", 'r', encoding="utf-8", errors="ignore") as load_f2:
+#     questions = json.load(load_f2)
+#     for question in questions:
+#         print(question[question['A']])
