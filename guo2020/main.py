@@ -154,7 +154,7 @@ def goLogin_auto(mobile, name):
         picture = get_code(path + "1.jpg", token)
         # print('更换验证码')
         print('-', end='*')
-    print(name + '：登录成功')
+    print(name + '登录成功')
     return session
 
 
