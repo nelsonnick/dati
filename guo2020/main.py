@@ -249,4 +249,5 @@ def get_user():
 
 
 get_user()
+
 # pyinstaller -D D:/dati/guo2020/main.py
