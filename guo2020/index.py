@@ -5,6 +5,9 @@ import requests
 import json
 import base64
 import hashlib
+import time
+import sys
+import os
 from PIL import Image
 
 path = 'd:/image'
@@ -3664,7 +3667,7 @@ questions4 = [{"id": "67869", "answer": "民族"},
 # 用户列表
 users = [
     # {"mobile": "13256401880", "password": "hy123456", "name": "韩测试", "time": 6},
-    {"mobile": "15969692670", "password": "hy123456", "name": "赵雅萌", "time": 6},
+    {"mobile": "15969692670", "password": "hy123456", "name": "赵雅萌", "time": 40},
     {"mobile": "19953168779", "password": "hy123456", "name": "张红", "time": 6},
     {"mobile": "13573164731", "password": "hy123456", "name": "刘子欧", "time": 6},
     {"mobile": "18615405117", "password": "hy123456", "name": "董华龙", "time": 6},
@@ -3677,7 +3680,9 @@ users = [
     {"mobile": "18653145531", "password": "hy123456", "name": "王天硕", "time": 40},
     {"mobile": "18353133921", "password": "hy123456", "name": "刘玥", "time": 40},
     {"mobile": "13287716101", "password": "hy123456", "name": "郝玉莹", "time": 40},
-    {"mobile": "18764445379", "password": "hy123456", "name": "焦圣雨", "time": 40}
+    {"mobile": "18764445379", "password": "hy123456", "name": "焦圣雨", "time": 40},
+    {"mobile": "18560161881", "password": "hy123456", "name": "梁吉炳", "time": 6},
+    {"mobile": "13688608155", "password": "hy123456", "name": "赵越", "time": 40}
 ]
 
 
@@ -3882,6 +3887,19 @@ def finish_week(session):
         answerData = json.dumps(a, ensure_ascii=False)
         an = an + answerData + ','
     an = an[0: -1] + ']'
+    print('为避免秒答现象，本程序内置3分钟答题时间！')
+    time.sleep(30)
+    print('已经过30秒，这才刚刚开始...')
+    time.sleep(30)
+    print('已经过1分钟，请耐心等待...')
+    time.sleep(30)
+    print('已经过1分30秒，时间已经过半！')
+    time.sleep(30)
+    print('已经过2分钟，请耐心等待...')
+    time.sleep(30)
+    print('已经过2分30秒，马上就可以提交啦！')
+    time.sleep(30)
+    print('已经过3分钟，准备提交！')
     request_save = session.post('https://bw.chinahrt.com.cn/api/examination/submit',
                                 data={'recordId': recordId, 'answerData': an})
     if json.loads(request_save.content.decode('UTF-8'))['code'] != 'SUCCESS':
@@ -3898,7 +3916,74 @@ def go_exam():
         # finish_week(session)
 
 
-go_exam()
-input('输入任意字符结束')
+# 获取登录信息
+def get_info():
+    info = []
+    print('本程序仅为学习辅助工具，并非改变网站数据类软件，也不会收集任何用户数据！')
+    print('学习本身是件辛苦的事情，请勿过分依赖此程序！')
+    print()
+    mobile = input('请输入您注册的手机号码: ')
+    password = input('请输入您的密码: ')
+    picture = input('请查看D盘根目录下的image.jpg文件，并输入验证码: ')
+    info.append(mobile)
+    info.append(password)
+    info.append(picture)
+    return info
 
-# pyinstaller -D index.py
+
+# 获取选择项
+def get_choice():
+    print('请选择输入您要进行的操作：')
+    print('1.日日学-30题')
+    print('2.日日学-100题')
+    print('3.日日学-200题')
+    print('4.周周练-1次')
+    print('5.周周练-5次')
+    print('6.退出程序')
+    choice = input('请输入对应的序号: ')
+    while choice != '1' and choice != '2' and choice != '3' and choice != '4' and choice != '5' and choice != '6':
+        print('输入错误！')
+        choice = input('请输入对应的序号: ')
+    return choice
+
+
+# 主函数
+def main():
+    os.system("title LBBW")
+    session = requests.session()
+    get_picture(session)
+    info = get_info()
+    message = login(session, info[0], info[1], info[2])
+    while message != '成功':
+        print('登录状态：' + message)
+        info = get_info()
+    print('登录成功！')
+    choice = get_choice()
+    while choice != '6':
+        if choice == '1':
+            finish_day(session, 6)
+        elif choice == '2':
+            finish_day(session, 20)
+        elif choice == '3':
+            finish_day(session, 40)
+        elif choice == '4':
+            finish_week(session)
+        elif choice == '5':
+            finish_week(session)
+            finish_week(session)
+            finish_week(session)
+            finish_week(session)
+            finish_week(session)
+        else:
+            pass
+        choice = get_choice()
+    sys.exit()
+
+
+# main()
+
+
+go_exam()
+# input('输入任意字符结束')
+
+# pyinstaller -F index.py
