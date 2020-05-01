@@ -3707,7 +3707,7 @@ def get_code(file, token):
     if response:
         try:
             return response.json()['words_result'][0]['words']
-        except IndexError:
+        except (IndexError, KeyError):
             return '0000'
 
 
@@ -3899,6 +3899,6 @@ def go_exam():
 
 
 go_exam()
-# input('输入任意字符结束')
+input('输入任意字符结束')
 
 # pyinstaller -D index.py

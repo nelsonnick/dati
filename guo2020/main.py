@@ -142,7 +142,7 @@ def get_code(file, token):
     if response:
         try:
             return response.json()['words_result'][0]['words']
-        except IndexError:
+        except (IndexError, KeyError):
             return '0000'
 
 
@@ -301,9 +301,4 @@ def get_user(password):
 
 get_user('hy123456')
 
-# pyinstaller -D D:/dati/guo2020/main.py
-
-# with open("json/questions2.json", 'r', encoding="utf-8", errors="ignore") as load_f2:
-#     questions = json.load(load_f2)
-#     for question in questions:
-#         print(question[question['A']])
+# pyinstaller -D index.py
