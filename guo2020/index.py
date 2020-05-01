@@ -3663,7 +3663,7 @@ questions4 = [{"id": "67869", "answer": "民族"},
 
 # 用户列表
 users = [
-    {"mobile": "13256401880", "password": "hy123456", "name": "韩测试", "time": 6},
+    # {"mobile": "13256401880", "password": "hy123456", "name": "韩测试", "time": 6},
     {"mobile": "15969692670", "password": "hy123456", "name": "赵雅萌", "time": 6},
     {"mobile": "19953168779", "password": "hy123456", "name": "张红", "time": 6},
     {"mobile": "13573164731", "password": "hy123456", "name": "刘子欧", "time": 6},
