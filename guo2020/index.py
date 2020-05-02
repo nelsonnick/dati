@@ -4021,10 +4021,16 @@ def log():
 
 def day_30():
     finish_day(session, 6)
+
+
 def day_100():
     finish_day(session, 20)
+
+
 def week_1():
     finish_week(session)
+
+
 def close_win():
     sys.exit()
 
