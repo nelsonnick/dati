@@ -301,4 +301,3 @@ def get_user(password):
 
 get_user('hy123456')
 
-# pyinstaller -D index.py

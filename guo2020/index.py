@@ -8,7 +8,9 @@ import hashlib
 import time
 import sys
 import os
-from PIL import Image
+import tkinter
+from PIL import Image, ImageTk
+import tkinter.messagebox
 
 path = 'd:/image'
 # 单选题
@@ -3666,7 +3668,7 @@ questions4 = [{"id": "67869", "answer": "民族"},
 
 # 用户列表
 users = [
-    # {"mobile": "13256401880", "password": "hy123456", "name": "韩测试", "time": 6},
+    {"mobile": "13256401880", "password": "hy123456", "name": "韩测试", "time": 6},
     {"mobile": "15969692670", "password": "hy123456", "name": "赵雅萌", "time": 40},
     {"mobile": "19953168779", "password": "hy123456", "name": "张红", "time": 6},
     {"mobile": "13573164731", "password": "hy123456", "name": "刘子欧", "time": 6},
@@ -3786,8 +3788,10 @@ def finish_day(session, time=6):
         request = session.post(api_get, data=data)
         if json.loads(request.content.decode('UTF-8'))['code'] != 'SUCCESS':
             print('日日学提交失败！')
+            tkinter.messagebox.showinfo('提示', '日日学提交失败！')
         print('-', end='*')
-    print('已完成日日练' + str(time * 5) + '题')
+    print('已完成日日学' + str(time * 5) + '题')
+    tkinter.messagebox.showinfo('提示', '已完成日日学' + str(time * 5) + '题')
 
 
 # 完成周周练
@@ -3887,24 +3891,26 @@ def finish_week(session):
         answerData = json.dumps(a, ensure_ascii=False)
         an = an + answerData + ','
     an = an[0: -1] + ']'
-    print('为避免秒答现象，本程序内置3分钟答题时间！')
-    time.sleep(30)
-    print('已经过30秒，这才刚刚开始...')
-    time.sleep(30)
-    print('已经过1分钟，请耐心等待...')
-    time.sleep(30)
-    print('已经过1分30秒，时间已经过半！')
-    time.sleep(30)
-    print('已经过2分钟，请耐心等待...')
-    time.sleep(30)
-    print('已经过2分30秒，马上就可以提交啦！')
-    time.sleep(30)
-    print('已经过3分钟，准备提交！')
+    # print('为避免秒答现象，本程序内置3分钟答题时间！')
+    # time.sleep(30)
+    # print('已经过30秒，这才刚刚开始...')
+    # time.sleep(30)
+    # print('已经过1分钟，请耐心等待...')
+    # time.sleep(30)
+    # print('已经过1分30秒，时间已经过半！')
+    # time.sleep(30)
+    # print('已经过2分钟，请耐心等待...')
+    # time.sleep(30)
+    # print('已经过2分30秒，马上就可以提交啦！')
+    # time.sleep(30)
+    # print('已经过3分钟，准备提交！')
     request_save = session.post('https://bw.chinahrt.com.cn/api/examination/submit',
                                 data={'recordId': recordId, 'answerData': an})
     if json.loads(request_save.content.decode('UTF-8'))['code'] != 'SUCCESS':
         print('周周练提交失败！')
+        tkinter.messagebox.showinfo('提示', '周周练提交失败！')
     print('已完成周周练')
+    tkinter.messagebox.showinfo('提示', '已完成周周练')
 
 
 # 开始答题
@@ -3919,9 +3925,6 @@ def go_exam():
 # 获取登录信息
 def get_info():
     info = []
-    print('本程序仅为学习辅助工具，并非改变网站数据类软件，也不会收集任何用户数据！')
-    print('学习本身是件辛苦的事情，请勿过分依赖此程序！')
-    print()
     mobile = input('请输入您注册的手机号码: ')
     password = input('请输入您的密码: ')
     picture = input('请查看D盘根目录下的image.jpg文件，并输入验证码: ')
@@ -3950,13 +3953,19 @@ def get_choice():
 # 主函数
 def main():
     os.system("title LBBW")
+    print('本程序仅为学习辅助工具，并非改变网站数据类软件，也不会收集任何用户数据！')
+    print('学习本身是件辛苦的事情，请勿过分依赖此程序！')
+    print()
     session = requests.session()
     get_picture(session)
     info = get_info()
     message = login(session, info[0], info[1], info[2])
     while message != '成功':
-        print('登录状态：' + message)
+        print('登录失败：' + message)
+        session = requests.session()
+        get_picture(session)
         info = get_info()
+        message = login(session, info[0], info[1], info[2])
     print('登录成功！')
     choice = get_choice()
     while choice != '6':
@@ -3983,7 +3992,100 @@ def main():
 # main()
 
 
-go_exam()
+
+session = requests.session()
+get_picture(session)
+win = tkinter.Tk()
+win.title("学习辛苦，请勿过分依赖此程序！")
+win.geometry("410x250")
+win.resizable(0, 0)
+
+load = Image.open('D:/image.jpg')
+render = ImageTk.PhotoImage(load)
+
+
+def log():
+    message = login(session, Entry1.get(), Entry2.get(), Entry3.get())
+    if message != '成功':
+        tkinter.messagebox.showerror('登录失败', message)
+        sys.exit()
+    else:
+        button_login['state'] = 'disabled'
+        Entry1['state'] = 'disabled'
+        Entry2['state'] = 'disabled'
+        Entry3['state'] = 'disabled'
+        button_1['state'] = 'normal'
+        button_2['state'] = 'normal'
+        button_4['state'] = 'normal'
+
+
+def day_30():
+    finish_day(session, 6)
+def day_100():
+    finish_day(session, 20)
+def week_1():
+    finish_week(session)
+def close_win():
+    sys.exit()
+
+
+frm = tkinter.Frame(win)
+frm.pack()
+
+frm_login = tkinter.Frame(frm)
+frm_login.pack()
+frm_login_left = tkinter.Frame(frm_login)
+tkinter.Label(frm_login_left, text="手机号码", font=("黑体", 20), justify="left").pack()
+tkinter.Label(frm_login_left, text="登录密码", font=("黑体", 20), justify="left").pack()
+tkinter.Label(frm_login_left, text="验证码", font=("黑体", 20), justify="left").pack()
+frm_login_left.pack(side=tkinter.LEFT)
+frm_login_right = tkinter.Frame(frm_login)
+Entry1 = tkinter.Entry(frm_login_right, show=None, font=("黑体", 20), justify="left")
+Entry1.pack()
+Entry2 = tkinter.Entry(frm_login_right, show=None, font=("黑体", 20),  justify="left")
+Entry2.pack()
+Entry3 = tkinter.Entry(frm_login_right, show=None, font=("黑体", 20),  justify="left")
+Entry3.pack()
+frm_login_right.pack(side=tkinter.RIGHT)
+frm_login_bottom = tkinter.Frame(frm)
+frm_login_bottom.pack()
+frm_login_bottom1 = tkinter.Frame(frm_login_bottom)
+
+label_img = tkinter.Label(frm_login_bottom1, image=render)
+label_img.pack()
+frm_login_bottom1.pack(side=tkinter.LEFT)
+frm_login_bottom3 = tkinter.Frame(frm_login_bottom)
+button_login = tkinter.Button(frm_login_bottom3, text="登录", font=("黑体", 20), command=log, justify="right")
+button_login.pack(side=tkinter.TOP)
+frm_login_bottom3.pack(side=tkinter.LEFT)
+
+frm_func = tkinter.Frame(frm)
+frm_func.pack()
+frm_func_left = tkinter.Frame(frm_func)
+button_1 = tkinter.Button(frm_func_left, width=12, state="disabled", text="日日学30题", font=("黑体", 20), command=day_30, justify="right")
+button_1.pack()
+button_2 = tkinter.Button(frm_func_left, width=12, state="disabled", text="日日学100题", font=("黑体", 20), command=day_100, justify="right")
+button_2.pack()
+# button_3 = tkinter.Button(frm_func_left, width=12, state="disabled", text="日日学200次", font=("黑体", 20), command=day_200, justify="right")
+# button_3.pack()
+frm_func_left.pack(side=tkinter.LEFT)
+frm_func_right = tkinter.Frame(frm_func)
+button_4 = tkinter.Button(frm_func_right, width=12, state="disabled", text="周周练1次", font=("黑体", 20), command=week_1, justify="right")
+button_4.pack()
+# button_5 = tkinter.Button(frm_func_right, width=12, state="disabled", text="周周练5次", font=("黑体", 20), command=week_5, justify="right")
+# button_5.pack()
+button_6 = tkinter.Button(frm_func_right, width=12, text="退出", font=("黑体", 20), command=close_win, justify="right")
+button_6.pack()
+frm_func_right.pack(side=tkinter.RIGHT)
+
+
+
+
+win.mainloop()
+
+
+
+# go_exam()
 # input('输入任意字符结束')
 
-# pyinstaller -F index.py
+# pyinstaller -F -w -i d:/lbbw.ico ./guo2020/index.py
