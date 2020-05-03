@@ -3791,7 +3791,7 @@ def finish_day(session, time=6):
             tkinter.messagebox.showinfo('提示', '日日学提交失败！')
         print('-', end='*')
     print('已完成日日学' + str(time * 5) + '题')
-    tkinter.messagebox.showinfo('提示', '已完成日日学' + str(time * 5) + '题')
+    # tkinter.messagebox.showinfo('提示', '已完成日日学' + str(time * 5) + '题')
 
 
 # 完成周周练
@@ -3910,7 +3910,7 @@ def finish_week(session):
         print('周周练提交失败！')
         tkinter.messagebox.showinfo('提示', '周周练提交失败！')
     print('已完成周周练')
-    tkinter.messagebox.showinfo('提示', '已完成周周练')
+    # tkinter.messagebox.showinfo('提示', '已完成周周练')
 
 
 # 开始答题
@@ -3990,108 +3990,108 @@ def main():
 
 
 # main()
+#
+#
+#
+# session = requests.session()
+# get_picture(session)
+# win = tkinter.Tk()
+# win.title("学习辛苦，请勿过分依赖此程序！")
+# win.geometry("410x250")
+# win.resizable(0, 0)
+#
+# load = Image.open('D:/image.jpg')
+# render = ImageTk.PhotoImage(load)
+#
+#
+# def log():
+#     message = login(session, Entry1.get(), Entry2.get(), Entry3.get())
+#     if message != '成功':
+#         tkinter.messagebox.showerror('登录失败', message)
+#         sys.exit()
+#     else:
+#         button_login['state'] = 'disabled'
+#         Entry1['state'] = 'disabled'
+#         Entry2['state'] = 'disabled'
+#         Entry3['state'] = 'disabled'
+#         button_1['state'] = 'normal'
+#         button_2['state'] = 'normal'
+#         button_4['state'] = 'normal'
+#
+#
+# def day_30():
+#     finish_day(session, 6)
+#
+#
+# def day_100():
+#     finish_day(session, 20)
+#
+#
+# def week_1():
+#     finish_week(session)
+#
+#
+# def close_win():
+#     sys.exit()
+#
+#
+# frm = tkinter.Frame(win)
+# frm.pack()
+#
+# frm_login = tkinter.Frame(frm)
+# frm_login.pack()
+# frm_login_left = tkinter.Frame(frm_login)
+# tkinter.Label(frm_login_left, text="手机号码", font=("黑体", 20), justify="left").pack()
+# tkinter.Label(frm_login_left, text="登录密码", font=("黑体", 20), justify="left").pack()
+# tkinter.Label(frm_login_left, text="验证码", font=("黑体", 20), justify="left").pack()
+# frm_login_left.pack(side=tkinter.LEFT)
+# frm_login_right = tkinter.Frame(frm_login)
+# Entry1 = tkinter.Entry(frm_login_right, show=None, font=("黑体", 20), justify="left")
+# Entry1.pack()
+# Entry2 = tkinter.Entry(frm_login_right, show=None, font=("黑体", 20),  justify="left")
+# Entry2.pack()
+# Entry3 = tkinter.Entry(frm_login_right, show=None, font=("黑体", 20),  justify="left")
+# Entry3.pack()
+# frm_login_right.pack(side=tkinter.RIGHT)
+# frm_login_bottom = tkinter.Frame(frm)
+# frm_login_bottom.pack()
+# frm_login_bottom1 = tkinter.Frame(frm_login_bottom)
+#
+# label_img = tkinter.Label(frm_login_bottom1, image=render)
+# label_img.pack()
+# frm_login_bottom1.pack(side=tkinter.LEFT)
+# frm_login_bottom3 = tkinter.Frame(frm_login_bottom)
+# button_login = tkinter.Button(frm_login_bottom3, text="登录", font=("黑体", 20), command=log, justify="right")
+# button_login.pack(side=tkinter.TOP)
+# frm_login_bottom3.pack(side=tkinter.LEFT)
+#
+# frm_func = tkinter.Frame(frm)
+# frm_func.pack()
+# frm_func_left = tkinter.Frame(frm_func)
+# button_1 = tkinter.Button(frm_func_left, width=12, state="disabled", text="日日学30题", font=("黑体", 20), command=day_30, justify="right")
+# button_1.pack()
+# button_2 = tkinter.Button(frm_func_left, width=12, state="disabled", text="日日学100题", font=("黑体", 20), command=day_100, justify="right")
+# button_2.pack()
+# # button_3 = tkinter.Button(frm_func_left, width=12, state="disabled", text="日日学200次", font=("黑体", 20), command=day_200, justify="right")
+# # button_3.pack()
+# frm_func_left.pack(side=tkinter.LEFT)
+# frm_func_right = tkinter.Frame(frm_func)
+# button_4 = tkinter.Button(frm_func_right, width=12, state="disabled", text="周周练1次", font=("黑体", 20), command=week_1, justify="right")
+# button_4.pack()
+# # button_5 = tkinter.Button(frm_func_right, width=12, state="disabled", text="周周练5次", font=("黑体", 20), command=week_5, justify="right")
+# # button_5.pack()
+# button_6 = tkinter.Button(frm_func_right, width=12, text="退出", font=("黑体", 20), command=close_win, justify="right")
+# button_6.pack()
+# frm_func_right.pack(side=tkinter.RIGHT)
+#
+#
+#
+#
+# win.mainloop()
 
 
 
-session = requests.session()
-get_picture(session)
-win = tkinter.Tk()
-win.title("学习辛苦，请勿过分依赖此程序！")
-win.geometry("410x250")
-win.resizable(0, 0)
-
-load = Image.open('D:/image.jpg')
-render = ImageTk.PhotoImage(load)
-
-
-def log():
-    message = login(session, Entry1.get(), Entry2.get(), Entry3.get())
-    if message != '成功':
-        tkinter.messagebox.showerror('登录失败', message)
-        sys.exit()
-    else:
-        button_login['state'] = 'disabled'
-        Entry1['state'] = 'disabled'
-        Entry2['state'] = 'disabled'
-        Entry3['state'] = 'disabled'
-        button_1['state'] = 'normal'
-        button_2['state'] = 'normal'
-        button_4['state'] = 'normal'
-
-
-def day_30():
-    finish_day(session, 6)
-
-
-def day_100():
-    finish_day(session, 20)
-
-
-def week_1():
-    finish_week(session)
-
-
-def close_win():
-    sys.exit()
-
-
-frm = tkinter.Frame(win)
-frm.pack()
-
-frm_login = tkinter.Frame(frm)
-frm_login.pack()
-frm_login_left = tkinter.Frame(frm_login)
-tkinter.Label(frm_login_left, text="手机号码", font=("黑体", 20), justify="left").pack()
-tkinter.Label(frm_login_left, text="登录密码", font=("黑体", 20), justify="left").pack()
-tkinter.Label(frm_login_left, text="验证码", font=("黑体", 20), justify="left").pack()
-frm_login_left.pack(side=tkinter.LEFT)
-frm_login_right = tkinter.Frame(frm_login)
-Entry1 = tkinter.Entry(frm_login_right, show=None, font=("黑体", 20), justify="left")
-Entry1.pack()
-Entry2 = tkinter.Entry(frm_login_right, show=None, font=("黑体", 20),  justify="left")
-Entry2.pack()
-Entry3 = tkinter.Entry(frm_login_right, show=None, font=("黑体", 20),  justify="left")
-Entry3.pack()
-frm_login_right.pack(side=tkinter.RIGHT)
-frm_login_bottom = tkinter.Frame(frm)
-frm_login_bottom.pack()
-frm_login_bottom1 = tkinter.Frame(frm_login_bottom)
-
-label_img = tkinter.Label(frm_login_bottom1, image=render)
-label_img.pack()
-frm_login_bottom1.pack(side=tkinter.LEFT)
-frm_login_bottom3 = tkinter.Frame(frm_login_bottom)
-button_login = tkinter.Button(frm_login_bottom3, text="登录", font=("黑体", 20), command=log, justify="right")
-button_login.pack(side=tkinter.TOP)
-frm_login_bottom3.pack(side=tkinter.LEFT)
-
-frm_func = tkinter.Frame(frm)
-frm_func.pack()
-frm_func_left = tkinter.Frame(frm_func)
-button_1 = tkinter.Button(frm_func_left, width=12, state="disabled", text="日日学30题", font=("黑体", 20), command=day_30, justify="right")
-button_1.pack()
-button_2 = tkinter.Button(frm_func_left, width=12, state="disabled", text="日日学100题", font=("黑体", 20), command=day_100, justify="right")
-button_2.pack()
-# button_3 = tkinter.Button(frm_func_left, width=12, state="disabled", text="日日学200次", font=("黑体", 20), command=day_200, justify="right")
-# button_3.pack()
-frm_func_left.pack(side=tkinter.LEFT)
-frm_func_right = tkinter.Frame(frm_func)
-button_4 = tkinter.Button(frm_func_right, width=12, state="disabled", text="周周练1次", font=("黑体", 20), command=week_1, justify="right")
-button_4.pack()
-# button_5 = tkinter.Button(frm_func_right, width=12, state="disabled", text="周周练5次", font=("黑体", 20), command=week_5, justify="right")
-# button_5.pack()
-button_6 = tkinter.Button(frm_func_right, width=12, text="退出", font=("黑体", 20), command=close_win, justify="right")
-button_6.pack()
-frm_func_right.pack(side=tkinter.RIGHT)
-
-
-
-
-win.mainloop()
-
-
-
-# go_exam()
+go_exam()
 # input('输入任意字符结束')
 
 # pyinstaller -F -w -i d:/lbbw.ico ./guo2020/index.py

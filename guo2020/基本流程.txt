@@ -10,4 +10,7 @@
 提交周周练————https://bw.chinahrt.com.cn/api/examination/submit————根据上一步的recordId
 重置周周练————https://bw.chinahrt.com.cn/api/examination/checkExamination?id=XX————根据上两步的id
 
+
+
+统计数据————https://bw.chinahrt.com.cn/api/studyStatistics/getUserStudyStatistics
 日日学的题目列表，似乎少了几个题。
