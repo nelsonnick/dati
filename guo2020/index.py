@@ -3668,23 +3668,25 @@ questions4 = [{"id": "67869", "answer": "民族"},
 
 # 用户列表
 users = [
-    {"mobile": "13256401880", "password": "hy123456", "name": "韩测试", "time": 6},
-    {"mobile": "15969692670", "password": "hy123456", "name": "赵雅萌", "time": 40},
-    {"mobile": "19953168779", "password": "hy123456", "name": "张红", "time": 6},
-    {"mobile": "13573164731", "password": "hy123456", "name": "刘子欧", "time": 6},
-    {"mobile": "18615405117", "password": "hy123456", "name": "董华龙", "time": 6},
-    {"mobile": "13954178399", "password": "hy123456", "name": "李楠", "time": 6},
-    {"mobile": "13156168076", "password": "hy123456", "name": "蒋华", "time": 6},
-    {"mobile": "13325111371", "password": "hy123456", "name": "杨天虹", "time": 6},
-    {"mobile": "15053135431", "password": "hy123456", "name": "朱晓庆", "time": 6},
-    {"mobile": "18560161882", "password": "hy123456", "name": "李名菊", "time": 6},
-    {"mobile": "13165143225", "password": "hy123456", "name": "于辰", "time": 6},
-    {"mobile": "18653145531", "password": "hy123456", "name": "王天硕", "time": 40},
-    {"mobile": "18353133921", "password": "hy123456", "name": "刘玥", "time": 40},
-    {"mobile": "13287716101", "password": "hy123456", "name": "郝玉莹", "time": 40},
-    {"mobile": "18764445379", "password": "hy123456", "name": "焦圣雨", "time": 40},
-    {"mobile": "18560161881", "password": "hy123456", "name": "梁吉炳", "time": 6},
-    {"mobile": "13688608155", "password": "hy123456", "name": "赵越", "time": 40}
+    # {"mobile": "13256401880", "password": "hy123456", "name": "韩测试", "time": 6},
+    {"mobile": "18554004990", "password": "hy123456", "name": "宋一鸣", "time": 6},
+    {"mobile": "15165081997", "password": "hy123456", "name": "林雨丝", "time": 6},
+    # {"mobile": "15969692670", "password": "hy123456", "name": "赵雅萌", "time": 40},
+    # {"mobile": "19953168779", "password": "hy123456", "name": "张红", "time": 6},
+    # {"mobile": "13573164731", "password": "hy123456", "name": "刘子欧", "time": 6},
+    # {"mobile": "18615405117", "password": "hy123456", "name": "董华龙", "time": 6},
+    # {"mobile": "13954178399", "password": "hy123456", "name": "李楠", "time": 6},
+    # {"mobile": "13156168076", "password": "hy123456", "name": "蒋华", "time": 6},
+    # {"mobile": "13325111371", "password": "hy123456", "name": "杨天虹", "time": 6},
+    # {"mobile": "15053135431", "password": "hy123456", "name": "朱晓庆", "time": 6},
+    # {"mobile": "18560161882", "password": "hy123456", "name": "李名菊", "time": 6},
+    # {"mobile": "13165143225", "password": "hy123456", "name": "于辰", "time": 6},
+    # {"mobile": "18653145531", "password": "hy123456", "name": "王天硕", "time": 40},
+    # {"mobile": "18353133921", "password": "hy123456", "name": "刘玥", "time": 40},
+    # {"mobile": "13287716101", "password": "hy123456", "name": "郝玉莹", "time": 40},
+    # {"mobile": "18764445379", "password": "hy123456", "name": "焦圣雨", "time": 40},
+    # {"mobile": "18560161881", "password": "hy123456", "name": "梁吉炳", "time": 6},
+    # {"mobile": "13688608155", "password": "hy123456", "name": "赵越", "time": 40}
 ]
 
 
@@ -3908,7 +3910,8 @@ def finish_week(session):
                                 data={'recordId': recordId, 'answerData': an})
     if json.loads(request_save.content.decode('UTF-8'))['code'] != 'SUCCESS':
         print('周周练提交失败！')
-        tkinter.messagebox.showinfo('提示', '周周练提交失败！')
+        print(request_save.content.decode('UTF-8'))
+        # tkinter.messagebox.showinfo('提示', '周周练提交失败！')
     print('已完成周周练')
     # tkinter.messagebox.showinfo('提示', '已完成周周练')
 
@@ -3918,8 +3921,10 @@ def go_exam():
     for user in users:
         # session = goLogin_hand(user['mobile'], user['password'], user['name']) #手动逐一登录
         session = goLogin_auto(user['mobile'], user['password'], user['name'])  # 自动全部登录
-        finish_day(session, user['time'])
-        # finish_week(session)
+        # finish_day(session, user['time'])
+        for i in range(1, 50):
+            finish_week(session)
+            print(i)
 
 
 # 获取登录信息
