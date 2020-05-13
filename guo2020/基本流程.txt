@@ -11,6 +11,11 @@
 重置周周练————https://bw.chinahrt.com.cn/api/examination/checkExamination?id=XX————根据上两步的id
 
 
+查询月月比次数————https://bw.chinahrt.com.cn/api/examination/listExamination?pageSize=10&curPage=1&examType=009001————为了获取id
+重置月月比————https://bw.chinahrt.com.cn/api/examination/checkExamination?id=XX————根据上一步的id
+获取月月比题目——https://bw.chinahrt.com.cn/api/examination/enterExamination?id=XXX————根据上一步的id，获取题目和recordId
+    自动保存月月比答案————https://bw.chinahrt.com.cn/api/examination/saveAnswer
+
 
 统计数据————https://bw.chinahrt.com.cn/api/studyStatistics/getUserStudyStatistics
 日日学的题目列表，似乎少了几个题。

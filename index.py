@@ -3668,25 +3668,16 @@ questions4 = [{"id": "67869", "answer": "民族"},
 
 # 用户列表
 users = [
-    {"mobile": "13256401880", "password": "hy123456", "name": "韩测试", "time": 6},
-    # {"mobile": "18554004990", "password": "hy123456", "name": "宋一鸣", "time": 6},
-    # {"mobile": "15165081997", "password": "hy123456", "name": "林雨丝", "time": 6},
-    # {"mobile": "15969692670", "password": "hy123456", "name": "赵雅萌", "time": 40},
-    # {"mobile": "19953168779", "password": "hy123456", "name": "张红", "time": 6},
-    # {"mobile": "13573164731", "password": "hy123456", "name": "刘子欧", "time": 6},
-    # {"mobile": "18615405117", "password": "hy123456", "name": "董华龙", "time": 6},
-    # {"mobile": "13954178399", "password": "hy123456", "name": "李楠", "time": 6},
-    # {"mobile": "13156168076", "password": "hy123456", "name": "蒋华", "time": 6},
-    # {"mobile": "13325111371", "password": "hy123456", "name": "杨天虹", "time": 6},
-    # {"mobile": "15053135431", "password": "hy123456", "name": "朱晓庆", "time": 6},
-    # {"mobile": "18560161882", "password": "hy123456", "name": "李名菊", "time": 6},
-    # {"mobile": "13165143225", "password": "hy123456", "name": "于辰", "time": 6},
-    # {"mobile": "18653145531", "password": "hy123456", "name": "王天硕", "time": 40},
-    # {"mobile": "18353133921", "password": "hy123456", "name": "刘玥", "time": 40},
-    # {"mobile": "13287716101", "password": "hy123456", "name": "郝玉莹", "time": 40},
-    # {"mobile": "18764445379", "password": "hy123456", "name": "焦圣雨", "time": 40},
-    # {"mobile": "18560161881", "password": "hy123456", "name": "梁吉炳", "time": 6},
-    # {"mobile": "13688608155", "password": "hy123456", "name": "赵越", "time": 40}
+    {"mobile": "13954178399", "password": "hy123456", "name": "李楠", "time": 6},
+    {"mobile": "13156168076", "password": "hy123456", "name": "蒋华", "time": 6},
+    {"mobile": "13325111371", "password": "hy123456", "name": "杨天虹", "time": 6},
+    {"mobile": "15053135431", "password": "hy123456", "name": "朱晓庆", "time": 6},
+    {"mobile": "18560161882", "password": "hy123456", "name": "李名菊", "time": 6},
+    {"mobile": "13165143225", "password": "hy123456", "name": "于辰", "time": 6},
+    {"mobile": "18653145531", "password": "hy123456", "name": "王天硕", "time": 40},
+    {"mobile": "18353133921", "password": "hy123456", "name": "刘玥", "time": 40},
+    {"mobile": "13287716101", "password": "hy123456", "name": "郝玉莹", "time": 40},
+    {"mobile": "18764445379", "password": "hy123456", "name": "焦圣雨", "time": 40}
 ]
 
 
@@ -3793,7 +3784,6 @@ def finish_day(session, time=6):
             tkinter.messagebox.showinfo('提示', '日日学提交失败！')
         print('-', end='*')
     print('已完成日日学' + str(time * 5) + '题')
-    # tkinter.messagebox.showinfo('提示', '已完成日日学' + str(time * 5) + '题')
 
 
 # 完成周周练
@@ -3893,11 +3883,11 @@ def finish_week(session):
         answerData = json.dumps(a, ensure_ascii=False)
         an = an + answerData + ','
     an = an[0: -1] + ']'
-    # print('为避免秒答现象，本程序内置3分钟答题时间！')
-    # time.sleep(30)
-    # print('已经过30秒，这才刚刚开始...')
-    # time.sleep(30)
-    # print('已经过1分钟，请耐心等待...')
+    print('为避免秒答现象，本程序内置1分钟答题时间！')
+    time.sleep(30)
+    print('已经过30秒，这才刚刚开始...')
+    time.sleep(30)
+    print('已经过1分钟，请耐心等待...')
     # time.sleep(30)
     # print('已经过1分30秒，时间已经过半！')
     # time.sleep(30)
@@ -3911,397 +3901,20 @@ def finish_week(session):
     if json.loads(request_save.content.decode('UTF-8'))['code'] != 'SUCCESS':
         print('周周练提交失败！')
         print(request_save.content.decode('UTF-8'))
-        # tkinter.messagebox.showinfo('提示', '周周练提交失败！')
     print('已完成周周练')
-    # tkinter.messagebox.showinfo('提示', '已完成周周练')
 
-
-# 完成月月比
-def finish_month(session):
-    request_id = session.get('https://bw.chinahrt.com.cn/api/examination/listExamination',
-                             params={'pageSize': '10', 'curPage': '1', 'examType': '009001'})
-    month_exam_id = json.loads(request_id.content.decode('UTF-8'))['data']['rows'][0]['id']
-    request_reset = session.get('https://bw.chinahrt.com.cn/api/examination/checkExamination',
-                                params={'id': month_exam_id})
-    if json.loads(request_reset.content.decode('UTF-8'))['code'] != 'SUCCESS':
-        print('月月比考试次数不足！')
-        return
-    request_get = session.get('https://bw.chinahrt.com.cn/api/examination/enterExamination',
-                              params={'id': month_exam_id})
-    jstr = json.loads(request_get.content.decode('UTF-8'))['data']
-    ids = []
-    answers = []
-    recordId = jstr['recordId']
-    danxuans = jstr['questionTypeSummaries'][0]['questions']
-    duoxuans = jstr['questionTypeSummaries'][1]['questions']
-    panduans = jstr['questionTypeSummaries'][2]['questions']
-
-    for q in danxuans:
-        for question in questions1:
-            if q['id'] == question['id']:
-                if q['choices'][0]['content'] == question[question['answer']]:
-                    ids.append(question['id'])
-                    answers.append('A')
-                    break
-                if q['choices'][1]['content'] == question[question['answer']]:
-                    ids.append(question['id'])
-                    answers.append('B')
-                    break
-                if q['choices'][2]['content'] == question[question['answer']]:
-                    ids.append(question['id'])
-                    answers.append('C')
-                    break
-                if q['choices'][3]['content'] == question[question['answer']]:
-                    ids.append(question['id'])
-                    answers.append('D')
-                    break
-    for q in duoxuans:
-        for question in questions2:
-            if q['id'] == question['id']:
-                answers_list = []
-                answers_list2 = []
-                if 'A' in question['answer']:
-                    answers_list.append(question['A'])
-                if 'B' in question['answer']:
-                    answers_list.append(question['B'])
-                if 'C' in question['answer']:
-                    answers_list.append(question['C'])
-                if 'D' in question['answer']:
-                    answers_list.append(question['D'])
-                if 'E' in question['answer']:
-                    answers_list.append(question['E'])
-                if q['choices'][0]['content'] in answers_list:
-                    answers_list2.append('A')
-                if q['choices'][1]['content'] in answers_list:
-                    answers_list2.append('B')
-                if q['choices'][2]['content'] in answers_list:
-                    answers_list2.append('C')
-                if len(q['choices']) == 4:
-                    if q['choices'][3]['content'] in answers_list:
-                        answers_list2.append('D')
-                if len(q['choices']) == 5:
-                    if q['choices'][3]['content'] in answers_list:
-                        answers_list2.append('D')
-                    if q['choices'][4]['content'] in answers_list:
-                        answers_list2.append('E')
-                oo = ''
-                for ans in answers_list2:
-                    oo = oo + ans + ','
-                ids.append(question['id'])
-                answers.append(oo[0:-1])
-                break
-    for q in panduans:
-        for question in questions3:
-            if q['id'] == question['id']:
-                if q['choices'][0]['content'] == question[question['answer']]:
-                    ids.append(question['id'])
-                    answers.append('A')
-                    break
-                if q['choices'][1]['content'] == question[question['answer']]:
-                    ids.append(question['id'])
-                    answers.append('B')
-                    break
-
-    an = '['
-    for i in range(len(ids)):
-        a = {'id': ids[i], 'signed': 0, 'userAnswer': answers[i]}
-        answerData = json.dumps(a, ensure_ascii=False)
-        an = an + answerData + ','
-    an = an[0: -1] + ']'
-    print('为避免秒答现象，本程序内置3分钟答题时间！')
-    time.sleep(30)
-    print('已经过30秒，这才刚刚开始...')
-    time.sleep(30)
-    print('已经过1分钟，请耐心等待...')
-    time.sleep(30)
-    print('已经过1分30秒，时间已经过半！')
-    time.sleep(30)
-    print('已经过2分钟，请耐心等待...')
-    time.sleep(30)
-    print('已经过2分30秒，马上就可以提交啦！')
-    time.sleep(30)
-    print('已经过3分钟，准备提交！')
-    request_save = session.post('https://bw.chinahrt.com.cn/api/examination/submit',
-                                data={'recordId': recordId, 'answerData': an})
-    if json.loads(request_save.content.decode('UTF-8'))['code'] != 'SUCCESS':
-        print('月月比提交失败！')
-        print(request_save.content.decode('UTF-8'))
-        # tkinter.messagebox.showinfo('提示', '周周练提交失败！')
-    print('已完成月月比')
-    # tkinter.messagebox.showinfo('提示', '已完成周周练')
-
-def get_new(str):
-    return str.replace("2526gt;", "").replace("2526lt;", "").replace("&amp;", "").replace("/span", "").replace("&nbsp;", "").replace("/p", "").replace(" ", "")
-
-def get_answer():
-    jstr ={"recordId":"2c7ffea3b03f4c41b1f2b9eb494dd4e8","conclusions":"谢谢参与","description":"null","name":"月月比考试","totalScore":50.0,"passScore":30.0,"duration":10,"remainingTime":599251,"questionTypeSummaries":[{"type":"001001","score":1.0,"totalScores":29.0,"totalNumbers":29,"description":"null","questions":[{"id":"68416","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;中国特色社会主义进入新时代，我国社会主要矛盾已经转化为（&amp;2526lt;/span&amp;2526gt; &nbsp;&nbsp;&nbsp;&amp;2526lt;span&amp;2526gt;）。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"8b9819a41c8645b283bf8c0856003207","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;人民日益增长的美好生活需要和不平衡不充分的发展之间的矛盾&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"e24b5d5a19ed493e83ecf8254b9689ad","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;人民日益增长的美好生活需要和落后的社会生产之间的矛盾&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"e884d844c49b4438afa28071c5c8dd4b","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;生产力和生产关系之间的矛盾&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"5971edc7338246cdbc89c52cd20e519e","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;人民日益增长的物质生活需要和落后的社会生产之间的矛盾&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68429","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;国家鼓励金融机构改进金融服务，加大对中小企业的信贷支持，并对自主创业人员在一定期限内给予&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;( &nbsp;&nbsp;&nbsp;)&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;等扶持。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"c1c644f13ac74103915b84f7969783e5","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;资金赞助&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"391fa89236f946df91d51b4c74d6c9ac","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;大额信贷&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"af80f8edb0d44838b595b9a5b90e7cdf","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;小额信贷&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"31b5474a3ab54a7590527206a7270ffc","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;商业贷款&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68444","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;政府投资开发的公益性岗位，应当优先安排&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;( &nbsp;&nbsp;&nbsp;)&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"8aa3c4ed8dcc469ca4194fd2fb5aeedb","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;符合岗位要求的人员&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"3fe456969ddc4c0886c945b2201bbf7c","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;符合岗位要求的就业困难人员&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"c11aad04d394437ba41208214eacd389","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;领取低保的人员&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"e66ee7a74411497893b18483359247ca","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;就业意愿强烈人员&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68413","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;新时代中国特色社会主义思想，明确中国特色社会主义事业总体布局是&amp;2526lt;/span&amp;2526gt;( &nbsp;&nbsp;&nbsp;)&amp;2526lt;span&amp;2526gt;。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"fb6293270f5045db8f17657421d94a30","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;两步走战略&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"986afad557474a4dbbc1ec6504352529","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;“&amp;2526lt;span&amp;2526gt;五位一体&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;”&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"eb20a4702fdf49938b82c1e09ae2b24a","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;“&amp;2526lt;span&amp;2526gt;四个自信&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;”&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"2b3dc2c890c846498b7553ba53947fb4","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;“&amp;2526lt;span&amp;2526gt;四个全面&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;”&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68425","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;( &nbsp; &nbsp;)以上人民政府把扩大就业作为经济和社会发展的重要目标，纳入国民经济和社会发展规划，并制定促进就业的中长期规划和年度工作计划。&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"ce0854cb88d74a4682a0f481a78925ef","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;省级&amp;2526lt;/p&amp;2526gt;"},{"id":"4b278728d1aa43caabdbb98c21a59a5c","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;乡镇级&amp;2526lt;/p&amp;2526gt;"},{"id":"962a9b03d06f429188ee22f7e0517637","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;地市级&amp;2526lt;/p&amp;2526gt;"},{"id":"46829b9dba9c4b41aa3130557faa8abe","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;县级&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68441","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;各级人民政府建立健全&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;( &nbsp;&nbsp;&nbsp;)&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;制度，采取税费减免、贷款贴息、社会保险补贴、岗位补贴等办法，通过公益性岗位安置等途径，对就业困难人员实行优先扶持和重点帮扶。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"4eb918e7e12f4960891944c53c967cde","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;职业技能培训&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"d1c13140b42a43d2bc1751b23b47e841","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;失业援助&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"9c76b05048404a4982abe19d8b9dd0d2","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;就业援助&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"f229bb786dde4004a4651b09a3c64f9c","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;失业登记&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68432","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;国家实行&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;( &nbsp;&nbsp;&nbsp;)&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;的就业政策，建立健全城乡劳动者平等就业的制度。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"16c3c3303f6f450589faa7d0f4e0b6ef","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;城乡统筹&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"9877d6004fc04d8aa2b102c209f738ed","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;城乡分割&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"5e921eb68f474db6ae359f205069c174","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;城市优先&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"02d577cb07634f9f85d38bd1f40694b9","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;城市优先&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68442","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;就业困难人员是指&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;( &nbsp;&nbsp;&nbsp;)&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"422725240ba04919abb6ddc2aa4fb3d3","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;在就业过程中遇到种种困难的人员&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"8fe1d603e0494485b9069f02854bcc60","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;一直处于就业准备活动中的人员&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"34e2f3d1ad334838a1112dec51e1134f","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;屡屡被用工单位辞退的人员&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"aee87f0833cb46b6a246482338195786","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;因身体状况、技能水平、家庭因素、失去土地等原因难以实现就业，以及连续失业一定时间仍未能实现就业的人员&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68435","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;各民族劳动者享有&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;( &nbsp;&nbsp;&nbsp;)&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;的劳动权利。用人单位招用人员，应当依法对少数民族劳动者给予适当照顾。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"c66aa55c209e4d0e825f7bcc2b295509","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;平等&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"a44179ebb266455f9aa62e8e6710024d","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;一致&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"c55ce76d89a64634ad444f107c444dbd","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;优先&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"77c123d55f1e40d5b7521a25c100a813","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;自由&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68421","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;《就业促进法》规定，&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;劳动者依法享有&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;( &nbsp;&nbsp;&nbsp;)&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;和&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;( &nbsp;&nbsp;&nbsp;)&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;的权利。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"93420800ba784efcb39858e637e00168","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;平等就业、&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;按需择业&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"4bc97bc48fad4c158b4926950f675bd8","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;充分就业、自主择业&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"57ce80ecdf8c4dfd842f405da456f3b6","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;公平就业、自由择业&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"053a67f9d1af4935ad8499316cd998a8","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;平等就业、自主择业&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68396","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;脱贫攻坚“两不愁、三保障”是指：到2020年，稳定实现农村贫困人口（ &nbsp; &nbsp;）。&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"3c0f77e5f1354ab8860cff7acbb37e32","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;不愁吃、不愁喝，养老、医疗、住房有保障&amp;2526lt;/p&amp;2526gt;"},{"id":"c70aa12c993c43d2a73baeb3e64e66b3","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;不愁吃、不愁穿，住房、生活、医疗有保障&amp;2526lt;/p&amp;2526gt;"},{"id":"2c3d6580fc7e492f9cf0584004f1cb16","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;不愁吃、不愁穿，基本养老、基本医疗和住房安全有保障&amp;2526lt;/p&amp;2526gt;"},{"id":"160c660af0ba42e0b8f3d9194bebf68a","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;不愁吃、不愁穿，义务教育、基本医疗和住房安全有保障&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68436","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;用人单位招用人员，不得以( &nbsp; &nbsp;)为由拒绝录用。但是，经医学鉴定传染病病原携带者在治愈前或者排除传染嫌疑前，不得从事法律、行政法规和国务院卫生行政部门规定禁止从事的易使传染病扩散的工作。&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"782a39f39aee4608875fb5ce7b7cfa46","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;是传染病病原携带者&amp;2526lt;/p&amp;2526gt;"},{"id":"fc95e85dce014f6eb7ba3c390d6fb828","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;传染病复发&amp;2526lt;/p&amp;2526gt;"},{"id":"f9e690db84e64c3f820063b88c3a5bab","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;是传染病患者&amp;2526lt;/p&amp;2526gt;"},{"id":"7136611f7b6c432c8457da88b9d6e9e9","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;传染病早期&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68439","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;统计部门和劳动行政部门进行劳动力调查统计和就业、失业登记时，用人单位和个人应当&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;( &nbsp;&nbsp;&nbsp;)&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;提供调查统计和登记所需要的情况。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"23a4f64482b741138d922b53a59c3ec4","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;部分&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"4086114100a2482cad03057b231287cc","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;如实&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"49d92ae4c266401999aa6b4222d3ba53","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;选择&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"08dea6c468bc4a4f9d312bc57b5716c1","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;尽量&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68443","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;用人单位应当对劳动者的个人资料予以保密。公开劳动者的个人资料信息和使用劳动者的技术、智力成果，须经劳动者本人&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;( &nbsp;&nbsp;&nbsp;)&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"71d5173e23174b5aa99c2a9fe2a78369","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;口头同意&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"c6d5a63a4258426f8ba07ebd3c8980f5","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;书面同意&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"3f8bad160c284730a40b9ae70406f806","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;录音记录&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"ffed7000afbc49a0a1e099b8239ba43f","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;当面&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;同意&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68427","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;县级以上人民政府应当根据&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;( &nbsp;&nbsp;&nbsp;)&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;和就业工作目标，在财政预算中安排就业专项资金用于促进就业工作。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"dd0466cc9be34eb7b9c016ec2acf009a","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;就业状况&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"8b7e926ae3f44323bd40aebadd854ee7","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;经济发展&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"f842fd898c1e49c8b1b99311220c8a62","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;财政收入&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"6611a1987dd24dc7b6756eb2a0bef6c9","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;社会发展&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68420","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;《就业促进法》规定，县级以上人民政府通过发展经济和调整产业结构、规范人力资源市场、完善就业服务、加强职业教育和培训、提供&amp;2526lt;/span&amp;2526gt;( &nbsp;&nbsp;&nbsp;)&amp;2526lt;span&amp;2526gt;等措施，创造就业条件，扩大就业。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"a98be31e76154e3184e354f7b1e1e122","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;职业指导&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"81e09b9faf6f40d7ac24f1d55c255b8a","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;政策支持&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"c253dc30c43b48e9a2fa50203d151c9f","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;创业服务&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"7c4d4c24bd444cc98016e9142a3ba6f5","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;就业援助&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68440","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;失业人员参加就业培训的，按照有关规定享受政府&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;( &nbsp;&nbsp;&nbsp;)&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"41e82f2f6e824186aaa69c3e9240ce04","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;教育补贴&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"5c252d2072334bc8a92e0c31322b4c23","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;教育津贴&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"a14a1fd6180d4cc7a4cc412ae8a4a0aa","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;培训津贴&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"ba689971e0964f658ea5f5804335c0d5","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;培训补贴&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68446","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;被安排在公益性岗位工作的，按照国家规定给予&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;( &nbsp;&nbsp;&nbsp;)&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"40d37d057afb4bae8ee55531321476c6","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;社保减免&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"30725c296cbd4790896cad98df1a7d30","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;岗位补助&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"22f354b22c8f40e682bae07c80916af7","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;岗位补贴&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"6835fddc227249e3a289186f84803b59","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;职业年金&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68412","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;新时期脱贫攻坚的目标，就是到&amp;2526lt;/span&amp;2526gt;2020&amp;2526lt;span&amp;2526gt;年实现“两个确保”，即确保&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;( &nbsp;&nbsp;&nbsp;)&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"ca96fab787044440911372515945685e","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;农村贫困人口实现脱贫，贫困县全部脱贫摘帽。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"a212a4627534475b9c9eb7514478fd4c","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;“三区三州”人口实现脱贫&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;，贫困县全部摘帽。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"ea527e75328142328504f90615430b1c","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;农村人口实现脱贫，&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;“三区三州”&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;贫困县全部摘帽。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"574d65ff552e4165a11020d93e1693df","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;贫困人口实现脱贫，&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;贫困县实现小康&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68434","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;用人单位录用女职工，不得在劳动合同中规定限制女职工&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;( &nbsp;&nbsp;&nbsp;)&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;的内容。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"d7de5a4da1da47b3b7412eaac49156d5","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;调整工作时间&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"588dfc2051654fb9ab160d923df609c5","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;结婚&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"e6229c341bfb4345989d7fb51fc57a25","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;调换工作岗位&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"354df0f24f6d436484927d76d5c6dedb","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;调整薪资薪酬&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68418","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;新时代中国特色社会主义思想，明确全面深化改革总目标是（&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&nbsp;&nbsp;&nbsp;&nbsp;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;）。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"ad642658be42447cad5bda19d48c4da7","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;建设社会主义现代化强国&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"ed2bb05ca8d54a6c9357d1e60f6eb053","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;完善和发展中国特色社会主义制度、推进国家治理体系和治理能力现代化&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"d6f99b3288a84c6fb5bfa350a99c9b3b","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;推进国家治理体系和治理能力现代化&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"7b5ffbf62c1f424787f41df18984a142","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;完善和发展中国特色社会主义制度&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68431","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;下列人员中，&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;不可以&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;进行失业登记的是&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;：&amp;2526lt;/span&amp;2526gt;( &nbsp;&nbsp;&nbsp;)&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"5bc345be52a442eab1c4e1a799a7e5bc","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;现役军人&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"c41a503832cb47c693a908b8610e297f","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;个体工商户业主或私营企业业主停业、破产停止经营的&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"5da69bcc040a48a98b9ca117ca200184","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;承包土地被征用，符合当地规定条件的&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"002c25f6afb544c39b559877188f3b6f","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;年满&amp;2526lt;/span&amp;2526gt;16&amp;2526lt;span&amp;2526gt;周岁，从各类学校毕业、肄业的&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68430","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;县级以上地方人民政府引导农业富余劳动力&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;( &nbsp;&nbsp;&nbsp;)&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;向城市异地转移就业。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"3a71f105db3a499dadacba33df92380a","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;快速&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"5ed8cf9bdd704115b333fb128b25e748","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;有序&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"78b28603249e475d8efe1abc13a4c496","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;自由&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"2743138178164783b1719f14df3add44","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;主动&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68426","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;国家倡导劳动者树立正确的择业观念，提高就业能力和创业能力；鼓励劳动者( &nbsp; &nbsp;)。&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"99a47e235c5f427cbb73a2c2a8860d75","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;自主择业、按需就业&amp;2526lt;/p&amp;2526gt;"},{"id":"df810fd866b747d7943a1f2c9395e08e","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;自主创业、自谋职业&amp;2526lt;/p&amp;2526gt;"},{"id":"8f4b75aaabca4659a377a652d97d04df","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;服从分配、自主创业&amp;2526lt;/p&amp;2526gt;"},{"id":"08d749365aa34befb5d59cb1bb6a7d4e","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;自谋职业、服从分配&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68438","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;( &nbsp; &nbsp;)以上公共就业服务机构建立综合性服务场所，集中为劳动者和用人单位提供一站式就业服务，并承担劳动保障行政部门安排的其他工作。&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"40a2c89a50a14a34b5e70b51649014be","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;乡镇级&amp;2526lt;/p&amp;2526gt;"},{"id":"23fe1efafa504677b64d9e93aec8c13a","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;县级&amp;2526lt;/p&amp;2526gt;"},{"id":"1a65867e00a4424faaaa47c5d652f793","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;地市级&amp;2526lt;/p&amp;2526gt;"},{"id":"10ca3d245e6c473db3f91d40b4300777","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;省级&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68445","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;劳动者年满&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;( &nbsp;&nbsp;&nbsp;)&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;周岁，有劳动能力且有就业愿望的，可凭本人身份证件，通过公共就业服务机构、职业中介机构介绍或直接联系用人单位等渠道求职。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"05bcf9ecaa49427babbbffc323299444","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;15&amp;2526lt;/p&amp;2526gt;"},{"id":"28891b0165994e4abd192fc8a043b261","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;16&amp;2526lt;/p&amp;2526gt;"},{"id":"11b0118689a94e0b8aa2c742e958129b","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;18&amp;2526lt;/p&amp;2526gt;"},{"id":"feaa59da43d14d1a943000f65bb21bc8","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;20&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68433","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;各级劳动保障行政部门和公共就业服务机构应当根据财政预算编制的规定，依法编制公共就业服务&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;( &nbsp;&nbsp;&nbsp;)&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;，报经同级财政部门审批后执行。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"d5aa6ca50e7b40db9eae53a1f3e5ae37","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;以上都是&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"e48817ea3ce74d87addc877dc0311c62","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;季度预算&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"a177b28d9abd43a2bdb818c338535025","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;年度预算&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"9f60d9fa606241e7a498c16953165d86","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;每月预算&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68448","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;县级以上地方人民政府采取多种就业形式，拓宽公益性岗位范围，开发就业岗位，确保城市有就业需求的家庭至少有&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;( &nbsp;&nbsp;&nbsp;)&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;人实现就业。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"813bd223126c4edea4bb4ecca202a016","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;不限&amp;2526lt;/p&amp;2526gt;"},{"id":"155b91a068c94e2f9c04fb79e353bde6","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;3&amp;2526lt;/p&amp;2526gt;"},{"id":"5a450947b24549779eb35eefce8a36af","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;1&amp;2526lt;/p&amp;2526gt;"},{"id":"e7516f6e56a64d1b85b1ee57509db8e4","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;2&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68437","type":"001001","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;地方各级人民政府和有关部门、公共就业服务机构举办的招聘会，不得向&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;( &nbsp;&nbsp;&nbsp;)&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;收取费用。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"7ade91ddfa824dffa8e4bcedfe62ea0b","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;用人单位&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"80a4ab2bd8684ec4b2ce3653c005abc5","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;企业&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"460bed21a2b4466ba65627567e8ada41","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;劳动者和用人单位&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"1b802b64e00d469a817f5ab7266385e6","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;劳动者&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"}]},{"type":"001002","score":1.0,"totalScores":10.0,"totalNumbers":10,"description":"null","questions":[{"id":"68415","type":"001002","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;统筹推进&amp;2526lt;/span&amp;2526gt;“五位一体”总体布局，协调推进“四个全面”战略布局，提高党&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;（&amp;2526lt;/span&amp;2526gt; &nbsp;&nbsp;&nbsp;&amp;2526lt;span&amp;2526gt;）&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;的能力和定力，确保党始终总揽全局、协调各方。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"f548074faa954dd88645bcf2651469ad","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;定政策&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"4f050090093940be80364df114dda760","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;促改革&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"2abaf29e2eb6403caec9c9d51466ea20","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;谋大局&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"1155a42e3c9648c2973df8df5dbcb441","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;把方向&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68428","type":"001002","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&nbsp; 中国梦的本质是（ &nbsp; &nbsp;）。&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"a8353d5e0c8c483f8c35279d87b51692","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&nbsp; 人民幸福&amp;2526lt;/p&amp;2526gt;"},{"id":"4e8d23b0a151441c88bba7cb708a145a","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&nbsp; 世界团结&amp;2526lt;/p&amp;2526gt;"},{"id":"8d72da7bb27449d1aeccba45465b53ce","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&nbsp; 民族振兴&amp;2526lt;/p&amp;2526gt;"},{"id":"1a084005f1f64050964c2bc081320ca0","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&nbsp;国家富强&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68424","type":"001002","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;中国共产党是代表最广大人民利益的政党，一切工作成败得失必然要由人民群众来检验，以人民（&amp;2526lt;/span&amp;2526gt; &nbsp;&nbsp;&nbsp;&amp;2526lt;span&amp;2526gt;）作为根本标准。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"999f9efd77b24c8f8d569719696e5166","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;答应不答应&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"ade4bd0f3ea44d1b8855c0df9aaa979f","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;高兴不高兴&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"c462e61945164adb961882c77777512f","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;赞成不赞成&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"8b5473b8bc70419997f23e16f5ce959d","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;拥护不拥护&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68409","type":"001002","level":"003001","content":"&amp;2526lt;p&amp;2526gt;要加快建设创新型国家，就必须培养造就一大批具有国际水平的（ &nbsp; &nbsp;）和高水平创新团队。&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"2c5d09b0a8ef497b83143ccbebec5979","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;科技领军人才&amp;2526lt;/p&amp;2526gt;"},{"id":"df5ed012ca6d41a786c0ac2363e078c9","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;国际视野人才&amp;2526lt;/p&amp;2526gt;"},{"id":"e1f18ef138a84bc4baca759a324ccfd6","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;青年科技人才&amp;2526lt;/p&amp;2526gt;"},{"id":"14189b761db94feea489170375074577","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;战略科技人才&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68417","type":"001002","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;党的十九大的主题是：不忘初心，牢记使命，&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;（&amp;2526lt;/span&amp;2526gt; &nbsp;&nbsp;&nbsp;&amp;2526lt;span&amp;2526gt;）&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"cc18931e608d4f3eb1b58f52351ce152","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;夺取新时代中国特色社会主义伟大胜利&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"de487aaafa42416e9210069a2ccf424a","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;为实现中华民族伟大复兴的中国梦不懈奋斗&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"e9889be1bfb24c7195c11071980c8dda","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;决胜全面建成小康社会&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"3d89615d3f084b06b1a4563723dd0c33","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;高举中国特色社会主义伟大旗帜&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68414","type":"001002","level":"003001","content":"&amp;2526lt;p&amp;2526gt;出台中央八项规定，严厉整治（ &nbsp; &nbsp;）和奢靡之风，坚决反对特权。&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"7d8e348aa9a646398ea04a2bcc2d5a3c","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&nbsp; 享乐主义&amp;2526lt;/p&amp;2526gt;"},{"id":"90d89e85b02b42c494db023615ed0ba7","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&nbsp; 官僚主义&amp;2526lt;/p&amp;2526gt;"},{"id":"8eb834f67b504fe5b3f32b970b32785d","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&nbsp; 自由主义&amp;2526lt;/p&amp;2526gt;"},{"id":"26837cd123ac424f995f93a0b9f096f0","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&nbsp; 形式主义&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68419","type":"001002","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;党的十九大报告提出，全面推进依法治国总目标是（&amp;2526lt;/span&amp;2526gt; &nbsp;&nbsp;&nbsp;&amp;2526lt;span&amp;2526gt;）&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"a8ecf0cb9e034bd2bc54e657418cf168","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;科学立法&amp;2526lt;/span&amp;2526gt; &nbsp;&amp;2526lt;span&amp;2526gt;严格执法&amp;2526lt;/span&amp;2526gt; &amp;2526lt;span&amp;2526gt;公正司法&amp;2526lt;/span&amp;2526gt; &amp;2526lt;span&amp;2526gt;全民守法&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"e0ae8c9072954b2e9ee60c64221cec70","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;建设中国特色社会主义法制体系&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"0b50975eec0e4afd8b72184f4acf33a3","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;建设社会主义法治国家&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"08f99c4ec1d6442e81c2ef52b4db8f4a","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;有法可依&amp;2526lt;/span&amp;2526gt; &amp;2526lt;span&amp;2526gt;有法必依&amp;2526lt;/span&amp;2526gt; &amp;2526lt;span&amp;2526gt;执法必须&amp;2526lt;/span&amp;2526gt; &amp;2526lt;span&amp;2526gt;违法必究&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68411","type":"001002","level":"003001","content":"&amp;2526lt;p&amp;2526gt;党政军民学，东西南北中，党是领导一切的。必须增强（ &nbsp; &nbsp;），自觉维护党中央权威和集中统一领导，自觉在思想上政治上行动上同党中央保持高度一致。&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"816b9901fce34f30be4086cb6e02badc","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;核心意识&amp;2526lt;/p&amp;2526gt;"},{"id":"feb5df15fa19455b977a26f6df5b50a7","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;看齐意识&amp;2526lt;/p&amp;2526gt;"},{"id":"60ef6b713b6f4068ae62bd97cc8eb513","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;政治意识&amp;2526lt;/p&amp;2526gt;"},{"id":"1e3fcab1a1054809bd9b9f947061552f","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;大局意识&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68410","type":"001002","level":"003001","content":"&amp;2526lt;p&amp;2526gt;（ &nbsp; &nbsp;），紧密联系、相互贯通、相互作用，其中起决定性作用的是党的建设新的伟大工程。&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"f611c559d8794bbdac2225ddcadbf384","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;伟大梦想&amp;2526lt;/p&amp;2526gt;"},{"id":"f6857c1cc96f471abe5ffa0bda297358","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;伟大工程&amp;2526lt;/p&amp;2526gt;"},{"id":"68a13dbb592a4a4db8666f0909ed5385","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;伟大事业&amp;2526lt;/p&amp;2526gt;"},{"id":"167135fed62543e4a4e7cad70b02c363","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;伟大斗争&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"},{"id":"68422","type":"001002","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;供给侧结构改革的重点是（&amp;2526lt;/span&amp;2526gt; &nbsp;&nbsp;&nbsp;&amp;2526lt;span&amp;2526gt;）&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"a7aa972f2aba438094d70a0d6dc6781d","sort":1,"code":"A","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;减少无效和低端供给，扩大有效和中高端供给&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"a1344217b80d48e5b9413ec98342a295","sort":2,"code":"B","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;增强供给结构对需求变化的适应性和灵活性&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"68cb10bbae1d4d0b9745132e8b5236b0","sort":3,"code":"C","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;提高全要素生产率&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"},{"id":"567d1928b9e44c0fa044646a9e440fe5","sort":4,"code":"D","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;解放和发展社会生产力&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;，&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;用改革的办法推进结构调整&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;"}],"keywords":"null"}]},{"type":"001003","score":1.0,"totalScores":11.0,"totalNumbers":11,"description":"null","questions":[{"id":"68397","type":"001003","level":"003001","content":"&amp;2526lt;p&amp;2526gt;《就业促进法》规定，法定劳动年龄内的家庭人员均处于失业状况的城市居民家庭，可以向住所地街道、社区公共就业服务机构申请就业援助。街道、社区公共就业服务机构经确认属实的，应当为该家庭中至少两人提供适当的就业岗位。&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"694d13689d6f488e9045fb5a064475cc","sort":1,"code":"A","content":"错"},{"id":"63c1caaa154f4ca1ac568997dbde69f4","sort":2,"code":"B","content":"对"}],"keywords":"null"},{"id":"68406","type":"001003","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;当前和今后一个时期，我国经济发展面临的问题，供给和需求两侧都有，但矛盾的主&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;要方面在供给侧。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;（&amp;2526lt;/span&amp;2526gt; &nbsp;&nbsp;&nbsp;&amp;2526lt;span&amp;2526gt;）&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"fe1543df791f444cb175bfca0727b765","sort":1,"code":"A","content":"对"},{"id":"809479c099f448a38f1f0ed7bedf57da","sort":2,"code":"B","content":"错"}],"keywords":"null"},{"id":"68404","type":"001003","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;从二〇二〇年到二〇三五年，在全面建成小康社会的基础上，再奋斗十五年，基本实现社会主义现代化。（&amp;2526lt;/span&amp;2526gt; &nbsp;&nbsp;&nbsp;&amp;2526lt;span&amp;2526gt;）&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"a8135caed0574d73b018a633f40ad34e","sort":1,"code":"A","content":"对"},{"id":"3268140fa59049f9bdd15bc88d086f08","sort":2,"code":"B","content":"错"}],"keywords":"null"},{"id":"68399","type":"001003","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;失业保险技能提升补贴必须由参保职工所在企业集体申领。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;（&amp;2526lt;/span&amp;2526gt; &nbsp;&nbsp;&nbsp;&amp;2526lt;span&amp;2526gt;）&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"acbfcbc87d754ad8b80f2942d6010988","sort":1,"code":"A","content":"对"},{"id":"65a34f41c7494e67a0f83f6676829881","sort":2,"code":"B","content":"错"}],"keywords":"null"},{"id":"68407","type":"001003","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;人民当家作主是党领导人民治理国家的基本方式。（&amp;2526lt;/span&amp;2526gt; &nbsp;&nbsp;&nbsp;&amp;2526lt;span&amp;2526gt;）&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"bbf857208b1e40c3b83b15b2fe7771e5","sort":1,"code":"A","content":"对"},{"id":"ac1a876637ba490d88c16e3e77a27b78","sort":2,"code":"B","content":"错"}],"keywords":"null"},{"id":"68408","type":"001003","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;党的十九大报告指出，从现在到二〇二〇年，是全面建成小康社会决胜期。（&amp;2526lt;/span&amp;2526gt; &nbsp;&nbsp;&nbsp;&amp;2526lt;span&amp;2526gt;）&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"e23bddb32d804b31b05c5fb2f80aa032","sort":1,"code":"A","content":"错"},{"id":"b804ebef5df54977a5b6316ca0ac0d2a","sort":2,"code":"B","content":"对"}],"keywords":"null"},{"id":"68403","type":"001003","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;失业保险基金的来源&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;仅包括&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;参保用人单位和职工缴纳的失业保险费。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;（&amp;2526lt;/span&amp;2526gt; &nbsp;&nbsp;&nbsp;&amp;2526lt;span&amp;2526gt;）&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"8b178da44a424d828bd7682b75a4562e","sort":1,"code":"A","content":"对"},{"id":"78ccbe2aa3ab4bc4af35e61c627ebe60","sort":2,"code":"B","content":"错"}],"keywords":"null"},{"id":"68400","type":"001003","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;失业保险金的标准，由职工参保所在地失业保险经办机构确定，并根据当地物价水平合理调整。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;（&amp;2526lt;/span&amp;2526gt; &nbsp;&nbsp;&nbsp;&amp;2526lt;span&amp;2526gt;）&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"e1f7e884935d4a1bb95d4ac479578004","sort":1,"code":"A","content":"错"},{"id":"645edab0ecba461aa8b8d5844ee3afac","sort":2,"code":"B","content":"对"}],"keywords":"null"},{"id":"68405","type":"001003","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;衡量服务型政府建设成效的试金石是：尽量让企业和群众&amp;2526lt;/span&amp;2526gt;“办事不求人”。（ &nbsp;&nbsp;&nbsp;）&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"755b07f9e66a4586b25d61f863d940ad","sort":1,"code":"A","content":"错"},{"id":"22a5d713586c4600b4a894ad547e1e72","sort":2,"code":"B","content":"对"}],"keywords":"null"},{"id":"68402","type":"001003","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;失业保险基金专款专用，只能用于为参加失业保险后失业的职工发放失业保险金。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;（&amp;2526lt;/span&amp;2526gt; &nbsp;&nbsp;&nbsp;&amp;2526lt;span&amp;2526gt;）&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"c80f006454f24f68acd6d28c7eb2d70a","sort":1,"code":"A","content":"对"},{"id":"899a8b2882a34256ae6c9486d8ba52f1","sort":2,"code":"B","content":"错"}],"keywords":"null"},{"id":"68401","type":"001003","level":"003001","content":"&amp;2526lt;p&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;失业保险基金可用于政府平衡财政收支。&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;span&amp;2526gt;&amp;2526lt;span&amp;2526gt;（&amp;2526lt;/span&amp;2526gt; &nbsp;&nbsp;&nbsp;&amp;2526lt;span&amp;2526gt;）&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/span&amp;2526gt;&amp;2526lt;/p&amp;2526gt;&amp;2526lt;p&amp;2526gt;&amp;2526lt;br /&amp;2526gt;&amp;2526lt;/p&amp;2526gt;","answer":"null","analysis":"null","score":1.0,"userAnswer":"null","blanksNumber":"null","signed":0,"checkResult":"null","userScore":"null","tag":"008001","chapterName":"null","inCollection":0,"choices":[{"id":"a6a4784ccea245c294d143223611723a","sort":1,"code":"A","content":"对"},{"id":"a151d0b3916643e9a9a4069a52fcfd24","sort":2,"code":"B","content":"错"}],"keywords":"null"}]}]}
-    # jstr = json.loads(str)['data']
-    ids = []
-    answers = []
-    recordId = jstr['recordId']
-    danxuans = jstr['questionTypeSummaries'][0]['questions']
-    duoxuans = jstr['questionTypeSummaries'][1]['questions']
-    panduans = jstr['questionTypeSummaries'][2]['questions']
-
-    # print(danxuans)
-    for q in danxuans:
-        for question in questions1:
-            if q['id'] == question['id']:
-                print(get_new(q['choices'][0]['content']) )
-                if get_new(q['choices'][0]['content']) == question[question['answer']]:
-                    ids.append(question['id'])
-                    answers.append('A')
-                    break
-                if get_new(q['choices'][1]['content']) == question[question['answer']]:
-                    ids.append(question['id'])
-                    answers.append('B')
-                    break
-                if get_new(q['choices'][2]['content']) == question[question['answer']]:
-                    ids.append(question['id'])
-                    answers.append('C')
-                    break
-                if get_new(q['choices'][3]['content']) == question[question['answer']]:
-                    ids.append(question['id'])
-                    answers.append('D')
-                    break
-    for q in duoxuans:
-        for question in questions2:
-            if q['id'] == question['id']:
-                answers_list = []
-                answers_list2 = []
-                if 'A' in question['answer']:
-                    answers_list.append(question['A'])
-                if 'B' in question['answer']:
-                    answers_list.append(question['B'])
-                if 'C' in question['answer']:
-                    answers_list.append(question['C'])
-                if 'D' in question['answer']:
-                    answers_list.append(question['D'])
-                if 'E' in question['answer']:
-                    answers_list.append(question['E'])
-                if get_new(q['choices'][0]['content']) in answers_list:
-                    answers_list2.append('A')
-                if get_new(q['choices'][1]['content']) in answers_list:
-                    answers_list2.append('B')
-                if get_new(q['choices'][2]['content']) in answers_list:
-                    answers_list2.append('C')
-                if len(q['choices']) == 4:
-                    if get_new(q['choices'][3]['content']) in answers_list:
-                        answers_list2.append('D')
-                if len(q['choices']) == 5:
-                    if get_new(q['choices'][3]['content']) in answers_list:
-                        answers_list2.append('D')
-                    if get_new(q['choices'][4]['content']) in answers_list:
-                        answers_list2.append('E')
-                oo = ''
-                for ans in answers_list2:
-                    oo = oo + ans + ','
-                ids.append(question['id'])
-                answers.append(oo[0:-1])
-                break
-    for q in panduans:
-        for question in questions3:
-            if q['id'] == question['id']:
-                if get_new(q['choices'][0]['content']) == question[question['answer']]:
-                    ids.append(question['id'])
-                    answers.append('A')
-                    break
-                if get_new(q['choices'][1]['content']) == question[question['answer']]:
-                    ids.append(question['id'])
-                    answers.append('B')
-                    break
-    print(answers)
-    an = '['
-    for i in range(len(ids)):
-        a = {'id': ids[i], 'signed': 0, 'userAnswer': answers[i]}
-        answerData = json.dumps(a, ensure_ascii=False)
-        an = an + answerData + ','
-    print(an)
-    an = an[0: -1] + ']'
 
 # 开始答题
 def go_exam():
     for user in users:
         # session = goLogin_hand(user['mobile'], user['password'], user['name']) #手动逐一登录
         session = goLogin_auto(user['mobile'], user['password'], user['name'])  # 自动全部登录
-        # finish_day(session, user['time'])
-        finish_month(session)
-        # for i in range(1, 50):
-        #     finish_week(session)
-        #     print(i)
+        finish_day(session, user['time'])
+        finish_week(session)
+        finish_week(session)
 
 
-# 获取登录信息
-def get_info():
-    info = []
-    mobile = input('请输入您注册的手机号码: ')
-    password = input('请输入您的密码: ')
-    picture = input('请查看D盘根目录下的image.jpg文件，并输入验证码: ')
-    info.append(mobile)
-    info.append(password)
-    info.append(picture)
-    return info
+go_exam()
+input('输入任意字符结束')
 
-
-# 获取选择项
-def get_choice():
-    print('请选择输入您要进行的操作：')
-    print('1.日日学-30题')
-    print('2.日日学-100题')
-    print('3.日日学-200题')
-    print('4.周周练-1次')
-    print('5.周周练-5次')
-    print('6.退出程序')
-    choice = input('请输入对应的序号: ')
-    while choice != '1' and choice != '2' and choice != '3' and choice != '4' and choice != '5' and choice != '6':
-        print('输入错误！')
-        choice = input('请输入对应的序号: ')
-    return choice
-
-
-# 主函数
-def main():
-    os.system("title LBBW")
-    print('本程序仅为学习辅助工具，并非改变网站数据类软件，也不会收集任何用户数据！')
-    print('学习本身是件辛苦的事情，请勿过分依赖此程序！')
-    print()
-    session = requests.session()
-    get_picture(session)
-    info = get_info()
-    message = login(session, info[0], info[1], info[2])
-    while message != '成功':
-        print('登录失败：' + message)
-        session = requests.session()
-        get_picture(session)
-        info = get_info()
-        message = login(session, info[0], info[1], info[2])
-    print('登录成功！')
-    choice = get_choice()
-    while choice != '6':
-        if choice == '1':
-            finish_day(session, 6)
-        elif choice == '2':
-            finish_day(session, 20)
-        elif choice == '3':
-            finish_day(session, 40)
-        elif choice == '4':
-            finish_week(session)
-        elif choice == '5':
-            finish_week(session)
-            finish_week(session)
-            finish_week(session)
-            finish_week(session)
-            finish_week(session)
-        else:
-            pass
-        choice = get_choice()
-    sys.exit()
-
-
-# main()
-#
-#
-#
-# session = requests.session()
-# get_picture(session)
-# win = tkinter.Tk()
-# win.title("学习辛苦，请勿过分依赖此程序！")
-# win.geometry("410x250")
-# win.resizable(0, 0)
-#
-# load = Image.open('D:/image.jpg')
-# render = ImageTk.PhotoImage(load)
-#
-#
-# def log():
-#     message = login(session, Entry1.get(), Entry2.get(), Entry3.get())
-#     if message != '成功':
-#         tkinter.messagebox.showerror('登录失败', message)
-#         sys.exit()
-#     else:
-#         button_login['state'] = 'disabled'
-#         Entry1['state'] = 'disabled'
-#         Entry2['state'] = 'disabled'
-#         Entry3['state'] = 'disabled'
-#         button_1['state'] = 'normal'
-#         button_2['state'] = 'normal'
-#         button_4['state'] = 'normal'
-#
-#
-# def day_30():
-#     finish_day(session, 6)
-#
-#
-# def day_100():
-#     finish_day(session, 20)
-#
-#
-# def week_1():
-#     finish_week(session)
-#
-#
-# def close_win():
-#     sys.exit()
-#
-#
-# frm = tkinter.Frame(win)
-# frm.pack()
-#
-# frm_login = tkinter.Frame(frm)
-# frm_login.pack()
-# frm_login_left = tkinter.Frame(frm_login)
-# tkinter.Label(frm_login_left, text="手机号码", font=("黑体", 20), justify="left").pack()
-# tkinter.Label(frm_login_left, text="登录密码", font=("黑体", 20), justify="left").pack()
-# tkinter.Label(frm_login_left, text="验证码", font=("黑体", 20), justify="left").pack()
-# frm_login_left.pack(side=tkinter.LEFT)
-# frm_login_right = tkinter.Frame(frm_login)
-# Entry1 = tkinter.Entry(frm_login_right, show=None, font=("黑体", 20), justify="left")
-# Entry1.pack()
-# Entry2 = tkinter.Entry(frm_login_right, show=None, font=("黑体", 20),  justify="left")
-# Entry2.pack()
-# Entry3 = tkinter.Entry(frm_login_right, show=None, font=("黑体", 20),  justify="left")
-# Entry3.pack()
-# frm_login_right.pack(side=tkinter.RIGHT)
-# frm_login_bottom = tkinter.Frame(frm)
-# frm_login_bottom.pack()
-# frm_login_bottom1 = tkinter.Frame(frm_login_bottom)
-#
-# label_img = tkinter.Label(frm_login_bottom1, image=render)
-# label_img.pack()
-# frm_login_bottom1.pack(side=tkinter.LEFT)
-# frm_login_bottom3 = tkinter.Frame(frm_login_bottom)
-# button_login = tkinter.Button(frm_login_bottom3, text="登录", font=("黑体", 20), command=log, justify="right")
-# button_login.pack(side=tkinter.TOP)
-# frm_login_bottom3.pack(side=tkinter.LEFT)
-#
-# frm_func = tkinter.Frame(frm)
-# frm_func.pack()
-# frm_func_left = tkinter.Frame(frm_func)
-# button_1 = tkinter.Button(frm_func_left, width=12, state="disabled", text="日日学30题", font=("黑体", 20), command=day_30, justify="right")
-# button_1.pack()
-# button_2 = tkinter.Button(frm_func_left, width=12, state="disabled", text="日日学100题", font=("黑体", 20), command=day_100, justify="right")
-# button_2.pack()
-# # button_3 = tkinter.Button(frm_func_left, width=12, state="disabled", text="日日学200次", font=("黑体", 20), command=day_200, justify="right")
-# # button_3.pack()
-# frm_func_left.pack(side=tkinter.LEFT)
-# frm_func_right = tkinter.Frame(frm_func)
-# button_4 = tkinter.Button(frm_func_right, width=12, state="disabled", text="周周练1次", font=("黑体", 20), command=week_1, justify="right")
-# button_4.pack()
-# # button_5 = tkinter.Button(frm_func_right, width=12, state="disabled", text="周周练5次", font=("黑体", 20), command=week_5, justify="right")
-# # button_5.pack()
-# button_6 = tkinter.Button(frm_func_right, width=12, text="退出", font=("黑体", 20), command=close_win, justify="right")
-# button_6.pack()
-# frm_func_right.pack(side=tkinter.RIGHT)
-#
-#
-#
-#
-# win.mainloop()
-
-
-
-# go_exam()
-get_answer()
-# input('输入任意字符结束')
-
-# pyinstaller -F -w -i d:/lbbw.ico ./guo2020/index.py
+# pyinstaller -F -i d:/lbbw.ico index.py
