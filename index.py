@@ -3460,24 +3460,22 @@ users = [
     # {"mobile": "15053135431", "password": "hy123456", "name": "朱晓庆", "time": 6},
     # {"mobile": "18560161882", "password": "hy123456", "name": "李名菊", "time": 6},
     # {"mobile": "13165143225", "password": "hy123456", "name": "于辰", "time": 6},
-    # {"mobile": "18653145531", "password": "hy123456", "name": "王天硕", "time": 40},
+    # {"mobile": "18653145531", "password": "hy123456", "name": "王天硕", "time": 6},
     # {"mobile": "18353133921", "password": "hy123456", "name": "刘玥", "time": 40},
-    # {"mobile": "13287716101", "password": "hy123456", "name": "郝玉莹", "time": 40},
-    # {"mobile": "18764445379", "password": "hy123456", "name": "焦圣雨", "time": 40}
-    {"mobile": "13854120443", "password": "217668", "name": "李璐璐", "time": 6},
-    {"mobile": "13356686210", "password": "740518", "name": "刘臻", "time": 6},
-    {"mobile": "18678811103", "password": "jn198499", "name": "李鸣晓", "time": 6},
-    {"mobile": "15165005347", "password": "lhh718201", "name": "李淏荭", "time": 40},
-    {"mobile": "18595278580", "password": "Lzx0510.", "name": "于炳阳", "time": 40},
-    {"mobile": "15854128087", "password": "121212", "name": " 王燕", "time": 6},
-    {"mobile": "18766180190", "password": "82763195", "name": "信小帆", "time": 40},
-    {"mobile": "13012981213", "password": "le1988321", "name": "张倩", "time": 6},
-    {"mobile": "15588860731", "password": "666666", "name": "张彤彤", "time": 40},
-    {"mobile": "18515616870", "password": "7958678", "name": "邢远志", "time": 40},
-    {"mobile": "15154196139", "password": "15154196139", "name": "赵慧美", "time": 6},
-    {"mobile": "18764038095", "password": "18764038095", "name": "张洁", "time": 6},
-    {"mobile": "15665767890", "password": "z123456", "name": "张雁羽", "time": 6},
-    {"mobile": "13953108625", "password": "qyt050814", "name": "王晓蕾", "time": 6}
+    {"mobile": "13287716101", "password": "hy123456", "name": "郝玉莹", "time": 40},
+    {"mobile": "18764445379", "password": "hy123456", "name": "焦圣雨", "time": 40}
+    # {"mobile": "13854120443", "password": "217668", "name": "李璐璐", "time": 6},
+    # {"mobile": "13356686210", "password": "740518", "name": "刘臻", "time": 6},
+    # {"mobile": "18678811103", "password": "jn198499", "name": "李鸣晓", "time": 6},
+    # {"mobile": "15854128087", "password": "121212", "name": " 王燕", "time": 6},
+    # {"mobile": "18766180190", "password": "82763195", "name": "信小帆", "time": 40},
+    # {"mobile": "13012981213", "password": "le1988321", "name": "张倩", "time": 6},
+    # {"mobile": "15588860731", "password": "666666", "name": "张彤彤", "time": 40},
+    # {"mobile": "18515616870", "password": "7958678", "name": "邢远志", "time": 40},
+    # {"mobile": "15154196139", "password": "15154196139", "name": "赵慧美", "time": 6},
+    # {"mobile": "18764038095", "password": "18764038095", "name": "张洁", "time": 6},
+    # {"mobile": "15665767890", "password": "z123456", "name": "张雁羽", "time": 6},
+    # {"mobile": "13953108625", "password": "qyt050814", "name": "乔勇", "time": 6}
 ]
 
 
@@ -3683,7 +3681,7 @@ def finish_week(session):
         answerData = json.dumps(a, ensure_ascii=False)
         an = an + answerData + ','
     an = an[0: -1] + ']'
-    t = random.randint(92, 119)
+    t = random.randint(182, 239)
     print('为避免秒答现象，本次周周练答题将在' + str(t) + '秒后完成！不要随意关闭程序哦。')
     time.sleep(30)
     print('已经过30秒，这才刚刚开始...')
@@ -3691,12 +3689,13 @@ def finish_week(session):
     print('已经过1分钟，请耐心等待...')
     time.sleep(30)
     print('已经过1分30秒，马上就结束啦...')
-    time.sleep(t - 90)
-    # print('已经过2分钟，请耐心等待...')
-    # time.sleep(30)
-    # print('已经过2分30秒，马上就可以提交啦！')
-    # time.sleep(30)
-    # print('已经过3分钟，准备提交！')
+    time.sleep(30)
+    print('已经过2分钟，请耐心等待...')
+    time.sleep(30)
+    print('已经过2分30秒，马上就可以提交啦！')
+    time.sleep(30)
+    print('已经过3分钟，准备提交！')
+    time.sleep(t - 180)
     request_save = session.post('https://bw.chinahrt.com.cn/api/examination/submit',
                                 data={'recordId': recordId, 'answerData': an})
     if json.loads(request_save.content.decode('UTF-8'))['code'] != 'SUCCESS':
