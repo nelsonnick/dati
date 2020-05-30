@@ -3453,6 +3453,9 @@ questions4 = [{"id": "67869", "answer": "民族"},
 
 # 用户列表
 users = [
+    # 123456---e10adc3949ba59abbe56e057f20f883e
+    #
+    # {"mobile": "15753136829", "password": "123456", "name": "阿拉", "time": 2},
     # {"mobile": "13256401880", "password": "hy123456", "name": "韩测试", "time": 6},
     # {"mobile": "13954178399", "password": "hy123456", "name": "李楠", "time": 6},
     # {"mobile": "13156168076", "password": "hy123456", "name": "蒋华", "time": 6},
@@ -3462,8 +3465,8 @@ users = [
     # {"mobile": "13165143225", "password": "hy123456", "name": "于辰", "time": 6},
     # {"mobile": "18653145531", "password": "hy123456", "name": "王天硕", "time": 6},
     # {"mobile": "18353133921", "password": "hy123456", "name": "刘玥", "time": 40},
-    {"mobile": "13287716101", "password": "hy123456", "name": "郝玉莹", "time": 40},
-    {"mobile": "18764445379", "password": "hy123456", "name": "焦圣雨", "time": 40}
+    # {"mobile": "13287716101", "password": "hy123456", "name": "郝玉莹", "time": 40},
+    # {"mobile": "18764445379", "password": "hy123456", "name": "焦圣雨", "time": 40}
     # {"mobile": "13854120443", "password": "217668", "name": "李璐璐", "time": 6},
     # {"mobile": "13356686210", "password": "740518", "name": "刘臻", "time": 6},
     # {"mobile": "18678811103", "password": "jn198499", "name": "李鸣晓", "time": 6},
@@ -3704,12 +3707,40 @@ def finish_week(session):
     print('已完成周周练')
 
 
+
+# 完成日日学：5道题目一组，默认重复6遍，共30题
+def finish_day_test(session, id):
+    api_get = 'https://bw.chinahrt.com.cn/api/questionPractice/saveAnswer'
+    data = {'chapterId': '6240',
+            'questionType': '009001',
+            'answerData': '[{"id":'+id+',"userAnswer":"A","signed":1},'
+                          '{"id":'+id+',"userAnswer":"B","signed":1},'
+                          '{"id":'+id+',"userAnswer":"C","signed":1},'
+                          '{"id":'+id+',"userAnswer":"D","signed":1},'
+                          '{"id":'+id+',"userAnswer":"A,B","signed":1},'
+                          '{"id":'+id+',"userAnswer":"A,C","signed":1},'
+                          '{"id":'+id+',"userAnswer":"A,D","signed":1},'
+                          '{"id":'+id+',"userAnswer":"B,C","signed":1},'
+                          '{"id":'+id+',"userAnswer":"B,D","signed":1},'
+                          '{"id":'+id+',"userAnswer":"C,D","signed":1},'
+                          '{"id":'+id+',"userAnswer":"A,B,C","signed":1},'
+                          '{"id":'+id+',"userAnswer":"A,B,D","signed":1},'
+                          '{"id":'+id+',"userAnswer":"A,C,D","signed":1},'
+                          '{"id":'+id+',"userAnswer":"B,C,D","signed":1},'
+                          '{"id":'+id+',"userAnswer":"A,B,C,D","signed":1}]'}
+    request = session.post(api_get, data=data)
+    print(json.loads(request.content.decode('UTF-8')))
+
+
+
+
 # 开始答题
 def go_exam():
     print("开始运行全自动答题程序")
     for user in users:
         # session = goLogin_hand(user['mobile'], user['password'], user['name']) #手动逐一登录
         session = goLogin_auto(user['mobile'], user['password'], user['name'])  # 自动全部登录
+        # finish_day_test(session, "68489")
         finish_day(session, user['time'])
         finish_week(session)
         finish_week(session)
@@ -3718,5 +3749,12 @@ def go_exam():
 
 go_exam()
 input('输入任意字符结束')
+
+# m = hashlib.md5()
+# m.update('hy123456'.encode(encoding='utf-8'))
+# result = m.hexdigest()
+# print(result)
+
+
 
 # pyinstaller -F -i d:/lbbw.ico index.py
