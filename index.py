@@ -3066,17 +3066,17 @@ users = [
     # 123456---e10adc3949ba59abbe56e057f20f883e
     #
     # {"mobile": "15753136829", "password": "123456", "name": "阿拉", "time": 2},
-    {"mobile": "13256401880", "password": "hy123456", "name": "韩测试", "time": 6},
-    # {"mobile": "13954178399", "password": "hy123456", "name": "李楠", "time": 6},
-    # {"mobile": "13156168076", "password": "hy123456", "name": "蒋华", "time": 6},
-    # {"mobile": "13325111371", "password": "hy123456", "name": "杨天虹", "time": 6},
-    # {"mobile": "15053135431", "password": "hy123456", "name": "朱晓庆", "time": 6},
-    # {"mobile": "18560161882", "password": "hy123456", "name": "李名菊", "time": 6},
-    # {"mobile": "13165143225", "password": "hy123456", "name": "于辰", "time": 6},
-    # {"mobile": "18653145531", "password": "hy123456", "name": "王天硕", "time": 6},
-    # {"mobile": "18353133921", "password": "hy123456", "name": "刘玥", "time": 40},
-    # {"mobile": "13287716101", "password": "hy123456", "name": "郝玉莹", "time": 40},
-    # {"mobile": "18764445379", "password": "hy123456", "name": "焦圣雨", "time": 40}
+    # {"mobile": "13256401880", "password": "hy123456", "name": "韩测试", "time": 6},
+    {"mobile": "13954178399", "password": "hy123456", "name": "李楠", "time": 6},
+    {"mobile": "13156168076", "password": "hy123456", "name": "蒋华", "time": 6},
+    {"mobile": "13325111371", "password": "hy123456", "name": "杨天虹", "time": 6},
+    {"mobile": "15053135431", "password": "hy123456", "name": "朱晓庆", "time": 6},
+    {"mobile": "18560161882", "password": "hy123456", "name": "李名菊", "time": 6},
+    {"mobile": "13165143225", "password": "hy123456", "name": "于辰", "time": 6},
+    {"mobile": "18653145531", "password": "hy123456", "name": "王天硕", "time": 6},
+    {"mobile": "18353133921", "password": "hy123456", "name": "刘玥", "time": 40},
+    {"mobile": "13287716101", "password": "hy123456", "name": "郝玉莹", "time": 40},
+    {"mobile": "18764445379", "password": "hy123456", "name": "焦圣雨", "time": 40}
     # {"mobile": "13854120443", "password": "217668", "name": "李璐璐", "time": 6},
     # {"mobile": "13356686210", "password": "740518", "name": "刘臻", "time": 6},
     # {"mobile": "18678811103", "password": "jn198499", "name": "李鸣晓", "time": 6},
@@ -3357,7 +3357,7 @@ def go_exam():
         # session = goLogin_hand(user['mobile'], user['password'], user['name']) #手动逐一登录
         session = goLogin_auto(user['mobile'], user['password'], user['name'])  # 自动全部登录
         # finish_day(session, user['time'])
-        # finish_week(session)
+        finish_week(session)
         finish_week(session)
     print("全部人员已完成答题！")
 

@@ -102,7 +102,7 @@ def goLogin_auto(mobile, password, name):
     print(name + '登录成功')
     return session
 
-
+# 66826
 def get_new(str):
     return str.replace("2526gt;", "").replace("2526lt;", "")\
         .replace("&amp;", "").replace("/span", "").replace("span", "")\
