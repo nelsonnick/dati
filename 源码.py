@@ -13,6 +13,7 @@ import tkinter.messagebox
 
 path = 'd:/image'
 
+# 题目列表
 questions = [{"id":"65047","answer":"B","A":"职业指导","B":"就业援助","C":"创业服务","D":"政策支持","E":""},
 {"id":"65048","answer":"A","A":"平等就业、自主择业","B":"公平就业、自由择业","C":"充分就业、自主择业","D":"平等就业、按需择业","E":""},
 {"id":"65049","answer":"B","A":"性别","B":"从业经历","C":"民族","D":"种族","E":""},
@@ -3063,32 +3064,8 @@ questions = [{"id":"65047","answer":"B","A":"职业指导","B":"就业援助","C
 
 # 用户列表
 users = [
-    # 123456---e10adc3949ba59abbe56e057f20f883e
-    #
-    # {"mobile": "15753136829", "password": "123456", "name": "阿拉", "time": 2},
-    # {"mobile": "13256401880", "password": "hy123456", "name": "韩测试", "time": 6},
-    {"mobile": "13954178399", "password": "hy123456", "name": "李楠", "time": 6},
-    {"mobile": "13156168076", "password": "hy123456", "name": "蒋华", "time": 6},
-    {"mobile": "13325111371", "password": "hy123456", "name": "杨天虹", "time": 6},
-    {"mobile": "15053135431", "password": "hy123456", "name": "朱晓庆", "time": 6},
-    {"mobile": "18560161882", "password": "hy123456", "name": "李名菊", "time": 6},
-    {"mobile": "13165143225", "password": "hy123456", "name": "于辰", "time": 6},
-    {"mobile": "18653145531", "password": "hy123456", "name": "王天硕", "time": 6},
-    {"mobile": "18353133921", "password": "hy123456", "name": "刘玥", "time": 40},
-    {"mobile": "13287716101", "password": "hy123456", "name": "郝玉莹", "time": 40},
-    {"mobile": "18764445379", "password": "hy123456", "name": "焦圣雨", "time": 40}
-    # {"mobile": "13854120443", "password": "217668", "name": "李璐璐", "time": 6},
-    # {"mobile": "13356686210", "password": "740518", "name": "刘臻", "time": 6},
-    # {"mobile": "18678811103", "password": "jn198499", "name": "李鸣晓", "time": 6},
-    # {"mobile": "15854128087", "password": "121212", "name": " 王燕", "time": 6},
-    # {"mobile": "18766180190", "password": "82763195", "name": "信小帆", "time": 40},
-    # {"mobile": "13012981213", "password": "le1988321", "name": "张倩", "time": 6},
-    # {"mobile": "15588860731", "password": "666666", "name": "张彤彤", "time": 40},
-    # {"mobile": "18515616870", "password": "7958678", "name": "邢远志", "time": 40},
-    # {"mobile": "15154196139", "password": "15154196139", "name": "赵慧美", "time": 6},
-    # {"mobile": "18764038095", "password": "18764038095", "name": "张洁", "time": 6},
-    # {"mobile": "15665767890", "password": "z123456", "name": "张雁羽", "time": 6},
-    # {"mobile": "13953108625", "password": "qyt050814", "name": "乔勇", "time": 6}
+    {"mobile": "1XXXXXXXXXX", "password": "123456", "name": "用户1", "time": 6},
+    {"mobile": "1XXXXXXXXXX", "password": "123456", "name": "用户2", "time": 6},
 ]
 
 
@@ -3101,11 +3078,10 @@ def get_new(str):
 
 
 # 获取百度token
+# client_id、client_secret需要自己在百度申请!!!!!!!!!!
 def get_token():
-    API_Key = '31AwI8UD7Y2rTK3dpDqc4w9e'
-    Secret_Key = 'N2Gv4dEtZd6X0X0DaaH8XGpVv91dr4uB'
-    client_id = API_Key
-    client_secret = Secret_Key
+    client_id = ''
+    client_secret = ''
     base_url = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id='
     host = base_url + client_id + '&client_secret=' + client_secret
     response = requests.get(host)
@@ -3167,6 +3143,7 @@ def login(session, mobile, password, verifyCode):
 
 
 # 自动登录：利用百度OCR识别
+# 如登录失败，会重复登录，直至成功为止
 def goLogin_auto(mobile, password, name):
     session = requests.session()
     get_picture(session)
@@ -3177,16 +3154,6 @@ def goLogin_auto(mobile, password, name):
         picture = get_code(path + "1.jpg", token)
         print('-', end='*')
     print(name + '登录成功')
-    return session
-
-
-# 手动登录：手动收入验证码
-def goLogin_hand(mobile, password, name):
-    session = requests.session()
-    get_picture(session)
-    picture = input('请查看D盘根目录下的image.jpg文件，并输入验证码: ')
-    message = login(session, mobile, password, picture)
-    print(name + '：登录' + message)
     return session
 
 
@@ -3325,36 +3292,10 @@ def finish_week(session):
     print('已完成周周练')
 
 
-
-# 完成日日学：5道题目一组，默认重复6遍，共30题
-def finish_day_test(session, id):
-    api_get = 'https://bw.chinahrt.com.cn/api/questionPractice/saveAnswer'
-    data = {'chapterId': '6240',
-            'questionType': '009001',
-            'answerData': '[{"id":'+id+',"userAnswer":"A","signed":1},'
-                          '{"id":'+id+',"userAnswer":"B","signed":1},'
-                          '{"id":'+id+',"userAnswer":"C","signed":1},'
-                          '{"id":'+id+',"userAnswer":"D","signed":1},'
-                          '{"id":'+id+',"userAnswer":"A,B","signed":1},'
-                          '{"id":'+id+',"userAnswer":"A,C","signed":1},'
-                          '{"id":'+id+',"userAnswer":"A,D","signed":1},'
-                          '{"id":'+id+',"userAnswer":"B,C","signed":1},'
-                          '{"id":'+id+',"userAnswer":"B,D","signed":1},'
-                          '{"id":'+id+',"userAnswer":"C,D","signed":1},'
-                          '{"id":'+id+',"userAnswer":"A,B,C","signed":1},'
-                          '{"id":'+id+',"userAnswer":"A,B,D","signed":1},'
-                          '{"id":'+id+',"userAnswer":"A,C,D","signed":1},'
-                          '{"id":'+id+',"userAnswer":"B,C,D","signed":1},'
-                          '{"id":'+id+',"userAnswer":"A,B,C,D","signed":1}]'}
-    request = session.post(api_get, data=data)
-    print(json.loads(request.content.decode('UTF-8')))
-
-
 # 开始答题
 def go_exam():
     print("开始运行全自动答题程序")
     for user in users:
-        # session = goLogin_hand(user['mobile'], user['password'], user['name']) #手动逐一登录
         session = goLogin_auto(user['mobile'], user['password'], user['name'])  # 自动全部登录
         finish_day(session, user['time'])
         finish_week(session)
@@ -3364,12 +3305,3 @@ def go_exam():
 
 go_exam()
 input('输入任意字符结束')
-
-# m = hashlib.md5()
-# m.update('hy123456'.encode(encoding='utf-8'))
-# result = m.hexdigest()
-# print(result)
-
-
-
-# pyinstaller -F -i d:/lbbw.ico index.py

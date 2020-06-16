@@ -1,0 +1,367 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <link href="http://123.232.119.108:8083/xzzf/cssmnks/css/css.css" rel="stylesheet" type="text/css"/>
+    <script src="http://123.232.119.108:8083/xzzf/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="http://123.232.119.108:8083/xzzf/js/ajax-pushlet-client.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".choose,.ques,.choose label").css('font-size', '16px');//进来页面默认是最大号字体2015年8月25日14:25:54修改
+            $("#font li:eq(0)").click(function () {
+                $(".choose,.ques,.choose label").css('font-size', '16px');
+            });
+            $("#font li:eq(1)").click(function () {
+                $(".choose,.ques,.choose label").css('font-size', '12px');
+            });
+            $("#font li:eq(2)").click(function () {
+                $(".choose,.ques,.choose label").css('font-size', '10px');
+            });
+            var userId = '422834abe796433e8f2cf1980753b8d5';
+            PL.userId = userId;
+            PL._init();
+            PL.joinListen('/warylee/hw');
+            PL.setFun(onData);
+        });
+
+        //自动下线
+        function onData(event) {
+            if (event.get("downmsg")) {
+                alert(decodeURIComponent(event.get("downmsg")));
+                window.location.href = "http://123.232.119.108:8083/xzzf/background/logout.html";
+            }
+        }
+
+        function keypressed(event) {
+            if (!event) event = window.event; //如果是IE
+            //屏蔽Alt+F4
+            if ((event.altKey) && ((event.keyCode == 115) || (event.keyCode == 9))) {
+                window.showModelessDialog("about:blank", "", "dialogWidth:1px;dialogheight:1px");
+                return false;
+            }
+            //防止f5刷新页面
+            if (event.keyCode == 116) {
+                event.keyCode = 0;
+                event.cancelBubble = true;
+                return false;
+            }
+            //屏蔽键盘
+            if (event.keyCode > 0) {
+                return false;
+            }
+
+            if (event.ctrlKey == true)
+                return false;
+            if (event.shiftKey == true)
+                return false;
+            if (event.altKey == true)
+                return false;
+        }
+
+        document.onkeydown = keypressed;
+
+        //单题保存
+        function save1(pid, qbh, answer, title, th, value, index) {
+            //alert(qbh+"。答案："+answer+"。题型："+title+"。题号"+th);
+            //var ua = $("#user_ answer").val();
+            var qtype = 1;
+            //单选和判断
+            if (qtype != 2) {
+                if (qtype == 1) {
+                    var useranswer = "user_answer_danx" + th;
+                    var ua = window.parent.document.getElementById(useranswer).value;
+                    if (ua != null && ua != "") {
+                        //已选中的对象
+                        var c = document.getElementById(ua);
+                        c.className = "m-question-option";
+                    }
+                    //点击的对象
+                    var d = document.getElementById(value);
+                    d.className = "m-question-option cho-this";//为选择项添加选中class
+                    //document.getElementById(useranswer).value = value;
+                    window.parent.document.getElementById(useranswer).value = value;
+                    //$("#user_answer").val(value);
+                } else {
+                    var useranswer = "user_answer_pd" + th;
+                    var ua = window.parent.document.getElementById(useranswer).value;
+                    if (ua != null && ua != "") {
+                        //已选中的对象
+                        var c = document.getElementById(ua);
+                        c.className = "m-question-option";
+                    }
+                    //点击的对象
+                    var d = document.getElementById(value);
+                    d.className = "m-question-option cho-this";//为选择项添加选中class
+                    //document.getElementById(useranswer).value = value;
+                    window.parent.document.getElementById(useranswer).value = value;
+                    //$("#user_answer").val(value);
+                }
+            }
+            //多选
+            else {
+                //获取所有选项
+                var classDiv = $(".m-question-option");
+                var answer = "";
+                if (classDiv[index].className.indexOf("cho-this") > 0) {//取消选择
+                    classDiv[index].className = "m-question-option";//取消选中
+                } else {//点击选中
+                    classDiv[index].className = "m-question-option cho-this";
+                }
+                for (var i = 0; i < classDiv.length; i++) {
+                    //查询选中的选项
+                    if (classDiv[i].className.indexOf("cho-this") > 0) {
+                        answer = answer + classDiv[i].id;
+                    }
+                }
+                var useranswer = "user_answer_dx" + th;
+                window.parent.document.getElementById(useranswer).value = answer;
+                //$("#user_answer").val(answer);
+            }
+            //只要作答答题卡就显示，但是不存数据库
+            var dtkId;
+            if (qtype == 1) {
+                dtkId = "danx" + th;
+            } else if (qtype == 2) {
+                dtkId = "dx" + th;
+            } else {
+                dtkId = "pd" + th;
+            }
+            var dtk = window.parent.document.getElementById(dtkId);
+            dtk.className = "e__answerCard page-card-item this";
+        }
+
+
+        //切换题目
+        function changeTm(zfryid, qtype, num) {
+            $.ajax({
+                    type: "post",
+                    //global:false,
+                    //url:"http://123.232.119.108:8083/xzzf/ks/zujuanNew.html?zfryid="+zfryid+"&qtype="+qtype+"&num="+num,
+                    url: "http://123.232.119.108:8083/xzzf/ks/changeTm.html",
+                    data: {zfryid: zfryid, qtype: qtype, num: num},
+                    //data:$('#userpaperform').serialize(),
+                    dataType: "text",
+                    success: function (data) {
+                        //var jsonObj = eval('(' + data + ')');
+                        //alert(data);
+                        var jsonObj = data;
+                        if (undefined == jsonObj.update_error || null == jsonObj.update_error || "" == jsonObj.update_error) {
+                            var htmls = "";
+                            for (var i = 0; jsonObj.zongList.length; i++) {
+                                htmls = htmls + "<div class='sub-content  sub-conanswer'>"
+                                    + "<i class='subjec-daan subjec-none' style='display: inline;'></i>"
+                                    + "<div class='sub-dotitle'>"
+                                    + "<em>" + jsonObj.num + ".</em> "
+                                    + "<i>"
+                                    + "[单选题] </i>"
+                                    + jsonObj.zongList[i].content + "</div>"
+                                    + "<input type='hidden' id='user_answer' name='user_answer' value='" + jsonObj.zongList[i].user_answer + "' />"
+                                    + "<dl class='sub-answer'>";
+                                for (var j = 0; jsonObj.zongList[i].options; j++) {
+                                    htmls = htmls + "<dd class='m-question-option ";
+                                    if (jsonObj.zongList[i].user_answer == jsonObj.zongList[i].options[j].salisa) {
+                                        htmls = htmls + "cho-this";
+                                    }
+                                    htmls = htmls + "' data-value='" + jsonObj.zongList[i].options[j].salisa + "'>"
+                                        + "<a href='javacript:void(0);' onclick='checkOption('" + jsonObj.zongList[i].options[j].salisa + "')'><i></i><span>" + jsonObj.zongList[i].options[j].salisa + ".</span>" + jsonObj.zongList[i].options[j].soption + "</a>"
+                                        + "</dl>"
+                                        + "</div>";
+                                }
+                            }
+                            $("#tmDiv").empty().html(htmls);
+                        } else {
+                            alert("抱歉，出现网络问题，请刷新重试！");
+                        }
+                    },
+                    error: function (XMLHttpRequest, textStatus, errorThrown) {
+                        //alert(XMLHttpRequest.status);
+                        //alert(XMLHttpRequest.readyState);
+                        //alert(textStatus);
+                        alert("抱歉，出现网络问题，请刷新重试！");
+                    }
+                }
+            );
+
+        }
+
+        function tagCh(n, ryid, pid) {
+            //var qbh = document.getElementById('qbh').value;
+            //var useranswer =user_answer+qbh;
+            //var answerEnd = document.getElementById(useranswer).value;
+            //var answerEnd = document.getElementById('user_answer').value;
+            //var mnsjxxid = document.getElementById('mnsjxxid').value;
+            //if(answerEnd != '' && answerEnd != null){
+            /* $.ajax({ */
+            //type: "post",
+            //global:false,
+            //url:"http://123.232.119.108:8083/xzzf/mnexam/saveNew.html",
+            //data:{sjid:pid,qbh:qbh,mnsjxxid:mnsjxxid,user_answer:answerEnd},
+            //dataType:"text",
+            //success: function(data) {
+            /* if(n == 1){
+                window.parent.document.getElementById("dl1").style.display = "block";
+                window.parent.document.getElementById("dl2").style.display = "none";
+                window.parent.document.getElementById("dl3").style.display = "none";
+                window.parent.document.getElementById("qNum").value = 1;
+            }
+            if(n == 2){
+                window.parent.document.getElementById("dl1").style.display = "none";
+                window.parent.document.getElementById("dl2").style.display = "block";
+                window.parent.document.getElementById("dl3").style.display = "none";
+                window.parent.document.getElementById("qNum").value = 1;
+            }
+            if(n == 3){
+                window.parent.document.getElementById("dl1").style.display = "none";
+                window.parent.document.getElementById("dl2").style.display = "none";
+                window.parent.document.getElementById("dl3").style.display = "block";
+                window.parent.document.getElementById("qNum").value = 1;
+            }
+            window.location.href='http://123.232.119.108:8083/xzzf/mnexam/stjz.html?sjid='+pid+'&qtype='+n; */
+            //window.location.href='http://123.232.119.108:8083/xzzf/mnexam/stjz.html?zfryid='+ryid+'&qtype='+n;
+            //},
+            //error: function(XMLHttpRequest, textStatus, errorThrown) {
+            //alert(XMLHttpRequest.status);
+            //alert(XMLHttpRequest.readyState);
+            //alert(textStatus);
+            //alert(title+"第"+th+"题答题失败，请检查网络！");
+            //}
+            /* }
+       ); */
+//}else{
+            var useranswer;
+            if (n == 1) {
+                useranswer = "user_answer_danx" + 1;
+                var answerEnd = window.parent.document.getElementById(useranswer).value;
+                window.parent.document.getElementById("dl1").style.display = "block";
+                window.parent.document.getElementById("dl2").style.display = "none";
+                window.parent.document.getElementById("dl3").style.display = "none";
+                window.parent.document.getElementById("qNum").value = 1;
+            }
+            if (n == 2) {
+                useranswer = "user_answer_dx" + 1;
+                var answerEnd = window.parent.document.getElementById(useranswer).value;
+                window.parent.document.getElementById("dl1").style.display = "none";
+                window.parent.document.getElementById("dl2").style.display = "block";
+                window.parent.document.getElementById("dl3").style.display = "none";
+                window.parent.document.getElementById("qNum").value = 1;
+            }
+            if (n == 3) {
+                useranswer = "user_answer_pd" + 1;
+                var answerEnd = window.parent.document.getElementById(useranswer).value;
+                window.parent.document.getElementById("dl1").style.display = "none";
+                window.parent.document.getElementById("dl2").style.display = "none";
+                window.parent.document.getElementById("dl3").style.display = "block";
+                window.parent.document.getElementById("qNum").value = 1;
+            }
+            window.location.href = 'http://123.232.119.108:8083/xzzf/mnexam/stjz.html?sjid=' + pid + '&qtype=' + n + '&sytda=' + answerEnd;
+//}
+        }
+
+
+    </script>
+</head>
+<body>
+<!--  <div class="pracontent clearfix"> -->
+<!--     <div class="dopra-con zt-content clearfix"> -->
+<div class="sdpadding">
+    <ul id="tags">
+        <li class="selectTag"><a href="javascript:;">单选题</a></li>
+        <li><a href="javascript:;"
+               onclick="tagCh('2','88a0ba12e1a24c3bbd7693637a416bcd','4e59940f765f4fc8bebb8729e7373c91')">多选题</a></li>
+        <li><a href="javascript:;"
+               onclick="tagCh('3','88a0ba12e1a24c3bbd7693637a416bcd','4e59940f765f4fc8bebb8729e7373c91')">判断题</a></li>
+    </ul><!-- tags结束 -->
+    <!-- 练习模式做题-->
+    <style>
+        #questionModule {
+            width: 100%;
+            min-height: 300px;
+            background: none;
+            overflow: hidden;
+            position: relative;
+        }
+
+        #questionModule > ul {
+            width: 100%;
+            height: auto;
+        }
+
+        #questionModule.cross-range {
+            margin-bottom: 20px;
+        }
+
+        #questionModule.cross-range > ul {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        #questionModule.cross-range > ul > li {
+            float: left;
+            width: 100%;
+            overflow: hidden;
+        }
+    </style>
+    <div class="cross-range" id="questionModule" style="min-height: 600px; ">
+        <ul style=" left: 0px;">
+            <li style="display: block; width: 1000px;">
+                <div class="subject-con bor clearfix m-question disabled" data-answer="D" data-examid="4808475"
+                     data-examtype="1" data-iscloseerror="0" data-orderid="1" data-rulesid="1828963" data-useranswer=""
+                     style="min-height:600px;">
+                    <div class="subject-con" id="tmDiv" style="background:inherit">
+                        <!-- 单选题 -->
+                        <div class="sub-content sub-conanswer">
+                            <input id="user_answer_danx26" name="user_answer_danx26" type="hidden"/>
+                            <input id="pid" name="pid" type="hidden" value="4e59940f765f4fc8bebb8729e7373c91"/>
+                            <input id="qbh" name="qbh" type="hidden" value="3948"/>
+                            <input id="thbh" name="thbh" type="hidden" value="26"/>
+                            <i class="subjec-daan subjec-none" style="display: inline;"></i>
+                            <div class="sub-dotitle">
+                                <em>26.</em>
+                                <i>
+                                    [单选题]
+                                </i>
+                                部委规章可以设定行政处罚的范围有（）。
+                            </div>
+                            <dl class="sub-answer">
+                                <dd class="m-question-option" data-value="A" id="A">
+                                    <a href="#"
+                                       onclick="save1('4e59940f765f4fc8bebb8729e7373c91','3948','','单项选择题','26','A','0')"><i></i><span>A.</span>警告</a>
+                                </dd>
+                                <dd class="m-question-option" data-value="B" id="B">
+                                    <a href="#"
+                                       onclick="save1('4e59940f765f4fc8bebb8729e7373c91','3948','','单项选择题','26','B','1')"><i></i><span>B.</span>没收违法所得</a>
+                                </dd>
+                                <dd class="m-question-option" data-value="C" id="C">
+                                    <a href="#"
+                                       onclick="save1('4e59940f765f4fc8bebb8729e7373c91','3948','','单项选择题','26','C','2')"><i></i><span>C.</span>暂扣许可证</a>
+                                </dd>
+                                <dd class="m-question-option" data-value="D" id="D">
+                                    <a href="#"
+                                       onclick="save1('4e59940f765f4fc8bebb8729e7373c91','3948','','单项选择题','26','D','3')"><i></i><span>D.</span>责令停产停业</a>
+                                </dd>
+                            </dl>
+                        </div>
+                        <!-- 多选 -->
+                        <!-- 判断 -->
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<input id="num" name="num" type="hidden" value="25"/>
+<input id="qtype" name="qtype" type="hidden" value="1"/>
+<!-- 倒计时信息 -->
+<input id="kssj" name="kssj" type="hidden" value=""/>
+<input id="jssj" name="jssj" type="hidden" value=""/>
+<input id="current_date" name="current_date" type="hidden" value="2020-06-16 23:54:02"/>
+<input id="sjid" name="sjid" type="hidden" value="4e59940f765f4fc8bebb8729e7373c91"/>
+<input id="rysjxxid" name="rysjxxid" type="hidden" value=""/>
+</body>
+</html>
+
+Process finished with exit code 0
