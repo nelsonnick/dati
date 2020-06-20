@@ -9,7 +9,6 @@ import time
 import random
 import tkinter
 from PIL import Image
-import tkinter.messagebox
 
 path = 'd:/image'
 
@@ -3064,8 +3063,10 @@ questions = [{"id":"65047","answer":"B","A":"职业指导","B":"就业援助","C
 
 # 用户列表
 users = [
-    {"mobile": "1XXXXXXXXXX", "password": "123456", "name": "用户1", "time": 6},
-    {"mobile": "1XXXXXXXXXX", "password": "123456", "name": "用户2", "time": 6},
+    {"mobile": "1XXXXXXXXXX", "password": "123456", "name": "用户1"},
+    {"mobile": "1XXXXXXXXXX", "password": "123456", "name": "用户2"},
+    {"mobile": "1XXXXXXXXXX", "password": "123456", "name": "用户3"},
+    {"mobile": "1XXXXXXXXXX", "password": "123456", "name": "用户4"},
 ]
 
 
@@ -3157,19 +3158,86 @@ def goLogin_auto(mobile, password, name):
     return session
 
 
-# 完成日日学：5道题目一组，默认重复6遍，共30题
-def finish_day(session, time=6):
-    for n in range(1, time + 1):
+chapterName = {'6238': '就业创业', '6239': '劳动关系', '6240': '十九大', '6242': '人事人才', '6243': '综合服务', '6244': '社会保险'}
+typeName = {'001001': '单选题', '001002': '多选题', '001003': '判断题'}
+
+
+# 完成日日学：每组5个题目。如果题目答完，自动重置（不含填空题、简答题、解析题），每5题之间间隔10秒
+def finish_day(session, chapterId, questionType):
+    time.sleep(10)
+    questions = session.get('https://bw.chinahrt.com.cn/api/questionPractice/listQuestions',
+                params={'chapterId': chapterId, 'questionType': questionType, 'number': '5'})
+    id_len = len(json.loads(questions.content.decode('UTF-8'))['data'])
+    if id_len == 5:
+        id0 = json.loads(questions.content.decode('UTF-8'))['data'][0]['id']
+        answer0 = json.loads(questions.content.decode('UTF-8'))['data'][0]['answer']
+        id1 = json.loads(questions.content.decode('UTF-8'))['data'][1]['id']
+        answer1 = json.loads(questions.content.decode('UTF-8'))['data'][1]['answer']
+        id2 = json.loads(questions.content.decode('UTF-8'))['data'][2]['id']
+        answer2 = json.loads(questions.content.decode('UTF-8'))['data'][2]['answer']
+        id3 = json.loads(questions.content.decode('UTF-8'))['data'][3]['id']
+        answer3 = json.loads(questions.content.decode('UTF-8'))['data'][3]['answer']
+        id4 = json.loads(questions.content.decode('UTF-8'))['data'][4]['id']
+        answer4 = json.loads(questions.content.decode('UTF-8'))['data'][4]['answer']
+        answerData0 = '[{"id":"' + id0 + '","userAnswer":"' + answer0 + '","signed":1},'
+        answerData1 = '{"id":"' + id1 + '","userAnswer":"' + answer1 + '","signed":1},'
+        answerData2 = '{"id":"' + id2 + '","userAnswer":"' + answer2 + '","signed":1},'
+        answerData3 = '{"id":"' + id3 + '","userAnswer":"' + answer3 + '","signed":1},'
+        answerData4 = '{"id":"' + id4 + '","userAnswer":"' + answer4 + '","signed":1}]'
+        answerData = answerData0 + answerData1 + answerData2 + answerData3 + answerData4
+    elif id_len == 4:
+        id0 = json.loads(questions.content.decode('UTF-8'))['data'][0]['id']
+        answer0 = json.loads(questions.content.decode('UTF-8'))['data'][0]['answer']
+        id1 = json.loads(questions.content.decode('UTF-8'))['data'][1]['id']
+        answer1 = json.loads(questions.content.decode('UTF-8'))['data'][1]['answer']
+        id2 = json.loads(questions.content.decode('UTF-8'))['data'][2]['id']
+        answer2 = json.loads(questions.content.decode('UTF-8'))['data'][2]['answer']
+        id3 = json.loads(questions.content.decode('UTF-8'))['data'][3]['id']
+        answer3 = json.loads(questions.content.decode('UTF-8'))['data'][3]['answer']
+        answerData0 = '[{"id":"' + id0 + '","userAnswer":"' + answer0 + '","signed":1},'
+        answerData1 = '{"id":"' + id1 + '","userAnswer":"' + answer1 + '","signed":1},'
+        answerData2 = '{"id":"' + id2 + '","userAnswer":"' + answer2 + '","signed":1},'
+        answerData3 = '{"id":"' + id3 + '","userAnswer":"' + answer3 + '","signed":1}]'
+        answerData = answerData0 + answerData1 + answerData2 + answerData3
+    elif id_len == 3:
+        id0 = json.loads(questions.content.decode('UTF-8'))['data'][0]['id']
+        answer0 = json.loads(questions.content.decode('UTF-8'))['data'][0]['answer']
+        id1 = json.loads(questions.content.decode('UTF-8'))['data'][1]['id']
+        answer1 = json.loads(questions.content.decode('UTF-8'))['data'][1]['answer']
+        id2 = json.loads(questions.content.decode('UTF-8'))['data'][2]['id']
+        answer2 = json.loads(questions.content.decode('UTF-8'))['data'][2]['answer']
+        answerData0 = '[{"id":"' + id0 + '","userAnswer":"' + answer0 + '","signed":1},'
+        answerData1 = '{"id":"' + id1 + '","userAnswer":"' + answer1 + '","signed":1},'
+        answerData2 = '{"id":"' + id2 + '","userAnswer":"' + answer2 + '","signed":1}]'
+        answerData = answerData0 + answerData1 + answerData2
+    elif id_len == 2:
+        id0 = json.loads(questions.content.decode('UTF-8'))['data'][0]['id']
+        answer0 = json.loads(questions.content.decode('UTF-8'))['data'][0]['answer']
+        id1 = json.loads(questions.content.decode('UTF-8'))['data'][1]['id']
+        answer1 = json.loads(questions.content.decode('UTF-8'))['data'][1]['answer']
+        answerData0 = '[{"id":"' + id0 + '","userAnswer":"' + answer0 + '","signed":1},'
+        answerData1 = '{"id":"' + id1 + '","userAnswer":"' + answer1 + '","signed":1}]'
+        answerData = answerData0 + answerData1
+    elif id_len == 1:
+        id0 = json.loads(questions.content.decode('UTF-8'))['data'][0]['id']
+        answer0 = json.loads(questions.content.decode('UTF-8'))['data'][0]['answer']
+        answerData = '[{"id":"' + id0 + '","userAnswer":"' + answer0 + '","signed":1}]'
+    else:
+        pass
+    if id_len != 0:
         api_get = 'https://bw.chinahrt.com.cn/api/questionPractice/saveAnswer'
-        data = {'chapterId': '6244',
-                'questionType': '001001',
-                'answerData': '[{"id":"65307","userAnswer":"A","signed":1},{"id":"65308","userAnswer":"A","signed":1},{"id":"65309","userAnswer":"D","signed":1},{"id":"65310","userAnswer":"C","signed":1},{"id":"65311","userAnswer":"A","signed":1}]'}
+        data = {'chapterId': chapterId,
+                'questionType': questionType,
+                'answerData': answerData}
         request = session.post(api_get, data=data)
         if json.loads(request.content.decode('UTF-8'))['code'] != 'SUCCESS':
             print('日日学提交失败！')
-            tkinter.messagebox.showinfo('提示', '日日学提交失败！')
-        print('-', end='*')
-    print('已完成日日学' + str(time * 5) + '题')
+    if id_len != 5:
+        session.get('https://bw.chinahrt.com.cn/api/questionPractice/refreshQuestion',
+                    params={'chapterId': chapterId, 'questionType': questionType})
+        print('已完成日日学-->' + chapterName[chapterId] + '-->' + typeName[questionType] + '-->' + str(id_len) + '题，并重置学习状态')
+    else:
+        print('已完成日日学-->' + chapterName[chapterId] + '-->' + typeName[questionType] + '-->5题')
 
 
 # 完成周周练
@@ -3297,7 +3365,26 @@ def go_exam():
     print("开始运行全自动答题程序")
     for user in users:
         session = goLogin_auto(user['mobile'], user['password'], user['name'])  # 自动全部登录
-        finish_day(session, user['time'])
+        # 下面一共是六大类题目、三大类题型，全部做完一遍是90道题目。请根据个人需要适当删减。
+        finish_day(session, '6238', '001001') # 就业创业-->单选题-->5道
+        finish_day(session, '6238', '001002') # 就业创业-->多选题-->5道
+        finish_day(session, '6238', '001003') # 就业创业-->判断题-->5道
+        finish_day(session, '6239', '001001') # 劳动关系-->单选题-->5道
+        finish_day(session, '6239', '001002') # 劳动关系-->多选题-->5道
+        finish_day(session, '6239', '001003') # 劳动关系-->判断题-->5道
+        finish_day(session, '6240', '001001') # 十九大-->单选题-->5道
+        finish_day(session, '6240', '001002') # 十九大-->多选题-->5道
+        finish_day(session, '6240', '001003') # 十九大-->判断题-->5道
+        finish_day(session, '6242', '001001') # 人事人才-->单选题-->5道
+        finish_day(session, '6242', '001002') # 人事人才-->多选题-->5道
+        finish_day(session, '6242', '001003') # 人事人才-->判断题-->5道
+        finish_day(session, '6243', '001001') # 综合服务-->单选题-->5道
+        finish_day(session, '6243', '001002') # 综合服务-->多选题-->5道
+        finish_day(session, '6243', '001003') # 综合服务-->判断题-->5道
+        finish_day(session, '6244', '001001') # 社会保险-->单选题-->5道
+        finish_day(session, '6244', '001002') # 社会保险-->多选题-->5道
+        finish_day(session, '6244', '001003') # 社会保险-->判断题-->5道
+        # 周周练两遍
         finish_week(session)
         finish_week(session)
     print("全部人员已完成答题！")
