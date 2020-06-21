@@ -7,7 +7,6 @@ import base64
 import hashlib
 import time
 import random
-import tkinter
 from PIL import Image
 
 path = 'd:/image'
@@ -3043,7 +3042,7 @@ questions = [{"id":"65047","answer":"B","A":"职业指导","B":"就业援助","C
 {"id":"68100","answer":"政府","A":"","B":"","C":"","D":"","E":""},
 {"id":"68101","answer":"个人账户养老金","A":"","B":"","C":"","D":"","E":""},
 {"id":"68102","answer":"15","A":"","B":"","C":"","D":"","E":""},
-{"id":"68103","answer":"公民身份证号码","A":"","B":"","C":"","D":"","E":""},
+{"id":"68103","answer":"公民身份号码","A":"","B":"","C":"","D":"","E":""},
 {"id":"68104","answer":"1月1日至12月31日","A":"","B":"","C":"","D":"","E":""},
 {"id":"68105","answer":"不再提高","A":"","B":"","C":"","D":"","E":""},
 {"id":"68106","answer":"街道和社区","A":"","B":"","C":"","D":"","E":""},
@@ -3066,9 +3065,9 @@ users = [
     #
     # {"mobile": "15753136829", "password": "123456", "name": "阿拉", "time": 2},
     # {"mobile": "13256401880", "password": "hy123456", "name": "韩测试", "time": 6},
-    {"mobile": "13954178399", "password": "hy123456", "name": "李楠", "time": 6},
-    {"mobile": "13156168076", "password": "hy123456", "name": "蒋华", "time": 6},
-    {"mobile": "13325111371", "password": "hy123456", "name": "杨天虹", "time": 6},
+    # {"mobile": "13954178399", "password": "hy123456", "name": "李楠", "time": 6},
+    # {"mobile": "13156168076", "password": "hy123456", "name": "蒋华", "time": 6},
+    # {"mobile": "13325111371", "password": "hy123456", "name": "杨天虹", "time": 6},
     {"mobile": "15053135431", "password": "hy123456", "name": "朱晓庆", "time": 6},
     {"mobile": "18560161882", "password": "hy123456", "name": "李名菊", "time": 6},
     {"mobile": "13165143225", "password": "hy123456", "name": "于辰", "time": 6},
