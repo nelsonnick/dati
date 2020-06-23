@@ -10,8 +10,10 @@ import random
 from PIL import Image
 import threading
 
+# 验证码默认保存在D盘，请确保存在D盘符
 path = 'd:/image'
 
+# 题目列表
 questions = [{"id":"65047","answer":"B","A":"职业指导","B":"就业援助","C":"创业服务","D":"政策支持","E":""},
 {"id":"65048","answer":"A","A":"平等就业、自主择业","B":"公平就业、自由择业","C":"充分就业、自主择业","D":"平等就业、按需择业","E":""},
 {"id":"65049","answer":"B","A":"性别","B":"从业经历","C":"民族","D":"种族","E":""},
@@ -3060,38 +3062,7 @@ questions = [{"id":"65047","answer":"B","A":"职业指导","B":"就业援助","C
 {"id":"68117","answer":"回避","A":"","B":"","C":"","D":"","E":""}]
 
 
-# 用户列表
-users = [
-    # 123456---e10adc3949ba59abbe56e057f20f883e
-    #
-
-    # {"mobile": "15753136829", "password": "123456", "name": "阿拉", "time": 2},
-    # {"mobile": "13256401880", "password": "hy123456", "name": "韩测试", "time": 6},
-    {"mobile": "13954178399", "password": "hy123456", "name": "李楠"},
-    {"mobile": "13156168076", "password": "hy123456", "name": "蒋华"},
-    {"mobile": "13325111371", "password": "hy123456", "name": "杨天虹"},
-    {"mobile": "15053135431", "password": "hy123456", "name": "朱晓庆"},
-    {"mobile": "18560161882", "password": "hy123456", "name": "李名菊"},
-    {"mobile": "13165143225", "password": "hy123456", "name": "于辰"},
-    {"mobile": "18653145531", "password": "hy123456", "name": "王天硕"},
-    {"mobile": "18353133921", "password": "hy123456", "name": "刘玥"},
-    {"mobile": "13287716101", "password": "hy123456", "name": "郝玉莹"},
-    {"mobile": "18764445379", "password": "hy123456", "name": "焦圣雨"}
-    # {"mobile": "13854120443", "password": "217668", "name": "李璐璐", "time": 6},
-    # {"mobile": "13356686210", "password": "740518", "name": "刘臻", "time": 6},
-    # {"mobile": "18678811103", "password": "jn198499", "name": "李鸣晓", "time": 6},
-    # {"mobile": "15854128087", "password": "121212", "name": " 王燕", "time": 6},
-    # {"mobile": "18766180190", "password": "82763195", "name": "信小帆", "time": 40},
-    # {"mobile": "13012981213", "password": "le1988321", "name": "张倩", "time": 6},
-    # {"mobile": "15588860731", "password": "666666", "name": "张彤彤", "time": 40},
-    # {"mobile": "18515616870", "password": "7958678", "name": "邢远志", "time": 40},
-    # {"mobile": "15154196139", "password": "15154196139", "name": "赵慧美", "time": 6},
-    # {"mobile": "18764038095", "password": "18764038095", "name": "张洁", "time": 6},
-    # {"mobile": "15665767890", "password": "z123456", "name": "张雁羽", "time": 6},
-    # {"mobile": "13953108625", "password": "qyt050814", "name": "乔勇", "time": 6}
-]
-
-
+# 去除多余的乱码
 def get_new(str):
     return str.replace("2526gt;", "").replace("2526lt;", "")\
         .replace("&amp;", "").replace("/span", "").replace("span", "")\
@@ -3101,11 +3072,10 @@ def get_new(str):
 
 
 # 获取百度token
+# client_id、client_secret需要自己在百度申请!!!!!!!!!!
 def get_token():
-    API_Key = '31AwI8UD7Y2rTK3dpDqc4w9e'
-    Secret_Key = 'N2Gv4dEtZd6X0X0DaaH8XGpVv91dr4uB'
-    client_id = API_Key
-    client_secret = Secret_Key
+    client_id = ''
+    client_secret = ''
     base_url = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id='
     host = base_url + client_id + '&client_secret=' + client_secret
     response = requests.get(host)
@@ -3167,6 +3137,7 @@ def login(session, mobile, password, verifyCode):
 
 
 # 自动登录：利用百度OCR识别
+# 如登录失败，会重复登录，直至成功为止
 def goLogin_auto(mobile, password, name):
     session = requests.session()
     get_picture(session, name)
@@ -3176,17 +3147,7 @@ def goLogin_auto(mobile, password, name):
         get_picture(session, name)
         picture = get_code(path + '-' + name + "1.jpg", token)
         print('-', end='*')
-    print(name + '登录成功')
-    return session
-
-
-# 手动登录：手动收入验证码
-def goLogin_hand(mobile, password, name):
-    session = requests.session()
-    get_picture(session)
-    picture = input('请查看D盘根目录下的image.jpg文件，并输入验证码: ')
-    message = login(session, mobile, password, picture)
-    print(name + '：登录' + message)
+    print(name + '-->登录成功')
     return session
 
 
@@ -3194,7 +3155,7 @@ chapterName = {'6238': '就业创业', '6239': '劳动关系', '6240': '十九�
 typeName = {'001001': '单选题', '001002': '多选题', '001003': '判断题'}
 
 
-# 完成日日学：5道题目一组。如果题目答完，自动重置（不含填空题、简答题、解析题），每5题之间间隔10秒
+# 完成日日学：5道题目一组。如果题目答完，自动重置（不含填空题、简答题、解析题），每5题之间间隔8-15秒
 def finish_day(session, chapterId, questionType, name):
     t = random.randint(8, 15)
     time.sleep(t)
@@ -3393,62 +3354,30 @@ def finish_week(session, name):
     print(name + '-->已完成周周练')
 
 
-# 完成日日学：5道题目一组，默认重复6遍，共30题
-def finish_day_test(session, id):
-    api_get = 'https://bw.chinahrt.com.cn/api/questionPractice/saveAnswer'
-    data = {'chapterId': '6240',
-            'questionType': '009001',
-            'answerData': '[{"id":'+id+',"userAnswer":"A","signed":1},'
-                          '{"id":'+id+',"userAnswer":"B","signed":1},'
-                          '{"id":'+id+',"userAnswer":"C","signed":1},'
-                          '{"id":'+id+',"userAnswer":"D","signed":1},'
-                          '{"id":'+id+',"userAnswer":"A,B","signed":1},'
-                          '{"id":'+id+',"userAnswer":"A,C","signed":1},'
-                          '{"id":'+id+',"userAnswer":"A,D","signed":1},'
-                          '{"id":'+id+',"userAnswer":"B,C","signed":1},'
-                          '{"id":'+id+',"userAnswer":"B,D","signed":1},'
-                          '{"id":'+id+',"userAnswer":"C,D","signed":1},'
-                          '{"id":'+id+',"userAnswer":"A,B,C","signed":1},'
-                          '{"id":'+id+',"userAnswer":"A,B,D","signed":1},'
-                          '{"id":'+id+',"userAnswer":"A,C,D","signed":1},'
-                          '{"id":'+id+',"userAnswer":"B,C,D","signed":1},'
-                          '{"id":'+id+',"userAnswer":"A,B,C,D","signed":1}]'}
-    request = session.post(api_get, data=data)
-    print(json.loads(request.content.decode('UTF-8')))
-
-
 # 一个人完成日日学90题，周周练2遍
 def one_person(session, name):
-    finish_day(session, '6238', '001001', name)
-    finish_day(session, '6238', '001002', name)
-    finish_day(session, '6238', '001003', name)
-    finish_day(session, '6239', '001001', name)
-    finish_day(session, '6239', '001002', name)
-    finish_day(session, '6239', '001003', name)
-    finish_day(session, '6240', '001001', name)
-    finish_day(session, '6240', '001002', name)
-    finish_day(session, '6240', '001003', name)
-    finish_day(session, '6242', '001001', name)
-    finish_day(session, '6242', '001002', name)
-    finish_day(session, '6242', '001003', name)
-    finish_day(session, '6243', '001001', name)
-    finish_day(session, '6243', '001002', name)
-    finish_day(session, '6243', '001003', name)
-    finish_day(session, '6244', '001001', name)
-    finish_day(session, '6244', '001002', name)
-    finish_day(session, '6244', '001003', name)
+    # 下面一共是六大类题目、三大类题型，全部做完一遍是90道题目。请根据个人需要适当删减。
+    finish_day(session, '6238', '001001', name)  # 就业创业-->单选题-->5道
+    finish_day(session, '6238', '001002', name)  # 就业创业-->多选题-->5道
+    finish_day(session, '6238', '001003', name)  # 就业创业-->判断题-->5道
+    finish_day(session, '6239', '001001', name)  # 劳动关系-->单选题-->5道
+    finish_day(session, '6239', '001002', name)  # 劳动关系-->多选题-->5道
+    finish_day(session, '6239', '001003', name)  # 劳动关系-->判断题-->5道
+    finish_day(session, '6240', '001001', name)  # 十九大-->单选题-->5道
+    finish_day(session, '6240', '001002', name)  # 十九大-->多选题-->5道
+    finish_day(session, '6240', '001003', name)  # 十九大-->判断题-->5道
+    finish_day(session, '6242', '001001', name)  # 人事人才-->单选题-->5道
+    finish_day(session, '6242', '001002', name)  # 人事人才-->多选题-->5道
+    finish_day(session, '6242', '001003', name)  # 人事人才-->判断题-->5道
+    finish_day(session, '6243', '001001', name)  # 综合服务-->单选题-->5道
+    finish_day(session, '6243', '001002', name)  # 综合服务-->多选题-->5道
+    finish_day(session, '6243', '001003', name)  # 综合服务-->判断题-->5道
+    finish_day(session, '6244', '001001', name)  # 社会保险-->单选题-->5道
+    finish_day(session, '6244', '001002', name)  # 社会保险-->多选题-->5道
+    finish_day(session, '6244', '001003', name)  # 社会保险-->判断题-->5道
+    # 周周练两遍
     finish_week(session, name)
     finish_week(session, name)
-
-
-# 开始答题：按照顺利一个个来
-def go_exam():
-    print("开始运行全自动答题程序")
-    for user in users:
-        # session = goLogin_hand(user['mobile'], user['password'], user['name']) #手动逐一登录
-        session = goLogin_auto(user['mobile'], user['password'], user['name'])  # 自动全部登录
-        one_person(session)
-    print("全部人员已完成答题！")
 
 
 # 定义多线程
@@ -3466,19 +3395,20 @@ class myThread (threading.Thread):
         print(self.name + "-->已完成答题")
 
 
-# 创建新线程
-thread1 = myThread("13954178399", "hy123456", "李楠")
-thread2 = myThread("13156168076", "hy123456", "蒋华")
-thread3 = myThread("13165143225", "hy123456", "于辰")
-thread4 = myThread("18353133921", "hy123456", "刘玥")
-thread5 = myThread("13325111371", "hy123456", "杨天虹")
-thread6 = myThread("15053135431", "hy123456", "朱晓庆")
-thread7 = myThread("18560161882", "hy123456", "李名菊")
-thread8 = myThread("18653145531", "hy123456", "王天硕")
-thread9 = myThread("13287716101", "hy123456", "郝玉莹")
-thread0 = myThread("18764445379", "hy123456", "焦圣雨")
+# 多线程版本是同时进行多个用户的答题，不需要一个个的等待，可大幅节省程序的运行时间。
+# 创建新线程 这里默认是十个用户，根据实际情况自行删减
+thread1 = myThread("1XXXXXXXXXX", "123456", "用户1")
+thread2 = myThread("1XXXXXXXXXX", "123456", "用户2")
+thread3 = myThread("1XXXXXXXXXX", "123456", "用户3")
+thread4 = myThread("1XXXXXXXXXX", "123456", "用户4")
+thread5 = myThread("1XXXXXXXXXX", "123456", "用户5")
+thread6 = myThread("1XXXXXXXXXX", "123456", "用户6")
+thread7 = myThread("1XXXXXXXXXX", "123456", "用户7")
+thread8 = myThread("1XXXXXXXXXX", "123456", "用户8")
+thread9 = myThread("1XXXXXXXXXX", "123456", "用户9")
+thread0 = myThread("1XXXXXXXXXX", "123456", "用户0")
 
-# 开启新线程
+# 开启新线程 这里对应的是上面的十个用户，根据上面的实际情况自行删减
 thread1.start()
 thread2.start()
 thread3.start()
@@ -3489,6 +3419,8 @@ thread7.start()
 thread8.start()
 thread9.start()
 thread0.start()
+
+# 调用新线程 这里对应的是上面的十个用户，根据上面的实际情况自行删减
 thread1.join()
 thread2.join()
 thread3.join()
@@ -3499,17 +3431,4 @@ thread7.join()
 thread8.join()
 thread9.join()
 thread0.join()
-print("退出主线程")
-
-
-# go_exam()
-# input('输入任意字符结束')
-
-# m = hashlib.md5()
-# m.update('hy123456'.encode(encoding='utf-8'))
-# result = m.hexdigest()
-# print(result)
-
-
-
-# pyinstaller -F -i d:/lbbw.ico index.py
+print("退出线程")
