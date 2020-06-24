@@ -3067,16 +3067,16 @@ users = [
 
     # {"mobile": "15753136829", "password": "123456", "name": "阿拉", "time": 2},
     # {"mobile": "13256401880", "password": "hy123456", "name": "韩测试", "time": 6},
-    {"mobile": "13954178399", "password": "hy123456", "name": "李楠"},
-    {"mobile": "13156168076", "password": "hy123456", "name": "蒋华"},
-    {"mobile": "13325111371", "password": "hy123456", "name": "杨天虹"},
-    {"mobile": "15053135431", "password": "hy123456", "name": "朱晓庆"},
-    {"mobile": "18560161882", "password": "hy123456", "name": "李名菊"},
-    {"mobile": "13165143225", "password": "hy123456", "name": "于辰"},
-    {"mobile": "18653145531", "password": "hy123456", "name": "王天硕"},
-    {"mobile": "18353133921", "password": "hy123456", "name": "刘玥"},
-    {"mobile": "13287716101", "password": "hy123456", "name": "郝玉莹"},
-    {"mobile": "18764445379", "password": "hy123456", "name": "焦圣雨"}
+    # {"mobile": "13954178399", "password": "hy123456", "name": "李楠"},
+    # {"mobile": "13156168076", "password": "hy123456", "name": "蒋华"},
+    # {"mobile": "13325111371", "password": "hy123456", "name": "杨天虹"},
+    # {"mobile": "15053135431", "password": "hy123456", "name": "朱晓庆"},
+    # {"mobile": "18560161882", "password": "hy123456", "name": "李名菊"},
+    # {"mobile": "13165143225", "password": "hy123456", "name": "于辰"},
+    # {"mobile": "18653145531", "password": "hy123456", "name": "王天硕"},
+    # {"mobile": "18353133921", "password": "hy123456", "name": "刘玥"},
+    # {"mobile": "13287716101", "password": "hy123456", "name": "郝玉莹"},
+    # {"mobile": "18764445379", "password": "hy123456", "name": "焦圣雨"}
     # {"mobile": "13854120443", "password": "217668", "name": "李璐璐", "time": 6},
     # {"mobile": "13356686210", "password": "740518", "name": "刘臻", "time": 6},
     # {"mobile": "18678811103", "password": "jn198499", "name": "李鸣晓", "time": 6},
@@ -3287,110 +3287,113 @@ def finish_week(session, name):
     jstr = json.loads(request_get.content.decode('UTF-8'))['data']
     ids = []
     answers = []
-    recordId = jstr['recordId']
-    danxuans = jstr['questionTypeSummaries'][0]['questions']
-    duoxuans = jstr['questionTypeSummaries'][1]['questions']
-    panduans = jstr['questionTypeSummaries'][2]['questions']
-    tiankons = jstr['questionTypeSummaries'][3]['questions']
+    try:
+        recordId = jstr['recordId']
+        danxuans = jstr['questionTypeSummaries'][0]['questions']
+        duoxuans = jstr['questionTypeSummaries'][1]['questions']
+        panduans = jstr['questionTypeSummaries'][2]['questions']
+        tiankons = jstr['questionTypeSummaries'][3]['questions']
 
-    for q in danxuans:
-        for question in questions:
-            if q['id'] == question['id']:
-                if get_new(q['choices'][0]['content']) == question[question['answer']]:
+        for q in danxuans:
+            for question in questions:
+                if q['id'] == question['id']:
+                    if get_new(q['choices'][0]['content']) == question[question['answer']]:
+                        ids.append(question['id'])
+                        answers.append('A')
+                        break
+                    if get_new(q['choices'][1]['content']) == question[question['answer']]:
+                        ids.append(question['id'])
+                        answers.append('B')
+                        break
+                    if get_new(q['choices'][2]['content']) == question[question['answer']]:
+                        ids.append(question['id'])
+                        answers.append('C')
+                        break
+                    if get_new(q['choices'][3]['content']) == question[question['answer']]:
+                        ids.append(question['id'])
+                        answers.append('D')
+                        break
+        for q in duoxuans:
+            for question in questions:
+                if q['id'] == question['id']:
+                    answers_list = []
+                    answers_list2 = []
+                    if 'A' in question['answer']:
+                        answers_list.append(question['A'])
+                    if 'B' in question['answer']:
+                        answers_list.append(question['B'])
+                    if 'C' in question['answer']:
+                        answers_list.append(question['C'])
+                    if 'D' in question['answer']:
+                        answers_list.append(question['D'])
+                    if 'E' in question['answer']:
+                        answers_list.append(question['E'])
+                    if get_new(q['choices'][0]['content']) in answers_list:
+                        answers_list2.append('A')
+                    if get_new(q['choices'][1]['content']) in answers_list:
+                        answers_list2.append('B')
+                    if get_new(q['choices'][2]['content']) in answers_list:
+                        answers_list2.append('C')
+                    if len(q['choices']) == 4:
+                        if get_new(q['choices'][3]['content']) in answers_list:
+                            answers_list2.append('D')
+                    if len(q['choices']) == 5:
+                        if get_new(q['choices'][3]['content']) in answers_list:
+                            answers_list2.append('D')
+                        if get_new(q['choices'][4]['content']) in answers_list:
+                            answers_list2.append('E')
+                    oo = ''
+                    for ans in answers_list2:
+                        oo = oo + ans + ','
                     ids.append(question['id'])
-                    answers.append('A')
+                    answers.append(oo[0:-1])
                     break
-                if get_new(q['choices'][1]['content']) == question[question['answer']]:
+        for q in panduans:
+            for question in questions:
+                if q['id'] == question['id']:
+                    if get_new(q['choices'][0]['content']) == question[question['answer']]:
+                        ids.append(question['id'])
+                        answers.append('A')
+                        break
+                    if get_new(q['choices'][1]['content']) == question[question['answer']]:
+                        ids.append(question['id'])
+                        answers.append('B')
+                        break
+        for q in tiankons:
+            for question in questions:
+                if q['id'] == question['id']:
                     ids.append(question['id'])
-                    answers.append('B')
+                    answers.append(question['answer'])
                     break
-                if get_new(q['choices'][2]['content']) == question[question['answer']]:
-                    ids.append(question['id'])
-                    answers.append('C')
-                    break
-                if get_new(q['choices'][3]['content']) == question[question['answer']]:
-                    ids.append(question['id'])
-                    answers.append('D')
-                    break
-    for q in duoxuans:
-        for question in questions:
-            if q['id'] == question['id']:
-                answers_list = []
-                answers_list2 = []
-                if 'A' in question['answer']:
-                    answers_list.append(question['A'])
-                if 'B' in question['answer']:
-                    answers_list.append(question['B'])
-                if 'C' in question['answer']:
-                    answers_list.append(question['C'])
-                if 'D' in question['answer']:
-                    answers_list.append(question['D'])
-                if 'E' in question['answer']:
-                    answers_list.append(question['E'])
-                if get_new(q['choices'][0]['content']) in answers_list:
-                    answers_list2.append('A')
-                if get_new(q['choices'][1]['content']) in answers_list:
-                    answers_list2.append('B')
-                if get_new(q['choices'][2]['content']) in answers_list:
-                    answers_list2.append('C')
-                if len(q['choices']) == 4:
-                    if get_new(q['choices'][3]['content']) in answers_list:
-                        answers_list2.append('D')
-                if len(q['choices']) == 5:
-                    if get_new(q['choices'][3]['content']) in answers_list:
-                        answers_list2.append('D')
-                    if get_new(q['choices'][4]['content']) in answers_list:
-                        answers_list2.append('E')
-                oo = ''
-                for ans in answers_list2:
-                    oo = oo + ans + ','
-                ids.append(question['id'])
-                answers.append(oo[0:-1])
-                break
-    for q in panduans:
-        for question in questions:
-            if q['id'] == question['id']:
-                if get_new(q['choices'][0]['content']) == question[question['answer']]:
-                    ids.append(question['id'])
-                    answers.append('A')
-                    break
-                if get_new(q['choices'][1]['content']) == question[question['answer']]:
-                    ids.append(question['id'])
-                    answers.append('B')
-                    break
-    for q in tiankons:
-        for question in questions:
-            if q['id'] == question['id']:
-                ids.append(question['id'])
-                answers.append(question['answer'])
-                break
-    an = '['
-    for i in range(len(ids)):
-        a = {'id': ids[i], 'signed': 0, 'userAnswer': answers[i]}
-        answerData = json.dumps(a, ensure_ascii=False)
-        an = an + answerData + ','
-    an = an[0: -1] + ']'
-    t = random.randint(182, 239)
-    print(name + '-->为避免秒答现象，本次周周练答题将在' + str(t) + '秒后完成！不要随意关闭程序哦。')
-    time.sleep(30)
-    print(name + '-->已经过30秒，这才刚刚开始...')
-    time.sleep(30)
-    print(name + '-->已经过1分钟，请耐心等待...')
-    time.sleep(30)
-    print(name + '-->已经过1分30秒，马上就结束啦...')
-    time.sleep(30)
-    print(name + '-->已经过2分钟，请耐心等待...')
-    time.sleep(30)
-    print(name + '-->已经过2分30秒，马上就可以提交啦！')
-    time.sleep(30)
-    print(name + '-->已经过3分钟，准备提交！')
-    time.sleep(t - 180)
-    request_save = session.post('https://bw.chinahrt.com.cn/api/examination/submit',
-                                data={'recordId': recordId, 'answerData': an})
-    if json.loads(request_save.content.decode('UTF-8'))['code'] != 'SUCCESS':
-        print(name + '-->周周练提交失败！')
-        print(request_save.content.decode('UTF-8'))
-    print(name + '-->已完成周周练')
+        an = '['
+        for i in range(len(ids)):
+            a = {'id': ids[i], 'signed': 0, 'userAnswer': answers[i]}
+            answerData = json.dumps(a, ensure_ascii=False)
+            an = an + answerData + ','
+        an = an[0: -1] + ']'
+        t = random.randint(182, 239)
+        print(name + '-->为避免秒答现象，本次周周练答题将在' + str(t) + '秒后完成！不要随意关闭程序哦。')
+        time.sleep(30)
+        print(name + '-->已经过30秒，这才刚刚开始...')
+        time.sleep(30)
+        print(name + '-->已经过1分钟，请耐心等待...')
+        time.sleep(30)
+        print(name + '-->已经过1分30秒，马上就结束啦...')
+        time.sleep(30)
+        print(name + '-->已经过2分钟，请耐心等待...')
+        time.sleep(30)
+        print(name + '-->已经过2分30秒，马上就可以提交啦！')
+        time.sleep(30)
+        print(name + '-->已经过3分钟，准备提交！')
+        time.sleep(t - 180)
+        request_save = session.post('https://bw.chinahrt.com.cn/api/examination/submit',
+                                    data={'recordId': recordId, 'answerData': an})
+        if json.loads(request_save.content.decode('UTF-8'))['code'] != 'SUCCESS':
+            print(name + '-->周周练提交失败！')
+            print(request_save.content.decode('UTF-8'))
+        print(name + '-->已完成周周练')
+    except TypeError:
+        print(name + '-->当日周周练已完成，无法再次答题！')
 
 
 # 完成日日学：5道题目一组，默认重复6遍，共30题
@@ -3447,7 +3450,7 @@ def go_exam():
     for user in users:
         # session = goLogin_hand(user['mobile'], user['password'], user['name']) #手动逐一登录
         session = goLogin_auto(user['mobile'], user['password'], user['name'])  # 自动全部登录
-        one_person(session)
+        one_person(session, user['name'])
     print("全部人员已完成答题！")
 
 
