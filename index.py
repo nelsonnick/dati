@@ -3480,6 +3480,7 @@ thread7 = myThread("18560161882", "hy123456", "李名菊")
 thread8 = myThread("18653145531", "hy123456", "王天硕")
 thread9 = myThread("13287716101", "hy123456", "郝玉莹")
 thread0 = myThread("18764445379", "hy123456", "焦圣雨")
+thread11 = myThread("18991532911", "123456", "不认识")
 
 # 开启新线程
 thread1.start()
@@ -3492,6 +3493,8 @@ thread7.start()
 thread8.start()
 thread9.start()
 thread0.start()
+thread11.start()
+
 thread1.join()
 thread2.join()
 thread3.join()
@@ -3502,6 +3505,7 @@ thread7.join()
 thread8.join()
 thread9.join()
 thread0.join()
+thread11.join()
 print("退出主线程")
 
 

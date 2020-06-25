@@ -3947,7 +3947,13 @@ def get_text(jsons):
         chapterId = "0000"
         questionType = "001007"
         res = "{\"_id\":\"" + id + "\",\"content\":\"" + content + "\",\"answer\":\"" + answer + "\",\"analysis\":\"" + analysis + "\",\"optionA\":\"" + optionA + "\",\"optionB\":\"" + optionB + "\",\"optionC\":\"" + optionC + "\",\"optionD\":\"" + optionD + "\",\"optionE\":\"" + optionE + "\",\"chapterId\":\"" + chapterId + "\",\"questionType\":\"" + questionType + "\"}"
-        print(res)
+        # print(res)
+        print(id + ':' + content)
+        print('A、' + optionA)
+        print('B、' + optionB)
+        print('C、' + optionC)
+        print('D、' + optionD)
+        print('答案：' + answer)
 
     for q in panduans:
         id = get_new(q['id'])
@@ -3962,7 +3968,11 @@ def get_text(jsons):
         chapterId = "0000"
         questionType = "001007"
         res = "{\"_id\":\"" + id + "\",\"content\":\"" + content + "\",\"answer\":\"" + answer + "\",\"analysis\":\"" + analysis + "\",\"optionA\":\"" + optionA + "\",\"optionB\":\"" + optionB + "\",\"optionC\":\"" + optionC + "\",\"optionD\":\"" + optionD + "\",\"optionE\":\"" + optionE + "\",\"chapterId\":\"" + chapterId + "\",\"questionType\":\"" + questionType + "\"}"
-        print(res)
+        # print(res)
+        print(id + ':' + content)
+        print('A、' + optionA)
+        print('B、' + optionB)
+        print('答案：' + answer)
 
 
-get_text(j)
+get_text(json_0530)
