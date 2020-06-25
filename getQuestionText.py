@@ -3975,4 +3975,4 @@ def get_text(jsons):
         print('答案：' + answer)
 
 
-get_text(json_0530)
+get_text(json_0531)
