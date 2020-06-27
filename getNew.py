@@ -162,7 +162,7 @@ def getNewQuestions(session, questionId):
 session = goLogin_auto('15753136829', '123456', '阿拉')
 
 getNewQuestions(session, '68728')
-# getNewQuestions(session, '68711')
+getNewQuestions(session, '68711')
 # getNewQuestions(session, '68712')
 # getNewQuestions(session, '68713')
 # getNewQuestions(session, '68714')
