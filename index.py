@@ -3396,6 +3396,95 @@ def finish_week(session, name):
         print(name + '-->当日周周练已完成，无法再次答题！')
 
 
+# 完成月月比
+def finish_month(session, name):
+    request_id = session.get('https://bw.chinahrt.com.cn/api/examination/listExamination',
+                             params={'pageSize': '10', 'curPage': '1', 'examType': '009001'})
+    month_exam_id = json.loads(request_id.content.decode('UTF-8'))['data']['rows'][0]['id']
+    request_reset = session.get('https://bw.chinahrt.com.cn/api/examination/checkExamination',
+                                params={'id': month_exam_id})
+    if json.loads(request_reset.content.decode('UTF-8'))['code'] != 'SUCCESS':
+        print(name + '-->无法进行月月比！')
+    request_get = session.get('https://bw.chinahrt.com.cn/api/examination/enterExamination',
+                              params={'id': month_exam_id})
+    jstr = json.loads(request_get.content.decode('UTF-8'))['data']
+    ids = []
+
+    answers = []
+    recordId = jstr['recordId']
+    duoxuans = jstr['questionTypeSummaries'][0]['questions']
+    panduans = jstr['questionTypeSummaries'][1]['questions']
+    for q in duoxuans:
+        for question in questions:
+            if q['id'] == question['id']:
+                answers_list = []
+                answers_list2 = []
+                if 'A' in question['answer']:
+                    answers_list.append(question['A'])
+                if 'B' in question['answer']:
+                    answers_list.append(question['B'])
+                if 'C' in question['answer']:
+                    answers_list.append(question['C'])
+                if 'D' in question['answer']:
+                    answers_list.append(question['D'])
+                if 'E' in question['answer']:
+                    answers_list.append(question['E'])
+                if get_new(q['choices'][0]['content']) in answers_list:
+                    answers_list2.append('A')
+                if get_new(q['choices'][1]['content']) in answers_list:
+                    answers_list2.append('B')
+                if get_new(q['choices'][2]['content']) in answers_list:
+                    answers_list2.append('C')
+                if len(q['choices']) == 4:
+                    if get_new(q['choices'][3]['content']) in answers_list:
+                        answers_list2.append('D')
+                if len(q['choices']) == 5:
+                    if get_new(q['choices'][3]['content']) in answers_list:
+                        answers_list2.append('D')
+                    if get_new(q['choices'][4]['content']) in answers_list:
+                        answers_list2.append('E')
+                oo = ''
+                for ans in answers_list2:
+                    oo = oo + ans + ','
+                ids.append(question['id'])
+                answers.append(oo[0:-1])
+                break
+    for q in panduans:
+        for question in questions:
+            if q['id'] == question['id']:
+                if get_new(q['choices'][0]['content']) == question[question['answer']]:
+                    ids.append(question['id'])
+                    answers.append('A')
+                    break
+                if get_new(q['choices'][1]['content']) == question[question['answer']]:
+                    ids.append(question['id'])
+                    answers.append('B')
+                    break
+    an = '['
+    for i in range(len(ids)):
+        a = {'id': ids[i], 'signed': 0, 'userAnswer': answers[i]}
+        answerData = json.dumps(a, ensure_ascii=False)
+        an = an + answerData + ','
+    an = an[0: -1] + ']'
+    t = random.randint(242, 299)
+    print(name + '-->为避免秒答现象，本次周周练答题将在' + str(t) + '秒后完成！不要随意关闭程序哦。')
+    time.sleep(60)
+    print(name + '-->已经过1分钟，这才刚刚开始...')
+    time.sleep(60)
+    print(name + '-->已经过2分钟，这才刚刚开始...')
+    time.sleep(60)
+    print(name + '-->已经过3分钟，这才刚刚开始...')
+    time.sleep(60)
+    print(name + '-->已经过4分钟，这才刚刚开始...')
+    time.sleep(t - 240)
+    request_save = session.post('https://bw.chinahrt.com.cn/api/examination/submit',
+                                data={'recordId': recordId, 'answerData': an})
+    if json.loads(request_save.content.decode('UTF-8'))['code'] != 'SUCCESS':
+        print(name + '-->月月比提交失败！')
+        print(request_save.content.decode('UTF-8'))
+    print(name + '-->已完成月月比')
+
+
 # 完成日日学：5道题目一组，默认重复6遍，共30题
 def finish_day_test(session, id):
     api_get = 'https://bw.chinahrt.com.cn/api/questionPractice/saveAnswer'

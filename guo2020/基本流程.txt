@@ -16,6 +16,10 @@
 获取月月比题目——https://bw.chinahrt.com.cn/api/examination/enterExamination?id=XXX————根据上一步的id，获取题目和recordId
     自动保存月月比答案————https://bw.chinahrt.com.cn/api/examination/saveAnswer
 
+收藏题目————https://bw.chinahrt.com.cn/api/collectionLibrary/addCollection?questionId=
+取消收藏题目————https://bw.chinahrt.com.cn/api/collectionLibrary/removeCollection?questionId=
+收藏题目列表————https://bw.chinahrt.com.cn/api/collectionLibrary/listQuestions
+
 
 统计数据————https://bw.chinahrt.com.cn/api/studyStatistics/getUserStudyStatistics
 日日学的题目列表，似乎少了几个题。
