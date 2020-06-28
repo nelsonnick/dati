@@ -3059,7 +3059,7 @@ questions = [{"id":"65047","answer":"B","A":"职业指导","B":"就业援助","C
 {"id":"68116","answer":"2020","A":"","B":"","C":"","D":"","E":""},
 {"id":"68117","answer":"回避","A":"","B":"","C":"","D":"","E":""}]
 
-monthQuestions1 = [{"id":"68550","A":"参加了职业技能培训","B":"取得了人社部门颁发的培训合格证书","C":"通过了初次职业技能鉴定并取得职业资格证书","D":"取得了职业资格证书","answer":"C"},
+monthQuestions0627 = [{"id":"68550","A":"参加了职业技能培训","B":"取得了人社部门颁发的培训合格证书","C":"通过了初次职业技能鉴定并取得职业资格证书","D":"取得了职业资格证书","answer":"C"},
 {"id":"68551","A":"出生地；户籍地","B":"原单位注册地；常住地","C":"常住地；出生地","D":"常住地；常住地","answer":"D"},
 {"id":"68552","A":"4","B":"5","C":"6","D":"7","answer":"B,C,D"},
 {"id":"68553","A":"4","B":"3","C":"2","D":"1","answer":"C"},
@@ -3253,16 +3253,6 @@ users = [
 
     # {"mobile": "15753136829", "password": "123456", "name": "阿拉"},
     # {"mobile": "13256401880", "password": "hy123456", "name": "韩测试"},
-    # {"mobile": "13954178399", "password": "hy123456", "name": "李楠"},
-    # {"mobile": "13156168076", "password": "hy123456", "name": "蒋华"},
-    # {"mobile": "13325111371", "password": "hy123456", "name": "杨天虹"},
-    # {"mobile": "15053135431", "password": "hy123456", "name": "朱晓庆"},
-    # {"mobile": "18560161882", "password": "hy123456", "name": "李名菊"},
-    # {"mobile": "13165143225", "password": "hy123456", "name": "于辰"},
-    # {"mobile": "18653145531", "password": "hy123456", "name": "王天硕"},
-    # {"mobile": "18353133921", "password": "hy123456", "name": "刘玥"},
-    # {"mobile": "13287716101", "password": "hy123456", "name": "郝玉莹"},
-    # {"mobile": "18764445379", "password": "hy123456", "name": "焦圣雨"}
     # {"mobile": "13854120443", "password": "217668", "name": "李璐璐", "time": 6},
     # {"mobile": "13356686210", "password": "740518", "name": "刘臻", "time": 6},
     # {"mobile": "18678811103", "password": "jn198499", "name": "李鸣晓", "time": 6},
@@ -3862,53 +3852,59 @@ class myThread (threading.Thread):
         # finish_month(session, self.name)
         print(self.name + "-->已完成答题")
 
-session = goLogin_auto("13370550386", "hy123456", "巩长征")
-finish_month_withnot(session, "巩长征")
+
+# thread1 = myThread("15588877697", "hy123456", "王志远")
+# thread2 = myThread("15153123642", "hy123456", "周莹")
+# thread3 = myThread("15662091216", "hy123456", "郭恬")
+# thread4 = myThread("16653192129", "hy123456", "王书秀")
+# thread5 = myThread("15168869776", "hy123456", "蒋泽宇")
+# thread6 = myThread("18560228214", "hy123456", "邢超")
+# thread7 = myThread("15610107598", "718451", "李亮")
 
 # 创建新线程
-# thread1 = myThread("13954178399", "hy123456", "李楠")
-# thread2 = myThread("13156168076", "hy123456", "蒋华")
-# thread3 = myThread("13165143225", "hy123456", "于辰")
-# thread4 = myThread("18353133921", "hy123456", "刘玥")
-# thread5 = myThread("13325111371", "hy123456", "杨天虹")
-# thread6 = myThread("15053135431", "hy123456", "朱晓庆")
-# thread7 = myThread("18560161882", "hy123456", "李名菊")
-# thread8 = myThread("18653145531", "hy123456", "王天硕")
-# thread9 = myThread("13287716101", "hy123456", "郝玉莹")
-# thread0 = myThread("18764445379", "hy123456", "焦圣雨")
-# threada = myThread("15650027398", "hy123456", "强胜男")
-# threadb = myThread("18668986979", "hy123456", "张田")
-# threadc = myThread("13370550386", "hy123456", "巩长征")
-#
-# # 开启新线程
-# thread1.start()
-# thread2.start()
-# thread3.start()
-# thread4.start()
-# thread5.start()
-# thread6.start()
-# thread7.start()
-# thread8.start()
-# thread9.start()
-# thread0.start()
-# threada.start()
-# threadb.start()
-# threadc.start()
-#
-# thread1.join()
-# thread2.join()
-# thread3.join()
-# thread4.join()
-# thread5.join()
-# thread6.join()
-# thread7.join()
-# thread8.join()
-# thread9.join()
-# thread0.join()
-# threada.join()
-# threadb.join()
-# threadc.join()
-# print("退出主线程")
+thread1 = myThread("13954178399", "hy123456", "李楠")
+thread2 = myThread("13156168076", "hy123456", "蒋华")
+thread3 = myThread("13165143225", "hy123456", "于辰")
+thread4 = myThread("18353133921", "hy123456", "刘玥")
+thread5 = myThread("13325111371", "hy123456", "杨天虹")
+thread6 = myThread("15053135431", "hy123456", "朱晓庆")
+thread7 = myThread("18560161882", "hy123456", "李名菊")
+thread8 = myThread("18653145531", "hy123456", "王天硕")
+thread9 = myThread("13287716101", "hy123456", "郝玉莹")
+thread0 = myThread("18764445379", "hy123456", "焦圣雨")
+threada = myThread("15650027398", "hy123456", "强胜男")
+threadb = myThread("18668986979", "hy123456", "张田")
+threadc = myThread("13370550386", "hy123456", "巩长征")
+
+# 开启新线程
+thread1.start()
+thread2.start()
+thread3.start()
+thread4.start()
+thread5.start()
+thread6.start()
+thread7.start()
+thread8.start()
+thread9.start()
+thread0.start()
+threada.start()
+threadb.start()
+threadc.start()
+
+thread1.join()
+thread2.join()
+thread3.join()
+thread4.join()
+thread5.join()
+thread6.join()
+thread7.join()
+thread8.join()
+thread9.join()
+thread0.join()
+threada.join()
+threadb.join()
+threadc.join()
+print("退出主线程")
 
 
 # go_exam()
