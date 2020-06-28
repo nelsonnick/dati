@@ -3861,6 +3861,7 @@ class myThread (threading.Thread):
 # thread6 = myThread("18560228214", "hy123456", "邢超")
 # thread7 = myThread("15610107598", "718451", "李亮")
 
+
 # 创建新线程
 thread1 = myThread("13954178399", "hy123456", "李楠")
 thread2 = myThread("13156168076", "hy123456", "蒋华")
