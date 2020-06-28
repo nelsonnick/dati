@@ -3864,6 +3864,7 @@ class myThread (threading.Thread):
 
 session = goLogin_auto("13370550386", "hy123456", "巩长征")
 finish_month_withnot(session, "巩长征")
+
 # 创建新线程
 # thread1 = myThread("13954178399", "hy123456", "李楠")
 # thread2 = myThread("13156168076", "hy123456", "蒋华")
