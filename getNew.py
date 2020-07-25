@@ -117,9 +117,14 @@ def removeCollection(session, questionId):
 
 
 # 收藏列表 8953/8954    001003/001007
-def collectionLibrary(session, chapterId, questionType):
+def collectionLibrary(session, questionType):
     request = session.get('https://bw.chinahrt.com.cn/api/collectionLibrary/listQuestions',
-                     params={'chapterId': chapterId, 'questionType': questionType, 'number': '50', 'startIndex': '0'})
+                     params={'chapterId': '8953', 'questionType': questionType, 'number': '50', 'startIndex': '0'})
+    if json.loads(request.content.decode('UTF-8'))['message'] == '查询失败':
+        request = session.get(
+            'https://bw.chinahrt.com.cn/api/collectionLibrary/listQuestions',
+            params={'chapterId': '8954', 'questionType': questionType, 'number': '50',
+                    'startIndex': '0'})
     id_len = len(json.loads(request.content.decode('UTF-8'))['data'])
     if id_len != 0:
         q = json.loads(request.content.decode('UTF-8'))['data'][0]
@@ -154,20 +159,24 @@ def collectionLibrary(session, chapterId, questionType):
 
 def getNewQuestions(session, questionId):
     addCollection(session, questionId)
-    collectionLibrary(session, '8954', '001003')
-    collectionLibrary(session, '8954', '001007')
+    collectionLibrary(session, '001003')
+    collectionLibrary(session, '001007')
     removeCollection(session, questionId)
 
 
 session = goLogin_auto('15753136829', '123456', '阿拉')
-removeCollection(session, '68655')
-# getNewQuestions(session, '68728')
-# getNewQuestions(session, '68711')
-# getNewQuestions(session, '68712')
-# getNewQuestions(session, '68713')
-# getNewQuestions(session, '68714')
-# getNewQuestions(session, '68715')
-# getNewQuestions(session, '68716')
-# getNewQuestions(session, '68717')
-# getNewQuestions(session, '68718')
-# getNewQuestions(session, '68719')
+# removeCollection(session, '68728')
+# removeCollection(session, '68729')
+getNewQuestions(session, '68625')
+# getNewQuestions(session, '68729')
+# getNewQuestions(session, '68730')
+# getNewQuestions(session, '68731')
+# getNewQuestions(session, '68732')
+# getNewQuestions(session, '68733')
+# getNewQuestions(session, '68734')
+# getNewQuestions(session, '68735')
+# getNewQuestions(session, '68736')
+# getNewQuestions(session, '68737')
+# getNewQuestions(session, '68738')
+# getNewQuestions(session, '68739')
+# getNewQuestions(session, '68740')

@@ -3671,7 +3671,7 @@ def finish_month_withnot(session, name):
         jstr = json.loads(request_get.content.decode('UTF-8'))['data']
         ids = []
         answers = []
-        print(jstr)
+        print(name + '-->' + str(jstr))
         recordId = jstr['recordId']
         duoxuans = jstr['questionTypeSummaries'][0]['questions']
         panduans = jstr['questionTypeSummaries'][1]['questions']
@@ -3685,6 +3685,16 @@ def finish_month_withnot(session, name):
                 request_listQuestions = session.get('https://bw.chinahrt.com.cn/api/collectionLibrary/listQuestions',
                                       params={'chapterId': '8954', 'questionType': '001007', 'number': '50',
                                               'startIndex': '0'})
+                if json.loads(request_listQuestions.content.decode('UTF-8'))['message'] == '查询失败':
+                    request_listQuestions = session.get(
+                        'https://bw.chinahrt.com.cn/api/collectionLibrary/listQuestions',
+                        params={'chapterId': '8953', 'questionType': '001007', 'number': '50',
+                                'startIndex': '0'})
+                if json.loads(request_listQuestions.content.decode('UTF-8'))['message'] == '收藏下试题已被清除':
+                    request_listQuestions = session.get(
+                        'https://bw.chinahrt.com.cn/api/collectionLibrary/listQuestions',
+                        params={'chapterId': '8953', 'questionType': '001007', 'number': '50',
+                                'startIndex': '0'})
                 id_len = len(json.loads(request_listQuestions.content.decode('UTF-8'))['data'])
                 if id_len != 0:
                     qs = json.loads(request_listQuestions.content.decode('UTF-8'))['data']
@@ -3712,9 +3722,20 @@ def finish_month_withnot(session, name):
                             oo = ''
                             for ans in answers_list2:
                                 oo = oo + ans + ','
+                            if q['id'] == '68731':
+                                if get_new(q['choices'][0]['content']) == '统一标准，并联':
+                                    oo = 'A,'
+                                if get_new(q['choices'][1]['content']) == '统一标准，并联':
+                                    oo = 'B,'
+                                if get_new(q['choices'][3]['content']) == '统一标准，并联':
+                                    oo = 'D,'
+                                if get_new(q['choices'][2]['content']) == '统一标准，并联':
+                                    oo = 'C,'
                             ids.append(q['id'])
                             answers.append(oo[0:-1])
                             break
+                else:
+                    print(q['id'] + '：为空')
                 url = "https://bw.chinahrt.com.cn/api/collectionLibrary/removeCollection"
                 data = {'questionId': q['id']}
                 request_removeCollection = session.post(url, data=data)
@@ -3730,6 +3751,16 @@ def finish_month_withnot(session, name):
                 request_listQuestions = session.get('https://bw.chinahrt.com.cn/api/collectionLibrary/listQuestions',
                                                     params={'chapterId': '8954', 'questionType': '001003', 'number': '50',
                                                             'startIndex': '0'})
+                if json.loads(request_listQuestions.content.decode('UTF-8'))['message'] == '查询失败':
+                    request_listQuestions = session.get(
+                        'https://bw.chinahrt.com.cn/api/collectionLibrary/listQuestions',
+                        params={'chapterId': '8953', 'questionType': '001003', 'number': '50',
+                                'startIndex': '0'})
+                if json.loads(request_listQuestions.content.decode('UTF-8'))['message'] == '收藏下试题已被清除':
+                    request_listQuestions = session.get(
+                        'https://bw.chinahrt.com.cn/api/collectionLibrary/listQuestions',
+                        params={'chapterId': '8953', 'questionType': '001003', 'number': '50',
+                                'startIndex': '0'})
                 qs = json.loads(request_listQuestions.content.decode('UTF-8'))['data']
                 for question in qs:
                     if q['id'] == question['id']:
@@ -3762,6 +3793,7 @@ def finish_month_withnot(session, name):
             answerData = json.dumps(a, ensure_ascii=False)
             an = an + answerData + ','
         an = an[0: -1] + ']'
+        print(name + '-->' + an)
         t = random.randint(181, 239)
         print(name + '-->为避免秒答现象，本次月月比答题将在' + str(t) + '秒后完成！不要随意关闭程序哦。')
         time.sleep(60)
@@ -3849,17 +3881,9 @@ class myThread (threading.Thread):
         print(self.name + "-->开始自动答题")
         session = goLogin_auto(self.mobile, self.password, self.name)
         one_person(session, self.name)
-        # finish_month(session, self.name)
+        # finish_month_withnot(session, self.name)
         print(self.name + "-->已完成答题")
 
-
-# thread1 = myThread("15588877697", "hy123456", "王志远")
-# thread2 = myThread("15153123642", "hy123456", "周莹")
-# thread3 = myThread("15662091216", "hy123456", "郭恬")
-# thread4 = myThread("16653192129", "hy123456", "王书秀")
-# thread5 = myThread("15168869776", "hy123456", "蒋泽宇")
-# thread6 = myThread("18560228214", "hy123456", "邢超")
-# thread7 = myThread("15610107598", "718451", "李亮")
 
 # 创建新线程
 thread1 = myThread("13954178399", "hy123456", "李楠")
@@ -3875,6 +3899,46 @@ thread0 = myThread("18764445379", "hy123456", "焦圣雨")
 threada = myThread("15650027398", "hy123456", "强胜男")
 threadb = myThread("18668986979", "hy123456", "张田")
 threadc = myThread("13370550386", "hy123456", "巩长征")
+
+# thread1 = myThread("15165081997", "hy123456", "林雨丝")
+# thread2 = myThread("18554004990", "hy123456", "宋一鸣")
+# thread3 = myThread("13573195380", "hy123456", "段钰彤")
+# thread4 = myThread("15628988121", "hy123456", "王文斐")
+# thread5 = myThread("18654511966", "hy123456", "任淑青")
+# thread6 = myThread("15064159619", "hy123456", "岳莹雪")
+# thread7 = myThread("15615618671", "hy123456", "王晗韬")
+# thread8 = myThread("18254103553", "hy123456", "张继钰")
+# thread9 = myThread("18560198878", "hy123456", "刘春春")
+# thread0 = myThread("15063366871", "hy123456", "张艳楠")
+# threada = myThread("13361099512", "hy123456", "刘晓明")
+# threadb = myThread("15069113770", "hy123456", "陈宁馨")
+# threadc = myThread("15588877697", "hy123456", "王志远")
+
+# thread1 = myThread("16653192129", "hy123456", "王书秀")
+# thread2 = myThread("15168869776", "hy123456", "蒋泽宇")
+# thread3 = myThread("15563357101", "hy123456", "杨玉腾")
+# thread4 = myThread("15653109225", "hy123456", "陈先龙")
+# thread5 = myThread("15668315281", "hy123456", "潘馨")
+# thread6 = myThread("18764118629", "hy123456", "郑敏")
+# thread7 = myThread("18764107916", "hy123456", "李敏")
+# thread8 = myThread("15106901776", "hy123456", "桑白")
+# thread9 = myThread("15054163681", "hy123456", "赵佳")
+# thread0 = myThread("18954176520", "hy123456", "闫妍")
+# threada = myThread("15863132257", "hy123456", "张琪")
+# threadb = myThread("15153123642", "hy123456", "周莹")
+# threadc = myThread("15662091216", "hy123456", "郭恬")
+
+# thread1 = myThread("18560228214", "hy123456", "邢超")
+# thread2 = myThread("15069169006", "hy123456", "杨明")
+# thread3 = myThread("15053175059", "hy123456", "杨颖")
+# thread4 = myThread("13515410510", "hy123456", "陆毅")
+# thread5 = myThread("18678837676", "hy123456", "杨倩")
+# thread6 = myThread("13505418088", "hy123456", "李洁")
+# thread7 = myThread("13255685186", "hy123456", "赵琦")
+# thread8 = myThread("18753199155", "hy123456", "徐梦")
+# thread9 = myThread("15610107598", "hy123456", "李亮")
+
+
 
 # 开启新线程
 thread1.start()
