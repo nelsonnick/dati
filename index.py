@@ -4341,7 +4341,10 @@ threadc = myThread("15588877697", "hy123456", "王志远")
 # thread8 = myThread("18753199155", "hy123456", "徐梦")
 # thread9 = myThread("15610107598", "hy123456", "李亮")
 
-
+# thread1 = myThread("19953168980", "hy123456", "黄颖")
+# thread2 = myThread("13906406720", "hy123456", "林森木")
+# thread3 = myThread("13605319690", "hy123456", "张伟")
+# thread4 = myThread("15194101387", "hy123456", "吴亦几")
 
 # 开启新线程
 thread1.start()
@@ -4372,9 +4375,7 @@ threada.join()
 threadb.join()
 threadc.join()
 
-# thread1 = myThread('18663730324', 'hy123456', '易莞尔')
-# thread1.start()
-# thread1.join()
+
 print("退出主线程")
 
 
