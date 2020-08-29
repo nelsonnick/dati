@@ -3467,7 +3467,7 @@ monthQuestions = [{"id":"68450","A":"正确","B":"错误","answer":"B"},
 {"id":"68761","A":"执行我国退休年龄政策","B":"执行我国退休年龄政策，如果属于与我国签订社会保险缴费双边或多边协议的国家，则执行该国退休年龄政策","C":"执行外国人国籍国退休年龄政策","D":"执行我国退休年龄政策，如果外国人国籍国退休年龄晚于我国退休年龄，则执行外国人国籍国退休年龄政策","answer":"B,C,D"},
 {"id":"68762","A":"20万元","B":"40万元","C":"80万元","D":"100万元","answer":"B,C,D"},
 {"id":"68763","A":"完全积累；按一定比例并入","B":"部分积累；按一定比例并入","C":"完全积累；全部并入","D":"部分积累；全部并入","answer":"C"},
-{"id":"68764","A":"0","B":"0","C":"0","D":"0","answer":"A"},
+{"id":"68764","A":"0%","B":"2%","C":"3%","D":"4%","answer":"A"},
 {"id":"68765","A":"企业年金方案实施细则","B":"备案函","C":"重点情况说明","D":"职工（代表）大会决议","answer":"A,B,C,D"},
 {"id":"68766","A":"某企业年金集合计划基金财产连续10个月低于500万人民币","B":"某企业依法宣告破产，企业年金方案已无法履行","C":"因不可抗力等原因导致企业年金方案无法履行的","D":"企业年金方案约定的终止条件出现的","answer":"B,C,D"},
 {"id":"68767","A":"10","B":"6","C":"5","D":"4","answer":"A"},
@@ -3984,16 +3984,6 @@ def finish_month(session, name):
                 for ans in answers_list2:
                     oo = oo + ans + ','
 
-                if q['id'] == '68764':
-                    if get_new(q['choices'][0]['id']) == '414d8a7ee5c34b4d91b03f1135df8ab6':
-                        oo = 'A,'
-                    if get_new(q['choices'][1]['id']) == '414d8a7ee5c34b4d91b03f1135df8ab6':
-                        oo = 'B,'
-                    if get_new(q['choices'][3]['id']) == '414d8a7ee5c34b4d91b03f1135df8ab6':
-                        oo = 'D,'
-                    if get_new(q['choices'][2]['id']) == '414d8a7ee5c34b4d91b03f1135df8ab6':
-                        oo = 'C,'
-
 
                 ids.append(question['id'])
                 answers.append(oo[0:-1])
@@ -4343,53 +4333,58 @@ class myThread (threading.Thread):
 # threadb = myThread("15153123642", "hy123456", "周莹")
 # threadc = myThread("15662091216", "hy123456", "郭恬")
 
-thread1 = myThread("18560228214", "hy123456", "邢超")
-thread2 = myThread("15069169006", "hy123456", "杨明")
-thread3 = myThread("15053175059", "hy123456", "杨颖")
-thread4 = myThread("13515410510", "hy123456", "陆毅")
-thread5 = myThread("18678837676", "hy123456", "杨倩")
-thread6 = myThread("13505418088", "hy123456", "李洁")
-thread7 = myThread("13255685186", "hy123456", "赵琦")
-thread8 = myThread("18753199155", "hy123456", "徐梦")
-thread9 = myThread("15610107598", "hy123456", "李亮")
+# thread1 = myThread("18560228214", "hy123456", "邢超")
+# thread2 = myThread("15069169006", "hy123456", "杨明")
+# thread3 = myThread("15053175059", "hy123456", "杨颖")
+# thread4 = myThread("13515410510", "hy123456", "陆毅")
+# thread5 = myThread("18678837676", "hy123456", "杨倩")
+# thread6 = myThread("13505418088", "hy123456", "李洁")
+# thread7 = myThread("13255685186", "hy123456", "赵琦")
+# thread8 = myThread("18753199155", "hy123456", "徐梦")
+# thread9 = myThread("15610107598", "hy123456", "李亮")
 
 
 
-# thread1 = myThread("19953168980", "hy123456", "黄颖")
+# thread1 = myThread("15053188207", "hy123456", "吴琳琳")
 # thread2 = myThread("13906406720", "hy123456", "林森木")
 # thread3 = myThread("13605319690", "hy123456", "张伟")
 # thread4 = myThread("15194101387", "hy123456", "吴亦几")
 
 # 开启新线程
-thread1.start()
-thread2.start()
-thread3.start()
-thread4.start()
-thread5.start()
-thread6.start()
-thread7.start()
-thread8.start()
-thread9.start()
+# thread1.start()
+# thread2.start()
+# thread3.start()
+# thread4.start()
+# thread5.start()
+# thread6.start()
+# thread7.start()
+# thread8.start()
+# thread9.start()
 # thread0.start()
 # threada.start()
 # threadb.start()
 # threadc.start()
-
-thread1.join()
-thread2.join()
-thread3.join()
-thread4.join()
-thread5.join()
-thread6.join()
-thread7.join()
-thread8.join()
-thread9.join()
+#
+# thread1.join()
+# thread2.join()
+# thread3.join()
+# thread4.join()
+# thread5.join()
+# thread6.join()
+# thread7.join()
+# thread8.join()
+# thread9.join()
 # thread0.join()
 # threada.join()
 # threadb.join()
 # threadc.join()
 
-
+thread1 = myThread("15053838291", "870711", "屠晓")
+thread2 = myThread("13053829516", "rsj12345", "屠晓")
+thread1.start()
+thread2.start()
+thread1.join()
+thread2.join()
 print("退出主线程")
 
 
