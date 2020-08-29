@@ -3983,6 +3983,18 @@ def finish_month(session, name):
                 oo = ''
                 for ans in answers_list2:
                     oo = oo + ans + ','
+
+                if q['id'] == '68764':
+                    if get_new(q['choices'][0]['id']) == '414d8a7ee5c34b4d91b03f1135df8ab6':
+                        oo = 'A,'
+                    if get_new(q['choices'][1]['id']) == '414d8a7ee5c34b4d91b03f1135df8ab6':
+                        oo = 'B,'
+                    if get_new(q['choices'][3]['id']) == '414d8a7ee5c34b4d91b03f1135df8ab6':
+                        oo = 'D,'
+                    if get_new(q['choices'][2]['id']) == '414d8a7ee5c34b4d91b03f1135df8ab6':
+                        oo = 'C,'
+
+
                 ids.append(question['id'])
                 answers.append(oo[0:-1])
                 break
@@ -4303,19 +4315,19 @@ class myThread (threading.Thread):
 # threadb = myThread("18668986979", "hy123456", "张田")
 # threadc = myThread("13370550386", "hy123456", "巩长征")
 
-thread1 = myThread("15165081997", "hy123456", "林雨丝")
-thread2 = myThread("18554004990", "hy123456", "宋一鸣")
-thread3 = myThread("13573195380", "hy123456", "段钰彤")
-thread4 = myThread("15628988121", "hy123456", "王文斐")
-thread5 = myThread("18654511966", "hy123456", "任淑青")
-thread6 = myThread("15064159619", "hy123456", "岳莹雪")
-thread7 = myThread("15615618671", "hy123456", "王晗韬")
-thread8 = myThread("18254103553", "hy123456", "张继钰")
-thread9 = myThread("18560198878", "hy123456", "刘春春")
-thread0 = myThread("15063366871", "hy123456", "张艳楠")
-threada = myThread("13361099512", "hy123456", "刘晓明")
-threadb = myThread("15069113770", "hy123456", "陈宁馨")
-threadc = myThread("15588877697", "hy123456", "王志远")
+# thread1 = myThread("15165081997", "hy123456", "林雨丝")
+# thread2 = myThread("18554004990", "hy123456", "宋一鸣")
+# thread3 = myThread("13573195380", "hy123456", "段钰彤")
+# thread4 = myThread("15628988121", "hy123456", "王文斐")
+# thread5 = myThread("18654511966", "hy123456", "任淑青")
+# thread6 = myThread("15064159619", "hy123456", "岳莹雪")
+# thread7 = myThread("15615618671", "hy123456", "王晗韬")
+# thread8 = myThread("18254103553", "hy123456", "张继钰")
+# thread9 = myThread("18560198878", "hy123456", "刘春春")
+# thread0 = myThread("15063366871", "hy123456", "张艳楠")
+# threada = myThread("13361099512", "hy123456", "刘晓明")
+# threadb = myThread("15069113770", "hy123456", "陈宁馨")
+# threadc = myThread("15588877697", "hy123456", "王志远")
 
 # thread1 = myThread("16653192129", "hy123456", "王书秀")
 # thread2 = myThread("15168869776", "hy123456", "蒋泽宇")
@@ -4331,15 +4343,17 @@ threadc = myThread("15588877697", "hy123456", "王志远")
 # threadb = myThread("15153123642", "hy123456", "周莹")
 # threadc = myThread("15662091216", "hy123456", "郭恬")
 
-# thread1 = myThread("18560228214", "hy123456", "邢超")
-# thread2 = myThread("15069169006", "hy123456", "杨明")
-# thread3 = myThread("15053175059", "hy123456", "杨颖")
-# thread4 = myThread("13515410510", "hy123456", "陆毅")
-# thread5 = myThread("18678837676", "hy123456", "杨倩")
-# thread6 = myThread("13505418088", "hy123456", "李洁")
-# thread7 = myThread("13255685186", "hy123456", "赵琦")
-# thread8 = myThread("18753199155", "hy123456", "徐梦")
-# thread9 = myThread("15610107598", "hy123456", "李亮")
+thread1 = myThread("18560228214", "hy123456", "邢超")
+thread2 = myThread("15069169006", "hy123456", "杨明")
+thread3 = myThread("15053175059", "hy123456", "杨颖")
+thread4 = myThread("13515410510", "hy123456", "陆毅")
+thread5 = myThread("18678837676", "hy123456", "杨倩")
+thread6 = myThread("13505418088", "hy123456", "李洁")
+thread7 = myThread("13255685186", "hy123456", "赵琦")
+thread8 = myThread("18753199155", "hy123456", "徐梦")
+thread9 = myThread("15610107598", "hy123456", "李亮")
+
+
 
 # thread1 = myThread("19953168980", "hy123456", "黄颖")
 # thread2 = myThread("13906406720", "hy123456", "林森木")
@@ -4356,10 +4370,10 @@ thread6.start()
 thread7.start()
 thread8.start()
 thread9.start()
-thread0.start()
-threada.start()
-threadb.start()
-threadc.start()
+# thread0.start()
+# threada.start()
+# threadb.start()
+# threadc.start()
 
 thread1.join()
 thread2.join()
@@ -4370,10 +4384,10 @@ thread6.join()
 thread7.join()
 thread8.join()
 thread9.join()
-thread0.join()
-threada.join()
-threadb.join()
-threadc.join()
+# thread0.join()
+# threada.join()
+# threadb.join()
+# threadc.join()
 
 
 print("退出主线程")
