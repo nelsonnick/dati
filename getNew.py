@@ -119,11 +119,11 @@ def removeCollection(session, questionId):
 # 收藏列表 8953/8954    001003/001007
 def collectionLibrary(session, questionType):
     request = session.get('https://bw.chinahrt.com.cn/api/collectionLibrary/listQuestions',
-                     params={'chapterId': '8953', 'questionType': questionType, 'number': '50', 'startIndex': '0'})
+                     params={'chapterId': '8956', 'questionType': questionType, 'number': '50', 'startIndex': '0'})
     if json.loads(request.content.decode('UTF-8'))['message'] == '查询失败':
         request = session.get(
             'https://bw.chinahrt.com.cn/api/collectionLibrary/listQuestions',
-            params={'chapterId': '8954', 'questionType': questionType, 'number': '50',
+            params={'chapterId': '8953', 'questionType': questionType, 'number': '50',
                     'startIndex': '0'})
     id_len = len(json.loads(request.content.decode('UTF-8'))['data'])
     if id_len != 0:
@@ -136,19 +136,25 @@ def collectionLibrary(session, questionType):
             optionB = get_new(q['choices'][1]['content'])
             optionC = get_new(q['choices'][2]['content'])
             optionD = get_new(q['choices'][3]['content'])
-            print(id + ':' + content)
-            print('A、' + optionA)
-            print('B、' + optionB)
-            print('C、' + optionC)
-            print('D、' + optionD)
-            print('答案：' + answer)
+            # print(id + ':' + content)
+            # print('A、' + optionA)
+            # print('B、' + optionB)
+            # print('C、' + optionC)
+            # print('D、' + optionD)
+            # # print('A、' + optionA + '--' + get_new(q['choices'][0]['id']))
+            # # print('B、' + optionB + '--' + get_new(q['choices'][1]['id']))
+            # # print('C、' + optionC + '--' + get_new(q['choices'][2]['id']))
+            # # print('D、' + optionD + '--' + get_new(q['choices'][3]['id']))
+            # print('答案：' + answer)
+            print('{"id":"'+id + '","A":"' + optionA + '","B":"' + optionB + '","C":"' + optionC + '","D":"' + optionD + '","answer":"'+answer+'"},')
         else:
             optionA = get_new(q['choices'][0]['content'])
             optionB = get_new(q['choices'][1]['content'])
-            print(id + ':' + content)
-            print('A、' + optionA)
-            print('B、' + optionB)
-            print('答案：' + answer)
+            # print(id + ':' + content)
+            # print('A、' + optionA)
+            # print('B、' + optionB)
+            # print('答案：' + answer)
+            print('{"id":"' + id + '","A":"' + optionA + '","B":"' + optionB + '","answer":"' + answer + '"},')
     else:
         pass
         # if questionType == '001007':
@@ -165,18 +171,24 @@ def getNewQuestions(session, questionId):
 
 
 session = goLogin_auto('15753136829', '123456', '阿拉')
+removeCollection(session, '68871')
+# removeCollection(session, '68871')
+for i in range(68901, 69001):
+    getNewQuestions(session, str(i))
+
+
+
+
+
 # removeCollection(session, '68728')
 # removeCollection(session, '68729')
-getNewQuestions(session, '68625')
-# getNewQuestions(session, '68729')
-# getNewQuestions(session, '68730')
-# getNewQuestions(session, '68731')
-# getNewQuestions(session, '68732')
-# getNewQuestions(session, '68733')
-# getNewQuestions(session, '68734')
-# getNewQuestions(session, '68735')
-# getNewQuestions(session, '68736')
-# getNewQuestions(session, '68737')
-# getNewQuestions(session, '68738')
-# getNewQuestions(session, '68739')
-# getNewQuestions(session, '68740')
+# getNewQuestions(session, '68760')
+# getNewQuestions(session, '68761')
+# getNewQuestions(session, '68762')
+# getNewQuestions(session, '68763')
+# getNewQuestions(session, '68764')
+# getNewQuestions(session, '68765')
+# getNewQuestions(session, '68766')
+# getNewQuestions(session, '68767')
+# getNewQuestions(session, '68768')
+# getNewQuestions(session, '68769')
