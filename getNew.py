@@ -119,7 +119,7 @@ def removeCollection(session, questionId):
 # 收藏列表 8953/8954    001003/001007
 def collectionLibrary(session, questionType):
     request = session.get('https://bw.chinahrt.com.cn/api/collectionLibrary/listQuestions',
-                     params={'chapterId': '8956', 'questionType': questionType, 'number': '50', 'startIndex': '0'})
+                     params={'chapterId': '8954', 'questionType': questionType, 'number': '50', 'startIndex': '0'})
     if json.loads(request.content.decode('UTF-8'))['message'] == '查询失败':
         request = session.get(
             'https://bw.chinahrt.com.cn/api/collectionLibrary/listQuestions',
@@ -171,9 +171,9 @@ def getNewQuestions(session, questionId):
 
 
 session = goLogin_auto('15753136829', '123456', '阿拉')
-removeCollection(session, '68871')
 # removeCollection(session, '68871')
-for i in range(68901, 69001):
+# removeCollection(session, '68871')
+for i in range(68905, 69001):
     getNewQuestions(session, str(i))
 
 
