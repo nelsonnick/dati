@@ -191,7 +191,7 @@ def finish_week(session):
     duoxuans = jstr['questionTypeSummaries'][1]['questions']
     panduans = jstr['questionTypeSummaries'][2]['questions']
     tiankons = jstr['questionTypeSummaries'][3]['questions']
-    with open("json/questions1.json", 'r', encoding="utf-8", errors="ignore") as load_f1:
+    with open("../json/questions1.json", 'r', encoding="utf-8", errors="ignore") as load_f1:
         questions = json.load(load_f1)
         for q in danxuans:
             for question in questions:
@@ -212,7 +212,7 @@ def finish_week(session):
                         ids.append(question['id'])
                         answers.append('D')
                         break
-    with open("json/questions2.json", 'r', encoding="utf-8", errors="ignore") as load_f2:
+    with open("../json/questions2.json", 'r', encoding="utf-8", errors="ignore") as load_f2:
         questions = json.load(load_f2)
         for q in duoxuans:
             for question in questions:
@@ -249,7 +249,7 @@ def finish_week(session):
                     ids.append(question['id'])
                     answers.append(oo[0:-1])
                     break
-    with open("json/questions3.json", 'r', encoding="utf-8", errors="ignore") as load_f3:
+    with open("../json/questions3.json", 'r', encoding="utf-8", errors="ignore") as load_f3:
         questions = json.load(load_f3)
         for q in panduans:
             for question in questions:
@@ -262,7 +262,7 @@ def finish_week(session):
                         ids.append(question['id'])
                         answers.append('B')
                         break
-    with open("json/questions4.json", 'r', encoding="utf-8", errors="ignore") as load_f4:
+    with open("../json/questions4.json", 'r', encoding="utf-8", errors="ignore") as load_f4:
         questions = json.load(load_f4)
         for q in tiankons:
             for question in questions:
