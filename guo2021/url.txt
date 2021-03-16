@@ -1,0 +1,82 @@
+https://bw.chinahrt.com.cn/api/fight/findIsHasAttend
+get
+{"httpStatus":"OK","status":0,"message":"成功","data":{"hasAttend":false,"fighting":false},"code":"SUCCESS"}
+
+https://bw.chinahrt.com.cn/api/fight/getOnlineNumber
+get
+{"httpStatus":"OK","status":0,"message":"成功","data":3,"code":"SUCCESS"}
+
+https://bw.chinahrt.com.cn/api/fight/getCurrentMachineNumber
+get
+{"httpStatus":"OK","status":0,"message":"成功","data":1,"code":"SUCCESS"}
+
+https://bw.chinahrt.com.cn/api/fight/getOnlineNumberList
+get
+{"httpStatus":"OK","status":0,"message":"成功","data":[{"orgId":1791,"orgName":"湖南省","number":1},{"orgId":2782,"orgName":"陕西省","number":1},{"orgId":1,"orgName":"全国","number":2}],"code":"SUCCESS"}
+
+//获取againstId
+https://bw.chinahrt.com.cn/api/fight/martchMachine
+post
+{"httpStatus":"OK","status":0,"message":"成功","data":{"againstId":"e0f2b0b334464982bf1af0229bfd8c0f"},"code":"SUCCESS"}
+
+
+//获取列表
+https://bw.chinahrt.com.cn/api/fight/findRandomQuestionList
+GET
+Query String Parameters
+platformId: 1
+number: 10
+chapterId: 6240
+RandomCode: ac09a01b-a2b3-4125-8b30-290167c4f6ae
+
+response:
+1.json
+//是否对战？
+https://bw.chinahrt.com.cn/api/fight/findIsFighting
+GET
+response:
+2.json
+
+//获取当前成绩
+https://bw.chinahrt.com.cn/api/fight/getCurrentScore
+GET
+Query String Parameters
+againstRecordId: e0f2b0b334464982bf1af0229bfd8c0f
+
+response:
+{"httpStatus":"OK","status":0,"message":"成功","data":0,"code":"SUCCESS"}
+
+//获取当前时间
+https://bw.chinahrt.com.cn/api/fight/getUserAnswerTimes
+GET
+Query String Parameters
+againstRecordId: e0f2b0b334464982bf1af0229bfd8c0f
+
+response:
+{"httpStatus":"OK","status":0,"message":"成功","data":0,"code":"SUCCESS"}
+
+//保存
+https://bw.chinahrt.com.cn/api/fight/saveUserAgainstRecordsDetail
+POST
+
+Query String Parameters
+againstRecordId: e0f2b0b334464982bf1af0229bfd8c0f
+questionId: 65253
+userAnswer:A,B,C,D
+answerDuration: 199
+againstWay: 1
+
+response：{"httpStatus":"OK","status":0,"message":"成功","data":{"score":0,"answerTimes":1},"code":"SUCCESS"}
+
+//对战成绩
+https://bw.chinahrt.com.cn/api/fight/calculateBattleResults
+POST
+
+Query String Parameters
+againstRecordId: e0f2b0b334464982bf1af0229bfd8c0f
+
+response：{"httpStatus":"OK","status":0,"message":"成功","data":{"totalAnswerDuration":200,"againstResult":2,"score":0,"opponentUserId":null,"againstWay":1,"acquirePoint":0},"code":"SUCCESS"}
+
+
+//与人对战 获取对手
+https://bw.chinahrt.com.cn/api/fight/getOpponentInfo

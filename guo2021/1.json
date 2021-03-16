@@ -1,0 +1,886 @@
+{
+  "httpStatus": "OK",
+  "status": 0,
+  "message": "成功",
+  "data": [
+    {
+      "score": null,
+      "questionBasicInfo": {
+        "id": 66737,
+        "type": "001002",
+        "level": "003001",
+        "content": "党政军民学，东西南北中，党是领导一切的。必须增强（  ），自觉维护党中央权威和集中统一领导，自觉在思想上政治上行动上同党中央保持高度一致。",
+        "answer": "A,B,C,D",
+        "analysis": "坚持党对一切工作的领导。党政军民学，东西南北中，党是领导一切的。必须增强政治意识、大局意识、核心意识、看齐意识，自觉维护党中央权威和集中统一领导，自觉在思想上政治上行动上同党中央保持高度一致。（习近平：决胜全面建成小康社会 夺取新时代中国特色社会主义伟大胜利——在中国共产党第十九次全国代表大会上的报告）",
+        "tag": "008001",
+        "platformId": "1",
+        "createUser": "admin",
+        "gmtCreate": "2020-04-14 10:06:58",
+        "lastUpdateUser": null,
+        "gmtModified": null,
+        "isDeleted": 0,
+        "version": 1,
+        "score": null,
+        "answerTime": null,
+        "imgPath": null,
+        "isOpen": null,
+        "status": null,
+        "answerLimit": null
+      },
+      "choiceList": [
+        {
+          "id": "4909ca9f13504439ae6d8866fab803a3",
+          "questionId": 66737,
+          "sort": 1,
+          "code": "A",
+          "content": "政治意识",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "626650ce93574ddc9d5f31b3ef1ae721",
+          "questionId": 66737,
+          "sort": 2,
+          "code": "B",
+          "content": "大局意识",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "1de42e5faca8464686f51fb5fda3d810",
+          "questionId": 66737,
+          "sort": 3,
+          "code": "C",
+          "content": "核心意识",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "1b5b54116b0c4f2c9438d985a3a50d17",
+          "questionId": 66737,
+          "sort": 4,
+          "code": "D",
+          "content": "看齐意识",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        }
+      ],
+      "keywordList": null,
+      "questionCourseChapterInfoList": [
+        {
+          "questionId": "66737",
+          "courseId": "0cb0acb0348a47e28481873cb97929db",
+          "chapterId": "6240",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        }
+      ]
+    },
+    {
+      "score": null,
+      "questionBasicInfo": {
+        "id": 66735,
+        "type": "001002",
+        "level": "003001",
+        "content": "统筹推进“五位一体”总体布局，协调推进“四个全面”战略布局，提高党（   ）的能力和定力，确保党始终总揽全局、协调各方。",
+        "answer": "A,B,C,D",
+        "analysis": "坚持稳中求进工作总基调，统筹推进“五位一体”总体布局，协调推进“四个全面”战略布局，提高党把方向、谋大局、定政策、促改革的能力和定力，确保党始终总揽全局、协调各方。（习近平：决胜全面建成小康社会 夺取新时代中国特色社会主义伟大胜利——在中国共产党第十九次全国代表大会上的报告）",
+        "tag": "008001",
+        "platformId": "1",
+        "createUser": "admin",
+        "gmtCreate": "2020-04-14 10:06:58",
+        "lastUpdateUser": null,
+        "gmtModified": null,
+        "isDeleted": 0,
+        "version": 1,
+        "score": null,
+        "answerTime": null,
+        "imgPath": null,
+        "isOpen": null,
+        "status": null,
+        "answerLimit": null
+      },
+      "choiceList": [
+        {
+          "id": "bb954a1c6f754bb2a5a5376defcce6f4",
+          "questionId": 66735,
+          "sort": 1,
+          "code": "A",
+          "content": "把方向",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "6dcd845328064bbab5e171d441745e41",
+          "questionId": 66735,
+          "sort": 2,
+          "code": "B",
+          "content": "谋大局",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "5c1d0e9aa4c84a728611a4ec92829d8c",
+          "questionId": 66735,
+          "sort": 3,
+          "code": "C",
+          "content": "定政策",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "8e8d0b889de74aa78b0fb89a902a3ff8",
+          "questionId": 66735,
+          "sort": 4,
+          "code": "D",
+          "content": "促改革",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        }
+      ],
+      "keywordList": null,
+      "questionCourseChapterInfoList": [
+        {
+          "questionId": "66735",
+          "courseId": "0cb0acb0348a47e28481873cb97929db",
+          "chapterId": "6240",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        }
+      ]
+    },
+    {
+      "score": null,
+      "questionBasicInfo": {
+        "id": 65042,
+        "type": "001001",
+        "level": "003001",
+        "content": "(  )是近代以来中华民族最伟大的梦想。",
+        "answer": "C",
+        "analysis": "实现中华民族伟大复兴是近代以来中华民族最伟大的梦想。（习近平：决胜全面建成小\n康社会夺取新时代中国特色社会主义伟大胜利——在中国共产党第十九次全国代表大会上的报\n告）",
+        "tag": "008001",
+        "platformId": "1",
+        "createUser": "admin",
+        "gmtCreate": "2020-04-14 09:57:28",
+        "lastUpdateUser": null,
+        "gmtModified": null,
+        "isDeleted": 0,
+        "version": 1,
+        "score": null,
+        "answerTime": null,
+        "imgPath": null,
+        "isOpen": null,
+        "status": null,
+        "answerLimit": null
+      },
+      "choiceList": [
+        {
+          "id": "0d329892af2e4c1d984e3a1afd5e1add",
+          "questionId": 65042,
+          "sort": 1,
+          "code": "A",
+          "content": "富国强兵",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 09:57:36",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "e4da9a18476442a78e04d138e6e75555",
+          "questionId": 65042,
+          "sort": 2,
+          "code": "B",
+          "content": "民族独立",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 09:57:36",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "59a454ed9d204c30ad168119877de8a4",
+          "questionId": 65042,
+          "sort": 3,
+          "code": "C",
+          "content": "实现中华民族伟大复兴",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 09:57:36",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "e3566b4e3aa54a728c910ebdf5d204c7",
+          "questionId": 65042,
+          "sort": 4,
+          "code": "D",
+          "content": "全面建成小康社会",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 09:57:36",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        }
+      ],
+      "keywordList": null,
+      "questionCourseChapterInfoList": [
+        {
+          "questionId": "65042",
+          "courseId": "0cb0acb0348a47e28481873cb97929db",
+          "chapterId": "6240",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 09:57:36",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        }
+      ]
+    },
+    {
+      "score": null,
+      "questionBasicInfo": {
+        "id": 67390,
+        "type": "001003",
+        "level": "003001",
+        "content": "全面从严治党永远在路上，一个政党，一个政权，其前途命运取决于人心向背。（ ）",
+        "answer": "A",
+        "analysis": "全面从严治党永远在路上。一个政党，一个政权，其前途命运取决于人心向背。（习近\n平：决胜全面建成小康社会 夺取新时代中国特色社会主义伟大胜利——在中国共产党第十九次\n全国代表大会上的报告）",
+        "tag": "008001",
+        "platformId": "1",
+        "createUser": "admin",
+        "gmtCreate": "2020-04-14 10:09:10",
+        "lastUpdateUser": null,
+        "gmtModified": null,
+        "isDeleted": 0,
+        "version": 1,
+        "score": null,
+        "answerTime": null,
+        "imgPath": null,
+        "isOpen": null,
+        "status": null,
+        "answerLimit": null
+      },
+      "choiceList": [
+        {
+          "id": "f93e08916bdf4fa9a6e8488b62385248",
+          "questionId": 67390,
+          "sort": 1,
+          "code": "A",
+          "content": "正确",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:09:15",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "c9f9ecb4032441ddaf0342486171bfe0",
+          "questionId": 67390,
+          "sort": 2,
+          "code": "B",
+          "content": "错误",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:09:15",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        }
+      ],
+      "keywordList": null,
+      "questionCourseChapterInfoList": [
+        {
+          "questionId": "67390",
+          "courseId": "0cb0acb0348a47e28481873cb97929db",
+          "chapterId": "6240",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:09:15",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        }
+      ]
+    },
+    {
+      "score": null,
+      "questionBasicInfo": {
+        "id": 66733,
+        "type": "001002",
+        "level": "003001",
+        "content": "党的十九大报告提出，全面推进依法治国总目标是（   ）",
+        "answer": "A,B",
+        "analysis": "明确全面推进依法治国总目标是建设中国特色社会主义法制体系、建设社会主义法治国家。（习近平：决胜全面建成小康社会 夺取新时代中国特色社会主义伟大胜利——在中国共产党第十九次全国代表大会上的报告）",
+        "tag": "008001",
+        "platformId": "1",
+        "createUser": "admin",
+        "gmtCreate": "2020-04-14 10:06:58",
+        "lastUpdateUser": null,
+        "gmtModified": null,
+        "isDeleted": 0,
+        "version": 1,
+        "score": null,
+        "answerTime": null,
+        "imgPath": null,
+        "isOpen": null,
+        "status": null,
+        "answerLimit": null
+      },
+      "choiceList": [
+        {
+          "id": "c4d942a6d10f4e52ad2bce3ed0269bd7",
+          "questionId": 66733,
+          "sort": 1,
+          "code": "A",
+          "content": "建设中国特色社会主义法制体系",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "e11332e2683f44afba0d19b32e436a39",
+          "questionId": 66733,
+          "sort": 2,
+          "code": "B",
+          "content": "建设社会主义法治国家",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "08e972361c0e488889ffeeb745afd215",
+          "questionId": 66733,
+          "sort": 3,
+          "code": "C",
+          "content": "有法可依 有法必依 执法必须 违法必究",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "d492c890191848b98d2317fde352345c",
+          "questionId": 66733,
+          "sort": 4,
+          "code": "D",
+          "content": "科学立法  严格执法 公正司法 全民守法",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        }
+      ],
+      "keywordList": null,
+      "questionCourseChapterInfoList": [
+        {
+          "questionId": "66733",
+          "courseId": "0cb0acb0348a47e28481873cb97929db",
+          "chapterId": "6240",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        }
+      ]
+    },
+    {
+      "score": null,
+      "questionBasicInfo": {
+        "id": 66732,
+        "type": "001002",
+        "level": "003001",
+        "content": "供给侧结构改革的重点是（ ）",
+        "answer": "A,B,C,D",
+        "analysis": "供给侧结构改革的重点是，解放和发展社会生产力，用改革的办法推进结构调整，减少无效和低端供给，扩大有效和中高端供给，增强供给结构对需求变化的适应性和灵活性，提高全要素生产率。（《习近平新时代中国特色社会主义思想三十讲》）",
+        "tag": "008001",
+        "platformId": "1",
+        "createUser": "admin",
+        "gmtCreate": "2020-04-14 10:06:58",
+        "lastUpdateUser": null,
+        "gmtModified": null,
+        "isDeleted": 0,
+        "version": 1,
+        "score": null,
+        "answerTime": null,
+        "imgPath": null,
+        "isOpen": null,
+        "status": null,
+        "answerLimit": null
+      },
+      "choiceList": [
+        {
+          "id": "428cfb2dee80425c9f91a2975e7cd375",
+          "questionId": 66732,
+          "sort": 1,
+          "code": "A",
+          "content": "解放和发展社会生产力，用改革的办法推进结构调整",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "cf2596da5d7047e5835cb08246f3405b",
+          "questionId": 66732,
+          "sort": 2,
+          "code": "B",
+          "content": "减少无效和低端供给，扩大有效和中高端供给",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "887554b15e8c4b2584cf65d44f1054d2",
+          "questionId": 66732,
+          "sort": 3,
+          "code": "C",
+          "content": "增强供给结构对需求变化的适应性和灵活性",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "e1727392820946a580174336878c2651",
+          "questionId": 66732,
+          "sort": 4,
+          "code": "D",
+          "content": "提高全要素生产率",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        }
+      ],
+      "keywordList": null,
+      "questionCourseChapterInfoList": [
+        {
+          "questionId": "66732",
+          "courseId": "0cb0acb0348a47e28481873cb97929db",
+          "chapterId": "6240",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        }
+      ]
+    },
+    {
+      "score": null,
+      "questionBasicInfo": {
+        "id": 65041,
+        "type": "001001",
+        "level": "003001",
+        "content": "党的十九大的主题是：不忘初心，牢记使命，高举中国特色社会主义伟大旗帜，决胜全面建\n成小康社会，夺取新时代中国特色社会主义伟大胜利，(    )。",
+        "answer": "D",
+        "analysis": "大会的主题是：不忘初心，牢记使命，高举中国特色社会主义伟大旗帜，决胜全面建成\n小康社会，夺取新时代中国特色社会主义伟大胜利，为实现中华民族伟大复兴的中国梦不懈奋\n斗。（习近平：决胜全面建成小康社会夺取新时代中国特色社会主义伟大胜利——在中国共产\n党第十九次全国代表大会上的报告）",
+        "tag": "008001",
+        "platformId": "1",
+        "createUser": "admin",
+        "gmtCreate": "2020-04-14 09:57:27",
+        "lastUpdateUser": null,
+        "gmtModified": null,
+        "isDeleted": 0,
+        "version": 1,
+        "score": null,
+        "answerTime": null,
+        "imgPath": null,
+        "isOpen": null,
+        "status": null,
+        "answerLimit": null
+      },
+      "choiceList": [
+        {
+          "id": "67d0e7a5dc6447c68e0c0e50072973ec",
+          "questionId": 65041,
+          "sort": 1,
+          "code": "A",
+          "content": "为实现四个现代化不懈奋斗",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 09:57:36",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "717e807c867c4985b34ddf97580dfe7a",
+          "questionId": 65041,
+          "sort": 2,
+          "code": "B",
+          "content": "为实现改革开放总目标不懈奋斗",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 09:57:36",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "36a843fc508c41069a3fe01f149cc626",
+          "questionId": 65041,
+          "sort": 3,
+          "code": "C",
+          "content": "为实现经济体制改革总目标不懈奋斗",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 09:57:36",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "c4cc208776874a7fae15906654099cb4",
+          "questionId": 65041,
+          "sort": 4,
+          "code": "D",
+          "content": "为实现中华民族伟大复兴的中国梦不懈奋斗",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 09:57:36",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        }
+      ],
+      "keywordList": null,
+      "questionCourseChapterInfoList": [
+        {
+          "questionId": "65041",
+          "courseId": "0cb0acb0348a47e28481873cb97929db",
+          "chapterId": "6240",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 09:57:36",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        }
+      ]
+    },
+    {
+      "score": null,
+      "questionBasicInfo": {
+        "id": 65046,
+        "type": "001001",
+        "level": "003001",
+        "content": "新时代中国特色社会主义思想，明确全面深化改革总目标是（    ）。",
+        "answer": "B",
+        "analysis": "明确全面深化改革总目标是完善和发展中国特色社会主义制度、推进国家治理体系和治\n理能力现代化。（习近平：决胜全面建成小康社会夺取新时代中国特色社会主义伟大胜利——\n在中国共产党第十九次全国代表大会上的报告）",
+        "tag": "008001",
+        "platformId": "1",
+        "createUser": "admin",
+        "gmtCreate": "2020-04-14 09:57:28",
+        "lastUpdateUser": null,
+        "gmtModified": null,
+        "isDeleted": 0,
+        "version": 1,
+        "score": null,
+        "answerTime": null,
+        "imgPath": null,
+        "isOpen": null,
+        "status": null,
+        "answerLimit": null
+      },
+      "choiceList": [
+        {
+          "id": "3227d585b95242a28518de583ec832eb",
+          "questionId": 65046,
+          "sort": 1,
+          "code": "A",
+          "content": "完善和发展中国特色社会主义制度",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 09:57:36",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "c1095aa7f330485ab2a2c2321705db77",
+          "questionId": 65046,
+          "sort": 2,
+          "code": "B",
+          "content": "完善和发展中国特色社会主义制度、推进国家治理体系和治理能力现代化",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 09:57:36",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "f6edde8daffc48c49cb6b9dd2ad6b2b8",
+          "questionId": 65046,
+          "sort": 3,
+          "code": "C",
+          "content": "推进国家治理体系和治理能力现代化",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 09:57:36",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "f3f72d1522ac4191a625f79c7e4f5a2e",
+          "questionId": 65046,
+          "sort": 4,
+          "code": "D",
+          "content": "建设社会主义现代化强国",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 09:57:36",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        }
+      ],
+      "keywordList": null,
+      "questionCourseChapterInfoList": [
+        {
+          "questionId": "65046",
+          "courseId": "0cb0acb0348a47e28481873cb97929db",
+          "chapterId": "6240",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 09:57:36",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        }
+      ]
+    },
+    {
+      "score": null,
+      "questionBasicInfo": {
+        "id": 66739,
+        "type": "001002",
+        "level": "003001",
+        "content": "要加快建设创新型国家，就必须培养造就一大批具有国际水平的（   ）和高水平创新团队。",
+        "answer": "A,B,C",
+        "analysis": "加快建设创新型国家。倡导创新文化，强化知识产权创造、保护、运用。培养造就一大批具有国际水平的战略科技人才、科技领军人才、青年科技人才和高水平创新团队。 （习近平：决胜全面建成小康社会 夺取新时代中国特色社会主义伟大胜利——在中国共产党第十九次全国代表大会上的报告）",
+        "tag": "008001",
+        "platformId": "1",
+        "createUser": "admin",
+        "gmtCreate": "2020-04-14 10:06:58",
+        "lastUpdateUser": null,
+        "gmtModified": null,
+        "isDeleted": 0,
+        "version": 1,
+        "score": null,
+        "answerTime": null,
+        "imgPath": null,
+        "isOpen": null,
+        "status": null,
+        "answerLimit": null
+      },
+      "choiceList": [
+        {
+          "id": "6bbf46af8e944aeca8a123535d3be113",
+          "questionId": 66739,
+          "sort": 1,
+          "code": "A",
+          "content": "战略科技人才",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "a374ed7f1a654d459fd1b2017703c687",
+          "questionId": 66739,
+          "sort": 2,
+          "code": "B",
+          "content": "科技领军人才",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "f6ca801e6e6e4bba911b2c0f93fcf50a",
+          "questionId": 66739,
+          "sort": 3,
+          "code": "C",
+          "content": "青年科技人才",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "33523022ca1b4e08bea282cb2d3cda2a",
+          "questionId": 66739,
+          "sort": 4,
+          "code": "D",
+          "content": "国际视野人才",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        }
+      ],
+      "keywordList": null,
+      "questionCourseChapterInfoList": [
+        {
+          "questionId": "66739",
+          "courseId": "0cb0acb0348a47e28481873cb97929db",
+          "chapterId": "6240",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:07:02",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        }
+      ]
+    },
+    {
+      "score": null,
+      "questionBasicInfo": {
+        "id": 67386,
+        "type": "001003",
+        "level": "003001",
+        "content": "当前和今后一个时期，我国经济发展面临的问题，供给和需求两侧都有，但矛盾的主要方面\n在供给侧。（  ）",
+        "answer": "A",
+        "analysis": "当前和今后一个时期，我国经济发展面临的问题，供给和需求两侧都有，但矛盾的主要\n方面在供给侧。（《习近平新时代中国特色社会主义思想三十讲》）",
+        "tag": "008001",
+        "platformId": "1",
+        "createUser": "admin",
+        "gmtCreate": "2020-04-14 10:09:10",
+        "lastUpdateUser": null,
+        "gmtModified": null,
+        "isDeleted": 0,
+        "version": 1,
+        "score": null,
+        "answerTime": null,
+        "imgPath": null,
+        "isOpen": null,
+        "status": null,
+        "answerLimit": null
+      },
+      "choiceList": [
+        {
+          "id": "28e1a1a3ca704883ba96456e69576e7f",
+          "questionId": 67386,
+          "sort": 1,
+          "code": "A",
+          "content": "正确",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:09:15",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        },
+        {
+          "id": "71f29cb4444d4f7993bd1822399b5889",
+          "questionId": 67386,
+          "sort": 2,
+          "code": "B",
+          "content": "错误",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:09:15",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        }
+      ],
+      "keywordList": null,
+      "questionCourseChapterInfoList": [
+        {
+          "questionId": "67386",
+          "courseId": "0cb0acb0348a47e28481873cb97929db",
+          "chapterId": "6240",
+          "platformId": "1",
+          "gmtCreate": "2020-04-14 10:09:15",
+          "gmtModified": null,
+          "lastUpdateUser": null,
+          "isDeleted": 0,
+          "version": 1
+        }
+      ]
+    }
+  ],
+  "code": "SUCCESS"
+}

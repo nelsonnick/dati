@@ -1,0 +1,21 @@
+{
+  "httpStatus": "OK",
+  "status": 0,
+  "message": "成功",
+  "data": {
+    "id": "1ef0a3d2da534040aa52e96d0a3e9d15",
+    "userId": "f5de9cc3ed0749a39fff6f03edafe078",
+    "opponentUserId": null,
+    "opponentRecordId": null,
+    "againstWay": 1,
+    "againstTime": "2021-03-15 21:46:11",
+    "againstTimeStrB": null,
+    "againstTimeStrE": null,
+    "againstResult": null,
+    "acquirePoint": 0,
+    "isDeleted": 0,
+    "version": 0,
+    "remainingTime": 174620
+  },
+  "code": "SUCCESS"
+}
