@@ -3,7 +3,7 @@
 import math
 import datetime
 from dateutil.relativedelta import relativedelta
-
+# pip install python-dateutil
 # 计发月数
 monthsNum = {
     40: 233,
@@ -268,5 +268,18 @@ def monthInc(index_num):
         print(getPenion(upAverageWage, index_num, monthTotal, privateAccount, 50))
 
 
-privateAccount = getPrivateAccount(getBaseNumTotal(200401, 201812, 0.6))
-print(getMoneyYear(upAverageWage, 0.6, 180, privateAccount, 50))
+def getTimes(investment, rate, times):
+    allMonty = 0
+    t = 0
+    while t < times:
+        allMonty += investment*(1+rate)**(times-t)
+        t += 1
+    return allMonty
+
+
+print(getTimes(600, 0.05/12, 180))
+private_account = 5000 * 0.08*180
+print(getPenion(5000, 0.6, 180, private_account, 60))
+# privateAccount = getPrivateAccount(getBaseNumTotal(200401, 201812, 0.6))
+# print(getMoneyYear(upAverageWage, 0.6, 180, privateAccount, 50))
+
