@@ -138,5 +138,5 @@ def monthInc(index_num, up_average_wage, pay_month, retire_age, rate):
               str(getInvestment(up_average_wage, index_num, i, rate)))
 
 
-# indexInc(5000, 180, 60, 0.0325)
-monthInc(0.6, 5000, 190, 60, 0.0325)
+indexInc(5000, 180, 60, 0.0325)
+# monthInc(0.6, 5000, 190, 60, 0.0325)
