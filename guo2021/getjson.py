@@ -133,4 +133,4 @@ questionListStr = session.get('https://bw.chinahrt.com.cn/api/questionPractice/l
                                       params={'chapterId': '6240', 'questionType': '001001', 'number': 5})
 questionList = json.loads(questionListStr.content.decode('UTF-8'))['data']
 for q in questionList:
-    print(get_new(str(q)).replace("\n", "") )
+    print(get_new(str(q)).replace("\n", ""))
