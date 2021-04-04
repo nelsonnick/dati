@@ -114,7 +114,7 @@ def getQuestionJosn(session, chapterId, questionType, number):
             file_obj.write(get_new(str(q)).replace("\n", "")+',\n')
 
 
-chapterName = {'6238': '就业创业', '6239': '劳动关系', '6240': '十九大', '6242': '人事人才', '6243': '综合服务', '6244': '社会保险'}
+chapterName = {'6238': '就业创业', '6239': '劳动关系', '6240': '党建理论', '6242': '人事人才', '6243': '综合服务', '6244': '社会保险'}
 chapterId = {'6238', '6239', '6240', '6242', '6243', '6244'}
 typeName = {'001001': '单选', '001002': '多选', '001003': '判断', '001004': '填空', '001005': '简答', '001006': '案例'}
 typeId = {'001001', '001002', '001003', '001004', '001005', '001006'}
@@ -126,4 +126,11 @@ def go():
         for t in typeId:
             getQuestionJosn(session, c, t, '600')
 
-go()
+# go()
+
+session = goLogin_auto("15753136829", "123456", "阿拉")
+questionListStr = session.get('https://bw.chinahrt.com.cn/api/questionPractice/listQuestions',
+                                      params={'chapterId': '6240', 'questionType': '001001', 'number': 5})
+questionList = json.loads(questionListStr.content.decode('UTF-8'))['data']
+for q in questionList:
+    print(get_new(str(q)).replace("\n", "") )

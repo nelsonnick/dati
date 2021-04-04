@@ -4003,7 +4003,7 @@ def goLogin_hand(mobile, password, name):
     return session
 
 
-chapterName = {'6238': '就业创业', '6239': '劳动关系', '6240': '十九大', '6242': '人事人才', '6243': '综合服务', '6244': '社会保险'}
+chapterName = {'6238': '就业创业', '6239': '劳动关系', '6240': '党建理论', '6242': '人事人才', '6243': '综合服务', '6244': '社会保险'}
 typeName = {'001001': '单选题', '001002': '多选题', '001003': '判断题'}
 
 
@@ -4217,11 +4217,11 @@ def finish_month(session, name, chapterId):
     fighting = json.loads(findIsHasAttend.content.decode('UTF-8'))['data']['fighting']
 
     if (hasAttend):
-        print(name+'--->今日已对战')
+        print(name + '--->今日已对战')
     else:
         againstIdStr = session.post('https://bw.chinahrt.com.cn/api/fight/martchMachine')
         againstId = json.loads(againstIdStr.content.decode('UTF-8'))['data']['againstId']
-        print('againstId:'+againstId)
+        print('againstId:' + againstId)
 
         questionListStr = session.get('https://bw.chinahrt.com.cn/api/fight/findRandomQuestionList',
                                       params={'platformId': '1', 'number': '10', 'chapterId': chapterId})
@@ -4235,6 +4235,40 @@ def finish_month(session, name, chapterId):
             session.post('https://bw.chinahrt.com.cn/api/fight/saveUserAgainstRecordsDetail',
                          params={'againstRecordId': againstId, 'questionId': questionId, 'userAnswer': userAnswer,
                                  'answerDuration': '1', 'againstWay': '1'})
+
+
+# 完成月月比_人机对抗
+def finish_month(session, name):
+    findIsHasAttend = session.get('https://bw.chinahrt.com.cn/api/fight/findIsHasAttend')
+    hasAttend = json.loads(findIsHasAttend.content.decode('UTF-8'))['data']['hasAttend']
+    fighting = json.loads(findIsHasAttend.content.decode('UTF-8'))['data']['fighting']
+
+    if (hasAttend):
+        print(name + '--->今日已对战')
+    else:
+        againstIdStr = session.post('https://bw.chinahrt.com.cn/api/fight/martchMachine')
+        againstId = json.loads(againstIdStr.content.decode('UTF-8'))['data']['againstId']
+        print('againstId:' + againstId)
+
+        questionListStr = session.get('https://bw.chinahrt.com.cn/api/fight/findRandomQuestionList',
+                                      params={'platformId': '1', 'number': '10'})
+        questionList = json.loads(questionListStr.content.decode('UTF-8'))['data']
+
+        for q in questionList:
+            userAnswer = q['questionBasicInfo']['answer']
+            questionId = q['questionBasicInfo']['id']
+            # t = random.randint(10, 20)
+            t = 100
+            # print('questionId:' + str(questionId))
+            session.post('https://bw.chinahrt.com.cn/api/fight/saveUserAgainstRecordsDetail',
+                         params={'againstRecordId': againstId, 'questionId': questionId, 'userAnswer': userAnswer,
+                                 'answerDuration': t, 'againstWay': '1'})
+            # time.sleep(3)
+        resultsStr = session.post('https://bw.chinahrt.com.cn/api/fight/calculateBattleResults',
+                     params={'againstId': againstId})
+        results = json.loads(resultsStr.content.decode('UTF-8'))
+        print(results['code'])
+        print(str(results['data']))
 
 
 # 一个人完成日日学90题，周周练2遍
@@ -4272,8 +4306,9 @@ class myThread(threading.Thread):
     def run(self):
         print(self.name + "-->开始自动答题")
         session = goLogin_auto(self.mobile, self.password, self.name)
-        finish_week(session, self.name)
-        finish_month(session, self.name, '6240')
+        # finish_week(session, self.name)
+        # finish_month(session, self.name, '6240')
+        finish_month(session, self.name)
         print(self.name + "-->已完成答题")
 
 
@@ -4281,7 +4316,8 @@ class myThread(threading.Thread):
 # thread1.start()
 # thread1.join()
 
-thread1 = myThread("15753136829", "123456", "阿拉")
+# thread1 = myThread("15753136829", "123456", "阿拉")
+thread1 = myThread("13906406720", "hy123456", "林木森")
 thread1.start()
 thread1.join()
 print("退出主线程")
