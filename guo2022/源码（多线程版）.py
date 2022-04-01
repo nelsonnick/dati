@@ -14,7 +14,7 @@ import threading
 path = 'd:/image'
 
 # 题目列表
-# 该题库提取自平台数据，一共是3322题。官网公布题库仅为3273题。两者内容并不一致。2022年的题库，尚未更新。
+# 该题库提取自平台数据，一共是3322题。官网公布题库仅为3273题。两者内容并不一致。2022年题库尚未更新。
 questions = [{"id":"65047","answer":"B","A":"职业指导","B":"就业援助","C":"创业服务","D":"政策支持","E":""},
 {"id":"65048","answer":"A","A":"平等就业、自主择业","B":"公平就业、自由择业","C":"充分就业、自主择业","D":"平等就业、按需择业","E":""},
 {"id":"65049","answer":"B","A":"性别","B":"从业经历","C":"民族","D":"种族","E":""},
@@ -3379,7 +3379,7 @@ def get_code(file, token):
 
 # 获取验证码
 def get_picture(session, name):
-    api_picture = 'https://bw.rsbsyzx.cn/api/kaptcha'
+    api_picture = 'https://bw.chinahrt.com.cn/api/kaptcha'
     request = session.get(api_picture)
     picture = open(path + '-' + name + '.jpg', 'wb')
     picture.write(request.content)
@@ -3403,7 +3403,7 @@ def login(session, mobile, password, verifyCode):
     m = hashlib.md5()
     m.update(password.encode(encoding='utf-8'))
     result = m.hexdigest()
-    api_login = 'https://bw.rsbsyzx.cn/api/candidate/login'
+    api_login = 'https://bw.chinahrt.com.cn/api/candidate/login'
     headers = {'User-Agent': 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'}
     data_login = {
         'mobile': mobile,
@@ -3436,7 +3436,7 @@ typeName = {'001001': '单选题', '001002': '多选题', '001003': '判断题'}
 def finish_day(session, chapterId, questionType, name):
     t = random.randint(8, 15)
     time.sleep(t)
-    qs = session.get('https://bw.rsbsyzx.cn/api/questionPractice/listQuestions',
+    qs = session.get('https://bw.chinahrt.com.cn/api/questionPractice/listQuestions',
                      params={'chapterId': chapterId, 'questionType': questionType, 'number': '5'})
     id_len = len(json.loads(qs.content.decode('UTF-8'))['data'])
     if id_len == 5:
@@ -3496,7 +3496,7 @@ def finish_day(session, chapterId, questionType, name):
     else:
         pass
     if id_len != 0:
-        api_get = 'https://bw.rsbsyzx.cn/api/questionPractice/saveAnswer'
+        api_get = 'https://bw.chinahrt.com.cn/api/questionPractice/saveAnswer'
         data = {'chapterId': chapterId,
                 'questionType': questionType,
                 'answerData': answerData}
@@ -3504,7 +3504,7 @@ def finish_day(session, chapterId, questionType, name):
         if json.loads(request.content.decode('UTF-8'))['code'] != 'SUCCESS':
             print(name + '-->日日学提交失败！')
     if id_len != 5:
-        session.get('https://bw.rsbsyzx.cn/api/questionPractice/refreshQuestion',
+        session.get('https://bw.chinahrt.com.cn/api/questionPractice/refreshQuestion',
                                 params={'chapterId': chapterId, 'questionType': questionType})
         print(name + '-->已完成日日学-->' + chapterName[chapterId] + '-->' + typeName[questionType] + '-->' + str(id_len) + '题，并重置学习状态')
     else:
@@ -3513,14 +3513,14 @@ def finish_day(session, chapterId, questionType, name):
 
 # 完成周周练
 def finish_week(session, name):
-    request_id = session.get('https://bw.rsbsyzx.cn/api/examination/listExamination',
+    request_id = session.get('https://bw.chinahrt.com.cn/api/examination/listExamination',
                              params={'pageSize': '1', 'curPage': '1', 'examType': '009002'})
     week_exam_id = json.loads(request_id.content.decode('UTF-8'))['data']['rows'][0]['id']
-    request_reset = session.get('https://bw.rsbsyzx.cn/api/examination/checkExamination',
+    request_reset = session.get('https://bw.chinahrt.com.cn/api/examination/checkExamination',
                                 params={'id': week_exam_id})
     if json.loads(request_reset.content.decode('UTF-8'))['code'] != 'SUCCESS':
         print(name + '-->周周练重置失败！')
-    request_get = session.get('https://bw.rsbsyzx.cn/api/examination/enterExamination',
+    request_get = session.get('https://bw.chinahrt.com.cn/api/examination/enterExamination',
                               params={'id': week_exam_id})
     jstr = json.loads(request_get.content.decode('UTF-8'))['data']
     ids = []
@@ -3624,7 +3624,7 @@ def finish_week(session, name):
         time.sleep(30)
         print(name + '-->已经过3分钟，准备提交！')
         time.sleep(t - 180)
-        request_save = session.post('https://bw.rsbsyzx.cn/api/examination/submit',
+        request_save = session.post('https://bw.chinahrt.com.cn/api/examination/submit',
                                     data={'recordId': recordId, 'answerData': an})
         if json.loads(request_save.content.decode('UTF-8'))['code'] != 'SUCCESS':
             print(name + '-->周周练提交失败！')
@@ -3634,20 +3634,20 @@ def finish_week(session, name):
         print(name + '-->当日周周练已完成，无法再次答题！')
 
 
-# 完成月月比_人机对抗
+# 完成月月比_人机对抗：随机题目
 def finish_month(session, name):
-    findIsHasAttend = session.get('https://bw.rsbsyzx.cn/api/fight/findIsHasAttend')
+    findIsHasAttend = session.get('https://bw.chinahrt.com.cn/api/fight/findIsHasAttend')
     hasAttend = json.loads(findIsHasAttend.content.decode('UTF-8'))['data']['hasAttend']
     fighting = json.loads(findIsHasAttend.content.decode('UTF-8'))['data']['fighting']
 
     if (hasAttend):
         print(name + '--->月月比今日已对战')
     else:
-        againstIdStr = session.post('https://bw.rsbsyzx.cn/api/fight/martchMachine')
+        againstIdStr = session.post('https://bw.chinahrt.com.cn/api/fight/martchMachine')
         againstId = json.loads(againstIdStr.content.decode('UTF-8'))['data']['againstId']
         print('againstId:' + againstId)
 
-        questionListStr = session.get('https://bw.rsbsyzx.cn/api/fight/findRandomQuestionList',
+        questionListStr = session.get('https://bw.chinahrt.com.cn/api/fight/findRandomQuestionList',
                                       params={'platformId': '1', 'number': '10'})
         questionList = json.loads(questionListStr.content.decode('UTF-8'))['data']
 
@@ -3655,10 +3655,10 @@ def finish_month(session, name):
             userAnswer = q['questionBasicInfo']['answer']
             questionId = q['questionBasicInfo']['id']
             t = 100
-            session.post('https://bw.rsbsyzx.cn/api/fight/saveUserAgainstRecordsDetail',
+            session.post('https://bw.chinahrt.com.cn/api/fight/saveUserAgainstRecordsDetail',
                          params={'againstRecordId': againstId, 'questionId': questionId, 'userAnswer': userAnswer,
                                  'answerDuration': t, 'againstWay': '1'})
-        resultsStr = session.post('https://bw.rsbsyzx.cn/api/fight/calculateBattleResults',
+        resultsStr = session.post('https://bw.chinahrt.com.cn/api/fight/calculateBattleResults',
                      params={'againstId': againstId})
         if json.loads(resultsStr.content.decode('UTF-8'))['code'] != 'SUCCESS':
             print(name + '-->月月比提交失败！')
