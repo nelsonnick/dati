@@ -3486,8 +3486,9 @@ def start():
     thread0.join()
 
 
-# 这里是指定程序的自动运行时间，这里默认是每天早上9点钟运行程序，可以根据实际情况进行修改。
-schedule.every().day.at("09:00").do(start)
+# 这里是指定程序每天的自动运行时间。默认是每天早上9点，可以根据实际情况进行修改。
+startTime = "09:00"
+schedule.every().day.at(startTime).do(start)
 
 print('程序已启动！')
 while True:
